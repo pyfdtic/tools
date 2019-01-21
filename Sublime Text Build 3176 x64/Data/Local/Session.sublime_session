@@ -1,0 +1,1261 @@
+{
+	"folder_history":
+	[
+		"/C/Users/biye/Desktop/model",
+		"/C/Users/biye/Desktop/manifests",
+		"/C/Users/biye/Work/code",
+		"/C/Users/biye/Work/Doc",
+		"/C/Users/biye/Work/quechao"
+	],
+	"last_version": 3176,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 883.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"FEE",
+						"FEEDS_DOWNLOAD_SUBFIX"
+					],
+					[
+						"FEED",
+						"FEEDS_DOWNLOAD_PREFIX"
+					],
+					[
+						"F",
+						"FEEDS_DIR"
+					],
+					[
+						"H",
+						"HOME_HEXO"
+					],
+					[
+						"HOME",
+						"HOME_HEXO"
+					],
+					[
+						"dir",
+						"directory"
+					],
+					[
+						"HOM",
+						"HOME_HEXO"
+					],
+					[
+						"HO",
+						"HOME_NODEJS"
+					],
+					[
+						"hexo",
+						"hexo-cli"
+					],
+					[
+						"s",
+						"self"
+					],
+					[
+						"Data",
+						"DataRTD"
+					],
+					[
+						"mo",
+						"model_keys〔variable〕"
+					],
+					[
+						"base",
+						"base_keys〔variable〕"
+					],
+					[
+						"req",
+						"request_data"
+					],
+					[
+						"request",
+						"request_headers"
+					],
+					[
+						"bi",
+						"bizid_list"
+					],
+					[
+						"list",
+						"listingid"
+					],
+					[
+						"wd",
+						"wd_json_path〔variable〕"
+					],
+					[
+						"func",
+						"func_name〔variable〕"
+					],
+					[
+						"ex",
+						"example_param〔variable〕"
+					],
+					[
+						"fun",
+						"func_name"
+					],
+					[
+						"pa",
+						"path_list〔variable〕"
+					],
+					[
+						"path",
+						"path_list〔argument〕"
+					],
+					[
+						"stop",
+						"stopped"
+					],
+					[
+						"KE",
+						"KERNEL_MOD_IP_VS"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: list",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/tasks/main.yml",
+				"/C/Users/biye/Work/code/_post/_posts/Java-学习笔记.txt",
+				"/C/Users/biye/Work/Doc/tmp.py",
+				"/C/Users/biye/Work/Doc/tmp_3 - 副本.py",
+				"/C/Users/biye/Work/Doc/tmp_2.py",
+				"/C/Users/biye/Work/Doc/tmp_3.py",
+				"/C/Users/biye/Work/code/waterdrop_core/waterdrop/waterdrop/handlers/kube_api_handler.py",
+				"/C/Users/biye/Downloads/ReadMe___表结构from 长江.md",
+				"/C/Users/biye/Work/tools/zeal-portable-0.6.1-windows-x64/README.md",
+				"/C/Users/biye/Work/tools/zeal-portable-0.6.1-windows-x64/feeds/download.sh",
+				"/C/Users/biye/Work/tools/feeds/download.sh",
+				"/C/Users/biye/Work/code/zeal_feeds/Bash.xml",
+				"/C/Users/biye/Work/code/waterdrop_core/waterdrop/waterdrop/consts/docker_consts.py",
+				"/C/Users/biye/Work/code/waterdrop_core/waterdrop/waterdrop/consts/common.py",
+				"/C/Users/biye/Downloads/fabric-master-3ea23b74165a007e6f2bc6086498ef759343a34a/log.txt",
+				"/C/Users/biye/Work/code/soap/locals.py",
+				"/C/Users/biye/Work/code/flask/flask/ctx.py",
+				"/C/Users/biye/Work/code/werkzeug/werkzeug/local.py",
+				"/C/Users/biye/Work/code/flask/flask/globals.py",
+				"/C/Users/biye/Work/code/flask/flask/views.py",
+				"/C/Users/biye/Work/code/_post/_posts/PyStdLib-threading.md",
+				"/C/Users/biye/Work/code/_post/_posts/python-类-OOP-元编程.md",
+				"/C/Users/biye/Work/code/_post/_posts/PyStdLib-pkgutil.md",
+				"/C/Users/biye/Work/code/_post/_posts/git-点滴.md",
+				"/C/Users/biye/Work/code/_post/imgs/aws/boto3_架构.PNG",
+				"/C/Users/biye/Desktop/taobao_score_1.py",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/nodejs/defaults/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/nodejs/tasks/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/hexo/tasks/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/nodejs/meta/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/docker/tasks/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/hexo/meta/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/git/tasks/main.yml",
+				"/C/Users/biye/Desktop/taobao_score.txt",
+				"/C/Users/biye/Work/Doc/1",
+				"/C/Users/biye/Desktop/9.txt",
+				"/C/Users/biye/Desktop/taobao_score.py",
+				"/C/Users/biye/Desktop/9999999999999999999999999.txt",
+				"/C/Users/biye/Work/quechao/apimodelapp/admin.py",
+				"/C/Users/biye/Work/quechao/quechaoMaster/quechaoCenter.py",
+				"/C/Users/biye/Work/code/quechao/model/pata_cha/model_main.py",
+				"/C/Users/biye/Work/code/quechao/model/antiFraudModel/parsetab.py",
+				"/C/Users/biye/Work/Doc/info.txt",
+				"/C/Users/biye/Work/Doc/k8s.md",
+				"/C/Users/biye/Work/code/vue-element-admin/src/components/TreeTable/eval.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/table/treeTable/customEval.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/table/treeTable/treeTable.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/table/treeTable/customTreeTable.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/components/TreeTable/index.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/errorLog/index.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/components/TreeTable/readme.md",
+				"/C/Users/biye/Work/code/vue-element-admin/src/components/ErrorLog/index.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/layout/components/Navbar.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/example/create.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/example/components/ArticleDetail.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/errorLog/errorTestA.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/errorLog/errorTestB.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/login/socialsignin.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/login/authredirect.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/login/index.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/guide/defineSteps.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/table/dynamicTable/fixedThead.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/components/Breadcrumb/index.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/table/dynamicTable/index.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/table/complexTable.vue",
+				"/C/Users/biye/Work/Doc/drools.txt",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/docker/defaults/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/defaults/main.yml",
+				"/C/Users/biye/Work/code/wd-ui/tmp/tmp_gen_js.py",
+				"/C/Users/biye/Work/code/vue-element-admin/src/styles/btn.scss",
+				"/C/Users/biye/Work/waterdrop.postman_collection(1).json",
+				"/C/Users/biye/Work/quechao/q",
+				"/C/Users/biye/Work/code/tools/eod_git.sh",
+				"/C/Users/biye/Work/waterdrop.postman_collection.json",
+				"/C/Users/biye/Work/code/vue-element-admin/src/router/index.js",
+				"/C/Users/biye/Work/code/wd-ui/src/views/dashboard/index.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/utils/index.js",
+				"/C/Users/biye/Work/code/wd-ui/src/api/login.js",
+				"/C/Users/biye/Work/code/wd-ui/src/store/modules/user.js",
+				"/C/Users/biye/Work/code/wd-ui/src/store/modules/app.js",
+				"/C/Users/biye/Work/code/wd-ui/src/main.js",
+				"/C/Users/biye/Work/code/wd-ui/src/utils/auth.js",
+				"/C/Users/biye/Work/code/wd-ui/src/styles/index.scss",
+				"/C/Users/biye/Work/code/wd-ui/src/api/table.js",
+				"/C/Users/biye/Work/code/wd-ui/src/App.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/views/layout/Layout.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/router/index.js",
+				"/C/Users/biye/Work/code/wd-ui/index.html",
+				"/C/Users/biye/Work/code/wd-ui/src/views/tree/index.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/utils/request.js",
+				"/C/Users/biye/Work/code/wd-ui/package.json",
+				"/C/Users/biye/Work/code/wd-ui/package-lock.json",
+				"/C/Users/biye/Work/code/wd-ui/src/permission.js",
+				"/C/Users/biye/Work/code/wd-ui/src/views/login/index.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/views/nested/menu1/menu1-1/index.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/components/SvgIcon/index.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/components/Hamburger/index.vue",
+				"/C/Users/biye/Work/code/wd-ui/README-zh.md",
+				"/C/Users/biye/Work/code/wd-ui/.gitignore",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/docker/hosts",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/docker/README.md",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/docker/pb.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/hosts",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/templates/kube-aliyun.repo",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/templates/etc_sysconfig_modules_ipvs.modules.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/templates/docker-ce.repo",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/templates/etc_sysconfig_kubelet.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/custom_modules/timezone.py",
+				"/C/Users/biye/Work/code/ansible-playbook/custom_modules/docker_image_pull_tag_rmi.py",
+				"/C/Users/biye/Work/code/ansible-playbook/filter_plugins/base.py",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/README.md",
+				"/C/Users/biye/Work/code/ansible-playbook/README.md",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/base/tasks/main.yml",
+				"/C/Users/biye/Desktop/manifests-all.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-cluster-role.yaml",
+				"/C/Users/biye/Desktop/manifests/hpa-custom-metrics-cluster-role-binding.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-apiserver-resource-reader-cluster-role-binding.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-apiserver-service-account.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-apiserver-auth-reader-role-binding.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-apiserver-auth-delegator-cluster-role-binding.yaml",
+				"/C/Users/biye/Desktop/123.txt",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-resource-reader-cluster-role.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-config-map.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-apiservice.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-apiserver-service.yaml",
+				"/C/Users/biye/Desktop/manifests/custom-metrics-apiserver-deployment.yaml",
+				"/C/Windows/System32/drivers/etc/hosts",
+				"/C/Users/biye/Work/quechao/soapTest/soapUtil.py"
+			],
+			"find":
+			{
+				"height": 46.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"7002",
+					"taobao",
+					"$",
+					"pataEurl_new",
+					"typeids",
+					"get_typeid_list_key",
+					"customer_id",
+					"骑手",
+					"PROFILE",
+					"taobao_score",
+					"taobao",
+					"taobao_score",
+					" = ",
+					"7002",
+					"huabei_balance",
+					"listingid",
+					"ord_num_60",
+					"yuebao_balance",
+					"huabei_balance",
+					"yuebao_balance",
+					"alipay_balance",
+					"1007@",
+					"1015@",
+					"listtype",
+					"bill_",
+					"bill_net_age_month",
+					"bill_rto_cnt_night",
+					"bill_cnt_out",
+					"bill_cnt_out_pday",
+					"call_age",
+					"bill",
+					"yuebao_balance",
+					"huabei_balance",
+					"code",
+					"listingid",
+					" * ",
+					" = ",
+					", ",
+					"\"\"",
+					", ",
+					"mgm_inviter_id",
+					"anti_id_cnt",
+					"Action",
+					"mark",
+					"quechao-master",
+					"online",
+					"hnet",
+					"net",
+					"hnet",
+					"master",
+					"InFile",
+					"anti_mes_oth_cnt",
+					", ",
+					"62.65",
+					"bizid",
+					"tool",
+					"工具",
+					"test",
+					"测试",
+					"@",
+					"listtype",
+					"\\home",
+					"soft",
+					"app",
+					"206",
+					"proxy",
+					"ipvs",
+					"iptable",
+					"ipta",
+					"ipvs",
+					"kubeadm ",
+					"token",
+					"conf",
+					"confluence",
+					"html",
+					"yunwei",
+					"62.65",
+					"dictMQ",
+					"/etc/init.d/",
+					"205",
+					"10.114.31.150",
+					"10.114.31.90",
+					"get_typeid_list_key",
+					"listing",
+					"list",
+					"回溯",
+					"data",
+					"typeed",
+					"SuanFlowPrefix",
+					"测试",
+					"测试机",
+					"conf",
+					"confl",
+					"刘",
+					"suan_dispatcher_l",
+					"typeids",
+					"module_core",
+					"suan",
+					"10.2.8.206",
+					"\"",
+					"kubectl api",
+					"kubectl apiversion",
+					"apiversion",
+					"</el-form>",
+					"<el-form ref=\"form\" :model=\"createServiceForm\" label-width=\"80px\">",
+					"style=\"\"",
+					"active===",
+					"活动名称",
+					"v-model=\"form.name\"",
+					"....",
+					"...",
+					"\"",
+					"fat",
+					"kubeadm ",
+					"mapp",
+					"dev",
+					"{{ BIN_KUBEBOX_DOWNLOAD",
+					"error-log",
+					"filterHandler",
+					"formatter",
+					"handleLink",
+					"push",
+					"exec",
+					"excc",
+					", ",
+					",",
+					"[root@bigdatafat031090 test-case]#",
+					"foo.bar.com "
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"dict_input",
+					"10.111.131.150",
+					"10.111.131.190",
+					"",
+					"$1\\t",
+					"{1}\\t",
+					"${1}\\t",
+					"{1}\\t",
+					"",
+					"with_items",
+					"with-items",
+					"",
+					":"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 46.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"admin",
+						"quechao\\apimodelapp\\admin.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 50.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 829.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"tag",
+						"tags"
+					],
+					[
+						"HA",
+						"HARBOR_PASS"
+					],
+					[
+						"git",
+						"gitConfigProfile"
+					],
+					[
+						"user",
+						"userProfile"
+					],
+					[
+						"tag_de",
+						"tag_dest"
+					],
+					[
+						"tag_",
+						"tag_ori_ver"
+					],
+					[
+						"kub",
+						"kube-apiserver:v1.12.2"
+					],
+					[
+						"tag_des",
+						"tag_dest_ver"
+					],
+					[
+						"de",
+						"default"
+					],
+					[
+						"kube",
+						"kubeadm"
+					],
+					[
+						"ru",
+						"rubik-result.csv"
+					],
+					[
+						"li",
+						"line_format〔variable〕"
+					],
+					[
+						"val",
+						"val_2"
+					],
+					[
+						"f",
+						"f_csv"
+					],
+					[
+						"FEE",
+						"FEEDS_DOWNLOAD_SUBFIX"
+					],
+					[
+						"FEED",
+						"FEEDS_DOWNLOAD_PREFIX"
+					],
+					[
+						"F",
+						"FEEDS_DIR"
+					],
+					[
+						"H",
+						"HOME_HEXO"
+					],
+					[
+						"HOME",
+						"HOME_HEXO"
+					],
+					[
+						"dir",
+						"directory"
+					],
+					[
+						"HOM",
+						"HOME_HEXO"
+					],
+					[
+						"HO",
+						"HOME_NODEJS"
+					],
+					[
+						"hexo",
+						"hexo-cli"
+					],
+					[
+						"s",
+						"self"
+					],
+					[
+						"Data",
+						"DataRTD"
+					],
+					[
+						"mo",
+						"model_keys〔variable〕"
+					],
+					[
+						"base",
+						"base_keys〔variable〕"
+					],
+					[
+						"req",
+						"request_data"
+					],
+					[
+						"request",
+						"request_headers"
+					],
+					[
+						"bi",
+						"bizid_list"
+					],
+					[
+						"list",
+						"listingid"
+					],
+					[
+						"wd",
+						"wd_json_path〔variable〕"
+					],
+					[
+						"func",
+						"func_name〔variable〕"
+					],
+					[
+						"ex",
+						"example_param〔variable〕"
+					],
+					[
+						"fun",
+						"func_name"
+					],
+					[
+						"pa",
+						"path_list〔variable〕"
+					],
+					[
+						"path",
+						"path_list〔argument〕"
+					],
+					[
+						"stop",
+						"stopped"
+					],
+					[
+						"KE",
+						"KERNEL_MOD_IP_VS"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/Users/biye/Work/Doc/info.txt",
+					"settings":
+					{
+						"buffer_size": 14290,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/biye/Work/Doc/kube.txt",
+					"settings":
+					{
+						"buffer_size": 214,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: list",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/C/Users/biye/Work/Doc",
+				"/C/Users/biye/Work/code",
+				"/C/Users/biye/Work/code/ansible-playbook",
+				"/C/Users/biye/Work/code/ansible-playbook/roles",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/harbor",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/harbor/defaults",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/harbor/tasks"
+			],
+			"file_history":
+			[
+				"/C/Users/biye/Downloads/APP首次戳额失败给额名单daily.sql",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/harbor/defaults/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/harbor/tasks/main.yml",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/docker/tasks/main.yml",
+				"/C/Users/biye/Desktop/xinke_paopi.sql",
+				"/C/Users/biye/Work/Doc/info.txt",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/tasks/main.yml",
+				"/C/Users/biye/Work/code/kubespray/cluster.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kube-node-init/tasks/main.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/tasks/main.yml",
+				"/C/Users/biye/Work/code/wd-ui/tools/docker_build_push.sh",
+				"/C/Users/biye/Work/code/wd-ui/dist/index.html",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/base/tasks/main.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/docker/tasks/main.yml",
+				"/C/Users/biye/Work/code/dotfiles/bin/gitci.sh",
+				"/C/Users/biye/Downloads/新客跑批额度改造sql (2).sql",
+				"/C/Users/biye/Work/Doc/kube/kubelet.txt",
+				"/C/Users/biye/Desktop/messages",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/tasks/check_certs.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/tasks/gen_certs_script.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/templates/etcd.j2",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/tasks/install_host.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/templates/etcd-events.j2",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/tasks/install_docker.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/tasks/configure.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/etcd/tasks/main.yml",
+				"/C/Users/biye/Downloads/新客跑批额度改造sql.sql",
+				"/C/Users/biye/Downloads/新客跑批额度改造sql (1).sql",
+				"/C/Users/biye/Work/Doc/1.txt",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes-apps/ingress_controller/ingress_nginx/tasks/main.yml",
+				"/C/Users/biye/Work/code/kubespray/library/kube.py",
+				"/C/Users/biye/Work/code/ansible-playbook/library/docker_image_pull_tag_rmi.py",
+				"/C/Users/biye/Work/code/kubespray/ansible.cfg",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes-apps/cluster_roles/tasks/main.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes-apps/cluster_roles/templates/psp.yml.j2",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes-apps/cluster_roles/templates/psp-cr.yml.j2",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/client/tasks/main.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/tasks/kubeadm-setup.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/tasks/kubeadm-certificate.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/tasks/kubeadm-version.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/templates/apiserver-audit-policy.yaml.j2",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/templates/kubeadm-config.v1beta1.yaml.j2",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/tasks/users-file.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/templates/known_users.csv.j2",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/master/tasks/pre-upgrade.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/container-engine/docker/tasks/main.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubernetes/preinstall/tasks/main.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/bootstrap-os/tasks/bootstrap-centos.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/bootstrap-os/tasks/main.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/bootstrap-os/tasks/setup-pipelining.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/bootstrap-os/tasks/bootstrap-coreos.yml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubespray-defaults/defaults/main.yaml",
+				"/C/Users/biye/Work/code/kubespray/roles/kubespray-defaults/tasks/main.yaml",
+				"/C/Users/biye/Work/code/kubespray/contrib/inventory_builder/inventory.py",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/etcd.yml",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/k8s-cluster/k8s-net-weave.yml",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/k8s-cluster/k8s-net-kube-router.yml",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/k8s-cluster/k8s-net-flannel.yml",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/k8s-cluster/k8s-cluster.yml",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/all/docker.yml",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/k8s-cluster/addons.yml",
+				"/C/Users/biye/Work/code/kubespray/inventory/mycluster/group_vars/all/all.yml",
+				"/C/Users/biye/Work/code/kubespray/requirements.txt",
+				"/C/Users/biye/Work/code/kubespray/roles/adduser/tasks/main.yml",
+				"/C/Users/biye/Work/code/_post/_posts/tools-markdown-语法总结.md",
+				"/C/Users/biye/Work/code/dotfiles/.bash_profile",
+				"/C/Users/biye/Work/code/dotfiles/.gitconfig",
+				"/C/Users/biye/Work/code/dotfiles/.bashrc",
+				"/C/Users/biye/Work/code/dotfiles/LICENSE-MIT.txt",
+				"/C/Users/biye/Work/code/dotfiles/.functions",
+				"/C/Users/biye/Work/code/dotfiles/.hushlogin",
+				"/C/Users/biye/Work/code/dotfiles/README.md",
+				"/C/Users/biye/Desktop/data.txt",
+				"/C/Users/biye/Work/Doc/tmp.py",
+				"/C/Users/biye/AppData/Local/YNote/Data/weixinobU7VjpJGlJnQPCEe_iLycyRZX70/8B5CA871EA5440BC8FDDCB342FEA09F9/Docker",
+				"/C/Users/biye/Desktop/phone_recommend.py",
+				"/C/Users/biye/bin/gitci",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/defaults/main.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/templates/etc_sysconfig_kubelet.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/templates/etc_sysconfig_modules_ipvs.modules.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/templates/kube-aliyun.repo",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/templates/docker-ce.repo",
+				"/C/Users/biye/Work/Doc/tmp_5.py",
+				"/C/Users/biye/Work/Doc/tmp.html",
+				"/C/Users/biye/Desktop/test_userid.csv",
+				"/C/Users/biye/Documents/WXWork/1688853548390523/Cache/File/2018-11/使用kubeadm搭建k8s集群.md",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/layout/components/Navbar.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/guide/index.vue",
+				"/C/Users/biye/Work/code/wd-ui/src/router/index.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/guide/defineSteps.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/table/complexTable.vue",
+				"/C/Users/biye/Desktop/sql_check.sql",
+				"/C/Users/biye/Work/code/vuex/examples/shopping-cart/store/modules/products.js",
+				"/C/Users/biye/Work/code/vuex/examples/shopping-cart/store/modules/cart.js",
+				"/C/Users/biye/Work/code/vuex/examples/shopping-cart/store/index.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/login/index.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/store/modules/user.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/login/socialsignin.vue",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/login/authredirect.vue",
+				"/C/Users/biye/Work/Doc/index.html",
+				"/C/Users/biye/Work/code/vue-element-admin/src/store/index.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/store/modules/app.js",
+				"/C/Users/biye/Work/code/vue-element-admin/src/views/layout/components/TagsView.vue",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/meta/main.yml",
+				"/C/Users/biye/Work/Doc/tmp.js",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/base/handlers/main.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/base/defaults/main.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/filter_plugins/base.py",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/hosts",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/hosts",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/README.md",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/kubeadm-init/pb.yml",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/roles/docker/README.md",
+				"/C/Users/biye/Work/code/ppd-ansible-playbook/README.md",
+				"/C/Users/biye/Work/code/wd-ui/src/api/app.image.js",
+				"/C/Users/biye/Work/code/wd-ui/src/api/base.image.js",
+				"/C/Users/biye/Work/books/cncf-presentations/README.md",
+				"/C/Users/biye/Work/code/_post/_posts/自动化测试-splinter.md",
+				"/C/Users/biye/Work/code/_post/_posts/python-pyecharts-文档笔记.md",
+				"/C/Users/biye/Work/code/_post/_posts/计算机数的表示.md",
+				"/C/Users/biye/Work/code/_post/_posts/PyStdLib-multiprocessing.md",
+				"/C/Users/biye/Work/code/_post/_posts/Java-学习笔记.txt",
+				"/C/Users/biye/Work/code/_post/_posts/linux-性能优化.txt",
+				"/C/Users/biye/Work/code/_post/_posts/python-celery-任务队列.md",
+				"/C/Users/biye/Work/tmp/result.csv",
+				"/C/Users/biye/Work/Doc/tmp_2.py",
+				"/C/Users/biye/Work/code/ansible-playbook/roles/kubeadm-init/tasks/main.yml",
+				"/C/Users/biye/Work/Doc/tmp_3 - 副本.py"
+			],
+			"find":
+			{
+				"height": 46.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"sql",
+					"limit",
+					", None),",
+					"\")",
+					"997",
+					"(\"9981\")",
+					"airflow",
+					"health",
+					"metri",
+					"dash",
+					"dashboard",
+					"airflow",
+					"10.114.31.90",
+					".yaml",
+					"airflow",
+					"core",
+					"443",
+					"172.17",
+					"10.",
+					"114",
+					"ngx-lb.kube-ppd.com",
+					"2379",
+					"weight",
+					"openssl",
+					",",
+					"10.114.16.110",
+					".kube-ppd.com",
+					"ago",
+					"\"/",
+					"healthy",
+					"       ",
+					"kube-ppd.com",
+					",",
+					"impala",
+					"imp",
+					"9.82",
+					"Jan 9",
+					"kube-ppd.com ",
+					"192.168.233.",
+					"reser",
+					"192.168.233.",
+					"kubeadm",
+					"print",
+					"default",
+					"print",
+					"kubeadm config",
+					"23013",
+					"9.74",
+					"23013",
+					"62.65",
+					"line",
+					"10069",
+					"userid",
+					"62.65",
+					"etc/etcd",
+					"MEM",
+					"etcd/pki",
+					"etcd.kube-ppd.com",
+					"magedu.com",
+					"kube-etcd.com ",
+					"server",
+					"192",
+					"cidr",
+					"net",
+					":2379",
+					"ppd.com",
+					":2380",
+					",",
+					"=",
+					"LOAD_BALANCER_DNS",
+					"=",
+					"---",
+					"psp_manifests",
+					"kube",
+					"kube_config_dir",
+					"etcd_deployment_type",
+					"mathiasbynens",
+					"compose",
+					"listingid",
+					"airflow",
+					"CONFLICT (content)",
+					"gei",
+					"Returns",
+					"异构网络",
+					"LOAD_BALANCER_DNS",
+					"\"${USER}\"@$host:",
+					"134",
+					"135",
+					"ETCD_",
+					"34",
+					"134",
+					"${NAMES[",
+					"- {key: \"",
+					"-reser",
+					"v",
+					"gra",
+					"graf",
+					"admin",
+					"graf",
+					"gra",
+					"grafana",
+					"测试",
+					"self.",
+					"132",
+					"异构",
+					"字段",
+					"异构",
+					"骑手",
+					"网络",
+					"异构",
+					"hnet",
+					"异构",
+					"10080003",
+					"M站",
+					"cache",
+					"cachecloud",
+					"21002",
+					"id",
+					"list",
+					"listing",
+					"listt",
+					"78572631",
+					"taobao_score",
+					"7002",
+					"M站",
+					"M",
+					"异构网络",
+					"62.65"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"ngx-lb-prod.kube-ppd.com",
+					"10.2.10.131",
+					"kube-ppd.com",
+					"pyfdtic",
+					"dict_input",
+					"10.111.131.150",
+					"10.111.131.190",
+					"",
+					"$1\\t",
+					"{1}\\t",
+					"${1}\\t",
+					"{1}\\t",
+					"",
+					"with_items",
+					"with-items",
+					"",
+					":"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\biye\\Work\\Doc"
+				},
+				{
+					"path": "C:\\Users\\biye\\Work\\code"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/biye/Work/Doc/info.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 14290,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										703,
+										709
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1481.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/C/Users/biye/Work/Doc/kube.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 214,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										108,
+										108
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 46.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.05,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-32000,-32000,-1,-1,1108,2607,78,3666",
+			"project": "",
+			"replace":
+			{
+				"height": 84.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"admin",
+						"quechao\\apimodelapp\\admin.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 163.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

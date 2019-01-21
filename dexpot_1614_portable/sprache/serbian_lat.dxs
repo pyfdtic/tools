@@ -1,0 +1,1184 @@
+[Info] 
+Name = "Serbian (Latin)" 
+Autor = "Slavko Majski" 
+AutorMail = "slavko.majski@gmail.com" 
+Kommentar = "Prevod Dexpota na srpski jezik."
+Locale=2074
+Charset=238
+Backup=english.dxs
+
+#Dexpot 1.5.16 [$Id: serbian_lat.dxs 1887 2012-04-12 10:00:52Z Patrick $]
+
+[Global] 
+strDexpot = "Dexpot – Uslužni program za virtuelne radne površine"
+strVorheriger = "Dexpot – prethodna radna površina" 
+strNaechster = "Dexpot – sledeća radna površina" 
+strDesktop = "Radna površina" 
+strAlleDesktops = "Svuda" 
+strKein = "(Ništa)" 
+strMsgFortfahren = "Želite li da nastavite?" 
+strMsgDesktopanzahl = "Odabrani broj radnih površina je manji od prethodnog; sve informacije o radnim površinama označenim većim brojem će biti izgubljene. Svi prozori na njima će biti premešteni na aktivnu radnu površinu. Ako aktivna radna površina time postane nepostojeća, Dexpot će se prebaciti na prvu radnu površinu." 
+strMsgVersuchenZuErsetzen = "Dexpot će pokušati da ih zameni." 
+strMsgProblem = "Ako ovaj problem nastavi da se ponavlja:" 
+strMsgHinweisDesktopanzahl = "Napomena o promeni broja radnih površina – Dexpot" 
+strMsgAufloesungTitel = "Promena rezolucije ekrana – Dexpot" 
+strMsgAufloesung = "Rezolucija ekrana može da bude promenjena. Želite li da prihvatite novu" 
+strMsgAufloesungAnnehmen = "rezoluciju?" 
+strMsgNichtAendern = "Promena rezolucije nije moguća." 
+strMasterPasswortAnfordern = "Zaštita Dexpota pomoću lozinke je aktivirana. Da biste izvršili željenu radnju, potrebno je da unesete glavnu lozinku:" 
+strPasswortAnfordern = "Zaštita Dexpota pomoću lozinke je aktivirana. Da biste izvršili željenu radnju, potrebno je da unesete lozinku radne površine:" 
+strMasterPasswortAendern = "Glavnu Dexpot lozinku možete promeniti ovde:" 
+strAltesPasswort = "Stara lozinka:" 
+strNeuesPasswort = "Nova lozinka:" 
+strBestaetigung = "Potvrda:" 
+strMsgPasswortFehler = "Greška pri unosu lozinke - Dexpot" 
+strMsgUebereinstimmung = "Nova lozinka i potvrda se ne podudaraju. Ponovite unos." 
+strMsgAltesFalsch = "Stara lozinka nije ispravna!" 
+strKeineAnderen = "Ne postoje drugi prozori" 
+strKeineFenster = "Ne postoje prozori na ovoj radnoj površini" 
+strMsgIconsEntfernen = "Da li zaista želite da uklonite izabrane ikone sa ove radne površine?\n\nIzbrisane ikone koje nisu vidljive ni na jednoj radnoj površini možete naći u „Prozori radnih površina - Ikone - Skriveno”." 
+strMsgIconsEntfernenTitel = "Uklanjanje ikona - Dexpot" 
+strMaximieren = "Uvećaj" 
+strMinimieren = "Umanji" 
+strStandard = "Podrazumevano" 
+strMsgRegelnAktiviert = "Pravila radnih površina su omogućena" 
+strMsgRegelnDeaktiviert = "Pravila radnih površina su onemogućena" 
+strFensterMinimiert = "prozor(a) je umanjen(o)" 
+strMsgStandardGeladen = "Podrazumevani profil je uvezen." 
+strMsgStandardNichtGefunden = "Podrazumevani profil nije pronađen."
+strFilterBilder = "Sve datoteke slika"
+strFilterProgramme = "Programi"
+strFilterAlle = "Sve datoteke"
+strFilterAlleSymbole = "Sve datoteke ikona"
+strFilterBibliotheken = "Biblioteke"
+strFilterSymbole = "Ikone"
+strFilterSound = "Wave datoteke"
+strBeimNaechstenWechsel = "Pri narednoj promeni"
+
+#ADDED in Dexpot 1.5
+strHorizontalMaximieren = "Uvećaj horizontalno"
+strVertikalMaximieren = "Uvećaj vertikalno"
+strMsgProfilStandardGefahr = "Učitavanjem standardnog profila obavljena podešavanja će biti izgubljena.\nUverite se da su podešavanja prethodno sačuvana u odvojeni profil.\n\nŽelite li da nastavite?"
+###
+
+#ADDED in Dexpot 1.6
+strMonitor = "Monitor"
+###
+
+
+[frmTaskleiste] 
+mnuEinstellungen.Caption = " Podešavanja" 
+mnuWechselLeiste.Caption = " Menadžer radnih površina" 
+mnuSlideshow.Caption = " Projekcija radnih površina" 
+mnuDesktopFenster.Caption = " Prozori radnih površina" 
+mnuInfo.Caption = " O programu" 
+mnuBeenden.Caption = " Izađi" 
+mnuAusrichten.Caption = "Zalepi za ivicu ekrana" 
+mnuLaden.Caption = "Pokreni sa Dexpot-om" 
+mnuAktivesFenster.Caption = "Prikaži ikone aktivnih prozora" 
+mnuMausrad.Caption = "Promeni pomoću točka miša" 
+mnuPositionHalten.Caption = "Zaključaj poziciju" 
+mnuImVordergrund.Caption = "Uvek na vrhu" 
+mnuOrientierung.Caption = "Vertikalna orijentacija" 
+mnuTransparent.Caption = "Prozirna pozadina" 
+mnuSchliessen.Caption = "Zatvori" 
+mnuVerschiebenListe.Caption = "Premesti prozor na ovu radnu površinu" 
+mnuKopierenListe.Caption = "Kopiraj prozor na ovu radnu površinu" 
+mnuRegeln.Caption = " Pravila radnih površina" 
+mnuFarbe.Caption = "Primeni pozadinsku boju" 
+mnuGroesse.Caption = "Promeni veličinu ikone" 
+mnuVorschau.Caption = " Pregled radnih površina" 
+mnuBoo.Caption = "Prikaži dodatno dugme" 
+mnuKonfig.Caption = " Konfigurisanje radnih površina" 
+mnuVerschollen.Caption = "Prikaži na aktivnoj površini" 
+mnuTransparenz.Caption = "Prozirnost" 
+mnuTransparenzFestlegen.Caption = "Podešavanje prozirnosti" 
+mnuTransparenzErhoehen.Caption = "Povećaj prozirnost" 
+mnuTransparenzVerringern.Caption = "Smanji prozirnost" 
+mnuVerschieben.Caption = "Premesti" 
+mnuKopieren.Caption = "Kopiraj" 
+mnuSchliessen.Caption = "Zatvori" 
+mnuSchliessenAufDiesem.Caption = "Na ovoj radnoj površini" 
+mnuSchliessenAufAnderen.Caption = "Na ostalim radnim površinama" 
+mnuSchliessenAufAllen.Caption = "Svuda (izađi iz aplikacije)" 
+mnuTrayMinimieren.Caption = "Umanji u sistemsku paletu" 
+mnuVordergrund.Caption = "Uvek na vrhu" 
+mnuDMSchliessen.Caption = "Zatvori" 
+mnuEntfernen.Caption = "Ukloni" 
+mnuRegelErstellen.Caption = "Napravi pravilo..."
+mnuSchoner.Caption = "Pokreni čuvara ekrana"
+mnuRegelnAnwenden.Caption = "Primeni pravila"
+mnuIconsWiederherstellen.Caption = "Vrati ikone"
+mnuIconsLaden.Caption = "Učitaj ikone iz profila"
+mnuVollbildVorschau.Caption = " Prikaz preko celog ekrana"
+mnuSchwaerzen.Caption = "Zacrni radnu površinu"
+mnuDexpose.Caption = " Katalog prozora"
+mnuAufrollen.Caption = "Smotaj"
+mnuRegelnAnwendenAufFenster.Caption = "Primeni pravila na ovaj prozor"
+
+#ADDED in Dexpot 1.6
+mnuFeedback.Caption = " Povratne informacije o beta verziji"
+###
+
+
+[frmBeenden] 
+frmBeenden.Caption = "Izlazak? – Dexpot" 
+cmdAbbrechen.Caption = "Otkaži" 
+cmdBeenden.Caption = "&Izađi" 
+frmOptionen.Caption = "Podešavanja" 
+lblBeendenText.Caption = "Izaberite virtuelnu površinu koju želite da sačuvate kao glavnu radnu površinu posle zatvaranja Dexpota. Prozori sa drugih radnih površina se mogu premestiti na nju ili zatvoriti."  
+#MODIFIED IN 1.5.0
+optBeenden(0).Caption = "Premesti sve prozore na ovu radnu površinu"
+optBeenden(1).Caption = "Zatvori sve prozore koji nisu na ovoj radnoj površini"
+###
+
+
+[frmInfo] 
+frmInfo.Caption = "O programu Dexpot"
+tabInfo.TabCaption(0) = "Osnove informacije" 
+tabInfo.TabCaption(1) = "Zasluge" 
+cmdOK.Caption = "&U redu" 
+frmRegistrierung.Caption = "Registracija" 
+cmdRegistrieren.Caption = "&Registruj" 
+lblMail.Caption = "E-pošta:" 
+lblLizenzschluessel.Caption = "Licencni ključ:" 
+lblInternet.Caption = "Sajt:" 
+lblVersion.Caption = "Verzija"
+lblWenn.Caption = "Dexpot je besplatan za ličnu upotrebu. Međutim, ako vam se program dopada, svaka donacija u cilju podržavanja njegovog daljeg razvoja je dobrodošla."
+lblDanke.Caption = "Puno vam hvala!" 
+strSpenden = "Donacije" 
+strLizenz = "Licenca" 
+strMsgDanke = "Hvala vam na registraciji!" 
+strMsgUngueltig = "Licencni ključ nije ispravan! Pokušajte ponovo." 
+strMsgProblem = "U slučaju problema, kontaktirajte nas:" 
+lblName.Caption = "Kompanija:" 
+lblEmail.Caption = "Ime:"
+lblWechsel.Caption = "Promena radnih površina:"
+lblLaufzeit.Caption = "Vreme rada:"
+lblTausend.Caption = "Ovo je bila vaša hiljadita promena radne površine pomoću Dexpota!"
+lblTausendText.Caption = "Ne brinite; ovo nije probna verzija koja ističe posle hiljadu promena radnih površina. Nećemo vas više uznemiravati, ali pošto izgleda da ćete nastaviti da koristite ovaj program, želimo da vam skrenemo pažnju na sledeće:"
+lblNutzungsbedingungen.Caption = "Ugovor o licenciranju:" 
+
+#ADDED in Dexpot 1.4.2
+cmdUpdate.Caption = "Proveri &ažurnost"
+strNeueLizenz = "Vaš licencni ključ ne važi za ovu verziju programa Dexpot. Ako želite da nastavite sa korišćenjem Dexpota u komercijalne svrhe, potrebno je da kupite licencu. Posetite naš sajt za više informacija:"
+###
+
+#ADDED in Dexpot 1.5.1
+strEmailBetreff = "Poruka vezana za Dexpot"
+strEmailNachricht = "Zdravo Dexpot time,\n\nŽelim da postavim pitanje, stoga sam ispunio donji obrazac.\n\Poruka:\n\nGreška se pojavljuje u ovom modulu:\n\nKoraci koji dovode do greške:\n\nPokrenute aplikacije:\n\nInformacije o verziji:"
+###
+
+
+[frmSlideshow] 
+frmSlideshow.Caption = "Projekcija radnih površina - Dexpot" 
+optRueckwaerts.Caption = "Unapred" 
+optVorwaerts.Caption = "Unazad"
+
+#MODIFIED in Dexpot 1.5.0 
+cmdSchliessen.Caption = "&U redu" 
+cmdUebernehmen.Caption = "&Pokreni" 
+cmdAbbrechen.Caption = "&Zaustavi" 
+frmEinstellungen.Caption = "Radne površine" 
+lblSek.Caption = "sekundi" 
+lblWas.Caption = "Izaberite vremenski interval po čijem isteku će Dexpot automatski promeniti radnu površinu. Takođe, možete da izaberete da li će se površine menjati unapred ili unazad:" 
+###
+
+#ADDED in Dexpot 1.5.0
+cmdDesktops.Caption = "Izaberi"
+lblIntervall.Caption = "Interval:"
+chkEndlos.Caption = "Ponavljaj"
+strAnhalten = "P&auziraj"
+strFortsetzen = "&Nastavi"
+###
+
+#ADDED in Dexpot 1.5.9
+frmRichtung.Caption = "Smer"
+###
+
+
+[frmEinstellungen] 
+frmEinstellungen.Caption = "Podešavanja - Dexpot" 
+cmdOK.Caption = "&U redu" 
+cmdAbbrechen.Caption = "&Otkaži" 
+cmdUebernehmen.Caption = "&Primeni" 
+fuchsFeuer(1).Caption = "Opšta" 
+fuchsFeuer(2).Caption = "Izgled" 
+fuchsFeuer(3).Caption = "Komponente" 
+fuchsFeuer(4).Caption = "Kontrole" 
+fuchsFeuer(5).Caption = "Promena radnih površina" 
+
+#MODIFIED Dexpot 1.5.0
+fuchsFeuer(6).Caption = "Dodaci i komponente"
+###
+
+#Allgemein 
+frmZahl.Caption = "Radne površine" 
+lblDesktopzahl.Caption = "Broj radnih površina:" 
+lblStartDesktop.Caption = "Početna površina:" 
+frmInternational.Caption = "Jezik interfejsa" 
+lblSprache.Caption = "Izaberite jezik:" 
+cmdSprachinfo.Caption = "Informacije" 
+frmStart.Caption = "Pokretanje" 
+chkAutostart.Caption = "Pokreni zajedno sa Windows-om" 
+chkStartBildschirm.Caption = "Sakrij uvodni ekran" 
+chkProfilAuswahl.Caption = "Prikaži spisak profila pri pokretanju" 
+chkLetzteKonfigurationLaden.Caption = "Automatski učitaj poslednju konfiguraciju posle" 
+lblPrioritaet.Caption = "Prioritet procesa:" 
+cmbPrio.List(0) = "Realno vreme" 
+cmbPrio.List(1) = "Visok" 
+cmbPrio.List(2) = "Normalan" 
+cmbPrio.List(3) = "Nizak" 
+frmBeenden.Caption = "Izlazak" 
+chkSchnellesBeenden.Caption = "Izađi bez prikazivanja dijaloga za potvrdu" 
+chkProfilSpeichern.Caption = "Sačuvaj profile pri izlasku" 
+frmProfile.Caption = "Profili" 
+lblProfile.Caption = "Izaberite profil:" 
+cmdProfilLaden.Caption = "Učitaj" 
+cmdProfilUeberschreiben.Caption = "Sačuvaj" 
+cmdProfilSpeichern.Caption = "Sačuvaj kao..." 
+cmdProfilLoeschen.Caption = "Izbriši"
+
+#ADDED in Dexpot 1.4.2
+chkAutoUpdate.Caption = "Proveri ažurnost"
+###
+
+#ADDED in Dexpot 1.5.0
+chkAdmin.Caption = "Pokreni kao administrator"
+lblTrayIconAktionEinfach.Caption = "Ctrl + klik na Dexpot ikonicu pokreće:"
+###
+
+#Ansicht 
+frmTrayIcon.Caption = "Ikonice u sistemskoj paleti" 
+optTrayicon(0).Caption = "Bez ikonica" 
+optTrayicon(1).Caption = "Podrazumevano" 
+optTrayicon(2).Caption = "Aktivna površina" 
+optTrayicon(3).Caption = "Prethodna / sledeća površina" 
+optTrayicon(4).Caption = "Ikonice za svaku površinu" 
+frmSystemmenues.Caption = "Sistemski meniji" 
+chkSystemmenues.Caption = "Dodaj Dexpot u sistemske menije svih prozora" 
+#MODIFIED in 1.5.0
+frmTransparenzManager.Caption = "Prozirnost" 
+###
+lblUnsichtbar.Caption = "Nevidljiv" 
+lblSichtbar.Caption = "Vidljiv" 
+frmTrayMinimieren.Caption = "Umanjeni prozori u sistemskoj paleti"
+chkTraycontainer.Caption = "Grupiši umanjene prozore" 
+chkTMFDoppelklick.Caption = "Povećaj prozor kada dvokliknem na ikonicu"
+lblTrayIconAktion.Caption = "Dvoklik na Dexpot ikonicu pokreće:"
+
+#Komponenten 
+tabKomponenten.Tabs(1).Caption = "Menadžer radnih površina" 
+tabKomponenten.Tabs(2).Caption = "Pregled radnih površina" 
+tabKomponenten.Tabs(3).Caption = "DexTab"
+
+##Desktop Manager 
+frmOptionenManager.Caption = "Opcije" 
+chkManagerAutostart.Caption = "Pokreni zajedno sa Dexpot-om" 
+chkAktiveFensterVorschau.Caption = "Prikaži ikone aktivnih prozora" 
+chkMausrad.Caption = "Promeni pri pomeranju točka miša" 
+chkAmRandAusrichten.Caption = "Zalepi za ivicu ekrana" 
+chkPositionHalten.Caption = "Zaključaj poziciju" 
+chkMiniDM.Caption = "Male ikone"
+frmManagerBoo.Caption = "Dodatno dugme"
+chkManagerBoo.Caption = "Prikaži dodatno dugme"
+lblManagerBooIcon.Caption = "Ikona:"
+cmdManagerBooIcon.Caption = "..."
+cmdManagerBooIconStandard.Caption = "Podrazumevana"
+lblManagerBooEinfach.Caption = "Radnja na klik:"
+lblManagerBooDoppelt.Caption = "Radnja na dvoklik:"
+#ADDED in 1.5.1
+lblManagerBooMittel.Caption = "Radnja na klik srednjim tasterom:"
+###
+frmManagerHintergrund.Caption = "Pozadina" 
+optManagerHintergrundStandard.Caption = "Podrazumevana" 
+optManagerHintergrundFarbe.Caption = "Jednobojna" 
+optManagerHintergrundTransparent.Caption = "Prozirna" 
+cmdManagerFarbe.Caption = "..." 
+frmOrientierung.Caption = "Položaj" 
+optHorizontal.Caption = "Horizontalan" 
+optVertikal.Caption = "Vertikalan" 
+cmdHotkeyManager.Caption = "Tasterska prečica"
+
+##Desktop Vorschau 
+chkVorschauAutostart.Caption = "Pokreni zajedno sa Dexpot-om" 
+chkVorschauTitelleiste.Caption = "Sakrij naslovnu traku" 
+frmVorschauVerhalten.Caption = "Ponašanje" 
+chkVorschauHintergrund.Caption = "Automatski sakrij" 
+chkVorschauVerhaeltnisHalten.Caption = "Zaključaj odnos širine i visine" 
+chkVorschauVerhaeltnisErzwingen.Caption = "Nametni ispravan odnos širine i visine" 
+frmVorschauFarben.Caption = "Boje"
+lblVorschauFarbeAktiv.Caption = "Aktivna površina:" 
+lblVorschauFarbeInaktiv.Caption = "Neaktivna površina:" 
+lblVorschauFarbeRahmen.Caption = "Okvir prozora:" 
+lblVorschauFarbeTitel.Caption = "Naslov prozora:" 
+chkVollbildVorschauZoom.Caption = "Efekat približavanja" 
+lblHotkeyDefinieren.Caption = "Tasterska prečica:"
+frmVorschauDarstellung.Caption = "Izgled"
+optVorschauDarstellungSkizzen.Caption = "Skice prozora"
+optVorschauDarstellungSymbole.Caption = "Ikone"
+
+##DexTab
+chkDexTabSortieren.Caption = "Sortiraj prozore po naslovu" 
+chkDexTabTrayicons.Caption = "Prikaži prozore umanjene na sistemsku paletu" 
+chkDexTabNurTaskleiste.Caption = "Prikaži samo prozore sa palete poslova" 
+
+#MODIFIED in Dexpot 1.5.0
+frmDexTabMarkierung.Caption = "Početni izbor u biraču prozora" 
+###
+
+optDexTabMarkierungAktiv.Caption = "Aktivni prozor" 
+optDexTabMarkierungLetztes.Caption = "Poslednji aktivni prozor" 
+frmDexTabFarben.Caption = "Boje" 
+lblDexTabFensterVordergrund.Caption = "Tekst:" 
+lblDexTabFensterHintergrund.Caption = "Pozadina:" 
+lblDexTabMarkierung.Caption = "Izbor:" 
+cmdDexTabSystemfarben.Caption= "Sistemske boje"
+
+#ADDED in Dexpot 1.5.0
+frmDexTabMarkierungDesktops.Caption = "Početni izbor u biraču površina"
+optDexTabMarkierungDesktops(0).Caption = "Aktivna površina"
+optDexTabMarkierungDesktops(1).Caption = "Poslednja aktivna površina"
+###
+
+#ADDED in Dexpot 1.6
+chkDexTabLeereDesktops.Caption = "Prikaži prazne radne površine"
+###
+
+
+#Steuerung 
+tabSteuerung.Tabs(1).Caption = "Tasterske prečice" 
+tabSteuerung.Tabs(2).Caption = "Prebacivanje pomoću miša"
+tabSteuerung.Tabs(3).Caption = "Naslovne trake"
+
+##Fensterkatalog
+chkDexposeBlenden.Caption = "Efekat pretapanja"
+
+##Hotkeys 
+frmHotkeys.Caption = "Kombinacija tastera" 
+chkHotkeyModifikator(0).Caption = "Alt" 
+chkHotkeyModifikator(1).Caption = "Shift" 
+chkHotkeyModifikator(2).Caption = "Ctrl" 
+chkHotkeyModifikator(3).Caption = "Windows taster" 
+cmdHotkeyDefinieren.Caption = "&Definiši" 
+cmdHotkeyLoeschen.Caption = "&Izbriši" 
+cmdHotkeyFortsetzung.Caption = "&Nastavi seriju" 
+frmHotkeyErklaerug.Caption = "Objašnjenje" 
+HotkeyTexte(1) = "Premešta aktivni prozor na određenu radnu površinu." 
+HotkeyTexte(2) = "Kopira aktivni prozor na određenu radnu površinu." 
+HotkeyTexte(3) = "Otvara ili zatvara određenu komponentu Dexpota." 
+HotkeyTexte(5) = "Generiše crnu sliku na ekranu. Ponovo pritisnite tastersku prečicu da biste vratili radnu površinu." 
+HotkeyTexte(6) = "Prebacuje na poslednje posećenu radnu površinu." 
+HotkeyTexte(7) = "Otvara dijalog za podešavanje prozirnosti aktivnog prozora." 
+HotkeyTexte(8) = "Povećava prozirnost aktivnog prozora." 
+HotkeyTexte(9) = "Smanjuje prozirnost aktivnog prozora." 
+HotkeyTexte(10) = "Isključuje prozirnost svih prozora." 
+HotkeyTexte(11) = "Učitava podešavanja Dexpota i konfiguraciju radnih površina iz podrazumevanog profila." 
+HotkeyTexte(12) = "Zaustavlja pokrenutu projekciju radnih površina." 
+HotkeyTexte(13) = "Prolazi kroz stanja Dexpot ikone u sistemskoj paleti koja su dostupna pod 'Izgled'." 
+HotkeyTexte(14) = "Primenjuje pravila na sve otvorene prozore." 
+HotkeyTexte(15) = "Privremeno onemogućava primenu pravila radnih površina. Ponovnim pritiskom tasterske prečice pravila će se ponovo aktivirati." 
+HotkeyTexte(16) = "Vraća ikone na aktivnoj radnoj površini u stanje u kojem su bile pri poslednjem napuštanju radne površine." 
+HotkeyTexte(17) = "Učitava raspodelu ikona na svim radnim površinama iz trenutno aktivnog profila." 
+HotkeyTexte(18) = "Prikazuje DexTab birača brozora kao zamenu za Windows-ov birač koji se prikazuje pritiskom na Alt+Tab." 
+HotkeyTexte(19) = "Otvara prikaz radnih površina preko celog ekrana." 
+HotkeyTexte(20) = "Uklanja aktivni prozor sa trenutno aktivne radne površine i izlazi iz aplikacije ako je pokrenuta samo na njoj." 
+HotkeyTexte(21) = "Pokreće čuvara ekrana na aktivnoj radnoj površini." 
+HotkeyTexte(22) = "Na poziciji kursora otvara meni sa svim Dexpot funkcijama za aktivni prozor."
+HotkeyTexte(23) = "Prikazuje sve prozore na aktivnoj radnoj površini kao poređane minijature."
+cmdAlleHotkeysLoeschen.Caption = "Poništi sve"
+
+#ADDED in Dexpot 1.5.14
+HotkeyTexte(24) = "Premešta aktivni prozor na određenu radnu površinu i postavlja je za aktivnu."
+###
+
+#ADDED in Dexpot 1.5.0
+imgHotkeyBelegt.ToolTipText = "Ovu kombinaciju tastera već koristi neki drugi program."
+###
+
+#ADDED in Dexpot 1.6
+chkHotkeysWithoutModifiers.Caption = "Dozvoli definisanje prečica bez modifikatora"
+###
+
+##Mauswechsel 
+lblMausWechsel.Caption = "Ova funkcija omogućava automatsko prebacivanje sa jedne radne površine na drugu prilikom zadržavanja miša uz ivicu ekrana." 
+chkMausWechsel.Caption = "Aktiviraj prebacivanje pomoću miša" 
+frmMausWechselAbstimmung.Caption = "Podešavanje" 
+lblMausWechselDauer.Caption = "Zadrška:" 
+lblMausWechselAbstand.Caption = "Udaljenost:" 
+lblMausWechselToleranz.Caption = "Osetljivost:" 
+chkMausWechselInvertieren.Caption = "Postavi kursor miša na suprotnu ivicu ekrana nakon prebacivanja" 
+chkMausWechselWegSetzen.Caption = "Udalji kursor miša od granične oblasti nakon prebacivanja" 
+frmMausWechselRaender.Caption = "Ivice" 
+chkMausWechselOben.Caption = "Gornja" 
+chkMausWechselLinks.Caption = "Leva" 
+chkMausWechselRechts.Caption = "Desna" 
+chkMausWechselUnten.Caption = "Donja"
+frmMausWechselEcken.Caption = "Uglovi"
+frmMausWechselAusloeser.Caption = "Okidač"
+
+##Titelleisten
+lblTitelleistenErklaerung.Caption = "Dexpot prepoznaje klikove mišem na naslovnu traku prozora i u mogućnosti je da pozove radnje određenim kombinacijama taster-klik."
+lblTitelleistenBereich.Caption = "&Područje:"
+lvTitelleisten.ColumnHeaders(1).Text = "Kombinacija"
+lvTitelleisten.ColumnHeaders(2).Text = "Meta"
+lvTitelleisten.ColumnHeaders(3).Text = "Radnja"
+frmTitelleistenMaus.Caption = "&Taster miša"
+optTitelleistenTaste(0).Caption = "Levi taster"
+optTitelleistenTaste(1).Caption = "Desni taster"
+optTitelleistenTaste(2).Caption = "Srednji taster"
+frmTitelleistenModifikator.Caption = "M&odifikator"
+lblTitelleistenZiel.Caption = "&Meta:"
+cmbTitelleistenZiel.List(0) = "Aktivni prozor"
+cmbTitelleistenZiel.List(1) = "Aktivna aplikacija"
+cmbTitelleistenZiel.List(2) = "Svi prozori"
+lblTitelleistenAktion.Caption = "&Radnja:"
+cmdTitelleistenHinzufuegen.Caption = "&Dodaj"
+cmdTitelleistenEntfernen.Caption = "&Ukloni"
+cmbTitelleistenBereich.List(0) = "Naslovna traka"
+cmbTitelleistenBereich.List(1) = "Dugme za umanjivanje"
+cmbTitelleistenBereich.List(2) = "Dugme za uvećavanje"
+cmbTitelleistenBereich.List(3) = "Dugme za zatvaranje"
+
+#Desktopwechsel 
+tabWechsel.Tabs(1).Caption = "Elementi radne površine" 
+tabWechsel.Tabs(2).Caption = "Nazivi radnih površina"
+
+#ADDED in Dexpot 1.6
+tabWechsel.Tabs(3).Caption = "Više monitora"
+###
+
+##Desktopelemente 
+frmWechselElementIcons.Caption = "Ikone radne površine" 
+chkWechselElementIcons.Caption = "Prilagodi ikone radne površine" 
+chkIconsAusrichten.Caption = "Poravnaj uz koordinatnu mrežu" 
+chkIconsAnordnen.Caption = "Automatski rasporedi" 
+frmWechselElementHintergrund.Caption = "Pozadina" 
+chkWechselElementHintergrund.Caption = "Prilagodi pozadinu" 
+chkAenderungenUebernehmenHintergrund.Caption = "Primeni ručne izmene na Dexpot konfiguraciju" 
+frmWechselElementAufloesung.Caption = "Rezolucija ekrana" 
+chkWechselElementAufloesung.Caption = "Prilagodi rezoluciju ekrana" 
+chkAenderungenUebernehmenAufloesung.Caption = "Primeni ručne izmene na Dexpot konfiguraciju" 
+chkAufloesungFragen.Caption = "Pitaj me za potvrdu pre menjanja rezolucije ekrana" 
+chkAufloesungFenstergroesse.Caption = "Sačuvaj veličinu prozora"
+frmWechselElementSchoner.Caption = "Čuvar ekrana" 
+chkWechselElementSchoner.Caption = "Prilagodi čuvara ekrana" 
+chkAenderungenUebernehmenSchoner.Caption = "Primeni ručne izmene na Dexpot konfiguraciju"
+
+#ADDED in Dexpot 1.6
+frmTaskbar.Caption = "Paleta poslova"
+chkPersistentTaskbar.Caption = "Održi vidiljivom svu dugmad na paleti poslova"
+cmdIconanpassung.Caption = "Napredno"
+###
+
+##Desktopnamen 
+lblEinblendungErklaerung.Caption = "Naziv aktivne radne površine može biti prikazan stalno ili svaki put nakon njene promene." 
+lblEinblendung.Caption = "Prikaži naziv radne površine:" 
+optEinblendung(1).Caption = "Nikad" 
+optEinblendung(2).Caption = "Pri promeni" 
+optEinblendung(3).Caption = "Stalno" 
+lblEinblendungDauer.Caption = "Trajanje:" 
+lblEinblendungSekunden.Caption = "sekundi" 
+lblEinblendungPosition.Caption = "Pozicija:" 
+
+#REMOVED in Dexpot 1.6
+#chkEinblendungPosition.Caption = "Pozadina radne površine" 
+###
+
+lblEinblendungText.Caption = "Tekst:" 
+cmdEinblendungVariablen.Caption = "Promenljive" 
+mnuVariable(1).Caption = "%g aktivna površina (broj)" 
+mnuVariable(2).Caption = "%G aktivna površina (naziv)" 
+mnuVariable(3).Caption = "%v poslednja površina (broj)" 
+mnuVariable(4).Caption = "%V poslednja površina (naziv)" 
+lblEinblendungSchrifart.Caption = "Font:" 
+cmdEinblendungSchriftart.Caption = "..." 
+lblEinblendungHintergrund.Caption = "Pozadina:" 
+optEinblendungHintergrund(1).Caption = "Jednobojna" 
+optEinblendungHintergrund(2).Caption = "Prozirna"
+
+#REMOVED in Dexpot 1.6
+#cmdEinblendungHintergrund.Caption = "..." 
+###
+
+lblEinblendungTransparenz.Caption = "Prozirnost:"
+
+#ADDED in Dexpot 1.6
+chkEinblendungLogo.Caption = "Prikaži Dexpot logotip"
+lblEinblendungFarben.Caption = "Boje:"
+lblEinblendungFarbeSchrift.Caption = "Font"
+lblEinblendungFarbeRand.Caption = "Kontura"
+###
+
+#ADDED in Dexpot 1.6
+##Multi-Monitor
+lblMonitore.Caption = "Izaberite monitore na kojima treba da se izvršava promena radne površine. Prozori smešteni na drugim monitorima će ostati vidljivi na svim radinm površinama."
+chkMonitorExclusion.Caption = "Koristi ovo podešavanje samo kada je prisutno više monitora"
+###
+
+#Extras
+frmExtrasPasswoerter.Caption = "Lozinke"
+cmdMasterPasswort.Caption = "Promeni glavnu lozinku"
+cmdPasswoerterZuruecksetzen.Caption = "Poništi lozinke"
+frmDebug.Caption = "Otklanjanje grešaka"
+chkDebugLog.Caption = "Omogući datoteku evidencije"
+chkDebugVorschau.Caption = "Onemogući prikaz preko celog ekrana"
+#MODIFIED in Dexpot 1.5.1
+chkDebugTaskleiste.Caption = "Ne održavaj redosled na paleti poslova"
+###
+chkDebugZuordnung.Caption = "Onemogući oporavak prozora"
+
+#ADDED in Dexpot 1.5.0
+frmPlugins.Caption = "Dodaci"
+cmdPluginEinstellungen.Caption = "Konfiguriši"
+lblPluginAutorLabel.Caption = "Autor:"
+lblCrossDesktop.Caption = "Pri aktiviranju prozora na drugoj radnoj površini:"
+frmCrossDesktop.Caption = "Ponašanje prozora na drugim radnim površinama"
+cmbCrossDesktop.List(0) = "Aktiviraj odgovarajuću radnu površinu"
+cmbCrossDesktop.List(1) = "Premesti prozor na aktivnu radnu površinu"
+cmbCrossDesktop.List(2) = "Kopiraj prozor na aktivnu radnu površinu"
+cmbCrossDesktop.List(3) = "Ne radi ništa"
+
+strVorherigen = "prethodnu radnu površinu"
+strNaechsten = "sledeću radnu površinu"
+###
+
+#ADDED in Dexpot 1.5.10
+cmdPluginHotkeys.Caption = "Definiši tasterske prečice"
+###
+
+#Strings 
+strZuruecksetzen = "Učitaj podrazumevane parametre" 
+strslideshowabbrechen = "Zaustavi projekciju radnih površina" 
+strTrayicon = "Promeni ikonu u sistemskoj paleti" 
+strTransparenzFestlegen = "Podesi prozirnost" 
+strTransparenzErhoehen = "Povećaj prozirnost" 
+strTransparenzVerringern = "Smanji prozirnost" 
+strDexpotFenster = "Komponente Dexpota" 
+strSonstiges = "Razno" 
+strTransparenz = "Prozirnost" 
+strAufAlle = "na sve radne površine" 
+strAuf = "na" 
+strKopieren = "Kopiraj prozor" 
+strVerschieben = "Premesti prozor" 
+strVorheriger = "Prethodna radna površina" 
+strNaechster = "Sledeća radna površina" 
+strWechseln = "Promeni radnu površinu" 
+strMitte = "Centrirano" 
+strMitteOben = "Centrirano na vrhu" 
+strMitteUnten = "Centrirano na dnu" 
+strLinks = "Uz levu ivicu" 
+strLinksOben = "Gornji levi ugao" 
+strLinksUnten = "Donji levi ugao" 
+strRechts = "Uz desnu ivicu" 
+strRechtsOben = "Gornji desni ugao" 
+strRechtsUnten = "Donji desni ugao" 
+strMsgName = "Jezik" 
+strMsgAutor = "Autor" 
+strMsgKommentar = "Opis" 
+strMsgSprachdatei = "Informacije o jezičkoj datoteci" 
+strMsgPasswoerterZuruecksetzen = "Da li zaista želite da poništite sve lozinke? Glavna lozinka i lozinke svih radnih površina će biti uklonjene." 
+strTransparenzZuruecksetzen = "Isključi prozirnost" 
+strRegelnDeaktivieren = "Onemogući pravila" 
+strAltTab = "Birač prozora" 
+strFensterSchliessen = "Zatvori prozor" 
+strZurueck = "Nazad" 
+strStartDesktopGleichLetzterDesktop = "Poslednje aktivna radna površina" 
+strMsgAlleHotkeysLoeschen = "Da li zaista želite da izbrišete sve definisane prečice?" 
+strMsgProfilLoeschen = "Da li zaista želite da izbrišete izabrani profil?" 
+strMsgProfilSpeichern1 = "Da li zaista želite da prepišete profil" 
+strMsgProfilSpeichern2 = "?" 
+strMsgProfilGeladen = "Profil je učitan." 
+strMsgProfilGespeichert = "Profil je sačuvan." 
+strMsgProfilStandard = "Prepisivanje podrazumevanog profila nije moguće."
+strMsgProfilNichtGespeichert = "Čuvanje profila nije moguće."
+strFenstermenue = "Meni prozora"
+strHintergrund = "Premesti na pozadinu"
+
+#ADDED in Dexpot 1.5.0
+strDesktopwechsler = "Birač površina"
+strPluginNichtAktivierbar = "Ovaj dodatak nije kompatibilan sa vašom verzijom Windowsa ili Dexpota."
+###
+
+#ADDED in Dexpot 1.5.6
+strAddDesktop = "Dodaj radnu površinu"
+strRemoveDesktop = "Ukloni radnu površinu"
+###
+
+#ADDED in Dexpot 1.5.14
+strMoveFollow = "Premesti prozor i prebaci se"
+###
+
+#ADDED in Dexpot 1.6
+strCustomStatic = "Proizvoljna (fiksirana)"
+strCustomDynamic = "Proizvoljna (promenjiva)"
+strDragMe = "Prevuci me!"
+strCenter = "Centrirano"
+strAllMonitors = "Svi monitori"
+strWindowCommands = "Komandovanje prozorom"
+###
+
+
+[frmFenster] 
+#ADDED in 1.5.0
+frmFenster.Caption = "Prozori radnih površina - Dexpot"
+###
+cmdSchliessen.Caption = "&Zatvori" 
+cmdAktualisieren.Caption = "&Osveži" 
+#MODIFIED in 1.5.0
+strFenstertitel = "Naslov" 
+strFensterstatus = "Stanje" 
+strFensterhandle = "Identifikator" 
+strMsgIcons = "Ovaj prikaz je dostupan samo ako aktivirate opciju „Prilagodi ikone radne površine” kako biste rasporedili ikone na različite radne površine. Tu i druge povezane opcije možete naći u podešavanjima, na kartici 'Promena radnih površina'.\n\nŽelite li da aktivirate opciju „Prilagodi ikone radne površine” odmah?" 
+#
+strNormal = "Standardno" 
+strMaximiert = "Uvećan" 
+strMinimiert = "Umanjen" 
+strWiederherstellen = "Vrati" 
+mnuWechseln.Caption = "Prebaci" 
+strFensterAnzahl = "Prozori:" 
+strIconAnzahl = "Ikone:"
+mnuSammeln.Caption = "Sakupi prozore" 
+mnuDesktopKonfigurieren.Caption = "Konfiguriši" 
+tabFenster.Tabs(1).Caption = "Prozori" 
+tabFenster.Tabs(2).Caption = "Pregled" 
+tabFenster.Tabs(3).Caption = "Prikaz" 
+tabFenster.Tabs(4).Caption = "Skriveno" 
+tabFenster.Tabs(5).Caption = "Ikone" 
+strSystemTray = "Sistemska paleta"
+mnuSucheAlles.Caption = "Sve"
+mnuSucheTitel.Caption = "Naziv"
+mnuSucheKlasse.Caption = "Klasa"
+mnuSucheExe.Caption = "Izvršna datoteka"
+
+
+[frmTransparenz] 
+frmTransparenz.Caption = "Prozirnost - Dexpot" 
+cmdUebernehmen.Caption = "Primeni" 
+cmdSchliessen.Caption = "Zatvori" 
+cmdOK.Caption = "&U redu" 
+frmTransparent.Caption = "Prozirnost" 
+lblSichtbar.Caption = "Vidljiv" 
+lblUnsichtbar.Caption = "Nevidljiv" 
+strBitteWaehlen = "Podesite željenu prozirnost za" 
+strUnd = "i" 
+strWeitere = "dodatni prozor(i)" 
+strFestlegen = ":"
+chkFarbe.Caption = "Primeni prozornost na područja ove boje:"
+
+
+[frmPasswort] 
+frmPasswort.Caption = "Lozinka - Dexpot" 
+frmEingabe.Caption = "Lozinka" 
+cmdOK.Caption = "&U redu" 
+cmdAbbrechen.Caption = "&Otkaži" 
+lblInfo.Caption = "Radna površina na koju želite da se prebacite je zaštićena lozinkom. Potrebno je da je unesete:"
+
+
+[frmNeuesProfil] 
+frmNeuesProfil.Caption = "Čuvanje podešavanja u novi profil" 
+lblProfil.Caption = "Sačuvaj &profil kao:" 
+cmdAbbrechen.Caption = "&Otkaži" 
+cmdOK.Caption = "&U redu" 
+strMsgNameNeuesProfil = "Unesite ime novog profila:> 
+strMsgZeichenNeuesProfil = "Ime profila ne sme da sadrži sledeće karaktere:"
+
+
+[frmProfilAuswahl] 
+frmProfilAuswahl.Caption = "Izbor profila – Dexpot" 
+lblWillkommen.Caption = "Dobrodišli u Dexpot! Izaberite želite li da učitate određeni profil ili da koristite prethodna podešavanja." 
+frmProfile.Caption = "Profili" 
+lblProfile.Caption = "Izaberite profil:" 
+cmdProfil.Caption = "Učitaj &profil" 
+cmdLetzte.Caption = "&Koristi prethodnu konfiguraciju"
+
+
+[frmRegeln] 
+frmRegeln.Caption = "Pravila radnih površina – Dexpot" 
+tabRegeln.Tabs(1).Caption = "Rezime"
+tabRegeln.Tabs(2).Caption = "Uslovi"
+tabRegeln.Tabs(3).Caption = "Radnje"
+cmdOK.Caption = "&U redu" 
+cmdAbbrechen.Caption = "&Otkaži" 
+cmdUebernehmen.Caption = "&Primeni" 
+cmdAnwenden.Caption = "P&rimeni pravila" 
+cmdAssi.Caption = "&Pomoćnik"
+cmdNeu.Caption = "&Novo" 
+cmdEntfernen.Caption = "&Izbriši" 
+lblName.Caption = "Naziv" 
+chkDeaktivieren.Caption = "&Deaktiviraj pravilo" 
+frmBedingungen.Caption = "Uslovi" 
+frmAktionen.Caption = "Radnje" 
+cmdNeueBedingung.Caption = "+" 
+cmdBedingungEntfernen.Caption = "-" 
+cmdNeueAktion.Caption = "+" 
+cmdAktionEntfernen.Caption = "-" 
+chkFolgen.Caption = "&Prati posle premeštanja" 
+lblTyp.Caption = "Tip:" 
+lblSucher.Caption = "Alatka za izbor:"
+cmdNeueBedingung.ToolTipText = "Dodajte novi uslov"
+cmdNeueAktion.ToolTipText = "Dodajte novu radnju"
+cmdBedingungEntfernen.ToolTipText = "Izbrišite izabrani uslov"
+cmdAktionEntfernen.ToolTipText = "Izbrišite izabranu radnju"
+cmdImport.Caption = "Uvezi pravila"
+lblSichtbar.Caption = "Vidljiv"
+lblUnsichtbar.Caption = "Nevidljiv"
+cmdDurchsuchen.Caption = "Potraži..."
+frmVerknuepfung.Caption = "Spajanje"
+optVerknuepfung(0).Caption = "Ispunjavanje svih uslova"
+optVerknuepfung(1).Caption = "Ispunjavanje jednog uslova"
+lblWert.Caption = "&Vrednost:"
+frmAusnahmen.Caption = "Ne primenjuj pravilo na"
+chkSichtbar.Caption = "Nevidljive prozore"
+chkRand.Caption = "Prozore bez okvira"
+chkTitel.Caption = "Prozore bez naslova"
+chkTopLevel.Caption = "Podređene prozore"
+chkAutomatisch.Caption = "Automatski primeni pravilo"
+strFenstertitel = "Naslov prozora" 
+strFensterklasse = "Klasa prozora" 
+strAlleFenster = "Svi prozori" 
+strist = "je" 
+strenthaelt = "sadrži" 
+strenthaeltnicht = "ne sadrži" 
+strbeginntmit = "počinje sa" 
+strendetmit = "završava se sa" 
+strAlleBedingungen = "Ispunjavanje svih uslova" 
+strEineBedingung = "Ispunjavanje jednog uslova" 
+strVerschieben = "Premesti" 
+strKopieren = "Kopiraj" 
+strTransparenz = "Podesi prozirnost" 
+strSchliessen = "Zatvori" 
+strund = "i" 
+stroder = "ili" 
+strVerschiebenAuf = "Premesti na površinu" 
+strKopierenAuf = "Kopiraj na" 
+strTransparenzFestlegen = "Podesi prozirnost:" 
+strFensterSchliessen = "Zatvori prozor" 
+strBedingung = "Uslov" 
+strAktion = "Radnja" 
+strNeueRegel = "Novo pravilo" 
+strEXEName = "Izvršna datoteka" 
+strVordergrund = "Uvek na vrhu" 
+strAusfuehren = "Pokreni" 
+strTrayMinimieren = "Umanji u sistemsku paletu" 
+
+#ADDED in Dexpot 1.6
+strRegExp = "ispunjava regularni izraz"
+strRegExpi = "isp. reg. izraz (ne razl. vel. slova)"
+###
+
+
+[frmProfilladen] 
+lblProfilLaden.Caption = "Izaberite elemente profila koje želite da učitate:" 
+optAlle.Caption = "Kompletan &profil" 
+optTeile.Caption = "Samo sledeće &elemente:" 
+frmTeile.Caption = "Elementi profila" 
+chkEinstellungen.Caption = "&Podešavanja" 
+chkHotkeys.Caption = "&Tasterske prečice" 
+chkEigenschaften.Caption = "&Svojstva" 
+chkIcons.Caption = "Pozicije &ikona" 
+chkHintergrund.Caption = "Pozadinske &slike" 
+chkTools.Caption = "&Alatke" 
+chkRegeln.Caption = "P&ravila" 
+chkAutostart.Caption = "A&utomatsko pokretanje"
+frmOptionen.Caption = "Opcije"
+chkSammeln.Caption = "&Sakupi prozore na aktivnoj radnoj površini"
+chkAnwenden.Caption = "&Primeni pravila radnih površina"
+cmdOK.Caption = "&U redu" 
+cmdAbbrechen.Caption = "&Otkaži" 
+strProfilLaden = "Učitavanje profila"
+
+
+[frmRegelImport] 
+frmRegelImport.Caption = "Uvoz/izvoz pravila radnih površina – Dexpot" 
+cmdSchliessen.Caption = "&Zatvori" 
+cmdImportieren.Caption = "<< &Uvezi" 
+cmdExportieren.Caption = "&Izvezi >>" 
+cmdLaden.Caption = "&Učitaj datoteku" 
+cmdErstellen.Caption = "&Napravi datoteku" 
+frmDatei.Caption = "Pravila u datoteci" 
+frmLokal.Caption = "Lokalna pravila" 
+cmdAlleImportieren.Caption = "<< U&vezi sve" 
+cmdAlleExportieren.Caption = "I&zvezi sve >>" 
+cmdLoeschen.Caption = "&Izbr. iz datoteke" 
+strLaden = "Učitavanje datoteke sa pravilima" 
+strErstellen = "Pravljene datoteke sa pravilima" 
+strExt = "Dexpot datoteke sa pravilima" 
+strExt2 = "Dexpot profili"
+strAktionen = "radnja/e" 
+strBedingungen = "uslov(a)" 
+strMsgLoeschen = "Da li zaista želite da izbrišete izabrana pravila iz datoteke?" 
+lblDatei.Caption = "Aktivna datoteka sa pravilima:" 
+strMsgLokalUeber = "Treba li lokalno pravilo" 
+strMsgLokalUeber2 = "da bude zamenjeno istoimenim pravilom iz datoteke sa pravilima?" 
+strMsgDateiUeber = "Pravilo" 
+strMsgDateiUeber2 = "već postoji u datoteci sa pravilima. Želite li da ga zamenite lokalnim pravilom?"
+
+
+[frmVorschau] 
+frmVorschau.Caption = "Pregled radnih površina - Dexpot" 
+mnuSchliessen.Caption = "Zatvori" 
+mnuImHintergrund.Caption = "Automatski sakrij pregled" 
+mnuAutoStart.Caption = "Pokreni sa Dexpot-om" 
+mnuSeitenverhaeltnisErzwingen.Caption = "Nametni pravu razmeru" 
+mnuSeitenverhaeltnisFest.Caption = "Održavaj razmeru" 
+mnuTitel.Caption = "Sakrij naslovnu traku" 
+mnuVerstecken.Caption = "Sakrij sadržaj radne površine" 
+strVersteckt = "[Sadržaj je skriven]"
+mnuSymbolisch.Caption = "Pregled u vidu ikona"
+
+
+[frmIconZieher] 
+frmIconZieher.Caption = "Izdvajanje ikone - Dexpot" 
+lblDatei.Caption = "Pretraži kone u ovoj datoteci"
+cmdDurchsuchen.Caption = "&Potraži..." 
+lblIcons.Caption = "Odaberite ikonu sa sledećeg spiska:" 
+cmdOK.Caption = "&U redu" 
+cmdSchliessen.Caption = "&Otkaži" 
+strMsgKeineDatei = "Datoteka nije pronađena." 
+strMsgKeineIcons = "Datoteka ne sadrži ikone." 
+
+
+[frmKonfig] 
+frmKonfig.Caption = "Konfigurisanje radnih površina - Dexpot" 
+lblPasswort.Caption = "Lozinka:" 
+cmdManagerIcon.Caption = "..." 
+lblManagerIcon.Caption = "Ikona:" 
+lblAufloesung.Caption = "Rezolucija:" 
+lblName.Caption = "Naziv:" 
+cmdWechselSoundAn.Caption = "..." 
+lblWechselsoundAn.Caption = "Zvuk pri ulasku:" 
+cmdWechselSoundAb.Caption = "..." 
+lblWechselsoundAb.Caption = "Zvuk pri izlasku:" 
+cmdStandardIcon.Caption = "Podrazumevano" 
+cmdLoeschenAn.Caption = "X" 
+cmdLoeschenAn.ToolTipText = "Izbriši" 
+cmdLoeschenAb.Caption = "X" 
+cmdLoeschenAb.ToolTipText = "Izbriši" 
+cmdBetretenAbspielen.ToolTipText = "Reprodukuj" 
+cmdVerlassenAbspielen.ToolTipText = "Reprodukuj" 
+cmdManagerIcon.ToolTipText = "Izaberi" 
+cmdStandardIcon.ToolTipText = "Postavi podrazumevani Dexpot simbol za ikonu radne površine" 
+lblBildschirmschoner.Caption = "Čuvar ekrana:" 
+lblWartezeit.Caption = "Zadrška:" 
+cmdBildschirmschoner.Caption = "..." 
+cmdSchonerVorschau.Caption = "Pregled" 
+cmdSchonerEinstellungen.Caption = "Podešavanja" 
+cmdSchliessen.Caption = "&Otkaži" 
+cmdOK.Caption = "&U redu" 
+cmdUebernehmen.Caption = "&Primeni" 
+cmdDurchsuchen.Caption = "&Izaberi..." 
+cmdEntfernen.Caption = "Ukloni sliku" 
+cmbStyle.List(0) = "Centriraj" 
+cmbStyle.List(1) = "Poređaj" 
+cmbStyle.List(2) = "Razvuci"
+#ADDED in Dexpot 1.5
+cmbStyle.List(3) = "Uklopi"
+cmbStyle.List(4) = "Popuni"
+###
+frmKomponentenVerstecken.Caption = "Skrivanje delova radne površine" 
+chkTaskleiste.Caption = "Paleta poslova" 
+chkDesktopIcons.Caption = "Ikone radne površine" 
+chkStartbutton.Caption = "Dugme „Start”" 
+chkTaskbarIcons.Caption = "Sistemska paleta" 
+frmDesktopicons.Caption = "Ikone radne površine" 
+chkUnterschriften.Caption = "Prozirni nazivi ikona" 
+chkKleineSymbole.Caption = "Male ikone" 
+lblAutostartBefehl.Caption = "Komanda:" 
+lblAutostartEreignis.Caption = "Događaj:" 
+cmdAutostartDurchsuchen.Caption = "&Izaberi..." 
+cmdAutostartHinzufuegen.Caption = "Dodaj" 
+cmdAutostartAendern.Caption = "I&zmeni"
+cmdAutostartEntfernen.Caption = "&Ukloni" 
+lblAutostartSchliessen.Caption = "Zatvori:"
+AutoStartEvents.ErstesBetreten = "Prvi ulazak" 
+AutoStartEvents.ErstesVerlassen = "Prvi izlazak" 
+AutoStartEvents.JedesBetreten = "Svaki ulazak" 
+AutoStartEvents.JedesVerlassen = "Svaki izlazak" 
+AutoStartEvents.DexpotStart = "Pokretanje Dexpota" 
+AutoStartEvents.DexpotEnde = "Zaustavljanje Dexpota"
+AutoStartEvents.Nie = "Nikad"
+AutoStartEvents.NaechstesBetreten = "Sledeći ulazak"
+AutoStartEvents.NaechstesVerlassen = "Sledeći izlazak"
+mnuAutostartAusfuehren.Caption = "Pokreni odmah" 
+mnuAutostartAktivieren.Caption = "Aktiviraj" 
+mnuAutostartDeaktivieren.Caption = "Deaktiviraj" 
+tabKonfig.Tabs(1).Caption = "Svojstva" 
+tabKonfig.Tabs(2).Caption = "Pozadina" 
+tabKonfig.Tabs(3).Caption = "Alatke" 
+tabKonfig.Tabs(4).Caption = "Pokretanje" 
+lvAutostart.ColumnHeaders(1).Text = "Komanda" 
+lvAutostart.ColumnHeaders(2).Text = "Događaj" 
+lvAutostart.ColumnHeaders(3).Text = "Zatvaranje"
+chkIconText.Caption = "Sakrij nazive ikona" 
+lblIconGroesse.Caption = "&Veličina ikona:"
+chkSchonerKennwort.Caption = "&Zaštita lozinkom"
+#MODIFIED in 1.5.0
+lblHintergrund.Caption = "Putanja:"
+###
+lblAusrichtung.Caption = "&Poravnanje:"
+lblDesktopFarbe.Caption = "Boja pozadine:"
+strMsgKeinMasterPasswort = "Niste odredili lozinku za jednu ili više radnih površina. Da biste aktivirali Dexpot zaštitu lozinkom, postrebno je da postoji i glavna lozinka.\n\nŽelite li da odredite glavnu lozinku?" 
+strMsgWechselElementAufloesung = "Pre dodeljivanja rezolucije radnoj površini, potrebno je da aktivirate opciju „Prilagodi rezoluciju ekrana” u Dexpot podešavanjima.\n\nŽelite li da aktivirate ovu opciju?" 
+strMsgWechselElementHintergrund = "Pre dodeljivanja pozadine površini, potrebno je da aktivirate opciju „Prilagodi pozadinu” u Dexpot podešavanjima.\n\nŽelite li da aktivirate ovu opciju?" 
+strMsgWechselElementSchoner = "Pre dodeljivanja čovara ekrana radnoj površini, potrebno je da aktivirate opciju „Prilagodi čuvara ekrana” u Dexpot podešavanjima.\n\nŽelite li da aktivirate ovu opciju?" 
+lblIconTextFarbe.Caption = "Boja teksta:"
+mnuKopierenAlles.Caption = "Sve"
+mnuKopieren.Caption = "Kopiraj ovde"
+
+#ADDED in Dexpot 1.6
+lblMultimonitor.Caption = "Režim pozadine za više monitora:"
+cmbMultimonitor.List(0) = "Podrazumevana podešavanja Windowsa"
+cmbMultimonitor.List(1) = "Obuhvati jednom slikom sve monitore"
+cmbMultimonitor.List(2) = "Koristi različitu sliku za svaki monitor"
+###
+
+
+[frmUebersicht] 
+strPasswortGeschuetzt = "[Zaštićen lozinkom]"
+strInDenTrayMinimiert = "Umanjen u sistemsku paletu"
+
+
+[frmRegelAssistent] 
+frmRegelAssistent.Caption = "Pomoćnik za definisanje pravila – Dexpot" 
+lblSchritt1.Caption = "Definisanje novog pravila – korak 1" 
+lblBeschreibung1.Caption = "Ovaj pomoćnik će vas provesti kroz definisanje novog pravila, korak po korak, i pomoći vam da odredite željene uslove i radnje." 
+lblRegelName.Caption = "Naziv novog pravila:" 
+frmRegelOption.Caption = " Definiši iz " 
+optNeueRegel.Caption = "praznog pravila" 
+optVorhandeneRegel.Caption = "postojećeg pravila:" 
+optRegelDatenbank.Caption = "baze podataka o pravilima:" 
+chkDeaktivieren.Caption = "Nemoj aktivirati definisano pravilo" 
+cmdSchritt2.Caption = "&Dalje" 
+cmdCancel.Caption = "&Otkaži" 
+strSchrittTitel1 = "Definisanje novog pravila " 
+strSchrittTitel2 = " – korak " 
+strSchrittTitel3 = " – rezime" 
+lblBeschreibung2.Caption = "U ovom koraku treba da odredite prozore na koje će se novo pravilo primenjivati. Uslove možete da unesete ručno ili da prevučete nišan na prozor za koji nameravate da definišite pravilo." 
+chkAusblenden.Caption = "Sakrij Pomoćnika tokom biranja prozora" 
+frmUndOderOder.Caption = " Logička operacija " 
+optEineRegel.Caption = "Ispunjavanje jednog uslova" 
+optAlleRegeln.Caption = "Ispunjavanje svih uslova" 
+frmBedingung.Caption = " Uslov" 
+cmdBdgLoeschen.Caption = "&Izbriši..." 
+cmdBdgHinzufuegen.Caption = "&Dodaj" 
+cmdZurueckZu1.Caption = "&Nazad" 
+cmdSchritt3.Caption = "&Dalje" 
+strMindEineBedingung = "Morate da definišete barem jedan validan uslov." 
+strMaxBedingungen = "Dodavanje dodatnih uslova u okviru Pomoćnika nije moguće. Međutim, više uslova možete dodati nakon definisanja pravila." 
+lblBeschreibung3.Caption = "Sada možete da definišete radnje koje će biti primenjene na sve prozore koji ispunjavaju ranije određene uslove." 
+frmBedingungListe.Caption = " Uslovi " 
+frmAktion.Caption = " Radnja" 
+cmdAknLoeschen.Caption = "&Izbriši..." 
+cmdAknHinzufuegen.Caption = "&Dodaj" 
+chkFolgen.Caption = "Prati nakon premeštanja" 
+lblSichtbar.Caption = "Vidljiv" 
+lblUnsichtbar.Caption = "Nevidljiv" 
+cmdDurchsuchen.Caption = "Potraži..." 
+cmdZurueckZu2.Caption = "&Nazad" 
+cmdFertig.Caption = "&Dalje" 
+strMindEineAktion = "Još uvek nisu definisane validne radnje. Možete da definišete novo pravilo sada, a kasnije da mu dodate radnje." 
+strMaxAktionen = "Dodavanje dodatnih radnji u okviru Pomoćnika nije moguće. Međutim, više radnji možete dodati nakon definisanja pravila." 
+lblBeschreibung4.Caption = "Sledi spisak svih uslova i radnji koje su definisane za novo pravilo. Kliknite na „Završi” da biste sačuvali pravilo." 
+cmdZurueckZu3.Caption = "&Nazad" 
+cmdOK.Caption = "&Završi"
+strRegelErsetzen = "Pravilo istog naziva već postoji. Kliknite na „Da” da biste ga prepisali, „Ne” da biste napravili pravilo sa istim nazivom ili „Otkaži” da biste promenili naziv pravila."
+strWiderspruch1 = "Uslovi"
+strWiderspruch2 = "i"
+strWiderspruch3 = "su kontradiktorni. Proverite ove uslove."
+
+
+[frmWechselLeiste]
+strFenster = "Prozori:"
+strAktiv = "Aktivni:"
+strKlick = "Jednostruki klik:"
+strDoppelKlick = "Dvostruki klik:"
+
+
+[frmSplash]
+lblFuer.Caption = "registrovan na:"
+strMsgUngueltig = "Nevažeći licencni ključ."
+
+#ADDED in Dexpot 1.5.2
+strMsgWindowsZuAlt = "Ova verzija Dexpota više ne podržava vaš operativni sistem. Preuzmite Dexpot 1.4 sa adrese http://download.dexpot.de.\n\nDexpot će se sada zatvoriti. Izvinjavamo se zbog neugodnosti."
+###
+
+#ADDED in Dexpot 1.5.11
+strCommonControlsQuestion = "Windows zajedničke kontrole nisu pravilno instalirane na sistemu. Želite li da Dexpot pokuša da reši ovaj problem?"
+strCommonControlsCritical = "Windows zajedničke kontrole (mscomctl.ocx) nisu pravilno instalirane na sistemu. Dexpot će se sada zatvoriti.\n\nViše informacija potražite na adresi"
+###
+
+
+#ADDED in Dexpot 1.6
+[frmIconanpassung]
+frmIconanpassung.Caption = "Prilagođavanje ikona radne površine - Dexpot"
+cmdOK.Caption = "U redu"
+cmdCancel.Caption = "Otkaži"
+frmOptionen.Caption = "Opcije"
+optAnpassung(0).Caption = "Napravi poseban direktorijum za svaku radnu površinu"
+optAnpassung(1).Caption = "Koristi deljeni zajednički direktorijum za sve radne površine"
+chkKeepDesktop.Caption = "Koristi originalni Windows direktorijum kao prvu površinu"
+chkAusrichten.Caption = "Poravnaj ikone"
+chkAnordnen.Caption = "Automatski rasporedi ikone"
+strMigration = "Želite li da Dexpot kopira datoteke sa radne površine u nove odvojene direktorijume prema njihovoj postojećoj raspodeli?"
+###
+
+
+#ADDED Dexpot 1.4.2
+[frmUpdater]
+frmUpdater.Caption = "Program za ažuriranje Dexpota"
+cmdAbbrechen.Caption = "Otkaži"
+cmdWeiter.Caption = "Proveri ažurnost"
+lblInstallierteVersion.Caption = "Instalirana verzija Dexpota:"
+lblVersionVerfuegbar.Caption = "Najnovija dostupna verzija:"
+lblUpdater.Caption = "Dobrodošli u program za ažuriranje Dexpota"
+lblUpdater2.Caption = "Nova verzija je dostupna"
+lblUpdater3.Caption = "Ažuriranje je u toku"
+lblUpdater4.Caption = "Ažuriranje je završeno"
+lblText.Caption = "Ovaj program za ažuriranje vam omogućava da ažurirate instalaciju Dexpota na najnoviju verziju.\n\nAko je nova verzija dostupna, Dexpot će morati da se zatvori kako bi se primenilo ažuriranje. Takođe preporučujemo zatvaranje svih drugih aplikacija.\n\nPre nego što nastavite, uverite se u funkcionisanje veze sa Internetom. Zatim kliknite na „Proveri ažurnost programa”."
+lblKeinUpdate.Caption = "Već koristite najnoviju verziju Dexpota."
+lblAbgeschlossen.Caption = "Instalacija ažuriranja je završena."
+lblNeustart.Caption = "Neke datoteke su i dalje u upotrebi i njihova zamena će biti moguća tek po ponovnom pokretanju Windowsa.\n\nInstalacija će automatski biti dovršena pri sledećem pokretanju Dexpota."
+lblText2.Caption = "Kliknite na Instaliraj da biste izvršili automatsko ažuriranje na najnoviju verriju."
+lblFortschritt.Caption = "Napredan instalacije:"
+chkBeta.Caption = "Prikaži beta verzije"
+chkDexpotStarten.Caption = "Pokreni Dexpot"
+cmdMehrInformationen.Caption = "Više informacija"
+lvUpdates.ColumnHeaders(1).Text = "Verija"
+lvUpdates.ColumnHeaders(2).Text = "Opis"
+strBeenden = "Dexpot mora biti zatvoren radi instaliranja ažuriranja.\n\nŽelite li da zatvorite Dexpot?"
+strUnbekannt = "nepoznato"
+strKeinDexpot = "Instalacija Dexpota nije pronađena!"
+strInstallieren = "Instaliraj"
+strFortsetzung = "Instalacija se nastavlja"
+strUnvollstaendig = "Instalacija nije završena"
+strNichtErfolgreich = "Nije moguće završiti instalaciju."
+strFertigstellen = "Završi"
+strInstalliere = "Instaliranje"
+strUpdate = "Ažuriranje"
+strLoesche = "Uklanjanje"
+strZusaetzlich = "Instaliranje neophodnih dodatnih ažuriranja"
+strAbhaengig = "Zavisnosti za ažuriranje su zadovooljene"
+strHerunterladen = "Preuzimanje"
+strEntpacken = "Raspakivanje"
+strAbgeschlossen = "Završeno je ažuriranje na verziju"
+strBenutzer = "Korisnik"
+strPasswort = "Lozinka"
+strDownloadFehler = "Greška pri priuzimanju"
+strEntpackenFehler = "Greška pri raspakivanju"
+strProUpdate = "Vaša licenca za Dexpot Pro nije kompatibilna sa novom verzijom. Nakon instalacije, biće potrebno da otključate Dexpot unošenjem novog licencnog ključa. Informacije o ažuriranju licence možete pronaći na adresi http://pro.dexpot.de/.\n\nŽelite li da nastavite sa instalacijom?"
+###
+
+#ADDED in Dexpot 1.5
+[frmDexcube]
+frmDexcube.Caption = "Podešavanja - Dexcube"
+cmdOK.Caption = "&U redu"
+cmdAbbrechen.Caption = "&Otkaži"
+cmdUebernehmen.Caption = "&Primeni"
+frmSwitchAnimation.Caption = "Animacija pri promeni radne površine"
+lblSwitchAnimation.Caption = "Efekat:"
+lblZoomAutomatic.Caption = "Uvećanje:"
+frmEffects.Caption = "Efekti"
+chkUseLighting.Caption = "Senka"
+chkUseAlphaBlending.Caption = "Prozirnost"
+frmDuration.Caption = "Brzina animacije"
+lblCubeDurationBase.Caption = "Kocka (min. trajanje):"
+lblCubeDurationPerDesktop.Caption = "Kocka (po površini):"
+lblBrettDuration.Caption = "Ploča:"
+lblWallDuration.Caption = "Zid i filmska traka:"
+lblZoomDuration.Caption = "Uvećanje:"
+strKein = "Bez efekta"
+strWuerfel = "Kocka"
+strBrett = "Ploča"
+strWand = "Zid"
+strStreifen = "Filmska traka"
+strMaximal = "Maksimalno"
+strMinimal = "Minimalno"
+strVariabel = "Promenljivo"
+chkMultithreading.Caption = "Višenitni rad"
+frmLeistung.Caption = "Performanse"
+
+
+[frmWallpaperClock]
+frmWallpaperClock.Caption = "Wallpaper Clock - Dexpot"
+lblAuthorLabel.Caption = "Autor:"
+lblStyle.Caption = "Pozicija:"
+chk24Hour.Caption = "Koristi 24-časovni format"
+cmdSelectFolder.Caption = "Izaberi direktorijum..."
+lblGetMoreClocks.Caption = "Preuzmite još časovnika na adresi:"
+cmdOK.Caption = "&U redu"
+cmdApply.Caption = "&Primeni"
+cmdCancel.Caption = "&Otkaži"
+strKeineClock = "(obična pozadina)"
+frmVorschau.Caption = "Pregled"
+lblSizeLabel.Caption = "Veličina:"
+strBrowseForFolder = "Izaberite direktorijum sa datotekama časovnika (*.wcz):"
+
+
+[Dexcube]
+Description = "Dexcube omogućava prikaz brojnih 3D efekata pri promeni radne površine. Zahteva DirectX 9."
+HotkeyManualControl = "Ručna kontrola"
+HotkeyManualControlNext = "Sledeća"
+HotkeyManualControlPrevious = "Prethodna"
+
+[SevenDex]
+Description = "SevenDex integriše dugme za promenu radnih površina u Windows 7 paletu poslova."
+
+[Slideshow]
+Description = "Projekcija radnih površina automatski menja radnu površinu po isteku definisanog vremenskog intervala."
+HotkeyDesktopSlideshow = "Projekcija radnih površina"
+HotkeySlideshowstarten = "Pokreni projekciju"
+HotkeySlideshowanhalten = "Zaustavi projekciju"
+
+[Wallpaper Clock]
+Description = "Ovaj dodatak omogućava postavljanje posebnih časovnika na svaku radnu površinu."
+###
+
+#ADDED in Dexpot 1.5.5
+[Taskbar Pager]
+Description = "Ovaj dodatak integriše nešto slično „Pregledu radnih površina” direktno u Windows paletu poslova."
+HotkeyHidePager= "Sakrij"
+###
+
+
+#ADDED in Dexpot 1.5.7
+[frmTaskbarPager]
+frmTaskbarPager.Caption = "Podešavanja - Taskbar Pager"
+frmLayout.Caption = "Izgled"
+frmWindows.Caption = "Prozori"
+lblCellSize.Caption = "Veličina ćelije:"
+lblCellSpacing.Caption = "Razmak između ćelija:"
+lblBorderSize.Caption = "Širina okvira:"
+lblRowCount.Caption = "Broj redova:"
+lblColumnCount.Caption = "Broj kolona:"
+chkFlashing.Caption = "Sakrij trepćuće prozore"
+chkToolWindows.Caption = "Prikaži prozore alatke"
+cmdCancel.Caption = "Otkaži"
+cmdOK.Caption = "U redu"
+cmdApply.Caption = "Primeni"
+###
+
+
+#ADDED in Dexpot 1.5.10
+[Dexgrid]
+Description = "Raspoređuje radne površine u vidu mreže, dodaje prečice za prebacivanje gore i dole u okviru nje i prikazuje animaciju prilikom prebacivanja."
+HotkeySwitchleft = "Prebaci nalevo"
+HotkeySwitchright = "Prebaci nadesno"
+HotkeySwitchup = "Prebaci nagore"
+HotkeySwitchdown = "Prebaci nadole"
+HotkeyMovewindowleft = "Premesti prozor nalevo"
+HotkeyMovewindowright = "Premesti prozor nadesno"
+HotkeyMovewindowup = "Premesti prozor nagore"
+HotkeyMovewindowdown = "Premesti prozor nadole"
+HotkeyCopywindowleft = "Kopiraj prozor nalevo"
+HotkeyCopywindowright = "Kopiraj prozor nadesno"
+HotkeyCopywindowup = "Kopiraj prozor nagore"
+HotkeyCopywindowdown = "Kopiraj prozor nadole"
+
+[frmDexgrid]
+frmDexgrid.Caption = "Podešavanja - Dexgrid"
+lblRowCount.Caption = "Broj redova:"
+chkAnimation.Caption = "Prikaži animaciju pri prebacivanju"
+cmdOK.Caption = "U redu"
+cmdCancel.Caption = "Otkaži"
+###

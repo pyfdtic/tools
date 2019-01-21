@@ -1,0 +1,1313 @@
+[Info] 
+Name = "Українська (Ukrainian)"
+Autor = "Bonsai (L'viv, 2014)" 
+AutorMail = 
+Kommentar = "Український мовний пакет для Dexpot_1612_r2416."
+Locale=1058
+Charset=204
+Backup=english.dxs
+
+#Dexpot 1.6.12 [$Id: ukrainian.dxs 2424 2014-05-22 10:50:57Z Patrick $]
+
+[Global] 
+strDexpot = "Dexpot - Віртуальні робочі столи для Windows"
+strVorheriger = "Dexpot - Попередній робочий стіл" 
+strNaechster = "Dexpot - Наступний робочий стіл" 
+strDesktop = "Робочий стіл" 
+strAlleDesktops = "Всі робочі столи" 
+strKein = "(Немає)" 
+strMsgFortfahren = "Хочете продовжити?" 
+strMsgDesktopanzahl = "Вибране число столів менше від попереднього, тому вся інформація про попередні столи буде втрачена. Всі вікна з цих столів будуть переміщені на поточний стіл. Якщо ж видаляється поточний робочий стіл, Dexpot переключиться на перший робочий стіл." 
+strMsgVersuchenZuErsetzen = "Dexpot спробує перемістити їх." 
+strMsgProblem = "Якщо ця проблема зустрічається надалі:" 
+strMsgHinweisDesktopanzahl = "Повідомляти при зміні кількості робочих столів - Dexpot" 
+strMsgAufloesungTitel = "Зміна розд. здатності екрану - Dexpot" 
+strMsgNichtAendern = "Неможливо змінити розд. здатність." 
+strMasterPasswortAnfordern = "Захист паролем Dexpot активовано. Щоб виконати бажане завдання, Вам необхідно ввести головний пароль:" 
+strPasswortAnfordern = "Захист паролем Dexpot активовано. Щоб виконати бажане завдання, Ви повинні ввести пароль для відповідного робочого столу:"
+strMasterPasswortAendern = "Ви можете змінити головний пароль Dexpot тут:" 
+strAltesPasswort = "Старий пароль:" 
+strNeuesPasswort = "Новий пароль:" 
+strBestaetigung = "Підтвердження:" 
+strMsgPasswortFehler = "Помилка при введенні пароля" - Dexpot 
+strMsgUebereinstimmung = "Новий пароль і підтвердження не збігаються. Скорегуйте ваші дані." 
+strMsgAltesFalsch = "Невірний старий пароль!" 
+strKeineAnderen = "Інших вікон не існує" 
+strKeineFenster = "На цьому робочому столі немає вікон" 
+strMsgIconsEntfernen = "Справді хочете видалити вибрані іконки з цього столу?\n\nВи знайдете видалені іконки, які не видно на будь-якому столі в 'Вікна робочих столів - Іконки - Приховані'." 
+strMsgIconsEntfernenTitel = "Видалення іконок - Dexpot" 
+strMaximieren = "Розгорнути" 
+strMinimieren = "Згорнути" 
+strStandard = "За замовчуванням" 
+strMsgRegelnAktiviert = "Правила робочого столу включені" 
+strMsgRegelnDeaktiviert = "Правила робочого столу відключені" 
+strFensterMinimiert = "вікно(а) згорнуто" 
+strMsgStandardGeladen = "Профіль за замовчуванням успішно імпортовано." 
+strMsgStandardNichtGefunden = "Профіль за замовчуванням не знайдений."
+strFilterBilder = "Всі файли малюнків"
+strFilterProgramme = "Програми"
+strFilterAlle = "Всі файли"
+strFilterAlleSymbole = "Всі файли значків"
+strFilterBibliotheken = "Бібліотеки"
+strFilterSymbole = "Значки"
+strFilterSound = "WAV-файли"
+strBeimNaechstenWechsel = "На наступний стіл"
+
+#ADDED in Dexpot 1.5
+strHorizontalMaximieren = "Розгорнути горизонтально"
+strVertikalMaximieren = "Розгорнути вертикально"
+strMsgProfilStandardGefahr = "Завантаження стандартного профілю призведе до втрати Ваших налаштувань.\nПереконайтеся, що Ваші налаштування були збережені в окремому профілі.\n\nХочете продовжити?"
+###
+
+#ADDED in Dexpot 1.6
+strMonitor = "Монітор"
+###
+
+
+[frmTaskleiste] 
+#ADDED in Dexpot 1.6
+mnuAppAssignment.Caption = " Прив'язка додатків"
+###
+mnuEinstellungen.Caption = " Налаштування" 
+mnuWechselLeiste.Caption = " Менеджер робочих столів" 
+mnuSlideshow.Caption = " Слайдшоу робочих столів" 
+mnuDesktopFenster.Caption = "Вікна робочих столів" 
+mnuInfo.Caption = " Про програму" 
+mnuBeenden.Caption = " Вийти" 
+mnuAusrichten.Caption = "Приклеїти до краю екрану" 
+mnuLaden.Caption = "Автозапуск при завантаженні " 
+mnuAktivesFenster.Caption = "Показувати іконки активних вікон" 
+mnuMausrad.Caption = "Перемикати коліщатком миші" 
+mnuPositionHalten.Caption = "Блокувати позицію" 
+mnuImVordergrund.Caption = "Завжди зверху" 
+mnuOrientierung.Caption = "Вертикальна орієнтація" 
+mnuTransparent.Caption = "Прозорий фон" 
+mnuSchliessen.Caption = "Закрити" 
+mnuVerschiebenListe.Caption = "Перемістити інші вікна на цей стіл" 
+mnuKopierenListe.Caption = "Копіювати інші вікна на цей стіл" 
+mnuRegeln.Caption = " Правила робочого столу" 
+mnuFarbe.Caption = "Застосувати колір фону " 
+mnuGroesse.Caption = "Вибрати розмір значків" 
+mnuVorschau.Caption = " Перегляд робочих столів" 
+mnuBoo.Caption = "Показати додаткову кнопку" 
+mnuKonfig.Caption = " Налаштувати робочі столи" 
+mnuVerschollen.Caption = "Показати на поточному столі" 
+mnuTransparenz.Caption = "Прозорість" 
+mnuTransparenzFestlegen.Caption = "Встановити прозорість" 
+mnuTransparenzErhoehen.Caption = "Збільшити прозорість" 
+mnuTransparenzVerringern.Caption = "Зменшити прозорість" 
+mnuVerschieben.Caption = "Перемістити" 
+mnuKopieren.Caption = "Копіювати" 
+mnuSchliessen.Caption = "Закрити" 
+mnuSchliessenAufDiesem.Caption = "на цьому столі" 
+mnuSchliessenAufAnderen.Caption = "на всіх інших столах" 
+mnuSchliessenAufAllen.Caption = "скрізь (закрити програму)" 
+mnuTrayMinimieren.Caption = "Згорнути в трей" 
+mnuVordergrund.Caption = "Завжди зверху" 
+mnuDMSchliessen.Caption = "Закрити" 
+mnuEntfernen.Caption = "Видалити" 
+mnuRegelErstellen.Caption = "Створити правило..."
+mnuSchoner.Caption = "Запустити заставку"
+mnuRegelnAnwenden.Caption = "Застосувати правила"
+mnuIconsWiederherstellen.Caption = "Відновити значки"
+mnuIconsLaden.Caption = "Завантажити значки з поточного профілю"
+mnuVollbildVorschau.Caption = " Повноекранний перегляд"
+mnuSchwaerzen.Caption = "Гасіння столу"
+mnuDexpose.Caption = " Каталог вікон"
+mnuAufrollen.Caption = "Згорнути"
+mnuRegelnAnwendenAufFenster.Caption = "Застосувати правила до цього вікна"
+
+#ADDED in Dexpot 1.6
+mnuFeedback.Caption = " Забезпечити Beta Feedback"
+###
+
+#ADDED in Dexpot 1.6.10
+mnuDMMoveIcons.Caption = "Перемістити вибрані значки робочого столу сюди"
+mnuDMCopyIcons.Caption = "Копіювати вибрані значки робочого столу сюди"
+###
+
+[frmBeenden] 
+frmBeenden.Caption = "Вийти з Dexpot?" 
+cmdAbbrechen.Caption = "Скасування" 
+cmdBeenden.Caption = "В&ийти" 
+optBeenden(0).Caption = "Перемістити всі вікна на цей стіл"
+optBeenden(1).Caption = "Закрити всі вікна не з цього столу"
+
+
+[frmInfo] 
+frmInfo.Caption = "Про програму Dexpot"
+tabInfo.TabCaption(0) = "Загальні" 
+cmdOK.Caption = "&OK"
+frmRegistrierung.Caption = "Дані ліцензії"
+cmdRegistrieren.Caption = "&Зареєструвати" 
+lblMail.Caption = "Email:"
+lblLizenzschluessel.Caption = "Ліцензійний код:"
+lblInternet.Caption = "Сайт:"
+lblWenn.Caption = "Dexpot вільний для приватного використання. Але, якщо Вам сподобалася ця програма, підтримайте її пожертвою."
+strSpenden = "Реєстрація"
+strLizenz = "Ліцензія" 
+strMsgDanke = "Дякуємо за реєстрацію!" 
+strMsgUngueltig = "Невірний ліцензійний ключ! Спробуйте ще раз." 
+strMsgProblem = "Якщо у Вас є проблеми, пишіть нам:" 
+lblName.Caption = "Компанія:"
+lblEmail.Caption = "Ім'я користувача:"
+lblWechsel.Caption = "Перемикань столів:"
+lblLaufzeit.Caption = "Час роботи:"
+lblTausend.Caption = "Це було ваше 1000-е перемикання робочого столу в Dexpot!"
+lblTausendText.Caption = "Не хвилюйтеся, це не випробувальна версія, яка закінчується після тисячі перемикань. Ми більше не потурбуємо Вас, але раз Ви будете використовувати програму постійно, ми хотіли б привернути вашу увагу до даного факту:"
+lblNutzungsbedingungen.Caption = "Перегляд ліцензійної угоди"
+cmdUpdate.Caption = "Перевірка &оновлень..."
+strNeueLizenz = "Ваш ключ ліцензії не підходить до цієї версії.\nВідвідайте сайт для роз'яснень:"
+strEmailBetreff = "Повідомлення про проблему з Dexpot"
+strEmailNachricht = "Вітання групі Dexpot,\n\nЯ задам запитання. Тому я заповнив форму, подану нижче.\n\nПовідомлення:\n\nПомилка у цьому модулі:\n\nКроки відтворення помилки:\n\nЗапущені додатки:\n\nІнформація про версію:"
+
+#ADDED in Dexpot 1.6
+lblPurchase.Caption = "Купити Dexpot 1.6 Pro"
+lblEvaluation.Caption = "Оціночний період:"
+lblEvaluationLeft.Caption = "%i днів залишилося"
+strLastDay = "останній день"
+strExpired = "минув"
+strEvaluationExpired = "Оціночний період закінчився. Купуйте ліцензію для подальшого використання Dexpot."
+###
+
+
+[frmSlideshow] 
+frmSlideshow.Caption = "Слайдшоу робочих столів - Dexpot" 
+optRueckwaerts.Caption = "Назад" 
+optVorwaerts.Caption = "Вперед"
+cmdSchliessen.Caption = "&OK" 
+cmdUebernehmen.Caption = "&Старт" 
+cmdAbbrechen.Caption = "&Стоп" 
+frmEinstellungen.Caption = "Робочі столи" 
+lblSek.Caption = "сек"
+
+#ADDED in Dexpot 1.5.0
+cmdDesktops.Caption = "Вибрати"
+lblIntervall.Caption = "Інтервал:"
+chkEndlos.Caption = "Цикл"
+strAnhalten = "&Пауза"
+strFortsetzen = "&Продовжити"
+###
+
+#ADDED in Dexpot 1.5.9
+frmRichtung.Caption = "Напрямок"
+###
+
+#ADDED in Dexpot 1.6.2
+frmOptions.Caption = "Опції"
+chkAutostart.Caption = "Починати слайд-шоу автоматично"
+###
+
+
+[frmEinstellungen] 
+frmEinstellungen.Caption = "Налаштування - Dexpot" 
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Скасування" 
+cmdUebernehmen.Caption = "&Застосувати" 
+fuchsFeuer(1).Caption = "Загальні" 
+fuchsFeuer(2).Caption = "Вигляд" 
+fuchsFeuer(3).Caption = "Компоненти" 
+fuchsFeuer(4).Caption = "Елементи управління" 
+fuchsFeuer(5).Caption = "Перемикання столів"
+fuchsFeuer(6).Caption = "Плагіни та модулі"
+
+#Allgemein 
+frmZahl.Caption = "Кількість робочих столів" 
+lblDesktopzahl.Caption = "Кількість столів:" 
+lblStartDesktop.Caption = "Початковий стіл:" 
+frmInternational.Caption = "Мова інтерфейсу" 
+lblSprache.Caption = "Вибрати мову:" 
+cmdSprachinfo.Caption = "Про мову" 
+frmStart.Caption = "Запуск програми" 
+chkAutostart.Caption = "Автозапуск з Windows" 
+chkStartBildschirm.Caption = "Приховувати заставку" 
+chkProfilAuswahl.Caption = "Показати список профілів при запуску" 
+chkLetzteKonfigurationLaden.Caption = "Автозавантаження останнього профілю після" 
+lblPrioritaet.Caption = "Пріоритет процесу:" 
+cmbPrio.List(0) = "Реального часу" 
+cmbPrio.List(1) = "Високий" 
+cmbPrio.List(2) = "Нормальний" 
+cmbPrio.List(3) = "Низький" 
+frmBeenden.Caption = "Вихід" 
+chkSchnellesBeenden.Caption = "Вихід без вікна підтвердження" 
+chkProfilSpeichern.Caption = "Зберігати профіль при виході" 
+frmProfile.Caption = "Профілі" 
+lblProfile.Caption = "Вибрати профіль:" 
+cmdProfilLaden.Caption = "Завантажити" 
+cmdProfilUeberschreiben.Caption = "Зберегти" 
+cmdProfilSpeichern.Caption = "Зберегти як..." 
+cmdProfilLoeschen.Caption = "Видалити"
+
+#ADDED in Dexpot 1.4.2
+chkAutoUpdate.Caption = "Перевіряти оновлення"
+###
+
+#ADDED in Dexpot 1.5.0
+chkAdmin.Caption = "Запуск від Адміністратора"
+lblTrayIconAktionEinfach.Caption = "Ctrl+клік на значку в треї відкриє:"
+###
+
+#Ansicht 
+frmTrayIcon.Caption = "Іконка в треї" 
+optTrayicon(0).Caption = "Без іконки" 
+optTrayicon(1).Caption = "Значок програми" 
+optTrayicon(2).Caption = "Поточний стіл" 
+optTrayicon(3).Caption = "Попередній/наступний стіл" 
+optTrayicon(4).Caption = "По одному значку на стіл" 
+frmSystemmenues.Caption = "Системне меню" 
+chkSystemmenues.Caption = "Додати підменю Dexpot в системне меню всіх вікон" 
+frmTransparenzManager.Caption = "Прозорість"
+lblUnsichtbar.Caption = "Прозоре" 
+lblSichtbar.Caption = "Непрозоре" 
+frmTrayMinimieren.Caption = "Вікна, згорнуті в трей"
+chkTraycontainer.Caption = "Використовувати контейнер для вікон, згорнутих у трей" 
+chkTMFDoppelklick.Caption = "Відновлювати подвійним кліком"
+lblTrayIconAktion.Caption = "По подвійному кліку:"
+
+#ADDED in Dexpot 1.6.3
+lblTrayiconMode.Caption = "Режим:"
+lblTrayiconSet.Caption = "Візуальний стиль:"
+###
+
+#ADDED in Dexpot 1.6
+frmFullscreenDetection.Caption = "Повноекранні додатки"
+chkFullscreenDetection.Caption = "Приховувати компоненти Dexpot в активних повноекранних додатках"
+###
+
+#Komponenten 
+tabKomponenten.Tabs(1).Caption = "Менеджер столів" 
+tabKomponenten.Tabs(2).Caption = "Перегляд столів" 
+tabKomponenten.Tabs(3).Caption = "DexTab-перемикач панелі завдань"
+
+#ADDED in Dexpot 1.6
+tabKomponenten.Tabs(4).Caption = "Повний екран"
+###
+
+##Desktop Manager 
+frmOptionenManager.Caption = "Налаштування" 
+chkManagerAutostart.Caption = "Запускати разом з Dexpot" 
+chkAktiveFensterVorschau.Caption = "Показувати значки активних вікон" 
+chkMausrad.Caption = "Перемикати коліщатком миші" 
+chkAmRandAusrichten.Caption = "Приклеювати до краю екрану" 
+chkPositionHalten.Caption = "Блокувати позицію" 
+chkMiniDM.Caption = "Маленькі значки"
+frmManagerBoo.Caption = "Додаткова кнопка"
+chkManagerBoo.Caption = "Показати додаткову кнопку"
+lblManagerBooIcon.Caption = "Іконка:"
+cmdManagerBooIcon.Caption = "..."
+cmdManagerBooIconStandard.Caption = "Замовчування"
+lblManagerBooEinfach.Caption = "По одинарному кліку:"
+lblManagerBooDoppelt.Caption = "По подвійному кліку:"
+#ADDED in 1.5.1
+lblManagerBooMittel.Caption = "По кліку коліщатком:"
+###
+frmManagerHintergrund.Caption = "Фон" 
+optManagerHintergrundStandard.Caption = "За замовчуванням" 
+optManagerHintergrundFarbe.Caption = "Монохромний" 
+optManagerHintergrundTransparent.Caption = "Прозорий" 
+cmdManagerFarbe.Caption = "..." 
+frmOrientierung.Caption = "Орієнтація" 
+optHorizontal.Caption = "Горизонтально" 
+optVertikal.Caption = "Вертикально" 
+cmdHotkeyManager.Caption = "Гарячі клавіші"
+
+##Desktop Vorschau 
+chkVorschauAutostart.Caption = "Запускати разом з Dexpot" 
+chkVorschauTitelleiste.Caption = "Приховати заголовок" 
+frmVorschauVerhalten.Caption = "Поведінка" 
+chkVorschauHintergrund.Caption = "Автоприховування" 
+chkVorschauVerhaeltnisHalten.Caption = "Зберігати ступінь стиснення" 
+chkVorschauVerhaeltnisErzwingen.Caption = "Примусова корекція ступеня стиснення" 
+frmVorschauFarben.Caption = "Кольори"
+lblVorschauFarbeAktiv.Caption = "Активний стіл:" 
+lblVorschauFarbeInaktiv.Caption = "Неактивний стіл:" 
+lblVorschauFarbeRahmen.Caption = "Границя вікна:" 
+lblVorschauFarbeTitel.Caption = "Заголовок вікна:"
+
+lblHotkeyDefinieren.Caption = "Гарячі клавіші:"
+frmVorschauDarstellung.Caption = "Поява"
+optVorschauDarstellungSkizzen.Caption = "Ескізи вікон"
+optVorschauDarstellungSymbole.Caption = "Значки"
+
+##DexTab
+chkDexTabSortieren.Caption = "Впорядковувати вікна по заголовку" 
+chkDexTabTrayicons.Caption = "Показувати вікна, згорнуті в трей" 
+chkDexTabNurTaskleiste.Caption = "Показувати вікна, перераховані в панелі завдань" 
+frmDexTabMarkierung.Caption = "Початкове виділення"
+optDexTabMarkierungAktiv.Caption = "Активне вікно" 
+optDexTabMarkierungLetztes.Caption = "Останнє активне вікно" 
+frmDexTabFarben.Caption = "Кольори" 
+lblDexTabFensterVordergrund.Caption = "Текст:" 
+lblDexTabFensterHintergrund.Caption = "Фон:" 
+lblDexTabMarkierung.Caption = "Виділення:" 
+cmdDexTabSystemfarben.Caption= "Системні кольори"
+
+#ADDED in Dexpot 1.5.0
+frmDexTabMarkierungDesktops.Caption = "Початковий маркер перемик. столу"
+optDexTabMarkierungDesktops(0).Caption = "Активний стіл"
+optDexTabMarkierungDesktops(1).Caption = "Останній активний стіл"
+###
+
+#ADDED in Dexpot 1.6
+chkDexTabLeereDesktops.Caption = "Показувати порожні столи"
+###
+
+##Fensterkatalog
+
+#ADDED in Dexpot 1.6
+##Vollbild
+frmDexControl.Caption = "DexControl"
+chkDexControl.Caption = "Вик. інтерактивний повноекранний перегляд і каталог вікон"
+lblDexControlAnimationSpeed.Caption = "Швидкість анімації:"
+chkDexControlShowLabels.Caption = "Показувати маркери вікон у вигляді мозаїки "
+chkDexControlExcludedMonitors.Caption = "Показувати на моніторах, виключених з перемикання"
+###
+
+#ADDED in Dexpot 1.6.8
+chkDexControlStartTiled.Caption = "Запуск повноекранного попереднього перегляду у вигляді мініатюр "
+chkDexControlStartZoomed.Caption = "Запуск повноекранного перегляду із збільшенням поточного столу"
+chkDexControlMiddleButton.Caption = "Коліщатко миші закриває вікна у вигляді мініатюр "
+###
+
+#ADDED in Dexpot 1.6.11
+chkDexControlCombineMonitors.Caption = "Комбінувати монітори з однаковим розміром "
+###
+#Steuerung
+tabSteuerung.Tabs(1).Caption = "Гарячі клавіші" 
+tabSteuerung.Tabs(2).Caption = "Перемикання мишею"
+tabSteuerung.Tabs(3).Caption = "Заголовки"
+
+##Hotkeys 
+frmHotkeys.Caption = "Комбінації клавіш" 
+chkHotkeyModifikator(0).Caption = "Alt" 
+chkHotkeyModifikator(1).Caption = "Shift" 
+chkHotkeyModifikator(2).Caption = "Ctrl" 
+chkHotkeyModifikator(3).Caption = "Клавіша Windows" 
+cmdHotkeyDefinieren.Caption = "&Визначити" 
+cmdHotkeyLoeschen.Caption = "&Видалити" 
+cmdHotkeyFortsetzung.Caption = "&Продовжити серію" 
+frmHotkeyErklaerug.Caption = "Пояснення" 
+HotkeyTexte(1) = "Переміщує активне вікно на відповідний робочий стіл." 
+HotkeyTexte(2) = "Копіює активне вікно на відповідний робочий стіл."
+HotkeyTexte(3) = "Відкриває або закриває відповідний модуль Dexpot." 
+HotkeyTexte(5) = "Генерує чорне зображення на екрані. Щоб відновити робочий стіл, знову натисніть гарячу клавішу." 
+HotkeyTexte(6) = "Перемикає назад на останній відвіданий робочий стіл."
+HotkeyTexte(7) = "Відкриває діалог регулювання прозорості для активного вікна." 
+HotkeyTexte(8) = "Робить активне в даний час вікно більш прозорим." 
+HotkeyTexte(9) = "Робить активне в даний час вікно менш прозорим."
+HotkeyTexte(10) = "Встановлює всі вікна непрозорими." 
+HotkeyTexte(11) = "Завантажує налаштування і конфігурацію столів Dexpot з профілю за замовчуванням." 
+HotkeyTexte(12) = "Зупиняє слайдшоу робочих столів." 
+HotkeyTexte(13) = "Цикл через опції значка Dexpot в треї, які доступні в розділі 'Поведінка'."
+HotkeyTexte(14) = "Застосовує правила до всіх відкритих вікон." 
+HotkeyTexte(15) = "Тимчасово відключає виконання правил для робочих столів. Циклічно переключає опції через значок в треї, які доступні у вкладці 'Вигляд'." Знову натисніть гарячу клавішу для активації правил." 
+HotkeyTexte(16) = "Скидає значки на поточному робочому столі до стану останнього його відвідання." 
+HotkeyTexte(17) = "Завантажує розподіл значків для всіх робочих столів з поточного профілю." 
+HotkeyTexte(18) = "Відображає перемикач панелі завдань DexTab замість функції Windows Alt+Tab." 
+HotkeyTexte(19) = "Показує перемикач столів DexTab з ескізами і вікнами всіх робочих столів." 
+HotkeyTexte(20) = "Видаляє активне вікно з поточного робочого столу. Відповідно закриває додаток, якщо він виконується тільки на поточному робочому столі." 
+HotkeyTexte(21) = "Запускає заставку на поточному робочому столі." 
+HotkeyTexte(22) = "Відкриває меню з усіма функціями Dexpot для поточного вікна у позиції курсора."
+HotkeyTexte(23) = "Показує всі вікна на поточному робочому столі у вигляді мініатюр."
+cmdAlleHotkeysLoeschen.Caption = "Очистити все"
+
+#ADDED in Dexpot 1.5.14
+HotkeyTexte(24) = "Переміщує активне вікно на відповідний стіл і переключається туди."
+###
+
+#ADDED in Dexpot 1.5.0
+imgHotkeyBelegt.ToolTipText = "Ця комбінація вже використовується в іншій програмі."
+###
+
+#ADDED in Dexpot 1.6
+chkHotkeysWithoutModifiers.Caption = "Дозволити гарячі клавіші без модифікаторів"
+###
+
+##Mauswechsel 
+lblMausWechsel.Caption = "Це налаштування через деякий час автоматично перемкне столи при переміщенні курсора миші до краю або в куток екрану."
+chkMausWechsel.Caption = "Включити перемикання мишею" 
+frmMausWechselAbstimmung.Caption = "Коригування" 
+lblMausWechselDauer.Caption = "Затримка:" 
+lblMausWechselAbstand.Caption = "Відстань:" 
+lblMausWechselToleranz.Caption = "Чутливість:" 
+chkMausWechselInvertieren.Caption = "Встановити курсор миші до протилежного краю екрану" 
+chkMausWechselWegSetzen.Caption = "Перемістити курсор миші з крайової області після перемикання" 
+frmMausWechselRaender.Caption = "Грані" 
+chkMausWechselOben.Caption = "Вехня" 
+chkMausWechselLinks.Caption = "Ліва" 
+chkMausWechselRechts.Caption = "Права" 
+chkMausWechselUnten.Caption = "Нижня"
+frmMausWechselEcken.Caption = "Кути"
+frmMausWechselAusloeser.Caption = "Перемикач"
+
+##Titelleisten
+lblTitelleistenBereich.Caption = "&Область:"
+lvTitelleisten.ColumnHeaders(1).Text = "Комбінація"
+lvTitelleisten.ColumnHeaders(2).Text = "Мета"
+lvTitelleisten.ColumnHeaders(3).Text = "Дія"
+frmTitelleistenMaus.Caption = "&Клавіша миші"
+optTitelleistenTaste(0).Caption = "Ліва"
+optTitelleistenTaste(1).Caption = "Права"
+optTitelleistenTaste(2).Caption = "Середня"
+frmTitelleistenModifikator.Caption = "Мо&дифікатор"
+lblTitelleistenZiel.Caption = "&Мета:"
+cmbTitelleistenZiel.List(0) = "Активне вікно"
+cmbTitelleistenZiel.List(1) = "Активний додаток"
+cmbTitelleistenZiel.List(2) = "Всі вікна"
+lblTitelleistenAktion.Caption = "Д&ія:"
+cmdTitelleistenHinzufuegen.Caption = "&Додати"
+cmdTitelleistenEntfernen.Caption = "&Видалити"
+cmbTitelleistenBereich.List(0) = "Заголовок"
+cmbTitelleistenBereich.List(1) = "Кнопка 'Згорнути'"
+cmbTitelleistenBereich.List(2) = "Кнопка 'Розгорнути'"
+cmbTitelleistenBereich.List(3) = "Кнопка 'Закрити'"
+
+#Desktopwechsel 
+tabWechsel.Tabs(1).Caption = "Елементи робочих столів" 
+tabWechsel.Tabs(2).Caption = "Імена робочих столів"
+
+#ADDED in Dexpot 1.6
+tabWechsel.Tabs(3).Caption = "Монітори"
+###
+
+##Desktopelemente 
+frmWechselElementIcons.Caption = "Значки робочих столів" 
+chkWechselElementIcons.Caption = "Налаштовувати значки" 
+chkIconsAusrichten.Caption = "Вирівняти по сітці" 
+chkIconsAnordnen.Caption = "Автовирівнювання" 
+frmWechselElementHintergrund.Caption = "Фоновий малюнок" 
+chkWechselElementHintergrund.Caption = "Налаштовувати фоновий малюнок" 
+#ADDED in Dexpot 1.6.11
+chkHintergrundRestore.Caption = "Відновлювати фоновий малюнок при виході"
+###
+chkAenderungenUebernehmenHintergrund.Caption = "Застосувати зміни до профілю Dexpot" 
+frmWechselElementAufloesung.Caption = "Розд. здатність екрану" 
+chkWechselElementAufloesung.Caption = "Налаштовувати розд. здатність екрану" 
+chkAenderungenUebernehmenAufloesung.Caption = "Застосувати зміни до профілю Dexpot" 
+frmWechselElementSchoner.Caption = "Заставка" 
+chkWechselElementSchoner.Caption = "Налаштувати заставку" 
+chkAenderungenUebernehmenSchoner.Caption = "Застосувати зміни до профілю Dexpot"
+
+#ADDED in Dexpot 1.6
+frmTaskbar.Caption = "Панель завдань"
+chkPersistentTaskbar.Caption = "Зберігати всі кнопки в панелі завдань видимими"
+cmdIconanpassung.Caption = "Розширені"
+###
+
+##Desktopnamen
+lblEinblendung.Caption = "Показувати ім'я столу:" 
+optEinblendung(1).Caption = "Ніколи" 
+optEinblendung(2).Caption = "При перемиканні" 
+optEinblendung(3).Caption = "Постійно" 
+lblEinblendungDauer.Caption = "Час показу:" 
+lblEinblendungSekunden.Caption = "секунд(и)" 
+lblEinblendungPosition.Caption = "Позиція:"
+lblEinblendungText.Caption = "Текст:" 
+cmdEinblendungVariablen.Caption = "Змінні" 
+mnuVariable(1).Caption = "%g поточний стіл (номер)" 
+mnuVariable(2).Caption = "%G поточний стіл (ім'я)" 
+mnuVariable(3).Caption = "%v недавній стіл (номер)" 
+mnuVariable(4).Caption = "%V недавній стіл (ім'я)" 
+lblEinblendungSchrifart.Caption = "Шрифт:" 
+cmdEinblendungSchriftart.Caption = "..." 
+lblEinblendungHintergrund.Caption = "Фон:" 
+optEinblendungHintergrund(1).Caption = "Монохромний" 
+optEinblendungHintergrund(2).Caption = "Прозорий" 
+lblEinblendungTransparenz.Caption = "Прозорість:"
+
+#ADDED in Dexpot 1.6
+chkEinblendungLogo.Caption = "Показувати заставку Dexpot"
+lblEinblendungFarben.Caption = "Кольори:"
+lblEinblendungFarbeSchrift.Caption = "Шрифт"
+lblEinblendungFarbeRand.Caption = "Контур"
+###
+
+#ADDED in Dexpot 1.6
+##Multi-Monitor
+lblMonitore.Caption = "Виберіть, які монітори підпорядковані переключенню робочих столів. Вікна на моніторах виключених з перемикання залишатимуться видимими на всіх столах."
+chkMonitorExclusion.Caption = "Використовувати цю опцію тільки, якщо є кілька моніторів."
+###
+
+#Extras
+frmExtrasPasswoerter.Caption = "Паролі"
+cmdMasterPasswort.Caption = "Змінити головний пароль"
+cmdPasswoerterZuruecksetzen.Caption = "Скинути паролі"
+frmDebug.Caption = "Відлагодження"
+chkDebugLog.Caption = "Включити файл журналу"
+chkDebugVorschau.Caption = "Відключити повноекранний попередній перегляд"
+chkDebugTaskleiste.Caption = "Не зберігати порядок кнопок панелі завдань"
+chkDebugZuordnung.Caption = "Вимкнути відновлення вікна"
+
+#ADDED in Dexpot 1.6.5
+cmdDebugLog.Caption = "Файл журналу"
+cmdDebugErweitert.Caption = "Розширені"
+###
+
+#ADDED in Dexpot 1.5.0
+frmPlugins.Caption = "Плагіни"
+cmdPluginEinstellungen.Caption = "Конфігурація"
+lblPluginAutorLabel.Caption = "Автор:"
+lblCrossDesktop.Caption = "При активації вікна на іншому столі:"
+frmCrossDesktop.Caption = "Поведінка вікон на інших столах"
+cmbCrossDesktop.List(0) = "Переключитися на відповідний стіл"
+cmbCrossDesktop.List(1) = "Перемістити вікно на поточний стіл"
+cmbCrossDesktop.List(2) = "Копіювати вікно на поточний стіл"
+cmbCrossDesktop.List(3) = "Нічого"
+
+strVorherigen = "попередній стіл"
+strNaechsten = "наступний стіл"
+###
+
+#ADDED in Dexpot 1.5.10
+cmdPluginHotkeys.Caption = "Призначення гарячих клавіш"
+###
+
+#Strings 
+strZuruecksetzen = "Відновити налаштування за замовчуванням" 
+strslideshowabbrechen = "Зупинити слайдшоу" 
+strTrayicon = "Встановити значок трея" 
+strTransparenzFestlegen = "Встановити значення прозорості" 
+strTransparenzErhoehen = "Збільшити прозорість" 
+strTransparenzVerringern = "Зменшити прозорість" 
+strDexpotFenster = "Dexpot компоненти" 
+strSonstiges = "Різне" 
+strTransparenz = "Прозорість" 
+strAufAlle = "на всі" 
+strAuf = "на" 
+strKopieren = "Копіювати вікно" 
+strVerschieben = "Перемістити вікно" 
+strVorheriger = "Попередній робочий стіл" 
+strNaechster = "Наступний робочий стіл" 
+strWechseln = "Переключити робочий стіл" 
+strMitte = "в центрі" 
+strMitteOben = "вгорі в центрі" 
+strMitteUnten = "внизу в центрі" 
+strLinks = "ліворуч" 
+strLinksOben = "вгорі ліворуч" 
+strLinksUnten = "внизу ліворуч" 
+strRechts = "праворуч" 
+strRechtsOben = "вгорі праворуч" 
+strRechtsUnten = "внизу праворуч" 
+strMsgName = "Мова" 
+strMsgAutor = "Автор" 
+strMsgKommentar = "Опис" 
+strMsgSprachdatei = "Інформація про мовний файл" 
+strMsgPasswoerterZuruecksetzen = "Ви справді хочете очистити всі паролі? Головний пароль і всі паролі робочих столів будуть видалені." 
+strTransparenzZuruecksetzen = "Скинути значення прозорості" 
+strRegelnDeaktivieren = "Відключити правила" 
+strAltTab = "DexTab перемик. завдань" 
+strFensterSchliessen = "Закрити вікно" 
+strZurueck = "Назад" 
+strStartDesktopGleichLetzterDesktop = "Останній активний робочий стіл"
+strMsgAlleHotkeysLoeschen = "Ви справді хочете скинути всі гарячі клавіші?" 
+strMsgProfilLoeschen = "Ви справді хочете видалити цей профіль?" 
+strMsgProfilSpeichern1 = "Ви справді хочете переписати" 
+strMsgProfilSpeichern2 = "профіль?" 
+strMsgProfilGeladen = "Профіль завантажений успішно." 
+strMsgProfilGespeichert = "Профіль збережений успішно."
+strMsgProfilStandard = "Профіль за замовчуванням не може бути перезаписаний."
+strMsgProfilNichtGespeichert = "Профіль не може бути збережений." 
+strFenstermenue = "Меню вікна"
+strHintergrund = "Перемістити на задній план"
+
+#ADDED in Dexpot 1.5.0
+strDesktopwechsler = "DexTab перемикач столів"
+strPluginNichtAktivierbar = "Цей плагін не сумісний з Вашою версією Windows або Dexpot."
+###
+
+#ADDED in Dexpot 1.5.6
+strAddDesktop = "Додати стіл"
+strRemoveDesktop = "Видалити стіл"
+###
+
+#ADDED in Dexpot 1.5.14
+strMoveFollow = "Перемістити вікно і переключитися"
+###
+
+#ADDED in Dexpot 1.6
+strCustomStatic = "Користувацький (фіксований)"
+strCustomDynamic = "Користувацький (пересувний)"
+strDragMe = "Перетягніть мене!"
+strCenter = "По центру"
+strAllMonitors = "Всі монітори"
+strWindowCommands = "Команди вікна"
+###
+
+#ADDED in Dexpot 1.6.10
+strChangeDesktopName = "Змінити ім'я столу"
+strFindWindow = "Знайти вікно"
+###
+
+#ADDED in Dexpot 1.6.11
+strRestoreTrayMinimized = "Відновити останнє вікно згорнуте в трей"
+###
+[frmFenster]
+#ADDED in 1.5.0
+frmFenster.Caption = "Робочий стіл Windows - Dexpot"
+###
+cmdSchliessen.Caption = "Закрити" 
+cmdAktualisieren.Caption = "&Оновити"
+strFenstertitel = "Заголовок" 
+strFensterstatus = "Статус" 
+strFensterhandle = "Дескриптор"
+strMsgIcons = "Цей вид доступний тільки якщо Ви активуєте 'Налаштувати іконки', щоб розподілити іконки серед різних робочих столів. Ви знайдете цю особливість і всі пов'язані опції на вкладці Різне.\n\nХочете активувати, 'Налаштувати іконки' зараз?" 
+strNormal = "Стандартний розмір" 
+strMaximiert = "Вікно розгорнуте" 
+strMinimiert = "Вікно згорнуте" 
+strWiederherstellen = "Відновити" 
+mnuWechseln.Caption = "Переключити" 
+strFensterAnzahl = "Вікно:" 
+strIconAnzahl = "Значки:"
+mnuSammeln.Caption = "Зібрати вікна" 
+mnuDesktopKonfigurieren.Caption = "Конфігурація" 
+#ADDED in Dexpot 1.6.10
+mnuChangeName.Caption = "Змінити ім'я"
+###
+tabFenster.Tabs(1).Caption = "Вікна" 
+tabFenster.Tabs(2).Caption = "Огляд" 
+tabFenster.Tabs(3).Caption = "Перегляд" 
+tabFenster.Tabs(4).Caption = "Приховані" 
+tabFenster.Tabs(5).Caption = "Значки" 
+strSystemTray = "Системний трей"
+mnuSucheAlles.Caption = "Всі"
+mnuSucheTitel.Caption = "Заголовок"
+mnuSucheKlasse.Caption = "Клас"
+mnuSucheExe.Caption = "EXE-ім'я"
+
+
+[frmTransparenz] 
+frmTransparenz.Caption = "Прозорість - Dexpot" 
+cmdUebernehmen.Caption = "Застосувати" 
+cmdSchliessen.Caption = "Закрити" 
+cmdOK.Caption = "&OK"
+lblSichtbar.Caption = "Відомий" 
+lblUnsichtbar.Caption = "Невідомий" 
+strBitteWaehlen = "Будь ласка, встановіть прозорість для вікна" 
+strUnd = "і" 
+strWeitere = "додаткове вікно(а)" 
+strFestlegen = ":"
+chkFarbe.Caption = "Зробити області з цим кольором прозорими:"
+
+
+[frmPasswort] 
+frmPasswort.Caption = "Паролі - Dexpot" 
+frmEingabe.Caption = "Пароль" 
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Скасування" 
+lblInfo.Caption = "Робочий стіл тепер захищений паролем. Ви тепер будете попереджені про необхідність введення відповідного пароля:"
+
+
+[frmNeuesProfil] 
+frmNeuesProfil.Caption = "Зберегти ці налаштування як новий профіль" 
+lblProfil.Caption = "Зберегти &профіль як:" 
+cmdAbbrechen.Caption = "&Скасування" 
+cmdOK.Caption = "&OK" 
+strMsgNameNeuesProfil = "Введіть назву для нового профілю:> 
+strMsgZeichenNeuesProfil = "Назва профілю не може містити будь-який з цих символів:"
+
+
+[frmProfilAuswahl] 
+frmProfilAuswahl.Caption = "Вибір профілю - Dexpot"
+cmdProfil.Caption = "Завантажити &профіль" 
+cmdLetzte.Caption = "&Попередня конфігурація"
+
+
+[frmRegeln] 
+frmRegeln.Caption = "Правила рабочих столов - Dexpot" 
+tabRegeln.Tabs(1).Caption = "Огляд"
+tabRegeln.Tabs(2).Caption = "Умови"
+tabRegeln.Tabs(3).Caption = "Дії"
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Скасування" 
+cmdUebernehmen.Caption = "&Застосувати" 
+cmdAnwenden.Caption = "Зас&тос. правила" 
+cmdAssi.Caption = "&Помічник"
+cmdNeu.Caption = "&Нове" 
+cmdEntfernen.Caption = "&Видалити" 
+lblName.Caption = "Ім'я" 
+chkDeaktivieren.Caption = "Відключити &правило" 
+frmBedingungen.Caption = "Умови" 
+frmAktionen.Caption = "Дії" 
+cmdNeueBedingung.Caption = "+" 
+cmdBedingungEntfernen.Caption = "-" 
+cmdNeueAktion.Caption = "+" 
+cmdAktionEntfernen.Caption = "-" 
+chkFolgen.Caption = "&Слідувати за переміщенням" 
+lblTyp.Caption = "Тип:" 
+lblSucher.Caption = "Інструмент вибору:"
+cmdNeueBedingung.ToolTipText = "Додати нову умову"
+cmdNeueAktion.ToolTipText = "Додати нову дію"
+cmdBedingungEntfernen.ToolTipText = "Видалити виділену умову"
+cmdAktionEntfernen.ToolTipText = "Видалити виділену дію"
+cmdImport.Caption = "Імпорт правил"
+lblSichtbar.Caption = "Відомий"
+lblUnsichtbar.Caption = "Невідомий"
+cmdDurchsuchen.Caption = "Огляд..."
+frmVerknuepfung.Caption = "Повинні виконатися"
+optVerknuepfung(0).Caption = "тільки всі умови"
+optVerknuepfung(1).Caption = "хоча б одна умова"
+lblWert.Caption = "&Значення:"
+frmAusnahmen.Caption = "Не застосовувати правило до"
+chkSichtbar.Caption = "&невидимих вікон"
+chkRand.Caption = "вікон без рамок"
+chkTitel.Caption = "вікон без заголовків"
+chkTopLevel.Caption = "підлеглих вікон"
+chkAutomatisch.Caption = "Застосовувати автоматично"
+strFenstertitel = "Заголовок вікна" 
+strFensterklasse = "Клас вікна" 
+strAlleFenster = "Всі вікна" 
+strist = "" 
+strenthaelt = "містить" 
+strenthaeltnicht = "не містить" 
+strbeginntmit = "стартує разом з" 
+strendetmit = "закривається разом з" 
+strAlleBedingungen = "Виконати всі умови" 
+strEineBedingung = "Виконати одну умову" 
+strVerschieben = "Перемістити" 
+strKopieren = "Копіювати" 
+strTransparenz = "Встановити прозорість" 
+strSchliessen = "Закрити" 
+strund = "і" 
+stroder = "або" 
+strVerschiebenAuf = "Перемістити на стіл" 
+strKopierenAuf = "Копіювати на" 
+strTransparenzFestlegen = "Встановити прозорість:" 
+strFensterSchliessen = "Закрити вікно" 
+strBedingung = "Умова" 
+strAktion = "Дія" 
+strNeueRegel = "Нове правило" 
+strEXEName = "Виконується" 
+strVordergrund = "Завжди зверху" 
+strAusfuehren = "Запустити" 
+strTrayMinimieren = "Згорнути в трей" 
+
+#ADDED in Dexpot 1.6
+strRegExp = "відповідність регулярному виразу"
+strRegExpi = "відповідність регулярному виразу (без врахування регістру)"
+###
+
+
+[frmProfilladen]
+optAlle.Caption = "Профіль &цілком" 
+optTeile.Caption = "Тільки &частини профілю:" 
+frmTeile.Caption = "Частини профілю" 
+chkEinstellungen.Caption = "&Налаштування" 
+chkHotkeys.Caption = "&Гарячі клавіші" 
+chkEigenschaften.Caption = "&Властивості" 
+chkIcons.Caption = "П&озиції значків" 
+chkHintergrund.Caption = "&Фонові малюнки" 
+chkTools.Caption = "Інстру&менти" 
+chkRegeln.Caption = "П&равила" 
+chkAutostart.Caption = "&Завантаження"
+frmOptionen.Caption = "Налаштування"
+chkSammeln.Caption = "Зібрати вікна на &активному робочому столі"
+chkAnwenden.Caption = "&Застосувати правила"
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "С&касування" 
+strProfilLaden = "Завантаження профілю"
+
+
+[frmRegelImport] 
+frmRegelImport.Caption = "Імпорт/експорт правил робочих столів - Dexpot" 
+cmdSchliessen.Caption = "&Закрити" 
+cmdImportieren.Caption = "<< &Імпорт" 
+cmdExportieren.Caption = "&Експорт >>" 
+cmdLaden.Caption = "&Завантажити файл правил" 
+cmdErstellen.Caption = "&Створити файл правил" 
+frmDatei.Caption = "Правила у файлі" 
+frmLokal.Caption = "Локальні правила" 
+cmdAlleImportieren.Caption = "<< І&мпорт всіх" 
+cmdAlleExportieren.Caption = "Е&кспорт всіх >>" 
+cmdLoeschen.Caption = "Видалити з &файла" 
+strLaden = "Завантажити файл правила" 
+strErstellen = "Створити новий файл правила" 
+strExt = "Файли правил Dexpot" 
+strExt2 = "Профілі Dexpot"
+strAktionen = "Дія(ї)" 
+strBedingungen = "Умова(и)" 
+strMsgLoeschen = "Ви дійсно хочете видалити відзначені правила з файлу?" 
+lblDatei.Caption = "Поточний файл правил:" 
+strMsgLokalUeber = "Замінити локальне правило" 
+strMsgLokalUeber2 = "правилом з тим же ім'ям з файлу?" 
+strMsgDateiUeber = "Правило" 
+strMsgDateiUeber2 = "вже є у файлі правил. Ви хочете замінити його локальним правилом?"
+
+
+[frmVorschau] 
+frmVorschau.Caption = "Перегляд робочих столів - Dexpot" 
+mnuSchliessen.Caption = "Закрити" 
+mnuImHintergrund.Caption = "Автоматично приховувати панель перегляду" 
+mnuAutoStart.Caption = "Запускати разом з Dexpot" 
+mnuSeitenverhaeltnisErzwingen.Caption = "Примусово коригувати ступінь стиснення" 
+mnuSeitenverhaeltnisFest.Caption = "Зберегти ступінь стиснення" 
+mnuTitel.Caption = "Приховати заголовок" 
+mnuVerstecken.Caption = "Приховати вміст" 
+strVersteckt = "[Вміст приховано]"
+mnuSymbolisch.Caption = "Перегляд іконок"
+
+
+[frmIconZieher] 
+frmIconZieher.Caption = "Витяг іконок - Dexpot" 
+lblDatei.Caption = "Пошук іконок в цьому файлі"
+cmdDurchsuchen.Caption = "&Огляд..." 
+lblIcons.Caption = "Виберіть іконку із списку:" 
+cmdOK.Caption = "&OK" 
+cmdSchliessen.Caption = "&Скасування" 
+strMsgKeineDatei = "Файл не знайдено." 
+strMsgKeineIcons = "Файл не містить іконок." 
+
+
+[frmKonfig] 
+frmKonfig.Caption = "Налаштування робочих столів - Dexpot" 
+lblPasswort.Caption = "Пароль:" 
+cmdManagerIcon.Caption = "..." 
+lblManagerIcon.Caption = "Значок менеджера:" 
+lblAufloesung.Caption = "Розд. здатність:" 
+lblName.Caption = "Ім'я:" 
+cmdWechselSoundAn.Caption = "..." 
+lblWechselsoundAn.Caption = "Звук входу:" 
+cmdWechselSoundAb.Caption = "..." 
+lblWechselsoundAb.Caption = "Звук виходу:" 
+cmdStandardIcon.Caption = "За замовчуванням" 
+cmdLoeschenAn.Caption = "X" 
+cmdLoeschenAn.ToolTipText = "Видалити" 
+cmdLoeschenAb.Caption = "X" 
+cmdLoeschenAb.ToolTipText = "Видалити" 
+cmdBetretenAbspielen.ToolTipText = "Програти" 
+cmdVerlassenAbspielen.ToolTipText = "Програти" 
+cmdManagerIcon.ToolTipText = "Огляд" 
+cmdStandardIcon.ToolTipText = "Встановити значок Dexpot за замовчуванням для значка менеджера" 
+lblBildschirmschoner.Caption = "Заставка:" 
+lblWartezeit.Caption = "Затримка:" 
+cmdBildschirmschoner.Caption = "..." 
+cmdSchonerVorschau.Caption = "Перегляд" 
+cmdSchonerEinstellungen.Caption = "Налаштування" 
+cmdSchliessen.Caption = "&Закрити" 
+cmdOK.Caption = "&OK" 
+cmdUebernehmen.Caption = "&Застосувати" 
+cmdDurchsuchen.Caption = "&Огляд..." 
+cmdEntfernen.Caption = "Видалити картинку" 
+cmbStyle.List(0) = "По центру" 
+cmbStyle.List(1) = "Черепицею" 
+cmbStyle.List(2) = "Розтягнути"
+#ADDED in Dexpot 1.5
+cmbStyle.List(3) = "Підігнати"
+cmbStyle.List(4) = "Заповнити"
+###
+#ADDED in Dexpot 1.6.10
+cmbStyle.List(5) = "Розтягнути"
+###
+frmKomponentenVerstecken.Caption = "Приховати компоненти робочого столу" 
+chkTaskleiste.Caption = "Панель завдань" 
+chkDesktopIcons.Caption = "Іконки" 
+chkStartbutton.Caption = "Кнопка 'Пуск'" 
+chkTaskbarIcons.Caption = "Системний трей" 
+frmDesktopicons.Caption = "Значки" 
+chkUnterschriften.Caption = "Прозорі підписи значків" 
+chkKleineSymbole.Caption = "Маленькі іконки" 
+lblAutostartBefehl.Caption = "Команда:" 
+lblAutostartEreignis.Caption = "Подія:" 
+cmdAutostartDurchsuchen.Caption = "&Огляд..." 
+cmdAutostartHinzufuegen.Caption = "Додати" 
+cmdAutostartAendern.Caption = "&Змінити"
+cmdAutostartEntfernen.Caption = "Видалити" 
+lblAutostartSchliessen.Caption = "&Закрити:"
+AutoStartEvents.ErstesBetreten = "Перший вхід" 
+AutoStartEvents.ErstesVerlassen = "Перший вихід" 
+AutoStartEvents.JedesBetreten = "Кожен вхід" 
+AutoStartEvents.JedesVerlassen = "Кожен вихід" 
+AutoStartEvents.DexpotStart = "Запуск Dexpot" 
+AutoStartEvents.DexpotEnde = "Закриття Dexpot"
+AutoStartEvents.Nie = "Ніколи"
+AutoStartEvents.NaechstesBetreten = "Наступний вхід"
+AutoStartEvents.NaechstesVerlassen = "Наступний вихід"
+mnuAutostartAusfuehren.Caption = "Виконати зараз" 
+mnuAutostartAktivieren.Caption = "Активувати" 
+mnuAutostartDeaktivieren.Caption = "Деактивувати" 
+tabKonfig.Tabs(1).Caption = "Властивості" 
+tabKonfig.Tabs(2).Caption = "Фон" 
+tabKonfig.Tabs(3).Caption = "Інструменти" 
+tabKonfig.Tabs(4).Caption = "Завантаження" 
+lvAutostart.ColumnHeaders(1).Text = "Команда" 
+lvAutostart.ColumnHeaders(2).Text = "Подія" 
+lvAutostart.ColumnHeaders(3).Text = "Закрити"
+chkIconText.Caption = "Приховати підписи значків" 
+lblIconGroesse.Caption = "&Розмір значків:"
+chkSchonerKennwort.Caption = "&Захист паролем"
+lblHintergrund.Caption = "Шлях:"
+lblAusrichtung.Caption = "В&ирівнювання:"
+lblDesktopFarbe.Caption = "Колір столу:"
+strMsgKeinMasterPasswort = "Ви визначили пароль для одного або декількох робочих столів. Щоб активувати захист паролем, потрібен також головний пароль \n\nВи хочете визначити головний пароль?" 
+strMsgWechselElementAufloesung = "Для призначення індивідуальної розд. здатності екрану цього робочого столу, опція 'Налаштовувати розд. здатність екрану' в настройках Dexpot повинна бути включена.\n\nВи хочете включити її?" 
+strMsgWechselElementHintergrund = "Для призначення індивідуального фонового малюнка цього робочого столу, опція 'Налаштовувати фоновий малюнок' в настройках Dexpot повинна бути включена.\n\nВи хочете включити її?" 
+strMsgWechselElementSchoner = "Для призначення індивідуальної заставки цьому робочому столу, опція 'Налаштовувати заставку' в настройках Dexpot повинна бути включена.\n\nВи хочете включити її?"
+lblIconTextFarbe.Caption = "Колір тексту:"
+mnuKopierenAlles.Caption = "Все"
+mnuKopieren.Caption = "Копіювати сюди"
+
+#ADDED in Dexpot 1.6
+lblMultimonitor.Caption = "Фоновий режим мультімонітора:"
+cmbMultimonitor.List(0) = "Вікна за замовчуванням"
+cmbMultimonitor.List(1) = "Розтягнути одне зображення на всі монітори "
+cmbMultimonitor.List(2) = "Використовувати різні зображення на кожному моніторі "
+frmBildschirmschoner.Caption = "Опції"
+###
+
+
+[frmUebersicht] 
+strPasswortGeschuetzt = "[Захищено паролем]"
+strInDenTrayMinimiert = "Згорнуто в трей"
+
+
+[frmRegelAssistent] 
+frmRegelAssistent.Caption = "Помічник з правил - Dexpot" 
+lblSchritt1.Caption = "Створення нового правила - Крок 1" 
+lblBeschreibung1.Caption = "Помічник буде вести Вас поступово до створення нового правила, і допоможе визначити бажані умови і дії." 
+lblRegelName.Caption = "Ім'я нового правила:" 
+frmRegelOption.Caption = " Створити з " 
+optNeueRegel.Caption = "порожнього правила" 
+optVorhandeneRegel.Caption = "існуючого правила:" 
+optRegelDatenbank.Caption = "бази даних правил:" 
+chkDeaktivieren.Caption = "Деактивувати правило за замовчуванням" 
+cmdSchritt2.Caption = "&Далі" 
+cmdCancel.Caption = "&Скасування" 
+strSchrittTitel1 = "Створити нове правило " 
+strSchrittTitel2 = " - Крок " 
+strSchrittTitel3 = " - Підсумкове вікно" 
+lblBeschreibung2.Caption = "На цьому кроці Ви визначаєте вікна, до яких нове правило повинне застосовуватися. Ви можете вводити умови вручну, або перетягувати перехрестя мишею у вікно, для якого хочете створити правило." 
+chkAusblenden.Caption = "Приховати Помічника при виборі вікна" 
+frmUndOderOder.Caption = " Правило спрацює при виконанні " 
+optEineRegel.Caption = "хоча б однієї умови" 
+optAlleRegeln.Caption = "тільки всіх умов" 
+frmBedingung.Caption = " Умова" 
+cmdBdgLoeschen.Caption = "&Видалити..." 
+cmdBdgHinzufuegen.Caption = "&Додати" 
+cmdZurueckZu1.Caption = "&Назад" 
+cmdSchritt3.Caption = "&Далі" 
+strMindEineBedingung = "Ви повинні визначити принаймні одну правильну умову." 
+strMaxBedingungen = "Додавання подальших умов неможливе в межах Помічника. Але Ви можете додавати більше умов після того, як правило буде створене." 
+lblBeschreibung3.Caption = "Тепер Ви можете визначити дії, які будуть застосовуватися до всіх вікон, які відповідають умовам, встановленим раніше." 
+frmBedingungListe.Caption = " Умови " 
+frmAktion.Caption = " Дія" 
+cmdAknLoeschen.Caption = "&Видалити..." 
+cmdAknHinzufuegen.Caption = "&Додати" 
+chkFolgen.Caption = "Слідувати за переміщенням" 
+lblSichtbar.Caption = "Відомий" 
+lblUnsichtbar.Caption = "Невідомий" 
+cmdDurchsuchen.Caption = "Огляд..." 
+cmdZurueckZu2.Caption = "&Назад" 
+cmdFertig.Caption = "&Далі" 
+strMindEineAktion = "Не було визначено жодних дій. Можна створити порожнє правило зараз і додати дії до нього пізніше." 
+strMaxAktionen = "Додавання подальших дій неможливе в межах Помічника. Але, Ви можете додавати більше дій після того, як правило буде створено." 
+lblBeschreibung4.Caption = "Тут - список всіх умов і дій, визначених для нового правила. Натисніть "Закінчити", щоб створити правило." 
+cmdZurueckZu3.Caption = "&Назад" 
+cmdOK.Caption = "&Закінчити"
+strRegelErsetzen = "Правило з такою назвою вже існує. Натисніть 'Так', щоб замінити його, "Ні" - щоб створити нове правило з тією ж самою назвою, або 'Скасування' - щоб змінити назву правила."
+strWiderspruch1 = "Умови"
+strWiderspruch2 = "і"
+strWiderspruch3 = "суперечать один одному. Перевірте ці умови."
+
+
+[frmWechselLeiste]
+strFenster = "Вікна:"
+strAktiv = "Дії:"
+strKlick = "Одинарний клік:"
+strDoppelKlick = "Подвійний клік:"
+
+
+[frmSplash]
+lblFuer.Caption = "зареєстрований для:"
+strMsgUngueltig = "Невірний ліцензійний ключ."
+
+#ADDED in Dexpot 1.5.2
+strMsgWindowsZuAlt = "Ваша ОС більше не підтримується цією версією Dexpot. Завантажте Dexpot з http://download.dexpot.de.\n\nDexpot, Dexpot зараз закриється. Вибачте за незручність."
+###
+
+#ADDED in Dexpot 1.5.11
+strCommonControlsQuestion = "Елемент mscomctl.ocx належним чином не встановлений на цій системі. Хочете щоб Dexpot спробував усунути цю проблему?"
+strCommonControlsCritical = "Елемент mscomctl.ocx належним чином не встановлений на цій системі. Dexpot закриється.\n\nЗа подробицями - сюди"
+###
+
+
+#ADDED in Dexpot 1.6
+[frmIconanpassung]
+frmIconanpassung.Caption = "Налаштування іконок робочого столу - Dexpot"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "&Скасування"
+frmOptionen.Caption = "Опції"
+optAnpassung(0).Caption = "Створити окрему папку для кожного столу "
+optAnpassung(1).Caption = "Використовувати загальнодоступну папку для всіх столів "
+chkKeepDesktop.Caption = "Використовувати папку оригінального столу Windows як Робочий стіл 1"
+chkAusrichten.Caption = "Вирівняти іконки по сітці"
+chkAnordnen.Caption = "Автовирівнювання іконок"
+strMigration = "Потрібно скопіювати файли з Вашого робочого столу в нові окремі папки відповідно до вашого існуючого розподілу іконок зараз?"
+###
+
+
+#ADDED Dexpot 1.4.2
+[frmUpdater]
+frmUpdater.Caption = "Модуль поновлення Dexpot"
+cmdAbbrechen.Caption = "Скасування"
+cmdWeiter.Caption = "Перевірка оновлень"
+lblInstallierteVersion.Caption = "Встановлено версію Dexpot:"
+lblVersionVerfuegbar.Caption = "Доступна новіша версія:"
+lblUpdater.Caption = "Модуль поновлення Dexpot"
+lblUpdater2.Caption = "Доступне оновлення"
+lblUpdater3.Caption = "Йде оновлення"
+lblUpdater4.Caption = "Оновлення завершено"
+lblText.Caption = "Цей модуль дозволить оновити Dexpot до нової версії.\n\nЯкщо нова версія доступна, Dexpot повинен бути закритий, щоб застосувати оновлення. Ми рекомендуємо також закрити і всі інші програми.\n\nПеред початком, переконайтесь, що у Вас є підключення до інтернету. Потім натисніть Перевірка оновлень."
+lblKeinUpdate.Caption = "У вас найновіша версія Dexpot."
+lblAbgeschlossen.Caption = "Встановлення оновлення завершене успішно."
+lblNeustart.Caption = "Деякі файли все ще використовуються і можуть бути замінені тільки після перезапуску Windows.\n\nУстановка буде завершена автоматично наступного разу, коли Dexpot буде запущений".
+lblText2.Caption = "Натисніть Встановити для автооновлення до останньої версії."
+lblFortschritt.Caption = "Процес установки:"
+chkBeta.Caption = "Показувати бета версії"
+chkDexpotStarten.Caption = "Запуск Dexpot"
+cmdMehrInformationen.Caption = "Більше інформації"
+lvUpdates.ColumnHeaders(1).Text = "Версія"
+lvUpdates.ColumnHeaders(2).Text = "Опис"
+strBeenden = "Для установки оновлення, Dexpot потрібно закрити.\n\nХочете вийти з Dexpot зараз?"
+strUnbekannt = "невідомо"
+strKeinDexpot = "Не можу знайти встановлений Dexpot!"
+strInstallieren = "Встановити"
+strFortsetzung = "Установка триває"
+strUnvollstaendig = "Неповна установка"
+strNichtErfolgreich = "Не можу успішно завершити установку."
+strFertigstellen = "Кінець"
+strInstalliere = "Установка"
+strUpdate = "Оновлення"
+strLoesche = "Видалення"
+strZusaetzlich = "Установка додатково необхідних оновлень"
+strAbhaengig = "Залежності для поновлення дозволені"
+strHerunterladen = "Завантаження"
+strEntpacken = "Розпакування"
+strAbgeschlossen = "Завершено оновленні до версії"
+strBenutzer = "Користувач"
+strPasswort = "Пароль"
+strDownloadFehler = "Помилка завантаження"
+strEntpackenFehler = "Помилка розпакування"
+strProUpdate = "Ваша ліцензія для Dexpot Pro несумісна з новою версією. Після установки Ви повинні будете розблокувати Dexpot, ввівши новий ліцензійний ключ. Відвідайте http://pro.dexpot.de/ щоб дізнатися, як оновити ліцензію.\n\n Хочете відновити установку?"
+###
+
+#ADDED in Dexpot 1.5
+[frmDexcube]
+frmDexcube.Caption = "Налаштування - Dexpot"
+cmdOK.Caption = "&OK"
+cmdAbbrechen.Caption = "&Скасування"
+cmdUebernehmen.Caption = "&Застосувати"
+frmSwitchAnimation.Caption = "Анімація при перемиканні столів"
+lblSwitchAnimation.Caption = "Ефект:"
+lblZoomAutomatic.Caption = "Збільшення:"
+frmEffects.Caption = "Ефекти"
+chkUseLighting.Caption = "Тінь"
+chkUseAlphaBlending.Caption = "Прозорість"
+frmDuration.Caption = "Швидкість анімації"
+lblCubeDurationBase.Caption = "Куб (мін. тривалість):"
+lblCubeDurationPerDesktop.Caption = "Куб (за столом):"
+lblBrettDuration.Caption = "Місце для сніданку:"
+lblWallDuration.Caption = "Стіна і Діафільм:"
+lblZoomDuration.Caption = "Збільшення:"
+strKein = "Немає"
+strWuerfel = "Куб"
+strBrett = "Місце для сніданку"
+strWand = "Стіна"
+strStreifen = "Діафільм"
+strMaximal = "Максимально"
+strMinimal = "Мінімально"
+strVariabel = "Змінно"
+chkMultithreading.Caption = "Багатопоточність"
+frmLeistung.Caption = "Продуктивність"
+
+#ADDED in Dexpot 1.6.5
+lblFadeDuration.Caption = "Crossfade-плавне загасання:"
+strFade = "Crossfade-плавне загасання"
+###
+
+
+[frmWallpaperClock]
+frmWallpaperClock.Caption = "Годинники до шпалер - Dexpot"
+lblAuthorLabel.Caption = "Автор:"
+lblStyle.Caption = "Позиція:"
+chk24Hour.Caption = "24-годинний формат"
+cmdSelectFolder.Caption = "Вибрати папку..."
+lblGetMoreClocks.Caption = "Більше годинників для шпалер на:"
+cmdOK.Caption = "&OK"
+cmdApply.Caption = "&Застосувати"
+cmdCancel.Caption = "&Скасування"
+strKeineClock = "(звичайні шпалери)"
+frmVorschau.Caption = "Перегляд"
+lblSizeLabel.Caption = "Розмір:"
+strBrowseForFolder = "Виберіть папку з файлами годинників для шпалер (*.wcz):"
+
+
+[Dexcube]
+Description = "Dexcube забезпечує 3D ефекти для анімованих переходів між столами. Потрібен DirectX 9."
+HotkeyManualControl = "Ручне управління"
+HotkeyManualControlNext = "Ручне управління наступним"
+HotkeyManualControlPrevious = "Ручне управління попереднім"
+
+[SevenDex]
+Description = "SevenDex вбудовує кнопку, щоб перемикати робочі столи в панелі завдань Windows 7."
+
+[Slideshow]
+Description = "Слайдшоу між столами через заданий період часу."
+HotkeyDesktopSlideshow = "Слайшоу робочого столу"
+HotkeySlideshowstarten = "Старт слайдшоу"
+HotkeySlideshowanhalten = "Стоп слайдшоу"
+
+[Wallpaper Clock]
+Description = "Цей плагін дозволяє призначати різні годинники до шпалер на кожен робочий стіл."
+###
+
+#ADDED in Dexpot 1.5.5
+[Taskbar Pager]
+Description = "Цей плагін вбудовує "Попередній перегляд столів" безпосередньо в панель завдань Windows."
+HotkeyHidePager= "Приховати з панелі"
+###
+
+
+#ADDED in Dexpot 1.5.7
+[frmTaskbarPager]
+frmTaskbarPager.Caption = "Налаштування - Dexpot Taskbar Pager"
+frmLayout.Caption = "Розміщення"
+frmWindows.Caption = "Вікна"
+lblCellSize.Caption = "Розмір комірки:"
+lblCellSpacing.Caption = "Інтервал комірки:"
+lblBorderSize.Caption = "Ширина бордюра:"
+lblRowCount.Caption = "Кількість рядків:"
+lblColumnCount.Caption = "Кількість стовпців:"
+chkFlashing.Caption = "Підсвічувати спалахуючі вікна"
+chkToolWindows.Caption = "Показувати інструменти вікон"
+
+#ADDED in Dexpot 1.6.8
+chkExcludedMonitors.Caption = "Показати вікна на виключених моніторах"
+###
+
+cmdCancel.Caption = "Скасування"
+cmdOK.Caption = "OK"
+cmdApply.Caption = "Застосувати"
+###
+
+
+#ADDED in Dexpot 1.5.10
+[Dexgrid]
+Description = "Впорядковує робочі столи по сітці, додаючи гарячі клавіші, для перемикання по сітці вгору і вниз, і показує анімацію при перемиканні столів."
+HotkeySwitchleft = "Перключити вліво"
+HotkeySwitchright = "Перключити вправо"
+HotkeySwitchup = "Перключити вгору"
+HotkeySwitchdown = "Перключити вниз"
+HotkeyMovewindowleft = "Перемістити вікно вліво"
+HotkeyMovewindowright = "Перемістити вікно вправо"
+HotkeyMovewindowup = "Перемістити вікно вгору"
+HotkeyMovewindowdown = "Перемістити вікно вниз"
+HotkeyCopywindowleft = "Копіювати вікно вліво"
+HotkeyCopywindowright = "Копіювати вікно вправо"
+HotkeyCopywindowup = "Копіювати вікно вгору"
+HotkeyCopywindowdown = "Копіювати вікно вниз"
+
+#ADDED in Dexpot 1.6.4
+HotkeyMoveandswitchleft = "Перемістити вікно і переключитися вліво"
+HotkeyMoveandswitchright = "Перемістити вікно і переключитися вправо"
+HotkeyMoveandswitchup = "Перемістити вікно і переключитися вгору"
+HotkeyMoveandswitchdown = "Перемістити вікно і переключитися вниз"
+###
+
+[frmDexgrid]
+frmDexgrid.Caption = "Налаштування Dexgrid"
+lblRowCount.Caption = "Кількість рядків:"
+chkAnimation.Caption = "Показувати анімацію при перемиканні столів"
+cmdOK.Caption = "OK"
+cmdCancel.Caption = "Скасування"
+###
+
+#ADDED Dexpot 1.6
+[frmAppAssignment]
+frmAppAssignment.Caption = "Прив'язка додатків - Dexpot"
+cmdAdd.Caption = "&Додати..."
+cmdRemove.Caption = "&Видалити"
+cmdRefresh.Caption = "О&новити"
+lblAssign.Caption = "Прив'язати додаток до:"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "&Скасування"
+strApplication = "Додаток"
+strWhereStarted = "Коли запущено"
+lblFollow.CAption = "Переключити на робочий стіл:"
+cmbFollow.List(1) = "Ніколи"
+cmbFollow.List(2) = "Коли запущено"
+cmbFollow.List(3) = "Коли активно"
+
+[MouseEvents]
+Description = "Додає підтримку Гарячих кутів і перемикання колесом миші."
+
+[frmMouseEvents]
+frmAppAssignment.Caption = "Події миші - Dexpot"
+tabMouseEvents.Tabs(1).Caption = "Гарячі кути"
+tabMouseEvents.Tabs(2).Caption = "Коліщатко"
+
+#ADDED in Dexpot 1.6.7
+tabMouseEvents.Tabs(3).Caption = "Клавіатура"
+###
+
+lblCorner(1).Caption = "Верх зліва:"
+lblCorner(2).Caption = "Верх справа:"
+lblCorner(3).Caption = "Низ зліва:"
+lblCorner(4).Caption = "Низ справа:"
+frmCornerTrigger.Caption = "Перемикач"
+optCornerTrigger(0).Caption = "Негайно"
+optCornerTrigger(1).Caption = "Із затримкою"
+optCornerTrigger(2).Caption = "Кліком коліщатка миші"
+frmCornerOptions.Caption = "Опції"
+chkCornerFullscreen.Caption = "Деактивувати Гарячі кути, коли активний повноекранний додаток"
+chkWheel.Caption = "Використовувати колесо миші для перемикання робочих столів"
+lblWheelType.Caption = "Тип колеса миші:"
+frmWheelTrigger.Caption = "Клавіші перемикання"
+
+#ADDED in Dexpot 1.6.7
+frmDoubleTap.Caption = "Подвійне натискання"
+lblDoubleTapLeftCtrl.Caption = "Лівий Ctrl:"
+lblDoubleTapRightCtrl.Caption = "Правий Ctrl:"
+lblDoubleTapLeftShift.Caption = "Лівий Shift:"
+lblDoubleTapRightShift.Caption = "Праваий Shift:"
+###
+
+strBoth = "Обидва"
+strNone = "(Немає)"
+strShowDesktop = "Показати робочий стіл"
+strAeroFlip = "Flip 3D - прокрутка"
+
+#ADDED in Dexpot 1.6.3
+strMinimizeAll = "Згорнути все"
+###
+
+#ADDED in Dexpot 1.6.10
+chkLeapSupport.Caption = "Включити підтримку технології Leap Motion"
+lblLeapSwipeLeft.Caption = "Рух вліво:"
+lblLeapSwipeRight.Caption = "Рух вправо:"
+lblLeapSwipeUp.Caption = "Рух вгору:"
+lblLeapSwipeDown.Caption = "Рух вниз:"
+strLeapMotionController = "Контролер Leap Motion:"
+strLeapConnected = "Готово"
+strLeapDisconnected = "Контролер невиявлений або з ним немає з'єднання"
+###
+cmdOK.Caption = "&OK" 
+cmdCancel.Caption = "&Скасування" 
+cmdApply.Caption = "&Застосувати"
+
+[DexControl]
+Description = "Інтерактивний повноекранний попередній перегляд, з інтегрованим каталогом вікон."
+###
+
+#ADDED in Dexpot 1.6.5
+[frmDebugging]
+frmDebugging.Caption = "Відлагодження"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "&Скасування"
+frmDebugOptions.Caption = "Налаштування"
+chkDebugForegroundLock.Caption = "Keep Foreground Lock Timeout"
+
+#ADDED in Dexpot 1.6.6
+chkDebugTokenizedEnabled.Caption = "Залишати марковані вікна включеними "
+###
+
+lblRestart.Caption = "Перезапустіть Dexpot для вступу змін в силу."
+###

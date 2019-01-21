@@ -1,0 +1,1446 @@
+[Info] 
+Name = "Hungarian"
+Autor = "Zityi's Software Translator Team"
+AutorMail = "zityisoft@gmail.com"
+Kommentar = "A Dexpot nyelvi fájl tartalmazza az alapértelmezett angol szöveget."
+Locale=1038
+
+#Dexpot 1.6.12 [$Id: hungarian.dxs 2431 2014-07-16 19:39:08Z Sebastian $]
+
+[Global] 
+#CHANGED in Dexpot 1.6
+strDexpot = "Dexpot - Virtuális asztalok Windowsra"
+###
+strVorheriger = "Dexpot - Elõzõ asztal"
+strNaechster = "Dexpot - Következõ asztal"
+strDesktop = "Asztal"
+strAlleDesktops = "Minden asztal"
+strKein = "(Nincs)"
+strMsgFortfahren = "Folytatja?"
+strMsgDesktopanzahl = "A kiválasztott aszalok száma kevesebb az elõzõ értéknél, tehát az asztalokra vonatkozó összes információ, amely magasabb az új értéknél el fog veszni.\n\nEzeken az asztalokon lévõ összes ablak átkerül a jelenlegi asztalra.\nAmennyiben a jelenlegi asztal már nem érvényes, a Dexpot átvált az elsõ asztalra. "
+strMsgVersuchenZuErsetzen = "A Dexpot megpróbálja lecserélni azt."
+strMsgProblem = "Amennyiben ez a probléma továbbra is felmerül:"
+strMsgHinweisDesktopanzahl = "Megjegyzés az asztalok számának változására - Dexpot"
+strMsgAufloesungTitel = "Képernyõfelbontás módosítása  - Dexpot"
+
+#REMOVED in Dexpot 1.6.11
+#strMsgAufloesung = "A képernyõfelbontás most módosítva lesz. Elfogadja az új"
+#strMsgAufloesungAnnehmen = "felbontást?"
+###
+
+strMsgNichtAendern = "Nem lehet megváltoztatni a felbontást."
+strMasterPasswortAnfordern = "A Dexpot jelszavas védelem aktiválva lett. A kívánt feladat végrehajtásához, meg kell adnia a fõ jelszót:"
+strPasswortAnfordern = "A Dexpot jelszavas védelme aktiválva lett. A kívánt feladat végrehajtásához, meg kell adni a jelszót az adott asztalon:" 
+strMasterPasswortAendern = "Itt módosíthatja a Dexpot fõ jelszavát:"
+strAltesPasswort = "Régi jelszó:"
+strNeuesPasswort = "Új jelszó:"
+strBestaetigung = "Megerõsítés:"
+strMsgPasswortFehler = "Hiba történt a jelszó megadásakor - Dexpot"
+strMsgUebereinstimmung = "Az új jelszó és a megerõsítési jelszó nem azonos. Kérjük, javítsa ki a beírást."
+strMsgAltesFalsch = "A régi jelszó érvénytelen!"
+strKeineAnderen = "Nincsenek ablakok"
+strKeineFenster = "Nincsenek ablakok ezen az asztalon"
+strMsgIconsEntfernen = "Valóban eltávolítja a kijelölt ikonokat errõl az asztalról?\n\nA törölt ikonokat, amelyek nem láthatók egyik asztalon sem az 'Asztali ablakok - Ikonok - Rejtett' lapon találhatja." 
+strMsgIconsEntfernenTitel = "Ikonok eltávolítása - Dexpot"
+strMaximieren = "Teljes méret"
+strMinimieren = "Kis méret"
+strStandard = "Alapértelmezett"
+strMsgRegelnAktiviert = "Asztali szabályok engedélyezve"
+strMsgRegelnDeaktiviert = "Asztali szabályok letiltva"
+strFensterMinimiert = "ablak minimalizálva"
+strMsgStandardGeladen = "Az alapértelmezett profil sikeresen importálva lett."
+strMsgStandardNichtGefunden = "Az alapértelmezett profil nem található."
+strFilterBilder = "Minden képfájl"
+strFilterProgramme = "Programok"
+strFilterAlle = "Minden fájl"
+strFilterAlleSymbole = "Minden ikon fájl"
+strFilterBibliotheken = "Könyvtárak"
+strFilterSymbole = "Ikonok"
+strFilterSound = "Hangfájlok"
+strBeimNaechstenWechsel = "Következõ váltásnál"
+
+#ADDED in Dexpot 1.5
+strHorizontalMaximieren = "Vízszintes növelés"
+strVertikalMaximieren = "Függõleges növelés"
+strMsgProfilStandardGefahr = "A standard profil betöltése a beállítások elvesztését okozhatja.\nA beállításaidat el kell mentenie egy különálló profilba.\n\nVégrehajtja?"
+###
+
+#ADDED in Dexpot 1.6
+strMonitor = "Monitor"
+###
+
+
+[frmTaskleiste] 
+#ADDED in Dexpot 1.6
+mnuAppAssignment.Caption = " Alkalmazás hozzárendelése"
+###
+mnuEinstellungen.Caption = " Beállítások"
+mnuWechselLeiste.Caption = " Asztalkezelõ"
+mnuSlideshow.Caption = " Asztal bemutató"
+mnuDesktopFenster.Caption = " Asztali ablakok"
+mnuInfo.Caption = " Névjegy"
+mnuBeenden.Caption = " Kilépés"
+mnuAusrichten.Caption = "Kitûzés a képernyõ szélére"
+mnuLaden.Caption = "Automatikus betöltés indításnál"
+mnuAktivesFenster.Caption = "Aktív ablak elõnézet"
+mnuMausrad.Caption = "Váltás az egér-kerékkel"
+mnuPositionHalten.Caption = "Asztalkezelõ zárolása"
+mnuImVordergrund.Caption = "Mindig látható"
+mnuOrientierung.Caption = "Tájolás módosítása"
+mnuTransparent.Caption = "Átlátszó háttér"
+mnuSchliessen.Caption = "Bezárás"
+mnuVerschiebenListe.Caption = "Más ablakok áthelyezése erre az asztalra" 
+mnuKopierenListe.Caption = "Más ablakok másolása erre az asztalra" 
+mnuRegeln.Caption = " Asztali szabályok"
+mnuFarbe.Caption = "Háttérszín alkalmazása"
+mnuGroesse.Caption = "Ikon méret változtatás"
+mnuVorschau.Caption = " Asztal villámnézet"
+mnuBoo.Caption = "További gombok megjelenítése"
+mnuKonfig.Caption = " Asztalok testreszabása"
+mnuVerschollen.Caption = "Megjelenítés a jelenlegi asztalon"
+mnuTransparenz.Caption = "Átlátszóság"
+mnuTransparenzFestlegen.Caption = "Átlátszóság definiálása"
+mnuTransparenzErhoehen.Caption = "Átlátszóság növelése"
+mnuTransparenzVerringern.Caption = "Átlátszóság csökkentése"
+mnuVerschieben.Caption = "Áthelyezés"
+mnuKopieren.Caption = "Másolás"
+mnuSchliessen.Caption = "Bezárás"
+mnuSchliessenAufDiesem.Caption = "Ezen az asztalon"
+mnuSchliessenAufAnderen.Caption = "Az összes többi asztalon"
+mnuSchliessenAufAllen.Caption = "Mindenhol (Alkalmazás bezárása)"
+mnuTrayMinimieren.Caption = "Minimalizálás a tálcára"
+mnuVordergrund.Caption = "Mindig látható"
+mnuDMSchliessen.Caption = "Bezárás"
+mnuEntfernen.Caption = "Eltávolítás"
+mnuRegelErstellen.Caption = "Szabály létrehozása..."
+mnuSchoner.Caption = "Képernyõvédõ indítása"
+mnuRegelnAnwenden.Caption = "Szabályok alkalmazása"
+mnuIconsWiederherstellen.Caption = "Ikonos visszaállítása"
+mnuIconsLaden.Caption = "Ikonok újra-betöltése a jelenlegi profilból"
+mnuVollbildVorschau.Caption = "Teljes képernyõs elõnézet"
+mnuSchwaerzen.Caption = "Ablak elsötétítése"
+mnuDexpose.Caption = "Ablak katalógus"
+mnuAufrollen.Caption = "Felhajt"
+mnuRegelnAnwendenAufFenster.Caption = "Szabályok alkalmazása erre az ablakra"
+
+#ADDED in Dexpot 1.6
+mnuFeedback.Caption = " Béta visszajelzés"
+###
+
+#ADDED in Dexpot 1.6.10
+mnuDMMoveIcons.Caption = "A kijelölt asztali ikonok áthelyezése ide"
+mnuDMCopyIcons.Caption = "A kijelölt asztali ikonok másolása ide"
+###
+
+
+[frmBeenden] 
+frmBeenden.Caption = "Valóban kilép? - Dexpot"
+cmdAbbrechen.Caption = "Mégse"
+cmdBeenden.Caption = "&Kilépés"
+#REMOVED in Dexpot 1.6
+#frmOptionen.Caption = "Beállítások" 
+#lblBeendenText.Caption = "Válassza ki, hogy melyik virtuális asztalt szeretné megtartani elsõdleges asztalként a Dexpot bezárása után. A további virtuális asztalokon lévõ ablakok át lesznek helyezve erre az asztalra vagy be lesznek zárva."  
+###
+#MODIFIED IN 1.5.0
+optBeenden(0).Caption = "Az összes ablak áthelyezése erre az asztalra"
+optBeenden(1).Caption = "Az összes ablak bezárása, amelyek nem ezen az asztalon vannak"
+###
+
+
+[frmInfo] 
+frmInfo.Caption = "Dexpot névjegy"
+tabInfo.TabCaption(0) = "Általános"
+#REMOVED in Dexpot 1.6
+#tabInfo.TabCaption(1) = "..."
+### 
+cmdOK.Caption = "&OK"
+#MODIFIED in Dexpot 1.6
+frmRegistrierung.Caption = "Licenc adat"
+###
+cmdRegistrieren.Caption = "&Regisztrálás"
+lblMail.Caption = "E-mail:"
+lblLizenzschluessel.Caption = "Licenckulcs:"
+#MODIFIED in Dexpot 1.6 
+lblInternet.Caption = "Web:" 
+###
+#REMOVED IN 1.6
+#lblVersion.Caption = "..."
+#lblDanke.Caption = "..."
+###
+lblWenn.Caption = "A Dexpot saját használatra ingyenes. Viszont, ha megkedvelte ezt a programot, szívesen vennénk, ha egy kis adománnyal támogatná a késõbbi fejlesztéseket."
+#MODIFIED IN 1.6
+strSpenden = "Regisztrálás" 
+###
+strLizenz = "Licenc" 
+strMsgDanke = "A regisztráció sikeres. Köszönjük!"
+strMsgUngueltig = "A licenckulcs érvénytelen! Próbálja meg újra."
+strMsgProblem = "Ha bármilyen problémába ütközik, kérjük, lépjen kapcsolatba velünk:"
+lblName.Caption = "Cégnév:"
+#MODIFIED in Dexpot 1.6 
+lblEmail.Caption = "Név:"
+###
+lblWechsel.Caption = "Asztalváltás:"
+lblLaufzeit.Caption = "Üzemidõ:"
+lblTausend.Caption = "Ez volt az 1000. asztalváltás a Dexpot programmal!"
+lblTausendText.Caption = "Ne aggódjon, ez nem egy tesztverzió, amely lejár az ezredik asztalváltás után. Nem is szeretnénk tovább zaklatni Önt, csak mivel úgy tûnik, hogy használni fogja ezt a programot, szeretnénk a figyelmébe ajánlani a következõt:"
+#MODIFIED IN 1.6
+lblNutzungsbedingungen.Caption = "Licencszerzõdés megtekintése"
+###
+
+#ADDED in Dexpot 1.4.2
+#MODIFIED in Dexpot 1.6
+cmdUpdate.Caption = "&Frissítések keresése"
+strNeueLizenz = "A licenckulcs nem érvényes ehhez a Dexpot verzióhoz. Új licencet kell vásárolnia, ha folytatni szeretné a Dexpot kereskedelni változatának használatát. További információkért, keresse fel weboldalunkat:"
+###
+
+#ADDED in Dexpot 1.5.1
+#MODIFIED in Dexpot 1.6.8
+strEmailBetreff = "Dexpot probléma"
+strEmailNachricht = "Hello Dexpot csapat,\n\nTalálkoztam egy Dexpot problémával és az oka annak, hogy kitöltöttem az alábbi ûrlapot.\n\nÜzenet:\n\nA probléma reprodukálásának lépései:\n\nFutó alkalmazások:\n\nVerzió információk:"
+###
+
+#ADDED in Dexpot 1.6
+lblPurchase.Caption = "A Dexpot 1.6 Pro megvásárlása"
+lblEvaluation.Caption = "Kiértékelési idõszak:"
+lblEvaluationLeft.Caption = "%i nap van hátra"
+strLastDay = "utolsó nap"
+strExpired = "lejárt"
+strEvaluationExpired = "A kiértékelési idõszak lejárt. Kérjük, vásároljon egy licencet, ha továbbra is használni szeretné a Dexpot programot."
+###
+
+
+[frmSlideshow] 
+frmSlideshow.Caption = "Asztali vetítés - Dexpot"
+optRueckwaerts.Caption = "Hátra"
+optVorwaerts.Caption = "Elõre"
+
+#MODIFIED in Dexpot 1.5.0 
+cmdSchliessen.Caption = "&OK"
+cmdUebernehmen.Caption = "&Indítás"
+cmdAbbrechen.Caption = "&Leállítás"
+frmEinstellungen.Caption = "Asztalok"
+lblSek.Caption = "mp."
+###
+
+#REMOVED in Dexpot 1.6
+#lblWas.Caption = "Kérjük, állítsa be azt az idõközt, amelyet alkalmazni szeretne az asztalok közti váltásnál. Továbbá azt is megadhatja, hogy az elõre vagy hátrafelé történjen:"
+###
+
+#ADDED in Dexpot 1.5.0
+cmdDesktops.Caption = "Kiválasztás"
+lblIntervall.Caption = "Idõköz:"
+chkEndlos.Caption = "Ismétlõdõ"
+strAnhalten = "&Szünet"
+strFortsetzen = "&Folytatás"
+###
+
+#ADDED in Dexpot 1.5.9
+frmRichtung.Caption = "Irány"
+###
+
+#ADDED in Dexpot 1.6.2
+frmOptions.Caption = "Opciók"
+chkAutostart.Caption = "Vetítés indítása automatikusan"
+###
+
+
+[frmEinstellungen] 
+frmEinstellungen.Caption = "Beállítások - Dexpot"
+cmdOK.Caption = "&OK"
+cmdAbbrechen.Caption = "&Mégse"
+cmdUebernehmen.Caption = "&Alkalmaz"
+fuchsFeuer(1).Caption = "Általános"
+fuchsFeuer(2).Caption = "Megjelenés"
+fuchsFeuer(3).Caption = "Összetevõk"
+fuchsFeuer(4).Caption = "Vezérlõelemek"
+fuchsFeuer(5).Caption = "Asztalok váltása"
+
+#MODIFIED Dexpot 1.5.0
+fuchsFeuer(6).Caption = "Beépülõk és Extrák"
+###
+
+#Allgemein 
+frmZahl.Caption = "Változtatható asztalok"
+lblDesktopzahl.Caption = "Asztalok száma:"
+lblStartDesktop.Caption = "Kezdõ asztal:"
+frmInternational.Caption = "Nyelvi beállítások"
+lblSprache.Caption = "Nyelv kiválasztása:"
+cmdSprachinfo.Caption = "Névjegy"
+frmStart.Caption = "Indítás"
+chkAutostart.Caption = "Indítás a Windows rendszerrel együtt"
+chkStartBildschirm.Caption = "Indító képernyõ rejtése"
+chkProfilAuswahl.Caption = "A profilok listájának megjelenítése indításkor"
+chkLetzteKonfigurationLaden.Caption = "Automatikus betöltés az utolsó konfiguráció után"
+lblPrioritaet.Caption = "Folyamat prioritás:"
+cmbPrio.List(0) = "Valós idejû"
+cmbPrio.List(1) = "Magas"
+cmbPrio.List(2) = "Normál"
+cmbPrio.List(3) = "Alacsony"
+frmBeenden.Caption = "Kilépés"
+chkSchnellesBeenden.Caption = "Kilépés megerõsítés nélkül"
+chkProfilSpeichern.Caption = "Profil mentése kilépéskor"
+frmProfile.Caption = "Profilok"
+lblProfile.Caption = "Profil kiválasztása:"
+cmdProfilLaden.Caption = "Betöltés"
+cmdProfilUeberschreiben.Caption = "Mentés"
+cmdProfilSpeichern.Caption = "Mentés másként..."
+cmdProfilLoeschen.Caption = "Törlés"
+
+#ADDED in Dexpot 1.4.2
+chkAutoUpdate.Caption = "Frissítések keresése"
+###
+
+#ADDED in Dexpot 1.5.0
+chkAdmin.Caption = "Futtatás rendszergazdaként"
+#MODIFIED in Dexpot 1.6.7
+lblTrayIconAktionEinfach.Caption = "Mûvelet Ctrl + szimpla kattintáskor:"
+###
+###
+
+#Ansicht 
+#MODIFIED in Dexpot 1.6.7
+frmTrayIcon.Caption = "Rendszer tálca ikon" 
+###
+
+optTrayicon(0).Caption = "Nincs ikon"
+#MODIFIED in Dexpot 1.6.3
+optTrayicon(1).Caption = "Program ikon"
+###
+optTrayicon(2).Caption = "Jelenlegi asztal"
+optTrayicon(3).Caption = "Elõzõ / következõ asztal"
+optTrayicon(4).Caption = "Egy ikon asztalonként"
+frmSystemmenues.Caption = "Rendszermenük"
+chkSystemmenues.Caption = "Dexpot bejegyzések hozzáadása az ablakok rendszermenüjéhez"
+#MODIFIED in 1.5.0
+frmTransparenzManager.Caption = "Átlátszóság"
+###
+lblUnsichtbar.Caption = "Láthatatlan"
+lblSichtbar.Caption = "Látható"
+frmTrayMinimieren.Caption = "Tálcára minimalizált ablakok"
+chkTraycontainer.Caption = "Tároló használata a tálcára minimalizált ablakok számára"
+chkTMFDoppelklick.Caption = "Visszaállítás dupla-kattintásnál"
+
+#MODIFIED in Dexpot 1.6.7
+lblTrayIconAktion.Caption = "Mûvelet dupla kattintáskor:"
+###
+
+#ADDED in Dexpot 1.6.3
+lblTrayiconMode.Caption = "Mód:"
+lblTrayiconSet.Caption = "Vizuális stílus:"
+###
+
+#ADDED in Dexpot 1.6
+frmFullscreenDetection.Caption = "Teljes képernyõs alkalmazások"
+chkFullscreenDetection.Caption = "A Dexpot komponensek rejtése, ha egy teljes képernyõs alkalmazás aktív"
+###
+
+#Komponenten 
+tabKomponenten.Tabs(1).Caption = "Asztalkezelõ"
+tabKomponenten.Tabs(2).Caption = "Asztal elõnézet"
+tabKomponenten.Tabs(3).Caption = "DexTab"
+
+#ADDED in Dexpot 1.6
+tabKomponenten.Tabs(4).Caption = "Teljes képernyõ"
+###
+
+##Desktop Manager 
+frmOptionenManager.Caption = "Beállítások"
+chkManagerAutostart.Caption = "Automatikus indítás a Dexpot-al"
+chkAktiveFensterVorschau.Caption = "Aktív ablak elõnézet"
+chkMausrad.Caption = "Váltás az egérgörgõvel"
+chkAmRandAusrichten.Caption = "Kitûzés a képernyõ szélére"
+chkPositionHalten.Caption = "Pozíció zárolása"
+chkMiniDM.Caption = "Kicsi ikonok"
+frmManagerBoo.Caption = "További gomb"
+chkManagerBoo.Caption = "További gomb megjelenítése"
+lblManagerBooIcon.Caption = "Ikon:"
+cmdManagerBooIcon.Caption = "..."
+cmdManagerBooIconStandard.Caption = "Alapértelmezett"
+lblManagerBooEinfach.Caption = "Mûvelet egy kattintáskor:"
+lblManagerBooDoppelt.Caption = "Mûvelet dupla kattintáskor:"
+#ADDED in 1.5.1
+lblManagerBooMittel.Caption = "Mûvelet középsõ kattintáskor:"
+###
+frmManagerHintergrund.Caption = "Háttér"
+optManagerHintergrundStandard.Caption = "Alapértelmezett"
+optManagerHintergrundFarbe.Caption = "Egyszínû"
+optManagerHintergrundTransparent.Caption = "Átlátszó"
+cmdManagerFarbe.Caption = "..." 
+frmOrientierung.Caption = "Tájolás"
+optHorizontal.Caption = "Vízszintes"
+optVertikal.Caption = "Függõleges"
+cmdHotkeyManager.Caption = "Gyorsbillentyû megadása"
+
+##Desktop Vorschau 
+chkVorschauAutostart.Caption = "Indítás a Dexpot programmal"
+chkVorschauTitelleiste.Caption = "Címsáv rejtése"
+frmVorschauVerhalten.Caption = "Viselkedés"
+chkVorschauHintergrund.Caption = "Automatikus rejtés"
+chkVorschauVerhaeltnisHalten.Caption = "Méretarány megtartás"
+chkVorschauVerhaeltnisErzwingen.Caption = "Helyes képméretarány kényszerítés"
+frmVorschauFarben.Caption = "Színek"
+lblVorschauFarbeAktiv.Caption = "Aktív asztal:"
+lblVorschauFarbeInaktiv.Caption = "Inaktív asztal:"
+lblVorschauFarbeRahmen.Caption = "Ablakszegély:"
+lblVorschauFarbeTitel.Caption = "Ablakfejléc:"
+
+#REMOVED in Dexpot 1.6
+#chkVollbildVorschauZoom.Caption = "Nagyítási effekt"
+###
+
+lblHotkeyDefinieren.Caption = "Gyorsbillentyû megadása:"
+frmVorschauDarstellung.Caption = "Megjelenés"
+optVorschauDarstellungSkizzen.Caption = "Ablak vázlatok"
+optVorschauDarstellungSymbole.Caption = "Ikonok"
+
+##DexTab
+chkDexTabSortieren.Caption = "Ablakok rendezése címke szerint"
+chkDexTabTrayicons.Caption = "A tálcára minimalizált ablakok megjelenítése"
+chkDexTabNurTaskleiste.Caption = "Csak a tálca listán szereplõ ablakok megjelenítése"
+
+#MODIFIED in Dexpot 1.5.0
+frmDexTabMarkierung.Caption = "Kezdeti feladatjelzõ kapcsoló"
+###
+
+optDexTabMarkierungAktiv.Caption = "Aktív ablak"
+optDexTabMarkierungLetztes.Caption = "Utolsó aktív ablak"
+frmDexTabFarben.Caption = "Színek"
+lblDexTabFensterVordergrund.Caption = "Szöveg:"
+lblDexTabFensterHintergrund.Caption = "Háttér:"
+lblDexTabMarkierung.Caption = "Kiválasztás:"
+cmdDexTabSystemfarben.Caption= "Rendszerszínek"
+
+#ADDED in Dexpot 1.5.0
+frmDexTabMarkierungDesktops.Caption = "Kezdeti asztaljelzõ kapcsoló"
+optDexTabMarkierungDesktops(0).Caption = "Aktív asztal"
+optDexTabMarkierungDesktops(1).Caption = "Utolsó aktív asztal"
+###
+
+#ADDED in Dexpot 1.6
+chkDexTabLeereDesktops.Caption = "Üres asztalok megjelenítése"
+###
+
+##Fensterkatalog
+#REMOVED in Dexpot 1.6
+#chkDexposeBlenden.Caption = "Átúsztatási effekt"
+###
+
+#ADDED in Dexpot 1.6
+##Vollbild
+frmDexControl.Caption = "DexControl"
+chkDexControl.Caption = "Interaktív teljes képernyõs elõnézet és ablak katalógus használata"
+lblDexControlAnimationSpeed.Caption = "Animáció sebessége:"
+chkDexControlShowLabels.Caption = "Ablak címkék megjelenítése mozaik nézetben"
+chkDexControlExcludedMonitors.Caption = "A váltásból kizárt monitorok megjelenítése"
+###
+
+#ADDED in Dexpot 1.6.8
+chkDexControlStartTiled.Caption = "Teljes képernyõs elõnézet indítása mozaik nézetben"
+chkDexControlStartZoomed.Caption = "Teljes képernyõs elõnézet indítása az aktuális asztal nagyított állapotában"
+chkDexControlMiddleButton.Caption = "Középsõ egérgomb az ablakok bezárásához mozaik nézetben"
+###
+
+#ADDED in Dexpot 1.6.11
+chkDexControlCombineMonitors.Caption = "Az azonos méretû monitorok egyesítése"
+###
+
+#ADDED in Dexpot 1.6.12
+chkDexControlRestrictToWorkArea.Caption = "A tálca mindig látható"
+chkDexControlShowDesktopNames.Caption = "Asztali nevek megjelenítése"
+###
+
+#Steuerung 
+tabSteuerung.Tabs(1).Caption = "Gyorsbillentyûk"
+tabSteuerung.Tabs(2).Caption = "Egér kapcsoló"
+tabSteuerung.Tabs(3).Caption = "Címsávok"
+
+##Hotkeys 
+frmHotkeys.Caption = "Billentyû-kombináció"
+chkHotkeyModifikator(0).Caption = "Alt"
+chkHotkeyModifikator(1).Caption = "Shift"
+chkHotkeyModifikator(2).Caption = "Ctrl"
+chkHotkeyModifikator(3).Caption = "Windows billentyû"
+cmdHotkeyDefinieren.Caption = "&Definiálás"
+cmdHotkeyLoeschen.Caption = "&Törlés"
+cmdHotkeyFortsetzung.Caption = "Sorozatok folytatása"
+frmHotkeyErklaerug.Caption = "Magyarázat"
+HotkeyTexte(1) = "Aktív ablak áthelyezése a megfelelõ asztalra."
+HotkeyTexte(2) = "Aktív ablak másolása a respektív asztalra."
+HotkeyTexte(3) = "A respektív Dexpot modul nyitása vagy zárása."
+HotkeyTexte(5) = "Fekete kép létrehozása a képernyõn. Az asztal visszaállításához, nyomja meg újra a gyorsbillentyût."
+HotkeyTexte(6) = "Visszaléptetés az utoljára látogatott asztalra."
+HotkeyTexte(7) = "Egy átlátszó párbeszédablak megnyitás az aktív ablak számára."
+HotkeyTexte(8) = "A jelenleg megnyitott ablak átlátszóságának növelése."
+HotkeyTexte(9) = "A jelenleg megnyitott ablak átlátszóságának csökkentése."
+HotkeyTexte(10) = "Az összes ablak átlátszatlanná állítása."
+HotkeyTexte(11) = "Dexpot beállítások és asztal konfiguráció betöltése az alapértelmezett profilból."
+HotkeyTexte(12) = "Egy folyamatban lévõ asztal vetítés leállítása."
+HotkeyTexte(13) = "Ez elérhetõvé teszi a Dexpot tálca ikonján keresztül a 'Megjelenés' fül alatt található opciókat."
+HotkeyTexte(14) = "Szabályok alkalmazása az összes megnyitott ablakra."
+HotkeyTexte(15) = "Az asztali szabályok végrehajtásának átmeneti letiltása. Nyomja le a gyorsbillentyût az újraaktiváláshoz."
+HotkeyTexte(16) = "Visszaállítja az ikonokat a jelenlegi asztalon az utoljára elhagyott asztalon használt ikonok állapota szerint."
+HotkeyTexte(17) = "Az ikon elosztás betöltése minden asztal számára az aktuális profilból."
+HotkeyTexte(18) = "A DexTab feladat kapcsoló megjelenítése az Alt+Tab Windows funkció helyettesítéseként."
+#CHANGED in Dexpot 1.6
+HotkeyTexte(19) = "A DexTab asztali kapcsoló megjelenítése bélyegképekkel és az összes asztal ablakával." 
+###
+HotkeyTexte(20) = "Az aktív ablak eltávolítása a jelenlegi asztalról, illetve kilép az alkalmazás ha ez csak az aktuális asztalon fut."
+HotkeyTexte(21) = "Képernyõvédõ indítása a jelenlegi asztalon."
+HotkeyTexte(22) = "Egy menü megnyitása az összes Dexpot funkcióval a jelenlegi ablak számára a kurzor pozíciónál."
+HotkeyTexte(23) = "A jelenlegi asztalon lévõ összes ablak megjelenítése mozaikszerû miniatûrönként."
+cmdAlleHotkeysLoeschen.Caption = "Az összes törlése"
+
+#ADDED in Dexpot 1.5.14
+HotkeyTexte(24) = "Az aktív ablak áthelyezése a megfelelõ asztalra és váltás ott."
+###
+
+#ADDED in Dexpot 1.5.0
+imgHotkeyBelegt.ToolTipText = "Ezt a gyorsbillentyût már használja egy másik program."
+###
+
+#ADDED in Dexpot 1.6
+chkHotkeysWithoutModifiers.Caption = "Gyorsbillentyûk engedélyezése módosítók nélkül"
+###
+
+##Mauswechsel 
+#MODIFIED in Dexpot 1.6
+lblMausWechsel.Caption = "Ez a funkció az ablakok közti automatikus váltást eredményezi, amikor az egérkurzort a képernyõ széléhez helyezi."
+###
+chkMausWechsel.Caption = "Egér-kapcsoló aktiválása"
+frmMausWechselAbstimmung.Caption = "Igazítás"
+lblMausWechselDauer.Caption = "Késleltetés:"
+lblMausWechselAbstand.Caption = "Távolság:"
+lblMausWechselToleranz.Caption = "Érzékenység:"
+chkMausWechselInvertieren.Caption = "Egérkurzor beállítása az ellentétes képernyõ szélekhez"
+chkMausWechselWegSetzen.Caption = "Egérkurzor mozgatása a keret területén túlra váltás után"
+frmMausWechselRaender.Caption = "Szélek"
+chkMausWechselOben.Caption = "Felsõ"
+chkMausWechselLinks.Caption = "Bal"
+chkMausWechselRechts.Caption = "Jobb"
+chkMausWechselUnten.Caption = "Alsó"
+frmMausWechselEcken.Caption = "Sarkok"
+frmMausWechselAusloeser.Caption = "Vezérlõjel"
+
+##Titelleisten
+#REMOVED in Dexpot 1.6
+#lblTitelleistenErklaerung.Caption = "A Dexpot észleli az egér kattintásokat az ablak címsorában, és lehetõvé teszi a billentyû-kattintás-kombinációk szerinti megadott mûveleteket."
+###
+lblTitelleistenBereich.Caption = "&Terület:"
+lvTitelleisten.ColumnHeaders(1).Text = "Kombináció"
+lvTitelleisten.ColumnHeaders(2).Text = "Cél"
+lvTitelleisten.ColumnHeaders(3).Text = "Mûvelet"
+frmTitelleistenMaus.Caption = "&Egérgomb"
+optTitelleistenTaste(0).Caption = "Bal egérgomb"
+optTitelleistenTaste(1).Caption = "Jobb egérgomb"
+optTitelleistenTaste(2).Caption = "Középsõ egérgomb"
+frmTitelleistenModifikator.Caption = "Modifikátor"
+lblTitelleistenZiel.Caption = "&Cél:"
+cmbTitelleistenZiel.List(0) = "Aktív ablak"
+cmbTitelleistenZiel.List(1) = "Aktív alkalmazás"
+cmbTitelleistenZiel.List(2) = "Minden ablak"
+lblTitelleistenAktion.Caption = "Mûvelet:"
+cmdTitelleistenHinzufuegen.Caption = "&Hozzáadás"
+cmdTitelleistenEntfernen.Caption = "&Eltávolítás"
+cmbTitelleistenBereich.List(0) = "Ablakcím"
+cmbTitelleistenBereich.List(1) = "Minimalizáló gomb"
+cmbTitelleistenBereich.List(2) = "Maximalizáló gomb"
+cmbTitelleistenBereich.List(3) = "Bezárás gomb"
+
+#Desktopwechsel 
+tabWechsel.Tabs(1).Caption = "Asztali elemek"
+tabWechsel.Tabs(2).Caption = "Asztal nevek"
+
+#ADDED in Dexpot 1.6
+tabWechsel.Tabs(3).Caption = "Több monitor"
+###
+
+##Desktopelemente 
+frmWechselElementIcons.Caption = "Asztali ikonok"
+chkWechselElementIcons.Caption = "Asztali ikonok testreszabása"
+chkIconsAusrichten.Caption = "Rácshoz igazítás"
+chkIconsAnordnen.Caption = "Automatikus elrendezés"
+frmWechselElementHintergrund.Caption = "Háttér"
+chkWechselElementHintergrund.Caption = "Asztali háttér testreszabása"
+
+#ADDED in Dexpot 1.6.11
+chkHintergrundRestore.Caption = "Az asztal hátterének visszaállítása kilépéskor"
+###
+
+chkAenderungenUebernehmenHintergrund.Caption = "Manuális módosítások alkalmazása a Dexpot konfigurációjában"
+frmWechselElementAufloesung.Caption = "Képernyõfelbontás"
+chkWechselElementAufloesung.Caption = "Képernyõfelbontás testreszabása"
+chkAenderungenUebernehmenAufloesung.Caption = "Alkalmazza a manuális módosításokat a Dexpot konfigurációjában"
+
+#REMOVED in Dexpot 1.6.11
+#chkAufloesungFragen.Caption = "Kérdezzen rá a képernyõfelbontás módosítása elõtt"
+#chkAufloesungFenstergroesse.Caption = "Ablakméret mentése"
+###
+
+frmWechselElementSchoner.Caption = "Képernyõvédõ"
+chkWechselElementSchoner.Caption = "Képernyõvédõ testreszabása"
+chkAenderungenUebernehmenSchoner.Caption = "Alkalmazza a manuális módosításokat a Dexpot konfigurációjában"
+
+#ADDED in Dexpot 1.6
+frmTaskbar.Caption = "Tálca"
+chkPersistentTaskbar.Caption = "A tálcán lévõ összes gomb maradjon látható"
+cmdIconanpassung.Caption = "Speciális"
+###
+
+##Desktopnamen 
+#REMOVED in Dexpot 1.6
+#lblEinblendungErklaerung.Caption = "Az asztal név opció lehetõvé teszi a jelenlegi asztalnév megjelenítését, véglegesen vagy minden asztal váltás után." 
+###
+lblEinblendung.Caption = "Megjelenítendõ asztalnév:"
+optEinblendung(1).Caption = "Soha"
+optEinblendung(2).Caption = "Váltáskor"
+optEinblendung(3).Caption = "Véglegesen"
+lblEinblendungDauer.Caption = "Idõtartam:"
+lblEinblendungSekunden.Caption = "másodperc"
+lblEinblendungPosition.Caption = "Pozíció:"
+
+#REMOVED in Dexpot 1.6
+#chkEinblendungPosition.Caption = "Asztal háttér" 
+###
+
+lblEinblendungText.Caption = "Szöveg:"
+cmdEinblendungVariablen.Caption = "Változók"
+mnuVariable(1).Caption = "%g jelenlegi asztal (szám)"
+mnuVariable(2).Caption = "%G jelenlegi asztal (név)"
+mnuVariable(3).Caption = "%v legutóbbi asztal (szám)"
+mnuVariable(4).Caption = "%V legutóbbi asztal (név)"
+lblEinblendungSchrifart.Caption = "Betûtípus:"
+cmdEinblendungSchriftart.Caption = "..." 
+lblEinblendungHintergrund.Caption = "Háttér:"
+optEinblendungHintergrund(1).Caption = "Egyszínû"
+optEinblendungHintergrund(2).Caption = "Átlátszó"
+
+#REMOVED in Dexpot 1.6
+#cmdEinblendungHintergrund.Caption = "..." 
+###
+
+lblEinblendungTransparenz.Caption = "Átlátszóság:"
+
+#ADDED in Dexpot 1.6
+chkEinblendungLogo.Caption = "Dexpot logo megjelenítése"
+lblEinblendungFarben.Caption = "Színek:"
+lblEinblendungFarbeSchrift.Caption = "Betû"
+lblEinblendungFarbeRand.Caption = "Körvonal"
+###
+
+#ADDED in Dexpot 1.6
+##Multi-Monitor
+lblMonitore.Caption = "Válassza ki, hogy melyik monitorokra legyen hatással az asztal váltás. A váltásból kizárt monitorokra helyezett ablakok, láthatóak maradnak az összes asztalon."
+chkMonitorExclusion.Caption = "Csak akkor használja ezt a beállítást, ha több monitor is jelen van"
+###
+
+#Extras
+frmExtrasPasswoerter.Caption = "Jelszavak"
+cmdMasterPasswort.Caption = "Elsõdleges jelszó módosítása"
+cmdPasswoerterZuruecksetzen.Caption = "Jelszavak visszaállítása"
+frmDebug.Caption = "Hibakeresés"
+chkDebugLog.Caption = "Naplófájl engedélyezése"
+chkDebugVorschau.Caption = "A teljes képernyõs elõnézet letiltása"
+#MODIFIED in Dexpot 1.5.1
+chkDebugTaskleiste.Caption = "Ne tartsa meg a tálca gomb sorrendet"
+###
+chkDebugZuordnung.Caption = "Ablak helyreállítás tiltása"
+
+#ADDED in Dexpot 1.6.5
+cmdDebugLog.Caption = "Naplófájl megjelenítése"
+cmdDebugErweitert.Caption = "Speciális"
+###
+
+#ADDED in Dexpot 1.5.0
+frmPlugins.Caption = "Beépülõ modulok"
+cmdPluginEinstellungen.Caption = "Beállítás"
+lblPluginAutorLabel.Caption = "Készítõ:"
+lblCrossDesktop.Caption = "Mikor aktiválok egy ablakot egy másik asztalon:"
+frmCrossDesktop.Caption = "Ablakok viselkedése a további asztalokon"
+cmbCrossDesktop.List(0) = "Váltás a megfelelõ asztalra"
+cmbCrossDesktop.List(1) = "Ablak áthelyezése az aktuális asztalra"
+cmbCrossDesktop.List(2) = "Ablak másolása az aktuális asztalra"
+cmbCrossDesktop.List(3) = "Nincs mûvelet"
+
+strVorherigen = "elõzõ asztal"
+strNaechsten = "következõ asztal"
+###
+
+#ADDED in Dexpot 1.5.10
+cmdPluginHotkeys.Caption = "Gyorsbillentyûk beállítása"
+###
+
+#Strings 
+strZuruecksetzen = "Alapértelmezett beállítások visszaállítása"
+strslideshowabbrechen = "Vetítés leállítása"
+strTrayicon = "Tálca ikon kapcsoló"
+strTransparenzFestlegen = "Átlátszósági érték beállítása"
+strTransparenzErhoehen = "Átlátszóság növelése"
+strTransparenzVerringern = "Átlátszóság csökkentése"
+strDexpotFenster = "Dexpot összetevõk"
+strSonstiges = "Egyéb"
+strTransparenz = "Átlátszóság"
+strAufAlle = "mindre"
+strAuf = "Ide:"
+strKopieren = "Ablak másolása"
+strVerschieben = "Ablak áthelyezése"
+strVorheriger = "Elõzõ asztal"
+strNaechster = "Következõ asztal"
+strWechseln = "Asztal kapcsoló"
+strMitte = "Középre"
+strMitteOben = "Fent középen"
+strMitteUnten = "Lent középen"
+strLinks = "Balra"
+strLinksOben = "Balra fent"
+strLinksUnten = "Balra lent"
+strRechts = "Jobbra"
+strRechtsOben = "Jobb felsõ"
+strRechtsUnten = "Jobbra lent"
+strMsgName = "Nyelv"
+strMsgAutor = "Szerzõ"
+strMsgKommentar = "Leírás"
+strMsgSprachdatei = "Nyelvi fájl információ"
+strMsgPasswoerterZuruecksetzen = "Valóban visszaállítja a jelszavakat? A fõ és az összes asztali jelszó el fog veszni."
+strTransparenzZuruecksetzen = "Átlátszósági értékek visszaállítása"
+strRegelnDeaktivieren = "Szabályok tiltása"
+#CHANGED in Dexpot 1.6
+strAltTab = "DexTab feladat kapcsoló"
+###
+strFensterSchliessen = "Ablak bezárása"
+strZurueck = "Vissza"
+strStartDesktopGleichLetzterDesktop = "Utolsó aktív asztal"
+strMsgAlleHotkeysLoeschen = "Valóban eltávolítja az összes megadott gyorsbillentyût?"
+strMsgProfilLoeschen = "Valóban törli a kiválasztott profilt?"
+strMsgProfilSpeichern1 = "Valóban felülírja a"
+strMsgProfilSpeichern2 = "profilt?"
+strMsgProfilGeladen = "A profil betöltése sikeres."
+strMsgProfilGespeichert = "A profil mentése sikeres."
+strMsgProfilStandard = "Az alapértelmezett profil nem írható felül."
+strMsgProfilNichtGespeichert = "A profil nem lett mentve."
+strFenstermenue = "Ablak menü"
+strHintergrund = "Áthelyezés a háttérbe"
+
+#ADDED in Dexpot 1.5.0
+#CHANGED in Dexpot 1.6
+strDesktopwechsler = "DexTab asztal váltó"
+###
+strPluginNichtAktivierbar = "Ez a beépülõ nem kompatibilis a jelenlegi Windows vagy Dexpot verzióval."
+###
+
+#ADDED in Dexpot 1.5.6
+strAddDesktop = "Asztal hozzáadás"
+strRemoveDesktop = "Asztal eltávolítása"
+###
+
+#ADDED in Dexpot 1.5.14
+strMoveFollow = "Ablak áthelyezés és váltás"
+###
+
+#ADDED in Dexpot 1.6
+strCustomStatic = "Egyéni (rögzített)"
+strCustomDynamic = "Egyéni (mozgatható)"
+strDragMe = "Húzhatsz!"
+strCenter = "Középre"
+strAllMonitors = "Összes monitor"
+strWindowCommands = "Ablak parancsok"
+###
+
+#ADDED in Dexpot 1.6.10
+strChangeDesktopName = "Asztal név módosítása"
+strFindWindow = "Keresés ablak"
+###
+
+#ADDED in Dexpot 1.6.11
+strRestoreTrayMinimized = "Az utoljára tálcára küldött ablak visszaállítása"
+###
+
+
+[frmFenster] 
+#ADDED in 1.5.0
+frmFenster.Caption = "Asztali ablakok - Dexpot"
+###
+cmdSchliessen.Caption = "&Bezárás"
+cmdAktualisieren.Caption = "&Frissítés"
+#MODIFIED in 1.5.0
+strFenstertitel = "Cím"
+strFensterstatus = "Állapot"
+strFensterhandle = "Kezelõ"
+strMsgIcons = "Ez a nézet csak az 'Asztali ikonok testreszabása' opció aktiválása után érhetõ el az ikonok különbözõ asztalok közti elosztásához. Ezt a funkciót és az ezekkel kapcsolatos lehetõségeket az Extrák fül beállításaiban találhatja meg.\n\nSzeretné aktiválni az 'Asztali ikonok testreszabása' opciót most?"
+#
+strNormal = "Általános"
+strMaximiert = "Teljes méretû"
+strMinimiert = "Kis méretû"
+strWiederherstellen = "Visszaállítás"
+mnuWechseln.Caption = "Kapcsoló"
+strFensterAnzahl = "Ablak:"
+strIconAnzahl = "Ikonok:"
+mnuSammeln.Caption = "Ablakok gyûjtése"
+mnuDesktopKonfigurieren.Caption = "Beállítás"
+
+#ADDED in Dexpot 1.6.10
+mnuChangeName.Caption = "Név módosítása"
+###
+
+tabFenster.Tabs(1).Caption = "Ablak"
+tabFenster.Tabs(2).Caption = "Áttekintés"
+tabFenster.Tabs(3).Caption = "Elõnézet"
+tabFenster.Tabs(4).Caption = "Rejtett"
+tabFenster.Tabs(5).Caption = "Ikonok"
+strSystemTray = "Rendszertálca"
+mnuSucheAlles.Caption = "Mind"
+mnuSucheTitel.Caption = "Cím"
+mnuSucheKlasse.Caption = "Osztály"
+mnuSucheExe.Caption = "Végrehajtható"
+
+
+[frmTransparenz] 
+frmTransparenz.Caption = "Átlátszóság - Dexpot"
+cmdUebernehmen.Caption = "Alkalmaz"
+cmdSchliessen.Caption = "Bezárás"
+cmdOK.Caption = "&OK"
+#REMOVED in 1.6.0
+#frmTransparent.Caption = "Átlátszóság" 
+###
+lblSichtbar.Caption = "Látható"
+lblUnsichtbar.Caption = "Láthatatlan"
+strBitteWaehlen = "Kérjük, állítsa be a kívánt átlátszósági értéket"
+strUnd = "és"
+strWeitere = "további ablak(ok)"
+strFestlegen = ":"
+chkFarbe.Caption = "Területek átlátszóvá tétele ezzel a színnel:"
+
+
+[frmPasswort] 
+frmPasswort.Caption = "Jelszó - Dexpot"
+frmEingabe.Caption = "Jelszó"
+cmdOK.Caption = "&OK"
+cmdAbbrechen.Caption = "&Mégse"
+lblInfo.Caption = "Az asztal amire váltani szeretne, jelszóval van védve. Meg kell adnia a megfelelõ jelszót:"
+
+
+[frmNeuesProfil] 
+frmNeuesProfil.Caption = "A jelenlegi beállítások mentése új profilként"
+lblProfil.Caption = "&Profil mentése másként:"
+cmdAbbrechen.Caption = "&Mégse"
+cmdOK.Caption = "&OK"
+strMsgNameNeuesProfil = "Kérjük, adjon meg egy nevet az új profil számára:>
+strMsgZeichenNeuesProfil = "A profilnév nem tartalmazhatja a következõ karaktereket:"
+
+
+[frmProfilAuswahl] 
+frmProfilAuswahl.Caption = "Profil választás - Dexpot"
+#REMOVED in Dexpot 1.6
+#lblWillkommen.Caption = "Üdvözli a Dexpot! Válassza ki, hogy betölt-e egy bizonyos profilt vagy az elõzõ beállításokat kívánja használni." 
+#frmProfile.Caption = "Profilok" 
+#lblProfile.Caption = "Válasszon profilt:"
+### 
+cmdProfil.Caption = "Profil betöltése"
+cmdLetzte.Caption = "Elõzõ konfiguráció használata"
+
+
+[frmRegeln] 
+frmRegeln.Caption = "Asztali szabályok - Dexpot"
+tabRegeln.Tabs(1).Caption = "Áttekintés"
+tabRegeln.Tabs(2).Caption = "Feltételek"
+tabRegeln.Tabs(3).Caption = "Mûveletek"
+cmdOK.Caption = "&OK"
+cmdAbbrechen.Caption = "&Mégse"
+cmdUebernehmen.Caption = "&Alkalmaz"
+cmdAnwenden.Caption = "&Szabályok alkalmazása"
+cmdAssi.Caption = "&Varázsló"
+cmdNeu.Caption = "&Új"
+cmdEntfernen.Caption = "&Törlés"
+lblName.Caption = "Név"
+chkDeaktivieren.Caption = "Szabály deaktiválása"
+frmBedingungen.Caption = "Feltételek"
+frmAktionen.Caption = "Mûveletek"
+cmdNeueBedingung.Caption = "+" 
+cmdBedingungEntfernen.Caption = "-" 
+cmdNeueAktion.Caption = "+" 
+cmdAktionEntfernen.Caption = "-" 
+chkFolgen.Caption = "Lépés után következik"
+lblTyp.Caption = "Típus:"
+lblSucher.Caption = "Kiválasztó eszköz:"
+cmdNeueBedingung.ToolTipText = "Új feltétel hozzáadása"
+cmdNeueAktion.ToolTipText = "Új mûvelet hozzáadása"
+cmdBedingungEntfernen.ToolTipText = "A kiválasztott feltétel törlése"
+cmdAktionEntfernen.ToolTipText = "A kiválasztott mûvelet törlése"
+cmdImport.Caption = "Szabályok importálása"
+lblSichtbar.Caption = "Látható"
+lblUnsichtbar.Caption = "Láthatatlan"
+cmdDurchsuchen.Caption = "Tallózás ..."
+frmVerknuepfung.Caption = "Egyesítés"
+optVerknuepfung(0).Caption = "Minden feltétel azonos"
+optVerknuepfung(1).Caption = "Egy feltétel azonos"
+lblWert.Caption = "&Érték:"
+frmAusnahmen.Caption = "Ne alkalmazza a szabályt a..."
+chkSichtbar.Caption = "Rejtett ablakokra"
+chkRand.Caption = "Keret nélküli ablakokra"
+chkTitel.Caption = "Fejléc nélküli ablakokra"
+chkTopLevel.Caption = "Alsóbbrendû ablakokra"
+chkAutomatisch.Caption = "Szabály automatikus alkalmazása"
+strFenstertitel = "Ablakfejléc"
+strFensterklasse = "Ablak osztálya"
+strAlleFenster = "Minden ablak"
+strist = "is"
+strenthaelt = "tartalmazza"
+strenthaeltnicht = "nem tartalmazza"
+strbeginntmit = "így kezdõdik"
+strendetmit = "a vége"
+strAlleBedingungen = "Az összes feltétel teljesítése"
+strEineBedingung = "Egy feltétel teljesítése"
+strVerschieben = "Áthelyezés"
+strKopieren = "Másolás"
+strTransparenz = "Átlátszósági érték beállítása"
+strSchliessen = "Bezárás"
+strund = "és"
+stroder = "vagy"
+strVerschiebenAuf = "Áthelyezés az asztalra"
+strKopierenAuf = "Másolás"
+strTransparenzFestlegen = "Átlátszósági érték beállítása:"
+strFensterSchliessen = "Ablak bezárása"
+strBedingung = "Feltétel"
+strAktion = "Mûvelet"
+strNeueRegel = "Új szabály"
+strEXEName = "Végrehajtható"
+strVordergrund = "Mindig látható"
+strAusfuehren = "Futtatás"
+strTrayMinimieren = "Minimalizálás a tálcára"
+
+#ADDED in Dexpot 1.6
+strRegExp = "regexp egyezések"
+strRegExpi = "regexp egyezések (kis-és nagybetûk megkülönböztetése)"
+###
+
+
+[frmProfilladen] 
+#REMOVED in Dexpot 1.6
+#lblProfilLaden.Caption = "Kérjük, válassza ki a betölteni kívánt profil szekciót:" 
+###
+optAlle.Caption = "Teljes profil"
+optTeile.Caption = "Csak ezek a szekciók:"
+frmTeile.Caption = "Profil szekciók"
+chkEinstellungen.Caption = "&Beállítások"
+chkHotkeys.Caption = "&Gyorsbillentyûk"
+chkEigenschaften.Caption = "&Tulajdonságok"
+chkIcons.Caption = "&Ikon pozíciók"
+chkHintergrund.Caption = "Háttérképek"
+chkTools.Caption = "&Eszközök"
+chkRegeln.Caption = "&Szabályok"
+chkAutostart.Caption = "&Indítás"
+frmOptionen.Caption = "Beállítások"
+chkSammeln.Caption = "Ablakok gyûjtése az aktív asztalon"
+chkAnwenden.Caption = "Asztali szabályok alkalmazása"
+cmdOK.Caption = "&OK"
+cmdAbbrechen.Caption = "&Mégse"
+strProfilLaden = "Profil betöltése"
+
+
+[frmRegelImport] 
+frmRegelImport.Caption = "Asztali szabályok im/exportálása - Dexpot"
+cmdSchliessen.Caption = "&Bezárás"
+cmdImportieren.Caption = "<< &Importálás"
+cmdExportieren.Caption = "&Exportálás >>"
+cmdLaden.Caption = "&Szabály fájl betöltése"
+cmdErstellen.Caption = "Szabály fájl létrehozása"
+frmDatei.Caption = "Szabályok a fájlban"
+frmLokal.Caption = "Helyi szabályok"
+cmdAlleImportieren.Caption = "<< Összes importálása"
+cmdAlleExportieren.Caption = "Összes exportálása >>"
+cmdLoeschen.Caption = "Törlés fájlból"
+strLaden = "Szabály fájl betöltése"
+strErstellen = "Új szabály fájl létrehozása"
+strExt = "Dexpot szabály fájlok"
+strExt2 = "Dexpot profilok"
+strAktionen = "Mûvelet(ek)"
+strBedingungen = "Feltétel(ek)"
+strMsgLoeschen = "Valóban törli a kiválasztott szabályokat a fájlból?"
+lblDatei.Caption = "Jelenlegi szabály fájl:"
+strMsgLokalUeber = "A helyi szabályt"
+strMsgLokalUeber2 = "lecseréljük a szabályfájlból egy ugyanolyan névvel rendelkezõvel?"
+strMsgDateiUeber = "Ez a szabály"
+strMsgDateiUeber2 = "már létezik a szabály fájlban. Szeretné azt lecserélni?"
+
+
+[frmVorschau] 
+frmVorschau.Caption = "Asztal elõnézet - Dexpot"
+mnuSchliessen.Caption = "Bezárás"
+mnuImHintergrund.Caption = "Az elõnézeti ablak automatikus rejtése"
+mnuAutoStart.Caption = "Automatikus indítás a Dexpot-al"
+mnuSeitenverhaeltnisErzwingen.Caption = "A helyes képméretarány kényszerítése"
+mnuSeitenverhaeltnisFest.Caption = "Képméretarány megtartása"
+mnuTitel.Caption = "Címsáv rejtése"
+mnuVerstecken.Caption = "Asztal-tartalom rejtése"
+strVersteckt = "[Rejtett tartalom]"
+mnuSymbolisch.Caption = "Ikonszerû elõnézet"
+
+
+[frmIconZieher] 
+frmIconZieher.Caption = "Ikonok kimentése - Dexpot"
+lblDatei.Caption = "Ikonok keresése a fájlban"
+cmdDurchsuchen.Caption = "&Tallózás..."
+lblIcons.Caption = "Válassz egy ikont a következõ listából:"
+cmdOK.Caption = "&OK"
+cmdSchliessen.Caption = "&Mégse"
+strMsgKeineDatei = "A fájl nem található."
+strMsgKeineIcons = "A fájl nem tartalmaz ikonokat."
+
+
+[frmKonfig] 
+frmKonfig.Caption = "Asztalok testreszabása - Dexpot"
+lblPasswort.Caption = "Jelszó:"
+cmdManagerIcon.Caption = "..." 
+lblManagerIcon.Caption = "Ikon:"
+lblAufloesung.Caption = "Felbontás:"
+lblName.Caption = "Név:"
+cmdWechselSoundAn.Caption = "..." 
+lblWechselsoundAn.Caption = "Belépési hang:"
+cmdWechselSoundAb.Caption = "..." 
+lblWechselsoundAb.Caption = "Kilépési hang:"
+cmdStandardIcon.Caption = "Alapértelmezett"
+cmdLoeschenAn.Caption = "X"
+cmdLoeschenAn.ToolTipText = "Törlés"
+cmdLoeschenAb.Caption = "X"
+cmdLoeschenAb.ToolTipText = "Törlés"
+cmdBetretenAbspielen.ToolTipText = "Lejátszás"
+cmdVerlassenAbspielen.ToolTipText = "Lejátszás"
+cmdManagerIcon.ToolTipText = "Tallózás"
+cmdStandardIcon.ToolTipText = "Alapértelmezett Dexpot szimbólum beállítása Kezelõ ikonként"
+lblBildschirmschoner.Caption = "Képernyõkímélõ:"
+lblWartezeit.Caption = "Késleltetés:"
+cmdBildschirmschoner.Caption = "..." 
+cmdSchonerVorschau.Caption = "Gyorsnézet"
+cmdSchonerEinstellungen.Caption = "Beállítások"
+cmdSchliessen.Caption = "&Mégse"
+cmdOK.Caption = "&OK"
+cmdUebernehmen.Caption = "&Alkalmaz"
+cmdDurchsuchen.Caption = "&Tallózás..."
+cmdEntfernen.Caption = "Kép törlése"
+cmbStyle.List(0) = "Középre"
+cmbStyle.List(1) = "Mozaik"
+cmbStyle.List(2) = "Nyújtás"
+#ADDED in Dexpot 1.5
+cmbStyle.List(3) = "Illesztés"
+cmbStyle.List(4) = "Kitöltés"
+###
+
+#ADDED in Dexpot 1.6.10
+cmbStyle.List(5) = "Átnyúló"
+###
+
+frmKomponentenVerstecken.Caption = "Asztali összetevõk rejtése"
+chkTaskleiste.Caption = "Feladatsor"
+chkDesktopIcons.Caption = "Asztali ikonok"
+chkStartbutton.Caption = "Start gomb"
+chkTaskbarIcons.Caption = "Rendszertálca"
+frmDesktopicons.Caption = "Asztali ikonok"
+chkUnterschriften.Caption = "Átlátszó ikon nevek"
+chkKleineSymbole.Caption = "Kicsi ikonok"
+lblAutostartBefehl.Caption = "Parancs:"
+lblAutostartEreignis.Caption = "Esemény:"
+cmdAutostartDurchsuchen.Caption = "Tallózás ..."
+cmdAutostartHinzufuegen.Caption = "Hozzáadás"
+cmdAutostartAendern.Caption = "S&zerkesztés"
+cmdAutostartEntfernen.Caption = "Eltávolítás"
+lblAutostartSchliessen.Caption = "&Bezárás:"
+AutoStartEvents.ErstesBetreten = "Elsõ belépés"
+AutoStartEvents.ErstesVerlassen = "Elsõ kilépés"
+AutoStartEvents.JedesBetreten = "Minden belépés"
+AutoStartEvents.JedesVerlassen = "Minden kilépés"
+AutoStartEvents.DexpotStart = "Dexpot indítása"
+AutoStartEvents.DexpotEnde = "Dexpot befejezése"
+AutoStartEvents.Nie = "Soha"
+AutoStartEvents.NaechstesBetreten = "Következõ belépés"
+AutoStartEvents.NaechstesVerlassen = "Következõ kilépés"
+mnuAutostartAusfuehren.Caption = "Végrehajtás most"
+mnuAutostartAktivieren.Caption = "Aktiválás"
+mnuAutostartDeaktivieren.Caption = "De-aktiválás"
+tabKonfig.Tabs(1).Caption = "Tulajdonságok"
+tabKonfig.Tabs(2).Caption = "Háttér"
+tabKonfig.Tabs(3).Caption = "Eszközök"
+tabKonfig.Tabs(4).Caption = "Indítás"
+lvAutostart.ColumnHeaders(1).Text = "Parancs"
+lvAutostart.ColumnHeaders(2).Text = "Esemény"
+lvAutostart.ColumnHeaders(3).Text = "Bezárás"
+chkIconText.Caption = "Ikon nevek rejtése"
+lblIconGroesse.Caption = "&Ikonméret:"
+chkSchonerKennwort.Caption = "&Jelszavas védelem"
+#MODIFIED in 1.5.0
+lblHintergrund.Caption = "Elérési út:"
+###
+lblAusrichtung.Caption = "&Igazítás:"
+lblDesktopFarbe.Caption = "Asztal színe:"
+strMsgKeinMasterPasswort = "Egy jelszó van megadva egy vagy több asztalhoz. A Dexpot jelszó védelem aktiválásához, egy további fõ/elsõdleges jelszó szükséges.\n\nSzeretné megadni a fõ jelszót most?"
+strMsgWechselElementAufloesung = "Az egyéni asztali képernyõ felbontás hozzárendelése elött, a 'Képernyõfelbontás testreszabása' opciót a Dexpot beállításokban aktiválni kell.\n\nEngedélyezi ezt a beállítást most?"
+strMsgWechselElementHintergrund = "Az egyéni asztali háttérkép hozzárendelése elött, a háttér testreszabása opciót a Dexpot beállításokban aktiválni kell.\n\nEngedélyezi ezt a beállítást most?"
+strMsgWechselElementSchoner = "Az egyéni asztali képernyõvédõ hozzárendelése elött, a 'Képernyõvédõ testreszabása' opciót a Dexpot beállításokban aktiválni kell.\n\nEngedélyezi ezt a beállítást most?"
+lblIconTextFarbe.Caption = "Szövegszín:"
+mnuKopierenAlles.Caption = "Mind"
+mnuKopieren.Caption = "Másolás ide"
+
+#ADDED in Dexpot 1.6
+lblMultimonitor.Caption = "Többmonitoros háttér mód:"
+cmbMultimonitor.List(0) = "Windows alapértelmezett"
+cmbMultimonitor.List(1) = "Egyetlen kép használata az összes monitoron"
+cmbMultimonitor.List(2) = "Különbözõ kép használata az összes monitoron"
+frmBildschirmschoner.Caption = "Opciók"
+###
+
+
+[frmUebersicht] 
+strPasswortGeschuetzt = "[Jelszóval védett]"
+strInDenTrayMinimiert = "Minimalizálva a tálcára"
+
+
+[frmRegelAssistent] 
+frmRegelAssistent.Caption = "Szabály létrehozása varázsló - Dexpot"
+lblSchritt1.Caption = "Új szabály létrehozása - 1. lépés"
+lblBeschreibung1.Caption = "A varázsló lépésrõl-lépésre végigvezeti Önt egy új szabály készítési folyamatán illetve segítséget nyújt a kívánt feltételek és mûveletek meghatározásában."
+lblRegelName.Caption = "Új szabály neve:"
+frmRegelOption.Caption = " Létrehozás "
+optNeueRegel.Caption = "Üres szabályból"
+optVorhandeneRegel.Caption = "Létezõ szabályból:"
+optRegelDatenbank.Caption = "Szabály adatbázisból:"
+chkDeaktivieren.Caption = "Szabály deaktiválása alapból"
+cmdSchritt2.Caption = "&Következõ"
+cmdCancel.Caption = "&Mégse"
+strSchrittTitel1 = "Új szabály létrehozása "
+strSchrittTitel2 = " - Lépés "
+strSchrittTitel3 = " - Összefoglaló"
+lblBeschreibung2.Caption = "Ebben a lépésben meghatározhatja azokat az ablakokat, amelyekre az új szabálynak vonatkoznia kell. A feltételeket megadhatja manuálisan vagy szimplán csak húzza a szálkeresztet az egérrel arra az ablakba, amelyre alkalmazni szeretné a szabályt."
+chkAusblenden.Caption = "A varázsló rejtése az ablak kiválasztás folyamán"
+frmUndOderOder.Caption = " Logikai mûvelet "
+optEineRegel.Caption = "Egy feltétel teljesítése"
+optAlleRegeln.Caption = "Az összes feltétel teljesítése"
+frmBedingung.Caption = " Feltétel"
+cmdBdgLoeschen.Caption = "&Törlés..."
+cmdBdgHinzufuegen.Caption = "&Hozzáadás"
+cmdZurueckZu1.Caption = "&Vissza"
+cmdSchritt3.Caption = "&Következõ"
+strMindEineBedingung = "Legalább egy érvényes feltételt meg kell határoznia."
+strMaxBedingungen = "További feltételek hozzáadása a varázslón belül nem lehetséges. Viszont, további feltételeket adhat hozzá a szabályt létrehozása után."
+lblBeschreibung3.Caption = "Itt megadhatja azt a mûveletet, amely alkalmazva lesz az összes ablakra, amely megfelel a korábban megadott feltételeknek."
+frmBedingungListe.Caption = " Feltételek "
+frmAktion.Caption = " Mûvelet"
+cmdAknLoeschen.Caption = "&Törlés..."
+cmdAknHinzufuegen.Caption = "&Hozzáadás"
+chkFolgen.Caption = "Áthelyezés után következik"
+lblSichtbar.Caption = "Látható"
+lblUnsichtbar.Caption = "Láthatatlan"
+cmdDurchsuchen.Caption = "Tallózás ..."
+cmdZurueckZu2.Caption = "&Vissza"
+cmdFertig.Caption = "&Következõ"
+strMindEineAktion = "Nem lett érvényes mûvelet megadva. Lehetõség van egy új üres szabály létrehozására most és a mûveletek hozzáadására késõbb."
+strMaxAktionen = "További mûveletek hozzáadása a varázslón belül nem lehetséges. Viszont, további mûveleteket adhat hozzá a szabályt létrehozása után.."
+lblBeschreibung4.Caption = "Végül, itt található minden feltételnek és mûveletnek a listája, amely meg lett adva az új szabály számára. Kattintson a 'Befejezés' gombra a szabály létrehozásához."
+cmdZurueckZu3.Caption = "&Vissza"
+cmdOK.Caption = "Befejezés"
+strRegelErsetzen = "Egy szabály a megadott néven már létezik. Kattintson az 'Igen' gombra a lecseréléséhez, a 'Nem' gombra az új szabály ugyanezen a néven történõ létrehozásához vagy a 'Mégse' gombra a szabály nevének módosításához."
+strWiderspruch1 = "A feltételek"
+strWiderspruch2 = "és"
+strWiderspruch3 = "ellentmondó. Kérjük, ellenõrizze ezeket a feltételeket."
+
+
+[frmWechselLeiste]
+strFenster = "Ablakok:"
+strAktiv = "Aktív:"
+strKlick = "Egy kattintás:"
+strDoppelKlick = "Dupla-kattintás:"
+
+
+[frmSplash]
+lblFuer.Caption = "regisztrálva:"
+strMsgUngueltig = "Érvénytelen licenckulcs."
+
+#ADDED in Dexpot 1.5.2
+strMsgWindowsZuAlt = "Az operációs rendszer már nem támogatja a Dexpot ezen verzióját. Kérjük, töltse le a Dexpot 1.4 verzióját a http://download.dexpot.de címrõl.\n\nA Dexpot most kilép. Elnézést kérünk a kellemetlenségért."
+###
+
+#ADDED in Dexpot 1.5.11
+strCommonControlsQuestion = "A Windows közös vezérlõk nincsenek megfelelõen telepítve a rendszerben. Szeretné, hogy a Dexpot megpróbálja kijavítani ezt a problémát?"
+strCommonControlsCritical = "A Windows közös vezérlõk (mscomctl.ocx) nincsenek megfelelõen telepítve a rendszerben. A Dexpot le fog állni.\n\nTovábbi információk:"
+###
+
+
+#ADDED in Dexpot 1.6
+[frmIconanpassung]
+frmIconanpassung.Caption = "Asztali ikonok testreszabása - Dexpot"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "Mégse"
+frmOptionen.Caption = "Opciók"
+optAnpassung(0).Caption = "Hozzon létre külön mappát minden asztal számára"
+optAnpassung(1).Caption = "Használjon egy megosztott közös mappát az összes asztal számára"
+chkKeepDesktop.Caption = "Használja az eredeti Windows asztali mappát Asztal 1-ként"
+chkAusrichten.Caption = "Ikonok igazítása a rácshoz"
+chkAnordnen.Caption = "Az ikonok automatikus rendezése"
+strMigration = "Szeretné, hogy a Dexpot átmásolja a fájlokat az Ön asztaláról az új különálló mappákba most a már meglévõ ikon eloszlás szerint?"
+###
+
+
+#ADDED Dexpot 1.4.2
+[frmUpdater]
+frmUpdater.Caption = "Dexpot frissítés varázsló"
+cmdAbbrechen.Caption = "Mégse"
+cmdWeiter.Caption = "Frissítések ellenõrzése"
+lblInstallierteVersion.Caption = "Telepített Dexpot verzió:"
+lblVersionVerfuegbar.Caption = "Legfrissebb elérhetõ verzió:"
+lblUpdater.Caption = "Üdvözöl a Dexpot frissítés varázsló"
+lblUpdater2.Caption = "Új verzió érhetõ el"
+lblUpdater3.Caption = "Frissítés folyamatban"
+lblUpdater4.Caption = "Frissítés kész"
+lblText.Caption = "Ez a Frissítés varázsló lehetõvé teszi a legfrissebb Dexpot verzió ellenõrzését és az új programverzió telepítését.\n\nHa egy új verzió érhetõ el, a Dexpot programot be kell zárni a frissítés alkalmazásához. Ajánlott az összes többi megnyitott alkalmazás bezárása is.\n\nFolytatás elött, gyõzödjön meg arról, hogy van-e mûködõ internetkapcsolat, majd kattintson a Frissítések ellenõrzése gombra."
+lblKeinUpdate.Caption = "Jelenleg a legfrissebb Dexpot verziót használja."
+lblAbgeschlossen.Caption = "A frissítések telepítése sikeresen befejezõdött."
+lblNeustart.Caption = "Néhány fájl még használatban van és csak a Windows újraindítása után lehet lecserélni.\n\nA telepítés automatikusan be fog fejezõdni a Dexpot legközelebbi indításakor."
+lblText2.Caption = "Kattintson a Telepítésre a legújabb verzióra történõ automatikus frissítéshez."
+lblFortschritt.Caption = "Telepítési folyamat:"
+chkBeta.Caption = "Béta verziók megjelenítése"
+chkDexpotStarten.Caption = "Dexpot futtatása"
+cmdMehrInformationen.Caption = "További információ"
+lvUpdates.ColumnHeaders(1).Text = "Verzió"
+lvUpdates.ColumnHeaders(2).Text = "Leírás"
+strBeenden = "A frissítés telepítéséhez ki kell lépnie a Dexpot programból.\n\nBezárja a Dexpot programot most?"
+strUnbekannt = "ismeretlen"
+strKeinDexpot = "A Dexpot telepítés nem található!"
+strInstallieren = "Telepítés"
+strFortsetzung = "A telepítés folytatódik"
+strUnvollstaendig = "A telepítés nem fejezõdött be"
+strNichtErfolgreich = "Nem lehet befejezni a telepítést."
+strFertigstellen = "Befejezés"
+strInstalliere = "Telepítés"
+strUpdate = "Frissítés"
+strLoesche = "Eltávolítás"
+strZusaetzlich = "A telepítéshez kiegészítõ frissítések szükségesek"
+strAbhaengig = "A függõségek teljesítve lesznek a frissítéssel"
+strHerunterladen = "Letöltés"
+strEntpacken = "Kibontás"
+strAbgeschlossen = "Befejezõdött a verzió frissítés"
+strBenutzer = "Felhasználó"
+strPasswort = "Jelszó"
+strDownloadFehler = "Letöltési hiba"
+strEntpackenFehler = "Kicsomagolási hiba"
+strProUpdate = "A Dexpot Pro licenc nem kompatibilis ezzel az új verzióval. A telepítés után a Dexpot regisztrálható az új licenckulcs megadásával. Keresse fel a http://pro.dexpot.de/ weboldalat a licenc frissítési információk megtekintéséhez.\n\nSzeretné folytatni a telepítéssel?"
+###
+
+#ADDED in Dexpot 1.5
+[frmDexcube]
+frmDexcube.Caption = "Beállítások - Dexpot"
+cmdOK.Caption = "&OK"
+cmdAbbrechen.Caption = "&Mégse"
+cmdUebernehmen.Caption = "&Alkalmaz"
+frmSwitchAnimation.Caption = "Asztal váltási animáció"
+lblSwitchAnimation.Caption = "Effekt:"
+lblZoomAutomatic.Caption = "Nagyítás:"
+frmEffects.Caption = "Effektusok"
+chkUseLighting.Caption = "Árnyék"
+chkUseAlphaBlending.Caption = "Átlátszóság"
+frmDuration.Caption = "Animáció sebessége"
+lblCubeDurationBase.Caption = "Kocka (min. idõtartam):"
+lblCubeDurationPerDesktop.Caption = "Kocka (asztalonként):"
+lblBrettDuration.Caption = "Reggeli tányér:"
+lblWallDuration.Caption = "Fal és Filmszalag:"
+lblZoomDuration.Caption = "Nagyítás:"
+strKein = "Nincs"
+strWuerfel = "Kocka"
+strBrett = "Reggeli tányér"
+strWand = "Fal"
+strStreifen = "Diafilm"
+strMaximal = "Maximalizálás"
+strMinimal = "Minimalizálás"
+strVariabel = "Változó"
+chkMultithreading.Caption = "Többszálú mûködés"
+frmLeistung.Caption = "Teljesítmény"
+
+#ADDED in Dexpot 1.6.5
+lblFadeDuration.Caption = "Átvezetés:"
+strFade = "Átvezetés"
+###
+
+
+[frmWallpaperClock]
+frmWallpaperClock.Caption = "Háttérkép óra - Dexpot"
+lblAuthorLabel.Caption = "Szerzõ:"
+lblStyle.Caption = "Pozíció:"
+chk24Hour.Caption = "24-órás óraformátum használata"
+cmdSelectFolder.Caption = "Mappaválasztás..."
+lblGetMoreClocks.Caption = "További háttérkép órák:"
+cmdOK.Caption = "&OK"
+cmdApply.Caption = "&Alkalmaz"
+cmdCancel.Caption = "&Mégse"
+strKeineClock = "(reguláris háttérkép)"
+frmVorschau.Caption = "Elõnézet"
+lblSizeLabel.Caption = "Méret:"
+strBrowseForFolder = "Kérjük, válassza ki a háttérkép órát tartalmazó (*.wcz) fájlokat:"
+
+
+[Dexcube]
+Description = "A Dexcube 3D hatást kelt az asztalok közti váltásnál. DirectX 9 szükséges."
+HotkeyManualControl = "Kézi vezérlés"
+HotkeyManualControlNext = "Kézi vezérlés következõ"
+HotkeyManualControlPrevious = "Kézi vezérlés elõzõ"
+
+[SevenDex]
+Description = "A SevenDex egy gombot integrál a Windows 7 tálcájára az asztalok közti váltáshoz."
+
+[Slideshow]
+Description = "Az asztal diavetítés automatikusan vált az asztalok között az elõre beállított idõköz után."
+HotkeyDesktopSlideshow = "Asztal diavetítés"
+HotkeySlideshowstarten = "Diavetítés indítása"
+HotkeySlideshowanhalten = "Diavetítés leállítása"
+
+[Wallpaper Clock]
+Description = "Ez a beépülõ modul lehetõvé teszi a különbözõ háttérkép órák hozzárendelését valamennyi asztalhoz."
+###
+
+#ADDED in Dexpot 1.5.5
+[Taskbar Pager]
+Description = "Ez a beépülõ integrálja a személyhívót az "Asztali elõnézet"-hez hasonlóan közvetlenül a Windows tálcára."
+HotkeyHidePager= "Személyhívó rejtése "
+###
+
+
+#ADDED in Dexpot 1.5.7
+[frmTaskbarPager]
+frmTaskbarPager.Caption = "Beállítások - Dexpot tálca személyhívó"
+frmLayout.Caption = "Elrendezés"
+frmWindows.Caption = "Ablakok"
+lblCellSize.Caption = "Cella méret:"
+lblCellSpacing.Caption = "Cellaköz:"
+lblBorderSize.Caption = "Keret szélesség:"
+lblRowCount.Caption = "Sorok száma:"
+lblColumnCount.Caption = "Oszlopok száma:"
+chkFlashing.Caption = "Villogó ablakok kiemelése"
+chkToolWindows.Caption = "Eszköz ablakok megjelenítése"
+
+#ADDED in Dexpot 1.6.8
+chkExcludedMonitors.Caption = "Ablakok megjelenítése a kizárt monitorokon"
+###
+
+cmdCancel.Caption = "Mégse"
+cmdOK.Caption = "OK"
+cmdApply.Caption = "Alkalmaz"
+###
+
+
+#ADDED in Dexpot 1.5.10
+[Dexgrid]
+Description = "Asztalok elosztása rács elrendezésben, gyorsbillentyûk hozzáadása a rácson való lefelé váltáshoz, és egy animáció megjelenítése az asztalváltás közben."
+HotkeySwitchleft = "Váltás balra"
+HotkeySwitchright = "Váltás jobbra"
+HotkeySwitchup = "Váltás felfelé"
+HotkeySwitchdown = "Váltás lefelé"
+HotkeyMovewindowleft = "Ablak mozgatása balra"
+HotkeyMovewindowright = "Ablak mozgatása jobbra"
+HotkeyMovewindowup = "Ablak mozgatása felfelé"
+HotkeyMovewindowdown = "Ablak mozgatása lefelé"
+HotkeyCopywindowleft = "Ablak másolása balra"
+HotkeyCopywindowright = "Ablak másolása jobbra"
+HotkeyCopywindowup = "Ablak másolása felfelé"
+HotkeyCopywindowdown = "Ablak másolása lefelé"
+
+#ADDED in Dexpot 1.6.4
+HotkeyMoveandswitchleft = "Ablak áthelyezése, és váltás balra"
+HotkeyMoveandswitchright = "Ablak áthelyezése, és váltás jobbra"
+HotkeyMoveandswitchup = "Ablak áthelyezése, és váltás fel"
+HotkeyMoveandswitchdown = "Ablak áthelyezése, és váltás le"
+###
+
+[frmDexgrid]
+frmDexgrid.Caption = "Beállítások - Dexgrid"
+lblRowCount.Caption = "Sorok száma:"
+chkAnimation.Caption = "Asztal váltási animáció megjelenítése"
+cmdOK.Caption = "OK"
+cmdCancel.Caption = "Mégse"
+###
+
+#ADDED Dexpot 1.6
+[frmAppAssignment]
+frmAppAssignment.Caption = "Alkalmazások hozzárendelése - Dexpot"
+cmdAdd.Caption = "Hozzáadás..."
+cmdRemove.Caption = "Eltávolítás"
+cmdRefresh.Caption = "Frissítés"
+lblAssign.Caption = "Alkalmazás hozzárendelése:"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "Mégse"
+strApplication = "Alkalmazás"
+strWhereStarted = "Ahol elindult"
+lblFollow.CAption = "Váltás a következõ asztalra:"
+cmbFollow.List(1) = "Soha"
+cmbFollow.List(2) = "Indításakor"
+cmbFollow.List(3) = "Aktiváláskor"
+
+[MouseEvents]
+Description = "Sarokpontok, egérgörgõ kapcsoló, billentyûzet dupla érintési mûvelet és Leap Motion vezérlõ támogatás hozzáadása."
+
+[frmMouseEvents]
+frmAppAssignment.Caption = "Egéresemények - Dexpot"
+tabMouseEvents.Tabs(1).Caption = "Sarokpontok"
+tabMouseEvents.Tabs(2).Caption = "Egérgörgõ"
+
+#ADDED in Dexpot 1.6.7
+tabMouseEvents.Tabs(3).Caption = "Billentyûzet"
+###
+
+lblCorner(1).Caption = "Balra bent:"
+lblCorner(2).Caption = "Jobbra fent:"
+lblCorner(3).Caption = "Balra lent:"
+lblCorner(4).Caption = "Jobbra lent:"
+frmCornerTrigger.Caption = "Eseményindító"
+optCornerTrigger(0).Caption = "Azonnal"
+optCornerTrigger(1).Caption = "Késleltetve"
+optCornerTrigger(2).Caption = "Középsõ egér gomb kattintás"
+frmCornerOptions.Caption = "Opciók"
+chkCornerFullscreen.Caption = "A sarokpontok inaktiválása, ha egy teljes képernyõs alkalmazás aktív"
+chkWheel.Caption = "Egérgörgõ használata az asztalok közti váltáshoz"
+lblWheelType.Caption = "Egérgörgõ típusa:"
+frmWheelTrigger.Caption = "Eseményindító-billentyûk
+
+#ADDED in Dexpot 1.6.7
+frmDoubleTap.Caption = "Dupla érintés"
+lblDoubleTapLeftCtrl.Caption = "Bal Ctrl gomb:"
+lblDoubleTapRightCtrl.Caption = "Jobb Ctrl gomb:"
+lblDoubleTapLeftShift.Caption = "Bal Shift gomb:"
+lblDoubleTapRightShift.Caption = "Jobb Shift gomb:"
+###
+
+strBoth = "Mindkettõ"
+strNone = "(Nincs)"
+strShowDesktop = "Asztal megjelenítése"
+strAeroFlip = "Aero Flip 3D"
+
+#ADDED in Dexpot 1.6.3
+strMinimizeAll = "Összes minimalizálása"
+###
+
+#ADDED in Dexpot 1.6.10
+chkLeapSupport.Caption = "Leap Motion mozgásérzékelõ támogatás engedélyezése"
+lblLeapSwipeLeft.Caption = "Húzza balra:"
+lblLeapSwipeRight.Caption = "Húzza jobbra:"
+lblLeapSwipeUp.Caption = "Húzza fel:"
+lblLeapSwipeDown.Caption = "Húzza le:"
+strLeapMotionController = "Leap Motion vezérlõ:"
+strLeapConnected = "Kész"
+strLeapDisconnected = "Nincs jelen tartományvezérlõ vagy nem lehetséges a kapcsolat"
+###
+
+cmdOK.Caption = "&OK" 
+cmdCancel.Caption = "Mégse" 
+cmdApply.Caption = "&Alkalmaz"
+
+[DexControl]
+Description = "Interaktív teljes képernyõs elõnézet integrált ablak katalógussal."
+###
+
+#ADDED in Dexpot 1.6.5
+[frmDebugging]
+frmDebugging.Caption = "Hibakeresés"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "Mégse"
+frmDebugOptions.Caption = "Opciók"
+chkDebugForegroundLock.Caption = "Elõtéri zárolási idõkorlát megtartása"
+
+#ADDED in Dexpot 1.6.6
+chkDebugTokenizedEnabled.Caption = "Hagyja engedélyezve a tokenekre bontott ablakokat"
+###
+
+lblRestart.Caption = "A Dexpot újraindítása a változások életbe léptetéséhez."
+###

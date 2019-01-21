@@ -1,0 +1,100 @@
+Dexpot 1.6 - Lizenzvereinbarung (EULA)
+
+Gegenstand dieser Lizenzvereinbarung ist Dexpot 1.6 (im Folgenden „Software“ genannt) inkl. der Dokumentation und sonstigen zugehörigen Materialien.
+Lesen Sie diese Lizenzvereinbarungen sorgfältig, bevor Sie die Software installieren oder in anderer Form darauf zugreifen. Sie müssen dieser Lizenz zustimmen, wenn Sie die Software verwenden wollen. Die Software geht nicht in Ihren Besitz über, sondern wird lizenziert. Die Software ist durch das Urheberrecht geschützt. Das Eigentum und alle geistigen Schutzrechte an der Software sowie der möglicherweise enthaltenen Dokumentation und an allen anderen Bestandteilen der Software verbleiben bei der
+
+Dexpot GbR
+Bergerfurth 38
+46487 Wesel
+
+– im Folgenden „Lizenzgeber“ genannt –
+
+Alle anderen enthaltenen Komponenten bleiben Eigentum des jeweiligen Urhebers. Der Lizenznehmer erkennt diese Eigentums- und Schutzrechte an.
+Der Lizenzgeber gestattet dem Lizenznehmer die Nutzung der Software im Rahmen der folgenden Lizenzbedingungen:
+
+
+1.	Überlassung der Software
+
+1.1.	Die Übergabe der Software an den Lizenznehmer erfolgt entweder per Download durch den Lizenznehmer von der Webseite des Lizenzgebers oder durch Zusenden eines Datenträgers.
+
+1.2.	Die Dokumentation wird dem Lizenznehmer auf Verlangen per Download in einem allgemein üblichen Format (*.pdf) oder in einer druckschriftlichen Form zur Verfügung gestellt. Erhält der Lizenznehmer die Software durch den Download vom Server des Lizenzgebers, ruft er auf demselben Wege auch die Dokumentation ab.
+
+1.3.	Der Lizenzgeber weist darauf hin, dass es nicht möglich ist, Software so herzustellen, dass diese in allen Kombinationen, insbesondere unter Berücksichtigung von Software von Drittanbietern in jedem Fall fehlerfrei arbeitet.
+
+
+2.	Vervielfältigungsrechte und Weitergabe der Software
+
+2.1.	Der Lizenznehmer ist berechtigt,
+2.1.1.	zu Datensicherungszwecken Reproduktionen anzufertigen.
+2.1.2.	die Software zu vervielfältigen, soweit die jeweilige Vervielfältigung für die Nutzung der Software in seinem Unternehmen hinsichtlich der erlaubten Lizenzanzahl erforderlich ist.
+
+2.2.	Dem Lizenznehmer ist es nicht gestattet,
+2.2.1.	die Software zu vermieten oder zu tauschen. 
+2.2.2.	von der Software abgeleitete Werke zu erstellen.
+2.2.3.	die Software ohne schriftliche Einwilligung weiterzugeben oder Dritten in anderen Formen zugänglich zu machen. Gleiches gilt für Reproduktionen der Software. Als Dritte gelten auch konzernverbundene Unternehmen des Lizenznehmers.
+
+
+3.	Nutzungsumfang
+
+3.1.	Der Lizenznehmer ist pro Lizenz zur Nutzung der Software auf einem einzigen Computersystem an einem Ort zu einer gegebenen Zeit berechtigt.
+
+3.2.	Wechselt der Lizenznehmer die Hardware, muss er die Software von der bisher verwendeten Hardware löschen. Ein zeitgleiches Benutzen auf mehr als nur einem Computersystem ist nicht zulässig.
+
+
+4.	Wartung und Support
+
+4.1.	Einzellizenzen sowie die Produktpakete „Package 5“, „Package 10“, „Package 20“, „Package 50“, „Package 100“ und „Package 200“ enthalten die Kosten für die Wartung und den Support.
+
+4.2.	Sitelicenses (erlaubt die Verwendung der Software auf allen Computersystemen eines Unternehmensstandortes) sowie Multilicenses (erlaubt die Verwendung der Software auf allen Computersystemen aller Unternehmensstandorte) enthalten die Kosten für Wartung und den Support nicht.
+
+4.3.	Setzt der Lizenznehmer eine Site- oder Multilicense ein, muss die Version der Software auf dem Stand der Auslieferung verbleiben, solange kein Wartungsvertrag zwischen dem Lizenzgeber und Lizenznehmer besteht. Die Version der Software kann in der Software selbst abgelesen werden.
+
+4.4.	Auf Wunsch wird zwischen Lizenzgeber und Lizenznehmer ein Wartungsvertrag auf jährlicher Basis geschlossen. Dieser unterliegt einer separaten Berechnung.
+
+4.5.	Support meint die technische Unterstützung via E-Mail, Telefon, Post oder Fax. Der Support dient grundsätzlich zur Beantwortung technischer Fragen, die Bezug auf Funktionen oder Installation der Software nehmen.
+
+4.6.	Die „Hotline“ ist montags bis freitags unter der Rufnummer 0201/45844435 zu erreichen. Außerdem steht die E-Mailadresse info@dexpot.de für Anfragen zur Verfügung.
+
+4.7.	Fragestellungen zu inhaltlichen und projektorientierten Problemen bearbeitet der Lizenzgeber im Rahmen von Beratungsprojekten, diese sind aber nicht Gegenstand dieser Lizenzvereinbarung.
+
+
+5.	Haftung
+
+5.1.	Die Haftung des Lizenzgebers für Schäden, die aus der Benutzung der Software entstanden sind, wird ausgeschlossen.
+
+5.2.	Sollte der Schaden eindeutig auf eine grob fahrlässige Vertragsverletzung durch den Lizenzgeber zurückzuführen sein, wird eine Haftung des Lizenzgebers über dem Betrag des Lizenzpreises hinaus ausgeschlossen. Der Lizenznehmer ist allein verantwortlich für den korrekten Einsatz der Software und die Datensicherung.
+
+5.3.	Die Software ist auf Virenfreiheit überprüft worden. Dennoch übernimmt der Lizenzgeber keine Gewährleistung für die Freiheit von Viren. Der Lizenznehmer ist deshalb aufgefordert, die Software selbst auf Virenfreiheit zu überprüfen, bzw. die Software auf eigene Gefahr zu nutzen.
+
+
+6.	Gewährleistung und Mitwirkungspflichten des Lizenznehmers
+
+6.1.	Die Gewährleistung beginnt mit der Übergabe der Software an den Lizenznehmer.
+
+6.2.	Der Lizenzgeber gewährleistet, dass die Software bei vertragsgemäßem Einsatz der Dokumentation entspricht und nicht mit Mängeln behaftet ist, die die Tauglichkeit der Software für den vertraglich vereinbarten Gebrauch mehr als unerheblich beeinträchtigen. 
+
+6.3.	Bei der Umschreibung, Eingrenzung, Feststellung und Meldung von Fehlern muss der Lizenznehmer nach Kräften seine Fehlermeldungen und Anfragen präzisieren und kompetente Mitarbeiter einsetzen.
+
+6.4.	Unwesentliche Abweichungen von der Dokumentation gelten nicht als Mangel. Gewährleistungsansprüche bestehen nur dann, wenn der gemeldete Mangel reproduzierbar ist. 
+
+6.5.	Der Lizenzgeber wird dem vom Lizenznehmer ordnungsgemäß gemeldeten Mangel im Wege der Nacherfüllung mit einer Ausweichlösung zu versorgen, die den gerügten Mangel beseitigt.
+
+6.6.	Gelingt es dem Lizenzgeber innerhalb einer angemessenen Frist nicht, die Abweichungen durch Nacherfüllung zu beseitigen oder so zu umgehen, dass dem Lizenznehmer eine vertragsgemäße Nutzung der Software ermöglicht wird, kann der Lizenznehmer nach seiner Wahl eine Herabsetzung der Vergütung verlangen oder diese Lizenz für die Software gegen Erstattung der bezahlten Vergütung abzüglich einer Gebühr für die bisherige Nutzung kündigen.
+
+6.7.	Gewährleistungsansprüche des Lizenznehmers verjähren innerhalb einer Frist von zwei Jahren (ein Jahr möglich, falls Lizenznehmer Vollkaufmann) ab Zugang der Mängelanzeige.
+
+
+7.	Vertragsdauer und Kündigung
+
+7.1.	Diese Lizenzvereinbarung gilt auf unbestimmte Zeit.
+
+7.2.	Der Lizenznehmer kann die Lizenzvereinbarung jederzeit beendigen, indem er alle Kopien der Software vernichten. Diese Lizenz endet unverzüglich, ohne dass es einer expliziten Kündigung des Lizenzgebers bedarf, wenn der Lizenznehmer gegen diese Lizenzvereinbarung verstößt.
+
+
+8.	Sonstiges
+
+8.1.	Sollten einzelne Bestimmungen dieser Lizenzvereinbarung unwirksam sein oder werden, oder sollte ein wesentlicher Punkt nicht geregelt sein, so bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Die Parteien verpflichten sich, anstelle der unwirksamen Bestimmung eine Regelung herbeizuführen, die dem beabsichtigten Erfolg am nächsten kommt und die die Parteien vereinbart hätten, wenn sie die Unwirksamkeit der Bestimmung gekannt hätten.
+
+8.2.	Änderungen und Ergänzungen dieser Lizenzvereinbarung sind nur in Schriftform und bei Bezugnahme auf diese Lizenzvereinbarung wirksam und von beiden Parteien zu unterzeichnen.
+
+8.3.	Erfüllungsort und Gerichtsstand für alle Streitigkeiten aus dieser Lizenzvereinbarung ist der Geschäftssitz des Lizenzgebers, sofern der Lizenznehmer Kaufmann oder juristische Person des öffentlichen Rechts ist. Auf die vorliegende Lizenzvereinbarung ist ausschließlich deutsches Recht anwendbar.

@@ -1,0 +1,100 @@
+Dexpot 1.6 Pro - License Agreement (EULA)
+
+The subject of this license agreement is Dexpot 1.6 Pro (henceforth referred to as "software") and includes the documentation and associated related materials.
+Read this license agreement through carefully before installing the software or accessing it in any other way. You must accept this license if you want to use the software. The software does not become your property, but is licensed to you. The software is protected by copyright. The ownership and all intellectual property rights to the software and any documentation that may be included with it, plus all other components of the software shall remain with
+
+Dexpot GbR
+Bergerfurth 38
+D-46487 Wesel
+
+– henceforth referred to as the "licensor" –
+
+All other included components shall remain the property of the respective author. The licensee acknowledges these ownership and property rights.
+The licensor permits the licensee to use the software under the following license terms:
+
+
+1.	Provision of the software
+
+1.1.	The software is supplied to the licensee either by download by the licensee from the website of the licensor or by the shipment of a data medium.
+
+1.2.	The documentation is made available to the licensee on request by download in a generally accepted format (*.pdf) or in printed form. If the licensee receives the software by downloading it from the server of the licensor, it can obtain the documentation in the same way.
+
+1.3.	The licensor points out that it is not possible to produce software in such a way that it will always operate without errors in all combinations, especially when taking third-party software into consideration.
+
+
+2.	Duplication and distribution rights for the software
+
+2.1.	The licensee is entitled to:
+2.1.1.	Make copies of the software for backup purposes.
+2.1.2.	Duplicate the software if the respective duplication is required for the use of the software in his company in relation to the permitted number of licenses.
+
+2.2.	The licensee is not permitted:
+2.2.1.	To rent or exchange the software. 
+2.2.2.	To create derivative works from the software.
+2.2.3.	To forward the software without the written consent or to make it accessible to third-parties in other forms. The same applies to copies of the software. Affiliated companies of the licensee also apply as third-parties.
+
+
+3.	Scope of Use
+
+3.1.	The licensee is entitled per license to use the software on a single computer system in one location at a given time.
+
+3.2.	If the licensee changes hardware, he must delete the software from the previously used hardware. Simultaneous use on more than one computer system is not allowed.
+
+
+4.	Maintenance and Support
+
+4.1.	The individual licenses and product packages "Package 5", "Package 10", "Package 20", "Package 50", "Package 100" and "Package 200" include the costs of maintenance and support.
+
+4.2.	Site-licenses (allowing the use of the software on all computer systems in one company location) and multi-licenses (allowing the use of the software on all computer systems in all company locations) do not include the cost of maintenance and support.
+
+4.3.	If the licensee installs a site-license or multi-license, then the version of the software must remain at the status upon delivery unless a maintenance contract between the licensor and licensee exists. The version of the software can be read in the software itself.
+
+4.4.	If required, a maintenance contract can be concluded between the licensor and the licensee on an annual basis. This is subject to a separate calculation.
+
+4.5.	Support refers to technical support via email, telephone, post or fax. The aim of support is to answer technical questions, which relate to the functions or installation of the software.
+
+4.6.	The hotline is open Monday through Friday and can be reached by dialling +49 (201) 45844435. The email address info@dexpot.de is also available for enquiries.
+
+4.7.	Questions on content and project-oriented problems are handled by the licensor within the context of consulting projects and are not subject to this license agreement.
+
+
+5.	Liability
+
+5.1.	The licensor's liability for damages arising from use of the software is excluded.
+
+5.2.	If any damage is clearly attributed to a grossly negligent breach of contract by the licensor, any liability of the licensor over and above the amount of the license price is excluded. The licensee is solely responsible for the correct installation of the software and data backup.
+
+5.3.	The software has been checked to ensure it is free from viruses. Nevertheless, the licensor does not guarantee freedom from viruses. The licensee is therefore requested to check that the software is virus-free and to use the software at his own risk.
+
+
+6.	Warranty and cooperation obligations of the licensee
+
+6.1.	The warranty begins with the handover of the software to the licensee.
+
+6.2.	The licensor guarantees that the software will comply with the documentation when it is installed in accordance with the contract and that it does not have any defects which adversely affect the capability of the software for the contractually agreed use in a significant way. 
+
+6.3.	In the precise definition, containment, determination and reporting of errors, the licensee must endeavour to clearly specify error messages and requests and use competent personnel for this purpose.
+
+6.4.	Minor deviations from the documentation are not considered as defects. Warranty claims only exist when the reported defect can be replicated. 
+
+6.5.	The licensor will provide the licensee with a workaround solution for any duly reported defects as part of a supplementary fulfilment and which will remove the defect.
+
+6.6.	If the licensor is not able within a reasonable period to remove the faults by a supplementary fulfilment or to provide a workaround solution so that the licensee is able to use the software in accordance with the contract, the licensee may, on his choice, request a reduction in the payment amount or cancel this license for the software against the reimbursement of the amount already paid less a fee for usage to date.
+
+6.7.	Warranty claims by the licensee shall expire within a period of two years (one year is possible if the licensee is a registered trader) from receipt of the notice of defect.
+
+
+7.	Contractual Term and Termination
+
+7.1.	This license agreement is valid indefinitely.
+
+7.2.	The licensee may terminate the licence agreement at any time by destroying all copies of the software. This license terminates immediately without any explicit cancellation by the licensor being required, if the licensee breaches this license agreement.
+
+
+8.	Miscellaneous
+
+8.1.	If any individual provisions of this license agreement are or become ineffective or should an essential aspect not be regulated for, then the effectiveness of the remaining provisions remains unaffected. The parties undertake to replace the ineffective provision with a regulation which comes closest to the intended result and which the parties would have agreed upon, had they been aware of the ineffectiveness of the provision.
+
+8.2.	Modifications and additions to this license agreement are required to be in writing and must refer to this license agreement and must be signed by both parties.
+
+8.3.	The place of performance and court of jurisdiction for all disputes arising from this license agreement is the registered office of the licensor, if the licensee is a trader or a legal entity under public law. German law only applies to this license agreement.

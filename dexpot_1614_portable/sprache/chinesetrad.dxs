@@ -1,0 +1,1442 @@
+[Info] 
+Name = 繁體中文 (Chinese Traditional)
+Autor = 風逸蘭
+AutorMail = stchen0214@gmail.com
+Kommentar = 繁體中文語言檔
+Locale=1028
+Charset=136
+
+#Dexpot 1.6.11 [$Id: chinesetrad.dxs 2396 2014-01-20 16:41:20Z Sebastian $]
+
+[Global] 
+#CHANGED in Dexpot 1.6
+strDexpot = "Dexpot - Windows 虛擬桌面工具"
+###
+strVorheriger = "Dexpot - 上一個桌面" 
+strNaechster = "Dexpot - 下一個桌面" 
+strDesktop = "桌面" 
+strAlleDesktops = "所有桌面" 
+strKein = "(無)" 
+strMsgFortfahren = "您要繼續嗎？" 
+strMsgDesktopanzahl = "所選擇的桌面數目小於之前的數值，也就是說，所有與比新數值更高的桌面有關的訊息將會遺失。\n\n這些桌面上的視窗將被移動到目前的桌面。\n假如目前的桌面不再有效，那麼 Dexpot 將切換到第一個桌面。" 
+strMsgVersuchenZuErsetzen = "Dexpot 將嘗試取代它們。" 
+strMsgProblem = "假如問題持續發生請聯絡:" 
+strMsgHinweisDesktopanzahl = "Dexpot - 變更桌面數目提示" 
+strMsgAufloesungTitel = "Dexpot - 修改螢幕解析度" 
+
+#REMOVED in Dexpot 1.6.11
+#strMsgAufloesung = "現在可以變更螢幕解析度，您確定使用新的" 
+#strMsgAufloesungAnnehmen = "解析度嗎？" 
+###
+
+strMsgNichtAendern = "無法變更螢幕解析度。" 
+strMasterPasswortAnfordern = "Dexpot 密碼保護已啟動。為了執行指定的工作，您必須輸入主控密碼:" 
+strPasswortAnfordern = "Dexpot 密碼保護已啟動。為了執行指定的工作，您必須輸入相關桌面的密碼:" 
+strMasterPasswortAendern = "您可以在此處變更 Dexpot 的主控密碼:" 
+strAltesPasswort ="舊密碼:"
+strNeuesPasswort ="新密碼:"
+strBestaetigung ="確認密碼:"
+strMsgPasswortFehler ="Dexpot - 密碼輸入時發生錯誤"
+strMsgUebereinstimmung = "新密碼與確認密碼不相符。請修正您的輸入。" 
+strMsgAltesFalsch = "舊密碼無效！" 
+strKeineAnderen = "沒有其它視窗" 
+strKeineFenster = "該桌面上沒有視窗" 
+strMsgIconsEntfernen = "您確定要從此桌面上移除選擇的圖示嗎？\n\n您會發現透過設定「桌面視窗 - 圖示 - 隱藏」來刪除的圖示將不會出現在任何的桌面上。" 
+strMsgIconsEntfernenTitel = "Dexpot - 移除圖示" 
+strMaximieren ="最大化"
+strMinimieren ="最小化"
+strStandard = "預設" 
+strMsgRegelnAktiviert = "桌面規則已啟用" 
+strMsgRegelnDeaktiviert = "桌面規則已停用" 
+strFensterMinimiert = "視窗已最小化" 
+strMsgStandardGeladen = "已經成功匯入預設設定檔。" 
+strMsgStandardNichtGefunden = "找不到預設設定檔。"
+strFilterBilder = "所有圖像檔案"
+strFilterProgramme = "程式"
+strFilterAlle = "所有檔案"
+strFilterAlleSymbole = "所有圖示檔案"
+strFilterBibliotheken = "程式庫"
+strFilterSymbole = "圖示"
+strFilterSound = "音效檔案"
+strBeimNaechstenWechsel = "下次切換時"
+
+#ADDED in Dexpot 1.5
+strHorizontalMaximieren = "水平最大化"
+strVertikalMaximieren = "垂直最大化"
+strMsgProfilStandardGefahr = "載入預設的設定檔將導致您目前的設定遺失。\n請確認您目前的設定已經儲存到另一個設定檔中。\n\n您要繼續嗎？"
+###
+
+#ADDED in Dexpot 1.6
+strMonitor = "顯示器"
+###
+
+
+[frmTaskleiste] 
+#ADDED in Dexpot 1.6
+mnuAppAssignment.Caption = " 指派應用程式"
+###
+mnuEinstellungen.Caption = " 設定"
+mnuWechselLeiste.Caption = " 桌面管理員"
+mnuSlideshow.Caption = " 桌面幻燈放映"
+mnuDesktopFenster.Caption = " 桌面視窗"
+mnuInfo.Caption = " 關於"
+mnuBeenden.Caption = " 結束"
+mnuAusrichten.Caption = "緊靠螢幕邊緣"
+mnuLaden.Caption = "開機時自動執行 Dexpot"
+mnuAktivesFenster.Caption = "預覽作用中視窗"
+mnuMausrad.Caption = "用滑鼠滾輪切換"
+mnuPositionHalten.Caption = "鎖定位置"
+mnuImVordergrund.Caption = "總在最上層" 
+mnuOrientierung.Caption = "垂直方向" 
+mnuTransparent.Caption = "背景透明" 
+mnuSchliessen.Caption = "關閉" 
+mnuVerschiebenListe.Caption = "移動其它視窗到此桌面"
+mnuKopierenListe.Caption = "複製其它視窗到此桌面"
+mnuRegeln.Caption = " 桌面規則"
+mnuFarbe.Caption = "套用背景色彩"
+mnuGroesse.Caption = "變更圖示大小"
+mnuVorschau.Caption = " 桌面預覽"
+mnuBoo.Caption = "顯示額外按鈕"
+mnuKonfig.Caption = " 組態桌面"
+mnuVerschollen.Caption = "顯示於目前桌面"
+mnuTransparenz.Caption = "透明度"
+mnuTransparenzFestlegen.Caption = "定義透明度"
+mnuTransparenzErhoehen.Caption = "增加透明度"
+mnuTransparenzVerringern.Caption = "降低透明度"
+mnuVerschieben.Caption = "移動"
+mnuKopieren.Caption = "複製"
+mnuSchliessen.Caption = "關閉" 
+mnuSchliessenAufDiesem.Caption = "在目前桌面" 
+mnuSchliessenAufAnderen.Caption = "在所有其它桌面" 
+mnuSchliessenAufAllen.Caption = "在所有桌面 (結束應用程式)" 
+mnuTrayMinimieren.Caption = "最小化至系統工作列" 
+mnuVordergrund.Caption = "總在最上層" 
+mnuDMSchliessen.Caption = "關閉"
+mnuEntfernen.Caption = "移除"
+mnuRegelErstellen.Caption = "建立規則..."
+mnuSchoner.Caption = "執行螢幕保護程式"
+mnuRegelnAnwenden.Caption = "套用規則"
+mnuIconsWiederherstellen.Caption = "還原圖示"
+mnuIconsLaden.Caption = "從設定檔重新載入圖示"
+mnuVollbildVorschau.Caption = " 全螢幕預覽"
+mnuSchwaerzen.Caption = "塗黑桌面"
+mnuDexpose.Caption = " 視窗目錄"
+mnuAufrollen.Caption = "捲起"
+mnuRegelnAnwendenAufFenster.Caption = "套用規則到此視窗"
+
+#ADDED in Dexpot 1.6
+mnuFeedback.Caption = " 提供測試版回饋意見"
+###
+
+#ADDED in Dexpot 1.6.10
+mnuDMMoveIcons.Caption = "移動選擇的桌面圖示到此處"
+mnuDMCopyIcons.Caption = "複製選擇的桌面圖示到此處"
+###
+
+
+[frmBeenden] 
+frmBeenden.Caption = "要結束 Dexpot 嗎？" 
+cmdAbbrechen.Caption ="取消"
+cmdBeenden.Caption ="結束(&X)"
+#REMOVED in Dexpot 1.6
+#frmOptionen.Caption = "設定" 
+#lblBeendenText.Caption = "請選擇哪一個虛擬桌面在 Dexpot 關閉之後將成為主桌面。其它虛擬桌面上的視窗可以移動到此桌面上或者關閉。"  
+###
+#MODIFIED IN 1.5.0
+optBeenden(0).Caption = "移動所有視窗到此桌面"
+optBeenden(1).Caption = "關閉不在此桌面的所有視窗"
+###
+
+
+[frmInfo] 
+frmInfo.Caption = "關於 Dexpot"
+tabInfo.TabCaption(0) = "一般" 
+#REMOVED in Dexpot 1.6
+#tabInfo.TabCaption(1) = "..."
+### 
+cmdOK.Caption = "確定(&O)" 
+#MODIFIED in Dexpot 1.6
+frmRegistrierung.Caption = "授權資料"
+###
+cmdRegistrieren.Caption = "註冊(&R)" 
+lblMail.Caption = "電子郵件:" 
+lblLizenzschluessel.Caption = "授權碼:"
+#MODIFIED in Dexpot 1.6 
+lblInternet.Caption = "網站:" 
+###
+#REMOVED IN 1.6
+#lblVersion.Caption = "..."
+#lblDanke.Caption = "..."
+###
+lblWenn.Caption = "個人使用者可以免費使用 Dexpot。然而，假如您喜歡這個軟體，歡迎您捐助我們一點資金以支援它的進一步開發。"
+#MODIFIED IN 1.6
+strSpenden = "註冊" 
+###
+strLizenz = "授權" 
+strMsgDanke = "註冊成功。感謝您！"
+strMsgUngueltig = "無效授權碼！請重新輸入。" 
+strMsgProblem = "如果您有任何問題，請聯絡:" 
+lblName.Caption = "公司:"
+#MODIFIED in Dexpot 1.6 
+lblEmail.Caption = "使用者名稱:"
+###
+lblWechsel.Caption = "桌面切換:"
+lblLaufzeit.Caption = "執行時間:"
+lblTausend.Caption = "這是您第 1000 次用 Dexpot 切換桌面！"
+lblTausendText.Caption = "不用擔心，這不是會在 1000 次切換後失效的測試版本，我們也不會再次打擾您，但既然看起來您會永久使用本軟體，我們希望您能詳細閱讀以下內容:"
+#MODIFIED IN 1.6
+lblNutzungsbedingungen.Caption = "檢視授權協議"
+###
+
+#ADDED in Dexpot 1.4.2
+#MODIFIED in Dexpot 1.6
+cmdUpdate.Caption = "檢查更新(&U)..."
+strNeueLizenz = "您的授權碼在此 Dexpot 版本中無效。\n請與我們聯絡以取得更多資訊:"
+###
+
+#ADDED in Dexpot 1.5.1
+#MODIFIED in Dexpot 1.6.8
+strEmailBetreff = "Dexpot 問題"
+strEmailNachricht = "Hello Dexpot team,\n\nI'm having an issue with Dexpot. That is why I've completed the form below.\n\nMessage:\n\nWhat I expect to happen:\n\nWhat actually happens:\n\nSteps to reproduce the issue:\n\nRunning applications:\n\nVersion info:"
+###
+
+#ADDED in Dexpot 1.6
+lblPurchase.Caption = "購買 Dexpot 1.6 Pro"
+lblEvaluation.Caption = "試用期:"
+lblEvaluationLeft.Caption = "剩餘 %i 天"
+strLastDay = "最後一天"
+strExpired = "已過期"
+strEvaluationExpired = "試用期已過。如果您想繼續使用 Dexpot，請購買一份授權。"
+###
+
+
+[frmSlideshow] 
+frmSlideshow.Caption = "Dexpot - 桌面幻燈放映" 
+optRueckwaerts.Caption = "後退" 
+optVorwaerts.Caption = "前進"
+
+#MODIFIED in Dexpot 1.5.0 
+cmdSchliessen.Caption = "確定(&O)" 
+cmdUebernehmen.Caption = "啟動(&S)" 
+cmdAbbrechen.Caption = "停止(&T)" 
+frmEinstellungen.Caption = "桌面" 
+lblSek.Caption = "秒"  
+###
+
+#REMOVED in Dexpot 1.6
+#lblWas.Caption = "請為 Dexpot 自動切換桌面設定定時。另外，您可以設定執行時桌面是向前還是向後切換:"
+###
+
+#ADDED in Dexpot 1.5.0
+cmdDesktops.Caption = "選擇"
+lblIntervall.Caption = "間隔:"
+chkEndlos.Caption = "循環"
+strAnhalten = "暫停(&P)"
+strFortsetzen = "繼續(&C)"
+###
+
+#ADDED in Dexpot 1.5.9
+frmRichtung.Caption = "方向"
+###
+
+#ADDED in Dexpot 1.6.2
+frmOptions.Caption = "選項"
+chkAutostart.Caption = "自動啟動幻燈放映"
+###
+
+
+[frmEinstellungen] 
+frmEinstellungen.Caption = "Dexpot - 設定"
+cmdOK.Caption = "確定(&O)"
+cmdAbbrechen.Caption = "取消(&C)"
+cmdUebernehmen.Caption = "套用(&A)"
+fuchsFeuer(1).Caption = "一般" 
+fuchsFeuer(2).Caption = "外觀" 
+fuchsFeuer(3).Caption = "元件" 
+fuchsFeuer(4).Caption = "控制" 
+fuchsFeuer(5).Caption = "切換桌面" 
+
+#MODIFIED Dexpot 1.5.0
+fuchsFeuer(6).Caption = "外掛和額外設定"
+###
+
+#Allgemein 
+frmZahl.Caption = "可變桌面" 
+lblDesktopzahl.Caption = "桌面數目:"
+lblStartDesktop.Caption = "初始桌面:"
+frmInternational.Caption = "國際化"
+lblSprache.Caption = "選擇語言:"
+cmdSprachinfo.Caption = "關於"
+frmStart.Caption = "啟動" 
+chkAutostart.Caption = "開機時自動執行 Dexpot"
+chkStartBildschirm.Caption = "隱藏啟動畫面"
+chkProfilAuswahl.Caption = "啟動時顯示設定檔清單"
+chkLetzteKonfigurationLaden.Caption = "在自動載入上次的組態之前等候" 
+lblPrioritaet.Caption = "處理程序優先權:" 
+cmbPrio.List(0) = "即時" 
+cmbPrio.List(1) = "高" 
+cmbPrio.List(2) = "一般" 
+cmbPrio.List(3) = "低" 
+frmBeenden.Caption = "結束"
+chkSchnellesBeenden.Caption = "結束時不要顯示確認視窗" 
+chkProfilSpeichern.Caption = "結束時儲存設定檔" 
+frmProfile.Caption = "設定檔"
+lblProfile.Caption = "選擇設定檔:"
+cmdProfilLaden.Caption = "載入"
+cmdProfilUeberschreiben.Caption = "儲存"
+cmdProfilSpeichern.Caption = "另存為..."
+cmdProfilLoeschen.Caption = "刪除"
+
+#ADDED in Dexpot 1.4.2
+chkAutoUpdate.Caption = "檢查更新"
+###
+
+#ADDED in Dexpot 1.5.0
+chkAdmin.Caption = "以管理員身份執行"
+#MODIFIED in Dexpot 1.6.7
+lblTrayIconAktionEinfach.Caption = "按住 Ctrl 鍵並點選 Dexpot 系統工作列圖示則開啟:"
+###
+###
+
+#Ansicht 
+#MODIFIED in Dexpot 1.6.7
+frmTrayIcon.Caption = "系統工作列圖示" 
+###
+
+optTrayicon(0).Caption = "無圖示" 
+#MODIFIED in Dexpot 1.6.3
+optTrayicon(1).Caption = "程式圖示"
+###
+optTrayicon(2).Caption = "目前桌面"
+optTrayicon(3).Caption = "上一個桌面/下一個桌面"
+optTrayicon(4).Caption = "每一個桌面一個圖示"
+frmSystemmenues.Caption = "系統選單" 
+chkSystemmenues.Caption = "將 Dexpot 項目加入到所有桌面的系統選單"
+#MODIFIED in 1.5.0
+frmTransparenzManager.Caption = "透明度" 
+###
+lblUnsichtbar.Caption = "不可見"
+lblSichtbar.Caption = "可見"
+frmTrayMinimieren.Caption = "將視窗最小化到系統工作列"
+chkTraycontainer.Caption = "將最小化到系統工作列的視窗集中放置" 
+chkTMFDoppelklick.Caption = "連按二下還原"
+
+#MODIFIED in Dexpot 1.6.7
+lblTrayIconAktion.Caption = "連按二下 Dexpot 系統工作列圖示則開啟:"
+###
+
+#ADDED in Dexpot 1.6.3
+lblTrayiconMode.Caption = "模式:"
+lblTrayiconSet.Caption = "視覺風格:"
+###
+
+#ADDED in Dexpot 1.6
+frmFullscreenDetection.Caption = "全螢幕套用"
+chkFullscreenDetection.Caption = "當全螢套用啟動時隱藏 Dexpot 元件"
+###
+
+#Komponenten 
+tabKomponenten.Tabs(1).Caption = "桌面管理員" 
+tabKomponenten.Tabs(2).Caption = "桌面預覽" 
+tabKomponenten.Tabs(3).Caption = "DexTab"
+
+#ADDED in Dexpot 1.6
+tabKomponenten.Tabs(4).Caption = "全螢幕"
+###
+
+##Desktop Manager 
+frmOptionenManager.Caption ="選項"
+chkManagerAutostart.Caption ="隨 Dexpot 執行時自動啟動"
+chkAktiveFensterVorschau.Caption ="預覽作用中視窗"
+chkMausrad.Caption ="用滑鼠滾輪切換"
+chkAmRandAusrichten.Caption ="緊靠螢幕邊緣"
+chkPositionHalten.Caption ="鎖定位置"
+chkMiniDM.Caption ="小圖示"
+frmManagerBoo.Caption ="額外按鈕"
+chkManagerBoo.Caption ="顯示額外按鈕"
+lblManagerBooIcon.Caption ="圖示:"
+cmdManagerBooIcon.Caption = "..."
+cmdManagerBooIconStandard.Caption = "預設"
+lblManagerBooEinfach.Caption = "單按一下的動作:"
+lblManagerBooDoppelt.Caption = "連按兩下的動作:"
+#ADDED in 1.5.1
+lblManagerBooMittel.Caption = "按下中鍵的動作:"
+###
+frmManagerHintergrund.Caption = "背景" 
+optManagerHintergrundStandard.Caption = "預設" 
+optManagerHintergrundFarbe.Caption = "單色" 
+optManagerHintergrundTransparent.Caption = "透明" 
+cmdManagerFarbe.Caption = "..."
+frmOrientierung.Caption = "方向"
+optHorizontal.Caption = "水平"
+optVertikal.Caption = "垂直"
+cmdHotkeyManager.Caption = "定義快速鍵"
+
+##Desktop Vorschau 
+chkVorschauAutostart.Caption ="隨 Dexpot 執行時自動啟動"
+chkVorschauTitelleiste.Caption ="隱藏標題列"
+frmVorschauVerhalten.Caption ="行為"
+chkVorschauHintergrund.Caption ="自動隱藏"
+chkVorschauVerhaeltnisHalten.Caption ="維持畫面比例"
+chkVorschauVerhaeltnisErzwingen.Caption ="強制校正畫面比例"
+frmVorschauFarben.Caption = "色彩"
+lblVorschauFarbeAktiv.Caption ="作用中桌面:"
+lblVorschauFarbeInaktiv.Caption ="非作用中桌面:"
+lblVorschauFarbeRahmen.Caption ="視窗邊線:"
+lblVorschauFarbeTitel.Caption ="視窗標題:"
+
+#REMOVED in Dexpot 1.6
+#chkVollbildVorschauZoom.Caption = "縮放效果"
+###
+
+lblHotkeyDefinieren.Caption = "定義快速鍵:"
+frmVorschauDarstellung.Caption = "外觀"
+optVorschauDarstellungSkizzen.Caption = "視窗剪影"
+optVorschauDarstellungSymbole.Caption = "圖示"
+
+##DexTab
+chkDexTabSortieren.Caption = "依標題排序視窗" 
+chkDexTabTrayicons.Caption = "顯示最小化到系統工作列的視窗" 
+chkDexTabNurTaskleiste.Caption = "只顯示在工作列上列出的視窗" 
+
+#MODIFIED in Dexpot 1.5.0
+frmDexTabMarkierung.Caption = "初始選擇工作切換助手" 
+###
+
+optDexTabMarkierungAktiv.Caption = "作用中視窗" 
+optDexTabMarkierungLetztes.Caption = "上次作用中視窗" 
+frmDexTabFarben.Caption = "色彩"
+lblDexTabFensterVordergrund.Caption = "文字:"
+lblDexTabFensterHintergrund.Caption = "背景:"
+lblDexTabMarkierung.Caption = "選擇:"
+cmdDexTabSystemfarben.Caption = "系統色彩"
+
+#ADDED in Dexpot 1.5.0
+frmDexTabMarkierungDesktops.Caption = "初始選擇桌面切換助手"
+optDexTabMarkierungDesktops(0).Caption = "作用中桌面"
+optDexTabMarkierungDesktops(1).Caption = "上次作用中桌面"
+###
+
+#ADDED in Dexpot 1.6
+chkDexTabLeereDesktops.Caption = "顯示空白桌面"
+###
+
+##Fensterkatalog
+#REMOVED in Dexpot 1.6
+#chkDexposeBlenden.Caption = "淡入淡出效果"
+###
+
+#ADDED in Dexpot 1.6
+##Vollbild
+frmDexControl.Caption = "DexControl"
+chkDexControl.Caption = "使用交互式全螢幕預覽和視窗目錄"
+lblDexControlAnimationSpeed.Caption = "動畫速度:"
+chkDexControlShowLabels.Caption = "在並排檢視中顯示視窗標籤"
+chkDexControlExcludedMonitors.Caption = "隱藏顯示器上開關顯示"
+###
+
+#ADDED in Dexpot 1.6.8
+chkDexControlStartTiled.Caption = "在並排檢視中啟動全螢幕預覽"
+chkDexControlStartZoomed.Caption = "目前桌面縮放時啟動全螢幕預覽"
+chkDexControlMiddleButton.Caption = "在並排檢視中使用滑鼠中鍵關閉視窗"
+###
+
+#ADDED in Dexpot 1.6.11
+chkDexControlCombineMonitors.Caption = "組合相同大小的顯示器"
+###
+
+#Steuerung 
+tabSteuerung.Tabs(1).Caption = "快速鍵"
+tabSteuerung.Tabs(2).Caption = "滑鼠切換"
+tabSteuerung.Tabs(3).Caption = "標題列"
+
+##Hotkeys 
+frmHotkeys.Caption ="按鍵組合"
+chkHotkeyModifikator(0).Caption ="Alt"
+chkHotkeyModifikator(1).Caption ="Shift"
+chkHotkeyModifikator(2).Caption ="Ctrl"
+chkHotkeyModifikator(3).Caption ="Windows 按鍵"
+cmdHotkeyDefinieren.Caption ="定義(&D)"
+cmdHotkeyLoeschen.Caption ="刪除(&D)"
+cmdHotkeyFortsetzung.Caption = "接續序列(&C)" 
+frmHotkeyErklaerug.Caption = "說明" 
+HotkeyTexte(1) = "將作用中視窗移動到相對桌面。" 
+HotkeyTexte(2) = "將作用中視窗複製到相對桌面。" 
+HotkeyTexte(3) = "開啟或關閉相對 Dexpot 組件。" 
+HotkeyTexte(5) = "在螢幕上建立一個黑色圖片。要還原桌面，請再按一次快速鍵。" 
+HotkeyTexte(6) = "切換回上次存取的桌面。" 
+HotkeyTexte(7) = "為作用中視窗開啟透明度對話框。" 
+HotkeyTexte(8) = "令目前作用中視窗透明度更高。" 
+HotkeyTexte(9) = "令目前作用中視窗透明度更低。" 
+HotkeyTexte(10) = "設定所有視窗不透明。" 
+HotkeyTexte(11) = "從預設設定檔載入 Dexpot 所有設定。" 
+HotkeyTexte(12) = "停止正在執行的桌面幻燈放映。" 
+HotkeyTexte(13) = "在「外觀」下可用的 Dexpot 工作列圖示選項間循環。" 
+HotkeyTexte(14) = "套用規則到所有開啟的視窗。" 
+HotkeyTexte(15) = "暫時停止執行桌面規則。再按一次快速鍵即可重新啟動桌面規則。" 
+HotkeyTexte(16) = "將目前桌面圖示重設為上次離開此桌面時的狀態。" 
+HotkeyTexte(17) = "從目前的設定檔中載入所有桌面的圖示佈局。" 
+HotkeyTexte(18) = "以 DexTab 工作切換助手取代 Windows 的 Alt+Tab 切換功能。" 
+#CHANGED in Dexpot 1.6
+HotkeyTexte(19) = "顯示帶有縮圖和所有桌面視窗的 DexTab 桌面切換助手。" 
+###
+HotkeyTexte(20) = "從目前桌面移除作用中視窗。假如應用程式只在目前桌面執行，則結束相對桌面所執行的應用程式。" 
+HotkeyTexte(21) = "在目前桌面上執行螢幕保護程式。" 
+HotkeyTexte(22) = "在游標位置上開啟一個對應於目前視窗所有 Dexpot 功能的選單。"
+HotkeyTexte(23) = "將所有視窗縮小並排顯示於此桌面。"
+cmdAlleHotkeysLoeschen.Caption = "全部清除"
+
+#ADDED in Dexpot 1.5.14
+HotkeyTexte(24) = "移動作用中視窗到相對桌面且切換到該位置。"
+###
+
+#ADDED in Dexpot 1.5.0
+imgHotkeyBelegt.ToolTipText = "這個按鍵組合已經被其它程式所使用。"
+###
+
+#ADDED in Dexpot 1.6
+chkHotkeysWithoutModifiers.Caption = "允許無修改的快速鍵"
+###
+
+##Mauswechsel 
+#MODIFIED in Dexpot 1.6
+lblMausWechsel.Caption = "此功能在移動滑鼠游標到螢幕邊緣片刻後自動切換桌面。" 
+###
+chkMausWechsel.Caption = "啟用滑鼠切換" 
+frmMausWechselAbstimmung.Caption = "調整" 
+lblMausWechselDauer.Caption = "延遲:" 
+lblMausWechselAbstand.Caption = "距離:" 
+lblMausWechselToleranz.Caption = "靈敏度:" 
+chkMausWechselInvertieren.Caption = "將滑鼠游標置於相對面的螢幕邊緣" 
+chkMausWechselWegSetzen.Caption = "切換後將滑鼠游標移動到邊界區域之外" 
+frmMausWechselRaender.Caption = "邊緣" 
+chkMausWechselOben.Caption = "上" 
+chkMausWechselLinks.Caption = "左" 
+chkMausWechselRechts.Caption = "右" 
+chkMausWechselUnten.Caption = "下"
+frmMausWechselEcken.Caption = "角落"
+frmMausWechselAusloeser.Caption = "觸發方式"
+
+##Titelleisten
+#REMOVED in Dexpot 1.6
+#lblTitelleistenErklaerung.Caption = "Dexpot 可以偵測視窗標題列上的滑鼠點選，並透過定義的鍵盤按鍵組合可以觸發指定的動作。"
+###
+lblTitelleistenBereich.Caption = "區域(&A):"
+lvTitelleisten.ColumnHeaders(1).Text = "組合"
+lvTitelleisten.ColumnHeaders(2).Text = "目標"
+lvTitelleisten.ColumnHeaders(3).Text = "動作"
+frmTitelleistenMaus.Caption = "滑鼠按鍵(&M)"
+optTitelleistenTaste(0).Caption = "滑鼠左鍵"
+optTitelleistenTaste(1).Caption = "滑鼠右鍵"
+optTitelleistenTaste(2).Caption = "滑鼠中鍵"
+frmTitelleistenModifikator.Caption = "修改鍵(&D)"
+lblTitelleistenZiel.Caption = "目標(&T):"
+cmbTitelleistenZiel.List(0) = "作用中視窗"
+cmbTitelleistenZiel.List(1) = "作用中應用程式"
+cmbTitelleistenZiel.List(2) = "所有視窗"
+lblTitelleistenAktion.Caption = "動作(&C):"
+cmdTitelleistenHinzufuegen.Caption = "加入(&A)"
+cmdTitelleistenEntfernen.Caption = "移除(&R)"
+cmbTitelleistenBereich.List(0) = "標題列"
+cmbTitelleistenBereich.List(1) = "最小化按鈕"
+cmbTitelleistenBereich.List(2) = "最大化按鈕"
+cmbTitelleistenBereich.List(3) = "關閉按鈕"
+
+#Desktopwechsel 
+tabWechsel.Tabs(1).Caption = "桌面元素" 
+tabWechsel.Tabs(2).Caption = "桌面名稱"
+
+#ADDED in Dexpot 1.6
+tabWechsel.Tabs(3).Caption = "顯示器"
+###
+
+##Desktopelemente 
+frmWechselElementIcons.Caption = "桌面圖示" 
+chkWechselElementIcons.Caption = "自訂桌面圖示" 
+chkIconsAusrichten.Caption = "貼齊格線" 
+chkIconsAnordnen.Caption = "自動排列" 
+frmWechselElementHintergrund.Caption = "背景" 
+chkWechselElementHintergrund.Caption = "自訂桌面背景" 
+
+#ADDED in Dexpot 1.6.11
+chkHintergrundRestore.Caption = "結束時還原桌面背景"
+###
+
+chkAenderungenUebernehmenHintergrund.Caption = "套用手動變更到 Dexpot 組態" 
+frmWechselElementAufloesung.Caption = "螢幕解析度" 
+chkWechselElementAufloesung.Caption = "自訂螢幕解析度" 
+chkAenderungenUebernehmenAufloesung.Caption = "套用手動變更到 Dexpot 組態" 
+
+#REMOVED in Dexpot 1.6.11
+#chkAufloesungFragen.Caption = "變更螢幕解析度前先詢問" 
+#chkAufloesungFenstergroesse.Caption = "儲存視窗大小"
+###
+
+frmWechselElementSchoner.Caption = "螢幕保護程式" 
+chkWechselElementSchoner.Caption = "自訂螢幕保護程式" 
+chkAenderungenUebernehmenSchoner.Caption = "套用手動變更到 Dexpot 組態"
+
+#ADDED in Dexpot 1.6
+frmTaskbar.Caption = "工作列"
+chkPersistentTaskbar.Caption = "保持所有工作列圖示可見"
+cmdIconanpassung.Caption = "進階"
+###
+
+##Desktopnamen 
+#REMOVED in Dexpot 1.6
+#lblEinblendungErklaerung.Caption = "桌面名稱提示允許永久或每次切換桌面後顯示目前桌面的名稱。" 
+###
+lblEinblendung.Caption = "顯示桌面名稱:" 
+optEinblendung(1).Caption = "從不" 
+optEinblendung(2).Caption = "切換時" 
+optEinblendung(3).Caption = "永久" 
+lblEinblendungDauer.Caption = "持續時間:" 
+lblEinblendungSekunden.Caption = "秒" 
+lblEinblendungPosition.Caption = "位置:" 
+
+#REMOVED in Dexpot 1.6
+#chkEinblendungPosition.Caption = "桌面背景" 
+###
+
+lblEinblendungText.Caption = "文字:" 
+cmdEinblendungVariablen.Caption = "變數" 
+mnuVariable(1).Caption = "%g 目前桌面 (編號)" 
+mnuVariable(2).Caption = "%G 目前桌面 (名稱)" 
+mnuVariable(3).Caption = "%v 最近的桌面 (編號)" 
+mnuVariable(4).Caption = "%V 最近的桌面 (名稱)" 
+lblEinblendungSchrifart.Caption = "字型:" 
+cmdEinblendungSchriftart.Caption = "..." 
+lblEinblendungHintergrund.Caption = "背景:" 
+optEinblendungHintergrund(1).Caption = "單色" 
+optEinblendungHintergrund(2).Caption = "透明" 
+
+#REMOVED in Dexpot 1.6
+#cmdEinblendungHintergrund.Caption = "..." 
+###
+
+lblEinblendungTransparenz.Caption = "透明度:"
+
+#ADDED in Dexpot 1.6
+chkEinblendungLogo.Caption = "顯示 Dexpot 標誌"
+lblEinblendungFarben.Caption = "色彩:"
+lblEinblendungFarbeSchrift.Caption = "字型"
+lblEinblendungFarbeRand.Caption = "輪廓"
+###
+
+#ADDED in Dexpot 1.6
+##Multi-Monitor
+lblMonitore.Caption = "選擇被桌面切換作用的顯示器。不在切換下的顯示器視窗於所有桌面中依舊保持可見。"
+chkMonitorExclusion.Caption = "僅於存在多個顯示器時使用此設定"
+###
+
+#Extras
+frmExtrasPasswoerter.Caption ="密碼"
+cmdMasterPasswort.Caption ="變更主控密碼"
+cmdPasswoerterZuruecksetzen.Caption ="重設密碼"
+frmDebug.Caption = "除錯"
+chkDebugLog.Caption = "啟用日誌檔案"
+chkDebugVorschau.Caption = "停用全螢幕預覽"
+#MODIFIED in Dexpot 1.5.1
+chkDebugTaskleiste.Caption = "關閉工作列重新排列功能"
+###
+chkDebugZuordnung.Caption = "關閉視窗恢復功能"
+
+#ADDED in Dexpot 1.6.5
+cmdDebugLog.Caption = "顯示日誌檔案"
+cmdDebugErweitert.Caption = "進階"
+###
+
+#ADDED in Dexpot 1.5.0
+frmPlugins.Caption = "外掛"
+cmdPluginEinstellungen.Caption = "組態"
+lblPluginAutorLabel.Caption = "作者:"
+lblCrossDesktop.Caption = "當在另一個桌面的視窗變為作用中時:"
+frmCrossDesktop.Caption = "在另一個桌面的視窗行為"
+cmbCrossDesktop.List(0) = "切換到相對桌面"
+cmbCrossDesktop.List(1) = "移動視窗到目前桌面"
+cmbCrossDesktop.List(2) = "複製視窗到目前桌面"
+cmbCrossDesktop.List(3) = "什麼都不做"
+
+strVorherigen = "上一個桌面"
+strNaechsten = "下一個桌面"
+###
+
+#ADDED in Dexpot 1.5.10
+cmdPluginHotkeys.Caption = "定義快速鍵"
+###
+
+#Strings 
+strZuruecksetzen = "還原預設設定"
+strslideshowabbrechen = "停止幻燈放映"
+strTrayicon = "切換工作列圖示"
+strTransparenzFestlegen = "設定透明度數值"
+strTransparenzErhoehen = "增加透明度"
+strTransparenzVerringern = "降低透明度"
+strDexpotFenster = "Dexpot 元件"
+strSonstiges = "雜項"
+strTransparenz = "透明度"
+strAufAlle = "到全部"
+strAuf = "到"
+strKopieren = "複製視窗"
+strVerschieben = "移動視窗"
+strVorheriger = "上一個桌面"
+strNaechster = "下一個桌面"
+strWechseln = "切換桌面"
+strMitte = "置中"
+strMitteOben = "中上" 
+strMitteUnten = "中下" 
+strLinks = "左側"
+strLinksOben = "左上" 
+strLinksUnten = "左下"
+strRechts = "右側"
+strRechtsOben = "右上" 
+strRechtsUnten = "右下" 
+strMsgName = "語言"
+strMsgAutor = "作者"
+strMsgKommentar = "描述"
+strMsgSprachdatei = "語言檔案資訊"
+strMsgPasswoerterZuruecksetzen = "您真的想要重設所有密碼嗎？主控密碼以及所有桌面密碼都將被移除。" 
+strTransparenzZuruecksetzen = "重設透明度數值" 
+strRegelnDeaktivieren = "停用規則" 
+#CHANGED in Dexpot 1.6
+strAltTab = "DexTab 工作切換助手" 
+###
+strFensterSchliessen = "關閉視窗"
+strZurueck = "返回" 
+strStartDesktopGleichLetzterDesktop = "上一個作用中桌面" 
+strMsgAlleHotkeysLoeschen = "您真的想要刪除所有定義的快速鍵嗎？" 
+strMsgProfilLoeschen = "您真的想要刪除選擇的設定檔嗎？"
+strMsgProfilSpeichern1 = "您真的想要覆寫"
+strMsgProfilSpeichern2 = "設定檔嗎？" 
+strMsgProfilGeladen = "設定檔載入成功。"
+strMsgProfilGespeichert = "設定檔儲存成功。"
+strMsgProfilStandard = "無法覆寫預設設定檔。"
+strMsgProfilNichtGespeichert = "無法儲存設定檔。"
+strFenstermenue = "視窗選單"
+strHintergrund = "移動到背景"
+
+#ADDED in Dexpot 1.5.0
+#CHANGED in Dexpot 1.6
+strDesktopwechsler = "DexTab 桌面切換助手"
+###
+strPluginNichtAktivierbar = "這個外掛跟您的 Windows 版本或您的 Dexpot 版本不相容。"
+###
+
+#ADDED in Dexpot 1.5.6
+strAddDesktop = "加入桌面"
+strRemoveDesktop = "移除桌面"
+###
+
+#ADDED in Dexpot 1.5.14
+strMoveFollow = "移動視窗並切換"
+###
+
+#ADDED in Dexpot 1.6
+strCustomStatic = "自訂 (固定的)"
+strCustomDynamic = "自訂 (可拖動的)"
+strDragMe = "拖曳！"
+strCenter = "置中"
+strAllMonitors = "所有顯示器"
+strWindowCommands = "Window 指令"
+###
+
+#ADDED in Dexpot 1.6.10
+strChangeDesktopName = "變更桌面名稱"
+strFindWindow = "尋找視窗"
+###
+
+#ADDED in Dexpot 1.6.11
+strRestoreTrayMinimized = "還原上次最小化到工作列的視窗"
+###
+
+
+[frmFenster] 
+#ADDED in 1.5.0
+frmFenster.Caption = "Dexpot - 桌面視窗"
+###
+cmdSchliessen.Caption = "關閉(&C)"
+cmdAktualisieren.Caption = "重新整理(&R)"
+#MODIFIED in 1.5.0
+strFenstertitel = "標題" 
+strFensterstatus = "狀態" 
+strFensterhandle = "處理常式" 
+strMsgIcons = "此檢視只有在您啟用「自訂桌面圖示」來在不同桌面佈局圖示時有效。您可以在設定窗格的「切換桌面」頁籤找到此功能及所有相關選項。\n\n您想要立即啟用「自訂桌面圖示」嗎？" 
+#
+strNormal = "標準"
+strMaximiert = "最大化"
+strMinimiert = "最小化"
+strWiederherstellen = "還原"
+mnuWechseln.Caption = "切換"
+strFensterAnzahl = "視窗:"
+strIconAnzahl = "圖示:"
+mnuSammeln.Caption = "聚集視窗" 
+mnuDesktopKonfigurieren.Caption = "組態" 
+
+#ADDED in Dexpot 1.6.10
+mnuChangeName.Caption = "變更名稱"
+###
+
+tabFenster.Tabs(1).Caption = "視窗" 
+tabFenster.Tabs(2).Caption = "概覽" 
+tabFenster.Tabs(3).Caption = "預覽" 
+tabFenster.Tabs(4).Caption = "隱藏" 
+tabFenster.Tabs(5).Caption = "圖示" 
+strSystemTray = "系統工作列"
+mnuSucheAlles.Caption = "所有"
+mnuSucheTitel.Caption = "標題"
+mnuSucheKlasse.Caption = "類別"
+mnuSucheExe.Caption = "可執行檔案"
+
+
+[frmTransparenz] 
+frmTransparenz.Caption = "Dexpot - 透明度" 
+cmdUebernehmen.Caption = "套用" 
+cmdSchliessen.Caption = "關閉" 
+cmdOK.Caption = "確定(&O)" 
+#REMOVED in 1.6.0
+#frmTransparent.Caption = "透明度" 
+###
+lblSichtbar.Caption = "可見"
+lblUnsichtbar.Caption = "不可見"
+strBitteWaehlen = "請設定透明度，它將被設定給"
+strUnd = "和"
+strWeitere = "個額外的視窗"
+strFestlegen = ":"
+chkFarbe.Caption = "令此色彩的區域透明:"
+
+
+[frmPasswort] 
+frmPasswort.Caption = "Dexpot - 密碼"
+frmEingabe.Caption = "密碼"
+cmdOK.Caption = "確定(&O)"
+cmdAbbrechen.Caption = "取消(&C)"
+lblInfo.Caption = "您要切換到的桌面受密碼保護。您將會被要求輸入對應的密碼:"
+
+
+[frmNeuesProfil] 
+frmNeuesProfil.Caption = "將目前的設定儲存為新的設定檔" 
+lblProfil.Caption = "儲存設定檔為(&P):" 
+cmdAbbrechen.Caption = "取消(&C)"
+cmdOK.Caption = "確定(&O)"
+strMsgNameNeuesProfil = "請輸入一個名稱給新的設定檔！" 
+strMsgZeichenNeuesProfil = "設定檔名稱不能包含任何這些字元:"
+
+
+[frmProfilAuswahl] 
+frmProfilAuswahl.Caption = "Dexpot - 選擇設定檔" 
+#REMOVED in Dexpot 1.6
+#lblWillkommen.Caption = "歡迎使用 Dexpot！請選擇您是想載入一個特定的設定檔還是想使用之前的設定。" 
+#frmProfile.Caption = "設定檔" 
+#lblProfile.Caption = "選擇設定檔:"
+### 
+cmdProfil.Caption = "載入設定檔(&P)"
+cmdLetzte.Caption = "使用之前的組態(&U)"
+
+
+[frmRegeln] 
+frmRegeln.Caption = "Dexpot - 桌面規則"
+tabRegeln.Tabs(1).Caption = "概覽"
+tabRegeln.Tabs(2).Caption = "條件"
+tabRegeln.Tabs(3).Caption = "動作"
+cmdOK.Caption = "確定(&O)"
+cmdAbbrechen.Caption = "取消(&C)"
+cmdUebernehmen.Caption = "套用(&A)"
+cmdAnwenden.Caption = "套用規則(&L)"
+cmdAssi.Caption = "助手(&A)"
+cmdNeu.Caption = "新增(&N)"
+cmdEntfernen.Caption = "刪除(&D)"
+lblName.Caption = "名稱"
+chkDeaktivieren.Caption = "停用規則(&R)"
+frmBedingungen.Caption = "條件"
+frmAktionen.Caption = "動作"
+cmdNeueBedingung.Caption = "+"
+cmdBedingungEntfernen.Caption = "-"
+cmdNeueAktion.Caption = "+"
+cmdAktionEntfernen.Caption = "-" 
+chkFolgen.Caption = "移動時跟隨著(&F)"
+lblTyp.Caption = "類型:"
+lblSucher.Caption = "選擇工具:"
+cmdNeueBedingung.ToolTipText = "加入新的條件"
+cmdNeueAktion.ToolTipText = "加入新的動作"
+cmdBedingungEntfernen.ToolTipText = "刪除選擇的條件"
+cmdAktionEntfernen.ToolTipText = "刪除選擇的動作"
+cmdImport.Caption = "匯入規則"
+lblSichtbar.Caption = "可見"
+lblUnsichtbar.Caption = "不可見"
+cmdDurchsuchen.Caption = "瀏覽..."
+frmVerknuepfung.Caption = "連接"
+optVerknuepfung(0).Caption = "符合所有條件"
+optVerknuepfung(1).Caption = "符合單一條件"
+lblWert.Caption = "數值(&V):"
+frmAusnahmen.Caption = "不要套用規則到"
+chkSichtbar.Caption = "不可見視窗(&I)"
+chkRand.Caption = "無框架視窗"
+chkTitel.Caption = "無標題視窗"
+chkTopLevel.Caption = "附屬視窗"
+chkAutomatisch.Caption = "自動套用規則"
+strFenstertitel = "視窗標題"
+strFensterklasse = "視窗類別"
+strAlleFenster = "所有視窗"
+strist = "是"
+strenthaelt = "包含"
+strenthaeltnicht = "不包含"
+strbeginntmit = "開始於"
+strendetmit = "結束於"
+strAlleBedingungen = "滿足所有條件"
+strEineBedingung = "滿足一個條件"
+strVerschieben = "移動"
+strKopieren = "複製"
+strTransparenz = "設定透明度數值"
+strSchliessen = "關閉"
+strund = "和"
+stroder = "或"
+strVerschiebenAuf = "移動到桌面"
+strKopierenAuf = "複製到"
+strTransparenzFestlegen = "設定透明度數值:"
+strFensterSchliessen = "關閉視窗"
+strBedingung = "條件"
+strAktion = "動作"
+strNeueRegel = "新增規則"
+strEXEName = "可執行檔案" 
+strVordergrund = "總在最上層"
+strAusfuehren = "執行"
+strTrayMinimieren = "最小化到系統工作列"
+
+#ADDED in Dexpot 1.6
+strRegExp = "符合正則表達式"
+strRegExpi = "符合正則表達式 (不區分大小寫)"
+###
+
+
+[frmProfilladen] 
+#REMOVED in Dexpot 1.6
+#lblProfilLaden.Caption = "請選擇需要載入設定檔中的哪些部份:" 
+###
+optAlle.Caption = "完整設定檔(&P)"
+optTeile.Caption = "部份設定檔(&S):"
+frmTeile.Caption = "設定檔部份"
+chkEinstellungen.Caption = "設定(&S)"
+chkHotkeys.Caption = "快速鍵(&H)"
+chkEigenschaften.Caption = "內容(&P)"
+chkIcons.Caption = "圖示位置(&I)"
+chkHintergrund.Caption = "背景圖片(&G)"
+chkTools.Caption = "工具(&L)"
+chkRegeln.Caption = "規則(&R)"
+chkAutostart.Caption = "開機時自動執行 Dexpot(&U)"
+frmOptionen.Caption = "選項"
+chkSammeln.Caption = "聚集作用中桌面上的視窗(&G)"
+chkAnwenden.Caption = "套用桌面規則(&A)"
+cmdOK.Caption = "確定(&O)"
+cmdAbbrechen.Caption = "取消(&C)"
+strProfilLaden = "正在載入設定檔"
+
+
+[frmRegelImport] 
+frmRegelImport.Caption = "Dexpot - 匯入/匯出桌面規則"
+cmdSchliessen.Caption = "關閉(&C)"
+cmdImportieren.Caption = "<< 匯入(&I)"
+cmdExportieren.Caption = "匯出(&E) >>"
+cmdLaden.Caption = "載入規則檔案(&L)"
+cmdErstellen.Caption = "建立規則檔案(&R)"
+frmDatei.Caption = "檔案中的規則"
+frmLokal.Caption = "本地規則" 
+cmdAlleImportieren.Caption = "<< 全部匯入(&M)" 
+cmdAlleExportieren.Caption = "全部匯出(&X) >>" 
+cmdLoeschen.Caption = "從檔案中刪除(&F)"
+strLaden = "載入規則檔案"
+strErstellen = "建立新的規則檔案"
+strExt = "Dexpot 規則檔案" 
+strExt2 = "Dexpot 設定檔"
+strAktionen = "動作"
+strBedingungen = "條件"
+strMsgLoeschen = "您真的想要從檔案中刪除選擇的規則嗎？"
+lblDatei.Caption = "目前規則檔案:"
+strMsgLokalUeber = "是否本地規則" 
+strMsgLokalUeber2 = "要被規則檔案中的同名規則所取代？" 
+strMsgDateiUeber = "規則" 
+strMsgDateiUeber2 = "已經存在於規則檔案中。您想要用本地規則來取代它嗎？"
+
+
+[frmVorschau] 
+frmVorschau.Caption = "Dexpot - 桌面預覽"
+mnuSchliessen.Caption = "關閉"
+mnuImHintergrund.Caption = "自動隱藏預覽窗格" 
+mnuAutoStart.Caption = "隨 Dexpot 執行時自動啟動" 
+mnuSeitenverhaeltnisErzwingen.Caption = "強制校正畫面比例"
+mnuSeitenverhaeltnisFest.Caption = "維持畫面比例"
+mnuTitel.Caption = "隱藏標題列"
+mnuVerstecken.Caption = "隱藏桌面內容"
+strVersteckt = "[隱藏的內容]"
+mnuSymbolisch.Caption = "圖示化預覽"
+
+
+[frmIconZieher] 
+frmIconZieher.Caption = "Dexpot - 擷取圖示" 
+lblDatei.Caption = "在此檔案中搜尋圖示"
+cmdDurchsuchen.Caption = "瀏覽(&B)..."
+lblIcons.Caption = "由下列清單中選擇一個圖示:" 
+cmdOK.Caption = "確定(&O)"
+cmdSchliessen.Caption = "取消(&C)"
+strMsgKeineDatei = "找不到檔案。" 
+strMsgKeineIcons = "該檔案中沒有包含圖示。" 
+
+
+[frmKonfig] 
+frmKonfig.Caption = "Dexpot - 組態桌面" 
+lblPasswort.Caption = "密碼:"
+cmdManagerIcon.Caption = "..."
+lblManagerIcon.Caption = "管理員圖示:"
+lblAufloesung.Caption = "解析度:"
+lblName.Caption = "名稱:"
+cmdWechselSoundAn.Caption = "..."
+lblWechselsoundAn.Caption = "進入時播放:"
+cmdWechselSoundAb.Caption = "..."
+lblWechselsoundAb.Caption = "結束時播放:"
+cmdStandardIcon.Caption = "預設"
+cmdLoeschenAn.Caption = "X"
+cmdLoeschenAn.ToolTipText = "刪除"
+cmdLoeschenAb.Caption = "X"
+cmdLoeschenAb.ToolTipText = "刪除"
+cmdBetretenAbspielen.ToolTipText = "播放"
+cmdVerlassenAbspielen.ToolTipText = "播放"
+cmdManagerIcon.ToolTipText = "瀏覽"
+cmdStandardIcon.ToolTipText = "將預設的 Dexpot 符號設定為管理員圖示"
+lblBildschirmschoner.Caption = "螢幕保護程式:" 
+lblWartezeit.Caption = "延遲:" 
+cmdBildschirmschoner.Caption = "..." 
+cmdSchonerVorschau.Caption = "預覽" 
+cmdSchonerEinstellungen.Caption = "設定" 
+cmdSchliessen.Caption = "取消(&C)"
+cmdOK.Caption = "確定(&O)"
+cmdUebernehmen.Caption = "套用(&A)"
+cmdDurchsuchen.Caption = "瀏覽(&B)..."
+cmdEntfernen.Caption = "移除圖片"
+cmbStyle.List(0) = "置中"
+cmbStyle.List(1) = "並排"
+cmbStyle.List(2) = "延展"
+#ADDED in Dexpot 1.5
+cmbStyle.List(3) = "適應"
+cmbStyle.List(4) = "填充"
+###
+
+#ADDED in Dexpot 1.6.10
+cmbStyle.List(5) = "跨距"
+###
+
+frmKomponentenVerstecken.Caption = "隱藏桌面元件" 
+chkTaskleiste.Caption = "工作列"
+chkDesktopIcons.Caption = "桌面圖示"
+chkStartbutton.Caption = "開始按鈕"
+chkTaskbarIcons.Caption = "系統工作列"
+frmDesktopicons.Caption = "桌面圖示" 
+chkUnterschriften.Caption = "透明圖示名稱"
+chkKleineSymbole.Caption = "小圖示" 
+lblAutostartBefehl.Caption = "指令:" 
+lblAutostartEreignis.Caption = "事件:" 
+cmdAutostartDurchsuchen.Caption = "瀏覽(&R)..." 
+cmdAutostartHinzufuegen.Caption = "加入" 
+cmdAutostartAendern.Caption = "編輯(&D)"
+cmdAutostartEntfernen.Caption = "移除" 
+lblAutostartSchliessen.Caption = "關閉(&C):"
+AutoStartEvents.ErstesBetreten = "首次進入" 
+AutoStartEvents.ErstesVerlassen = "首次結束" 
+AutoStartEvents.JedesBetreten = "每次進入" 
+AutoStartEvents.JedesVerlassen = "每次結束" 
+AutoStartEvents.DexpotStart = "Dexpot 開始" 
+AutoStartEvents.DexpotEnde = "Dexpot 結束"
+AutoStartEvents.Nie = "從不"
+AutoStartEvents.NaechstesBetreten = "下次進入"
+AutoStartEvents.NaechstesVerlassen = "下次結束"
+mnuAutostartAusfuehren.Caption = "立即執行"
+mnuAutostartAktivieren.Caption = "啟用" 
+mnuAutostartDeaktivieren.Caption = "停用"
+tabKonfig.Tabs(1).Caption = "內容"
+tabKonfig.Tabs(2).Caption = "背景"
+tabKonfig.Tabs(3).Caption = "工具"
+tabKonfig.Tabs(4).Caption = "啟動"
+lvAutostart.ColumnHeaders(1).Text = "指令"
+lvAutostart.ColumnHeaders(2).Text = "事件"
+lvAutostart.ColumnHeaders(3).Text = "關閉"
+chkIconText.Caption = "隱藏圖示標題"
+lblIconGroesse.Caption = "圖示大小(&I):"
+chkSchonerKennwort.Caption = "密碼保護(&P)"
+#MODIFIED in 1.5.0
+lblHintergrund.Caption = "路徑:"
+###
+lblAusrichtung.Caption = "對齊(&L):"
+lblDesktopFarbe.Caption = "桌面色彩:"
+strMsgKeinMasterPasswort = "您已經為一個或多個桌面設定了密碼。為了啟動 Dexpot 密碼保護，還需要同時設定一個主控密碼。\n\n您想要立即設定主控密碼嗎？" 
+strMsgWechselElementAufloesung = "在一個螢幕解析度被設定到此桌面之前，必須先啟用 Dexpot 設定中的「自訂螢幕解析度」選項。\n\n您想要立即啟用此項設定嗎？" 
+strMsgWechselElementHintergrund = "在一個背景圖片被設定到此桌面之前，必須先啟用 Dexpot 設定中的「自訂桌面背景」選項。\n\n您想要立即啟用此項設定嗎？" 
+strMsgWechselElementSchoner = "在一個螢幕保護程式被設定到此桌面之前，必須先啟用 Dexpot 設定中的「自訂螢幕保護程式」選項。\n\n您想要立即啟用此項設定嗎？"
+lblIconTextFarbe.Caption = "文字色彩:"
+mnuKopierenAlles.Caption = "全部"
+mnuKopieren.Caption = "複製此處"
+
+#ADDED in Dexpot 1.6
+lblMultimonitor.Caption = "多顯示器背景模式:"
+cmbMultimonitor.List(0) = "Windows 預設"
+cmbMultimonitor.List(1) = "在所有顯示器上顯示一樣的圖像"
+cmbMultimonitor.List(2) = "在每個顯示器使用不同的圖像"
+frmBildschirmschoner.Caption = "選項"
+###
+
+
+[frmUebersicht] 
+strPasswortGeschuetzt = "[密碼保護]"
+strInDenTrayMinimiert = "最小化到系統工作列"
+
+
+[frmRegelAssistent] 
+frmRegelAssistent.Caption = "Dexpot - 規則助手"
+lblSchritt1.Caption = "建立新的規則 - 步驟 1" 
+lblBeschreibung1.Caption = "本助手會指導您一步步地建立新的規則，並協助您定義想要的條件和規則。" 
+lblRegelName.Caption = "新的規則名稱:" 
+frmRegelOption.Caption = " 建立來源" 
+optNeueRegel.Caption = "空白規則" 
+optVorhandeneRegel.Caption = "已存在規則:" 
+optRegelDatenbank.Caption = "規則資料庫:" 
+chkDeaktivieren.Caption = "預設此規則於非停用狀態"
+cmdSchritt2.Caption = "下一步(&N)" 
+cmdCancel.Caption = "取消(&C)" 
+strSchrittTitel1 = "建立新的規則 " 
+strSchrittTitel2 = " - 步驟 " 
+strSchrittTitel3 = " - 概要" 
+lblBeschreibung2.Caption = "在本步驟中，請您定義需要套用新的規則的視窗。您可以手動輸入條件，或者用滑鼠拖動十字準線到想要為之建立規則的視窗。" 
+chkAusblenden.Caption = "在選擇視窗時隱藏助手" 
+frmUndOderOder.Caption = " 邏輯操作 " 
+optEineRegel.Caption = "滿足單個條件" 
+optAlleRegeln.Caption = "滿足所有條件" 
+frmBedingung.Caption = " 條件" 
+cmdBdgLoeschen.Caption = "刪除(&D)..." 
+cmdBdgHinzufuegen.Caption = "加入(&A)" 
+cmdZurueckZu1.Caption = "上一步(&B)" 
+cmdSchritt3.Caption = "下一步(&N)" 
+strMindEineBedingung = "您必須至少定義一個有效的條件。" 
+strMaxBedingungen = "無法使用助手加入更多條件。不過您可以在規則建立之後再加入更多的條件。" 
+lblBeschreibung3.Caption = "現在請您定義對於所有符合條件的視窗所要採取的動作。" 
+frmBedingungListe.Caption = " 條件 " 
+frmAktion.Caption = " 動作" 
+cmdAknLoeschen.Caption = "刪除(&D)..." 
+cmdAknHinzufuegen.Caption = "加入(&A)" 
+chkFolgen.Caption = "移動時跟隨著(&F)"
+lblSichtbar.Caption = "可見"
+lblUnsichtbar.Caption = "不可見"
+cmdDurchsuchen.Caption = "瀏覽..."
+cmdZurueckZu2.Caption = "上一步(&B)" 
+cmdFertig.Caption = "下一步(&N)" 
+strMindEineAktion = "尚未定義有效的動作。現在您可以先建立一個空的規則，稍後再加入動作。" 
+strMaxAktionen = "無法使用助手加入更多動作。不過您可以在規則建立之後再加入更多的動作。" 
+lblBeschreibung4.Caption = "此為最後的步驟，這是新的規則中所定義的條件和動作的清單。點選「完成」便會建立此項規則。" 
+cmdZurueckZu3.Caption = "上一步(&B)" 
+cmdOK.Caption = "完成(&D)"
+strRegelErsetzen = "已經有同名的規則存在。點選「是」將會取代已存在的規則，點選「否」則建立一個同名的新的規則，或者點選「取消」來修改規則名稱。"
+strWiderspruch1 = "條件"
+strWiderspruch2 = "和"
+strWiderspruch3 = "矛盾，請重新檢查這些條件。"
+
+
+[frmWechselLeiste]
+strFenster ="視窗:"
+strAktiv ="作用中:"
+strKlick ="單按一下:"
+strDoppelKlick ="連按兩下:"
+
+
+[frmSplash]
+lblFuer.Caption = "註冊給:"
+strMsgUngueltig = "無效的授權碼。"
+
+#ADDED in Dexpot 1.5.2
+strMsgWindowsZuAlt = "您的作業系統不支援本版本的 Dexpot。請前往 http://download.dexpot.de 下載之前較舊的版本。\n\nDexpot 現在將結束。造成的不便我們深表歉意。"
+###
+
+#ADDED in Dexpot 1.5.11
+strCommonControlsQuestion = "Windows 通用控制項沒有在系統中被正確地安裝。您想要讓 Dexpot 嘗試修復此項錯誤嗎？"
+strCommonControlsCritical = "Windows 通用控制項 (mscomctl.ocx) 沒有在系統中被正確地安裝。Dexpot 現在將終止執行。\n\n如要取得更多資訊，請前往"
+###
+
+
+#ADDED in Dexpot 1.6
+[frmIconanpassung]
+frmIconanpassung.Caption = "Dexpot - 自訂桌面圖示"
+cmdOK.Caption = "確定(&O)"
+cmdCancel.Caption = "取消(&C)"
+frmOptionen.Caption = "選項"
+optAnpassung(0).Caption = "為每個桌面建立一個單獨的資料夾"
+optAnpassung(1).Caption = "所有桌面使用一個共享的通用資料夾"
+chkKeepDesktop.Caption = "使用原始的 Windows 桌面資料夾作為桌面 1"
+chkAusrichten.Caption = "將圖示貼齊格線"
+chkAnordnen.Caption = "自動排列圖示"
+strMigration = "您希望 Dexpot 依照目前的圖示分佈複製目前桌面檔案到新的單獨資料夾中嗎？"
+###
+
+
+#ADDED Dexpot 1.4.2
+[frmUpdater]
+frmUpdater.Caption = "Dexpot 更新助手"
+cmdAbbrechen.Caption = "取消"
+cmdWeiter.Caption = "檢查更新"
+lblInstallierteVersion.Caption = "安裝的 Dexpot 版本:"
+lblVersionVerfuegbar.Caption = "可用的最新版本:"
+lblUpdater.Caption = "歡迎使用 Dexpot 更新助手"
+lblUpdater2.Caption = "有新的版本可用"
+lblUpdater3.Caption = "正在更新"
+lblUpdater4.Caption = "更新完成"
+lblText.Caption = "本升級助手將協助您將 Dexpot 更新到最新版本。\n\n假如有新的版本可用，需要關閉 Dexpot 來進行更新。我們建議更新時也關閉其它應用程式。\n\n在進行下一步之前，請確認您已連線到網際網路。然後點選「檢查更新」。"
+lblKeinUpdate.Caption = "您目前使用的已是最新版本的 Dexpot。"
+lblAbgeschlossen.Caption = "安裝完成，更新成功。"
+lblNeustart.Caption = "有一些檔案目前正在使用，在作業系統重新啟動後才會被取代。\n\nThe installation will be completed automatically the next time Dexpot is launched."
+lblText2.Caption = "點選「安裝」以自動更新到最新版本。"
+lblFortschritt.Caption = "安裝進度:"
+chkBeta.Caption = "顯示測試版本"
+chkDexpotStarten.Caption = "執行 Dexpot"
+cmdMehrInformationen.Caption = "更多資訊"
+lvUpdates.ColumnHeaders(1).Text = "版本"
+lvUpdates.ColumnHeaders(2).Text = "描述"
+strBeenden = "為了安裝此更新，需要關閉 Dexpot。\n\n您想要立即結束 Dexpot 嗎？"
+strUnbekannt = "未知"
+strKeinDexpot = "找不到 Dexpot 安裝資料！"
+strInstallieren = "安裝"
+strFortsetzung = "安裝正在進行"
+strUnvollstaendig = "安裝未完成"
+strNichtErfolgreich = "無法成功完成安裝。"
+strFertigstellen = "完成"
+strInstalliere = "正在安裝"
+strUpdate = "正在更新"
+strLoesche = "正在移除"
+strZusaetzlich = "正在安裝額外要求的更新"
+strAbhaengig = "為滿足依賴關係的更新"
+strHerunterladen = "正在下載"
+strEntpacken = "正在解壓縮"
+strAbgeschlossen = "版本更新完成"
+strBenutzer = "使用者"
+strPasswort = "密碼"
+strDownloadFehler = "下載錯誤"
+strEntpackenFehler = "解封裝錯誤"
+strProUpdate = "您的 Dexpot Pro 授權碼在新版本中不可用。在安裝之後您需要輸入新的授權碼來解鎖 Dexpot。請前往 http://pro.dexpot.de/ 檢視有關如何更新您的授權碼的資訊。\n\n您想要繼續進行安裝嗎？"
+###
+
+#ADDED in Dexpot 1.5
+[frmDexcube]
+frmDexcube.Caption = "Dexpot - 設定"
+cmdOK.Caption = "確認(&O)"
+cmdAbbrechen.Caption = "取消(&C)"
+cmdUebernehmen.Caption = "套用(&A)"
+frmSwitchAnimation.Caption = "桌面切換動畫"
+lblSwitchAnimation.Caption = "效果:"
+lblZoomAutomatic.Caption = "縮放:"
+frmEffects.Caption = "效果"
+chkUseLighting.Caption = "陰影"
+chkUseAlphaBlending.Caption = "透明"
+frmDuration.Caption = "動畫速度"
+lblCubeDurationBase.Caption = "立方體 (最短持續時間):"
+lblCubeDurationPerDesktop.Caption = "立方體 (每個桌面):"
+lblBrettDuration.Caption = "早餐盤:"
+lblWallDuration.Caption = "牆和電影膠片:"
+lblZoomDuration.Caption = "縮放:"
+strKein = "無"
+strWuerfel = "立方體"
+strBrett = "早餐盤"
+strWand = "牆"
+strStreifen = "電影膠片"
+strMaximal = "最大"
+strMinimal = "最小"
+strVariabel = "可變"
+chkMultithreading.Caption = "多執行緒"
+frmLeistung.Caption = "效能"
+
+#ADDED in Dexpot 1.6.5
+lblFadeDuration.Caption = "交叉淡化:"
+strFade = "交叉淡化"
+###
+
+
+[frmWallpaperClock]
+frmWallpaperClock.Caption = "Dexpot - 桌布時鐘"
+lblAuthorLabel.Caption = "作者:"
+lblStyle.Caption = "位置:"
+chk24Hour.Caption = "使用 24 小時制"
+cmdSelectFolder.Caption = "選擇資料夾..."
+lblGetMoreClocks.Caption = "要取得更多的桌布時鐘，請到:"
+cmdOK.Caption = "確認(&O)"
+cmdApply.Caption = "套用(&A)"
+cmdCancel.Caption = "取消(&C)"
+strKeineClock = "(一般桌布)"
+frmVorschau.Caption = "預覽"
+lblSizeLabel.Caption = "大小:"
+strBrowseForFolder = "請選擇一個包含桌布時鐘檔案 (*.wcz) 的資料夾:"
+
+
+[Dexcube]
+Description = "Dexcube 提供許多有關桌面切換的 3D 效果動畫。"
+HotkeyManualControl = "手動控制"
+HotkeyManualControlNext = "下一個手動控制"
+HotkeyManualControlPrevious = "上一個手動控制"
+
+[SevenDex]
+Description = "SevenDex 在 Windows 7 工作列整合了一個切換桌面的按鈕。"
+
+[Slideshow]
+Description = "在預設時間間隔過後，桌面幻燈放映將在桌面間自動地切換。"
+HotkeyDesktopSlideshow = "桌面幻燈放映"
+HotkeySlideshowstarten = "開始幻燈放映"
+HotkeySlideshowanhalten = "停止幻燈放映"
+
+[Wallpaper Clock]
+Description = "此外掛能指定每個桌面使用不同的桌布時鐘。"
+###
+
+#ADDED in Dexpot 1.5.5
+[Taskbar Pager]
+Description = "此外掛將整合一個類似「桌面預覽」一樣的頁面調度助手到 Windows 工作列。"
+HotkeyHidePager= "隱藏頁面調度助手"
+###
+
+
+#ADDED in Dexpot 1.5.7
+[frmTaskbarPager]
+frmTaskbarPager.Caption = "Dexpot 工作列頁面調度助手 - 設定"
+frmLayout.Caption = "佈局"
+frmWindows.Caption = "視窗"
+lblCellSize.Caption = "單元大小:"
+lblCellSpacing.Caption = "單元間距:"
+lblBorderSize.Caption = "邊緣寬度:"
+lblRowCount.Caption = "列數:"
+lblColumnCount.Caption = "行數:"
+chkFlashing.Caption = "高亮度顯示閃動視窗"
+chkToolWindows.Caption = "顯示工具視窗"
+
+#ADDED in Dexpot 1.6.8
+chkExcludedMonitors.Caption = "在排除的顯示器中顯示視窗"
+###
+
+cmdCancel.Caption = "取消(&C)"
+cmdOK.Caption = "確定(&O)"
+cmdApply.Caption = "套用(&A)"
+###
+
+
+#ADDED in Dexpot 1.5.10
+[Dexgrid]
+Description = "將您的多個桌面排列成網格佈局，加入在網格中上下切換的快速鍵，並且在桌面切換時顯示動畫。"
+HotkeySwitchleft = "向左切換"
+HotkeySwitchright = "向右切換"
+HotkeySwitchup = "向上切換"
+HotkeySwitchdown = "向下切換"
+HotkeyMovewindowleft = "向左移動視窗"
+HotkeyMovewindowright = "向右移動視窗"
+HotkeyMovewindowup = "向上移動視窗"
+HotkeyMovewindowdown = "向下移動視窗"
+HotkeyCopywindowleft = "向左複製視窗"
+HotkeyCopywindowright = "向右複製視窗"
+HotkeyCopywindowup = "向上複製視窗"
+HotkeyCopywindowdown = "向下複製視窗"
+
+#ADDED in Dexpot 1.6.4
+HotkeyMoveandswitchleft = "移動視窗，並向左切換"
+HotkeyMoveandswitchright = "移動視窗，並向右切換"
+HotkeyMoveandswitchup = "移動視窗，並向上切換"
+HotkeyMoveandswitchdown = "移動視窗，並向下切換"
+###
+
+[frmDexgrid]
+frmDexgrid.Caption = "Dexgrid - 設定"
+lblRowCount.Caption = "列數:"
+chkAnimation.Caption = "顯示桌面切換動畫"
+cmdOK.Caption = "確定(&O)"
+cmdCancel.Caption = "取消(&C)"
+###
+
+#ADDED Dexpot 1.6
+[frmAppAssignment]
+frmAppAssignment.Caption = "Dexpot - 指派應用程式"
+cmdAdd.Caption = "加入(&A)..."
+cmdRemove.Caption = "移除(&R)"
+cmdRefresh.Caption = "重新整理(&E)"
+lblAssign.Caption = "指派應用程式給:"
+cmdOK.Caption = "確定(&O)"
+cmdCancel.Caption = "取消(&C)"
+strApplication = "應用程式"
+strWhereStarted = "啟動位置"
+lblFollow.CAption = "切換到桌面:"
+cmbFollow.List(1) = "從不"
+cmbFollow.List(2) = "開啟時"
+cmbFollow.List(3) = "啟用時"
+
+[MouseEvents]
+Description = "增加了對熱角、滑鼠滾輪切換、鍵盤雙按動作以及體感控制器的支援。"
+
+[frmMouseEvents]
+frmAppAssignment.Caption = "Dexpot - 滑鼠事件"
+tabMouseEvents.Tabs(1).Caption = "熱角"
+tabMouseEvents.Tabs(2).Caption = "滑鼠滾輪"
+
+#ADDED in Dexpot 1.6.7
+tabMouseEvents.Tabs(3).Caption = "鍵盤"
+###
+
+lblCorner(1).Caption = "左上:"
+lblCorner(2).Caption = "右上:"
+lblCorner(3).Caption = "左下:"
+lblCorner(4).Caption = "右下:"
+frmCornerTrigger.Caption = "觸發方式"
+optCornerTrigger(0).Caption = "立即"
+optCornerTrigger(1).Caption = "延遲"
+optCornerTrigger(2).Caption = "滑鼠中鍵點選"
+frmCornerOptions.Caption = "選項"
+chkCornerFullscreen.Caption = "當一個全螢幕應用程式處於作用中狀態時停用熱角"
+chkWheel.Caption = "使用滑鼠滾輪來切換桌面"
+lblWheelType.Caption = "滑鼠滾輪型:"
+frmWheelTrigger.Caption = "觸發鍵"
+
+#ADDED in Dexpot 1.6.7
+frmDoubleTap.Caption = "雙按"
+lblDoubleTapLeftCtrl.Caption = "左 Ctrl 鍵:"
+lblDoubleTapRightCtrl.Caption = "右 Ctrl 鍵:"
+lblDoubleTapLeftShift.Caption = "左 Shift 鍵:"
+lblDoubleTapRightShift.Caption = "右 Shift 鍵:"
+###
+
+strBoth = "兩者"
+strNone = "(無)"
+strShowDesktop = "顯示桌面"
+strAeroFlip = "Aero Flip 3D"
+
+#ADDED in Dexpot 1.6.3
+strMinimizeAll = "全部最小化"
+###
+
+#ADDED in Dexpot 1.6.10
+chkLeapSupport.Caption = "啟用體感支援"
+lblLeapSwipeLeft.Caption = "向左滑動:"
+lblLeapSwipeRight.Caption = "向右滑動:"
+lblLeapSwipeUp.Caption = "向上滑動:"
+lblLeapSwipeDown.Caption = "向下滑動:"
+strLeapMotionController = "體感控制器:"
+strLeapConnected = "就緒"
+strLeapDisconnected = "無控制器或是無可用連接"
+###
+
+cmdOK.Caption = "確定(&O)" 
+cmdCancel.Caption = "取消(&C)" 
+cmdApply.Caption = "套用(&A)"
+
+[DexControl]
+Description = "交互式全螢幕預覽，整合視窗目錄。"
+###
+
+#ADDED in Dexpot 1.6.5
+[frmDebugging]
+frmDebugging.Caption = "正在除錯"
+cmdOK.Caption = "確定(&O)"
+cmdCancel.Caption = "取消(&C)"
+frmDebugOptions.Caption = "選項"
+chkDebugForegroundLock.Caption = "維持前景鎖定逾時"
+
+#ADDED in Dexpot 1.6.6
+chkDebugTokenizedEnabled.Caption = "保持標記的視窗啟用"
+###
+
+lblRestart.Caption = "重新啟動 Dexpot 以使變更生效。"
+###

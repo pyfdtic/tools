@@ -1,0 +1,1448 @@
+[Info] 
+Name = "English" 
+Autor = "Jochen Boy" 
+AutorMail = "jochen@dexpot.de" 
+Kommentar = "Dexpot language file containing default English text."
+Locale=1033
+
+#Dexpot 1.6.14 [$Id: english.dxs 2436 2014-09-02 17:22:45Z Sebastian $]
+
+[Global] 
+#CHANGED in Dexpot 1.6
+strDexpot = "Dexpot - Virtual desktops for Windows"
+###
+strVorheriger = "Dexpot - previous desktop" 
+strNaechster = "Dexpot - next desktop" 
+strDesktop = "Desktop" 
+strAlleDesktops = "All desktops" 
+strKein = "(None)" 
+strMsgFortfahren = "Do you wish to continue?" 
+strMsgDesktopanzahl = "The chosen number of desktops is smaller than the previous value, i.e. all information concerning the desktops higher than the new value will be lost.\n\nAll windows on those desktops will be moved to the current desktop.\nShould the current desktop then be no longer valid, then Dexpot will switch to the first desktop." 
+strMsgVersuchenZuErsetzen = "Dexpot will try to replace them." 
+strMsgProblem = "Should this problem occur further on:" 
+strMsgHinweisDesktopanzahl = "Note on changing the number of desktops - Dexpot" 
+strMsgAufloesungTitel = "Modify Screen Resolution - Dexpot" 
+
+#REMOVED in Dexpot 1.6.11
+#strMsgAufloesung = "The screen resolution can now be changed. Do you wish to accept the new" 
+#strMsgAufloesungAnnehmen = "resolution?" 
+###
+
+strMsgNichtAendern = "It's not possible to change the resolution." 
+strMasterPasswortAnfordern = "Dexpot Password Protection has been activated. In order to carry out the desired task, you have to enter the master password:" 
+strPasswortAnfordern = "Dexpot Password Protection has been activated. In order to carry out the desired task, you have to enter the password for the respective desktop:" 
+strMasterPasswortAendern = "You can change the Dexpot master password here:" 
+strAltesPasswort = "Old password:" 
+strNeuesPasswort = "New password:" 
+strBestaetigung = "Confirmation:" 
+strMsgPasswortFehler = "Error during password input - Dexpot" 
+strMsgUebereinstimmung = "New password and confirmation do not match. Please correct your input." 
+strMsgAltesFalsch = "Old password invalid!" 
+strKeineAnderen = "No other windows present" 
+strKeineFenster = "No windows on this desktop" 
+strMsgIconsEntfernen = "Do you really wish to remove the selected icons from this desktop?\n\nYou will find deleted icons that are not visible on any desktop in 'Desktop Windows - Icons - Hidden'." 
+strMsgIconsEntfernenTitel = "Remove icons - Dexpot" 
+strMaximieren = "Maximize" 
+strMinimieren = "Minimize" 
+strStandard = "Default" 
+strMsgRegelnAktiviert = "Desktop Rules enabled" 
+strMsgRegelnDeaktiviert = "Desktop Rules disabled" 
+strFensterMinimiert = "window(s) minimized" 
+strMsgStandardGeladen = "The Default profile has been successfully imported." 
+strMsgStandardNichtGefunden = "The Default profile could not be found."
+strFilterBilder = "All image files"
+strFilterProgramme = "Programs"
+strFilterAlle = "All files"
+strFilterAlleSymbole = "All icon files"
+strFilterBibliotheken = "Libraries"
+strFilterSymbole = "Icons"
+strFilterSound = "Wave files"
+strBeimNaechstenWechsel = "On next switch"
+
+#ADDED in Dexpot 1.5
+strHorizontalMaximieren = "Maximize horizontally"
+strVertikalMaximieren = "Maximize vertically"
+strMsgProfilStandardGefahr = "Loading the standard profile will result in losing your settings.\nMake sure your settings were saved in a separate profile.\n\nDo you want to proceed?"
+###
+
+#ADDED in Dexpot 1.6
+strMonitor = "Monitor"
+###
+
+
+[frmTaskleiste] 
+#ADDED in Dexpot 1.6
+mnuAppAssignment.Caption = " Assign applications"
+###
+mnuEinstellungen.Caption = " Settings" 
+mnuWechselLeiste.Caption = " Desktop Manager" 
+mnuSlideshow.Caption = " Desktop Slideshow" 
+mnuDesktopFenster.Caption = " Desktop Windows" 
+mnuInfo.Caption = " About" 
+mnuBeenden.Caption = " Exit" 
+mnuAusrichten.Caption = "Stick to edge of screen" 
+mnuLaden.Caption = "Start with Dexpot" 
+mnuAktivesFenster.Caption = "Show icons of active windows" 
+mnuMausrad.Caption = "Switch with mouse wheel" 
+mnuPositionHalten.Caption = "Lock position" 
+mnuImVordergrund.Caption = "Always on top" 
+mnuOrientierung.Caption = "Vertical orientation" 
+mnuTransparent.Caption = "Transparent background" 
+mnuSchliessen.Caption = "Close" 
+mnuVerschiebenListe.Caption = "Move other windows to this desktop" 
+mnuKopierenListe.Caption = "Copy other windows to this desktop" 
+mnuRegeln.Caption = " Desktop Rules" 
+mnuFarbe.Caption = "Apply background color" 
+mnuGroesse.Caption = "Change icon size" 
+mnuVorschau.Caption = " Desktop Preview" 
+mnuBoo.Caption = "Show additional Button" 
+mnuKonfig.Caption = " Configure Desktops" 
+mnuVerschollen.Caption = "Show on current desktop" 
+mnuTransparenz.Caption = "Transparency" 
+mnuTransparenzFestlegen.Caption = "Define transparency" 
+mnuTransparenzErhoehen.Caption = "Increase transparency" 
+mnuTransparenzVerringern.Caption = "Decrease transparency" 
+mnuVerschieben.Caption = "Move" 
+mnuKopieren.Caption = "Copy" 
+mnuSchliessen.Caption = "Close" 
+mnuSchliessenAufDiesem.Caption = "On this desktop" 
+mnuSchliessenAufAnderen.Caption = "On all other desktops" 
+mnuSchliessenAufAllen.Caption = "Everywhere (Quit application)" 
+mnuTrayMinimieren.Caption = "Minimize to system tray" 
+mnuVordergrund.Caption = "Always on top" 
+mnuDMSchliessen.Caption = "Close" 
+mnuEntfernen.Caption = "Remove" 
+mnuRegelErstellen.Caption = "Create rule..."
+mnuSchoner.Caption = "Launch Screensaver"
+mnuRegelnAnwenden.Caption = "Apply rules"
+mnuIconsWiederherstellen.Caption = "Restore icons"
+mnuIconsLaden.Caption = "Reload icons from profile"
+mnuVollbildVorschau.Caption = " Full-screen preview"
+mnuSchwaerzen.Caption = "Black-out desktop"
+mnuDexpose.Caption = " Window catalog"
+mnuAufrollen.Caption = "Roll up"
+mnuRegelnAnwendenAufFenster.Caption = "Apply rules to this window"
+
+#ADDED in Dexpot 1.6
+mnuFeedback.Caption = " Provide Beta Feedback"
+###
+
+#ADDED in Dexpot 1.6.10
+mnuDMMoveIcons.Caption = "Move selected desktop icons here"
+mnuDMCopyIcons.Caption = "Copy selected desktop icons here"
+###
+
+
+[frmBeenden] 
+frmBeenden.Caption = "Exit? - Dexpot" 
+cmdAbbrechen.Caption = "Cancel" 
+cmdBeenden.Caption = "E&xit" 
+#REMOVED in Dexpot 1.6
+#frmOptionen.Caption = "Settings" 
+#lblBeendenText.Caption = "Please choose which virtual desktop should be kept as main desktop after Dexpot has been quit. The windows on the other virtual desktops can either be moved to this desktop or be closed."  
+###
+#MODIFIED IN 1.5.0
+optBeenden(0).Caption = "Move all windows to this desktop"
+optBeenden(1).Caption = "Close all windows which are not on this desktop"
+###
+
+
+[frmInfo] 
+frmInfo.Caption = "About Dexpot"
+tabInfo.TabCaption(0) = "General" 
+#REMOVED in Dexpot 1.6
+#tabInfo.TabCaption(1) = "..."
+### 
+cmdOK.Caption = "&OK" 
+#MODIFIED in Dexpot 1.6
+frmRegistrierung.Caption = "License data"
+###
+cmdRegistrieren.Caption = "&Register" 
+lblMail.Caption = "Email:" 
+lblLizenzschluessel.Caption = "License key:"
+#MODIFIED in Dexpot 1.6 
+lblInternet.Caption = "Web:" 
+###
+#REMOVED IN 1.6
+#lblVersion.Caption = "..."
+#lblDanke.Caption = "..."
+###
+lblWenn.Caption = "Dexpot is free for private use. However, if you like this program, you're welcome to support its further development with a small donation. Thank you!"
+#MODIFIED IN 1.6
+strSpenden = "Register" 
+###
+strLizenz = "License" 
+strMsgDanke = "Registration successful. Thank you!"
+#MODIFIED in Dexpot 1.6.14
+strMsgUngueltig = "The license key is invalid or does not match the company name!\n\nPlease copy both 'Company' and 'License key' data from your invoice or license certificate. Field 'Username' is not relevant.\n" 
+###
+strMsgProblem = "If you have any problems, please contact:" 
+lblName.Caption = "Company:"
+#MODIFIED in Dexpot 1.6 
+lblEmail.Caption = "Username:"
+###
+lblWechsel.Caption = "Desktop switches:"
+lblLaufzeit.Caption = "Uptime:"
+lblTausend.Caption = "This was your 1000th desktop switch with Dexpot!"
+lblTausendText.Caption = "Don't worry; this is no test version which expires after a thousand desktop switches. We also won't bother you any longer, but since it looks like you'll use this program permanently, we would like to bring the following to your attention:"
+#MODIFIED IN 1.6
+lblNutzungsbedingungen.Caption = "View License Agreement"
+###
+
+#ADDED in Dexpot 1.4.2
+#MODIFIED in Dexpot 1.6
+cmdUpdate.Caption = "Check for &updates..."
+strNeueLizenz = "Your license key is not valid for this version of Dexpot.\nPlease contact us for more information:"
+###
+
+#ADDED in Dexpot 1.5.1
+#MODIFIED in Dexpot 1.6.8
+strEmailBetreff = "Dexpot issue"
+strEmailNachricht = "Hello Dexpot team,\n\nI'm having an issue with Dexpot. That is why I've completed the form below.\n\nMessage:\n\nWhat I expect to happen:\n\nWhat actually happens:\n\nSteps to reproduce the issue:\n\nRunning applications:\n\nVersion info:"
+###
+
+#ADDED in Dexpot 1.6
+lblPurchase.Caption = "Purchase Dexpot 1.6 Pro"
+lblEvaluation.Caption = "Evaluation period:"
+lblEvaluationLeft.Caption = "%i days left"
+strLastDay = "last day"
+strExpired = "expired"
+strEvaluationExpired = "The evaluation period has expired. Please purchase a license, if you want to continue using Dexpot."
+###
+
+
+[frmSlideshow] 
+frmSlideshow.Caption = "Desktop Slideshow - Dexpot" 
+optRueckwaerts.Caption = "Backward" 
+optVorwaerts.Caption = "Forward"
+
+#MODIFIED in Dexpot 1.5.0 
+cmdSchliessen.Caption = "&OK" 
+cmdUebernehmen.Caption = "&Start" 
+cmdAbbrechen.Caption = "S&top" 
+frmEinstellungen.Caption = "Desktops" 
+lblSek.Caption = "sec"  
+###
+
+#REMOVED in Dexpot 1.6
+#lblWas.Caption = "Please choose the timing for Dexpot to automatically switch between desktops. In addition you can choose whether this should happen forward or backward:"
+###
+
+#ADDED in Dexpot 1.5.0
+cmdDesktops.Caption = "Select"
+lblIntervall.Caption = "Interval:"
+chkEndlos.Caption = "Loop"
+strAnhalten = "&Pause"
+strFortsetzen = "&Continue"
+###
+
+#ADDED in Dexpot 1.5.9
+frmRichtung.Caption = "Direction"
+###
+
+#ADDED in Dexpot 1.6.2
+frmOptions.Caption = "Options"
+chkAutostart.Caption = "Start slideshow automatically"
+###
+
+
+[frmEinstellungen] 
+frmEinstellungen.Caption = "Settings - Dexpot" 
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Cancel" 
+cmdUebernehmen.Caption = "&Apply" 
+fuchsFeuer(1).Caption = "General" 
+fuchsFeuer(2).Caption = "Appearance" 
+fuchsFeuer(3).Caption = "Components" 
+fuchsFeuer(4).Caption = "Controls" 
+fuchsFeuer(5).Caption = "Switching Desktops" 
+
+#MODIFIED Dexpot 1.5.0
+fuchsFeuer(6).Caption = "Plugins and Extras"
+###
+
+#Allgemein 
+frmZahl.Caption = "Variable desktops" 
+lblDesktopzahl.Caption = "Number of desktops:" 
+lblStartDesktop.Caption = "Initial desktop:" 
+frmInternational.Caption = "International" 
+lblSprache.Caption = "Choose language:" 
+cmdSprachinfo.Caption = "About" 
+frmStart.Caption = "Start" 
+chkAutostart.Caption = "Start with Windows" 
+chkStartBildschirm.Caption = "Hide splash screen" 
+chkProfilAuswahl.Caption = "Show list of profiles on startup" 
+chkLetzteKonfigurationLaden.Caption = "Automatically load last configuration after" 
+lblPrioritaet.Caption = "Process priority:" 
+cmbPrio.List(0) = "Realtime" 
+cmbPrio.List(1) = "High" 
+cmbPrio.List(2) = "Normal" 
+cmbPrio.List(3) = "Low" 
+frmBeenden.Caption = "Exit" 
+chkSchnellesBeenden.Caption = "Exit without confirmation window" 
+chkProfilSpeichern.Caption = "Save profile on exit" 
+frmProfile.Caption = "Profiles" 
+lblProfile.Caption = "Choose profile:" 
+cmdProfilLaden.Caption = "Load" 
+cmdProfilUeberschreiben.Caption = "Save" 
+cmdProfilSpeichern.Caption = "Save as..." 
+cmdProfilLoeschen.Caption = "Delete"
+
+#ADDED in Dexpot 1.4.2
+chkAutoUpdate.Caption = "Check for updates"
+###
+
+#ADDED in Dexpot 1.5.0
+chkAdmin.Caption = "Run as administrator"
+#MODIFIED in Dexpot 1.6.7
+lblTrayIconAktionEinfach.Caption = "Action on Ctrl + single-click:"
+###
+###
+
+#Ansicht 
+#MODIFIED in Dexpot 1.6.7
+frmTrayIcon.Caption = "System tray icon" 
+###
+
+optTrayicon(0).Caption = "No Icon" 
+#MODIFIED in Dexpot 1.6.3
+optTrayicon(1).Caption = "Program icon"
+###
+optTrayicon(2).Caption = "Current desktop" 
+optTrayicon(3).Caption = "Previous / next desktop" 
+optTrayicon(4).Caption = "One icon per desktop" 
+frmSystemmenues.Caption = "System menus" 
+chkSystemmenues.Caption = "Add Dexpot entries to the system menus of all windows" 
+#MODIFIED in 1.5.0
+frmTransparenzManager.Caption = "Transparency" 
+###
+lblUnsichtbar.Caption = "Invisible" 
+lblSichtbar.Caption = "Visible" 
+frmTrayMinimieren.Caption = "Windows minimized to system tray"
+chkTraycontainer.Caption = "Use container for windows minimized to system tray" 
+chkTMFDoppelklick.Caption = "Restore with double-click"
+
+#MODIFIED in Dexpot 1.6.7
+lblTrayIconAktion.Caption = "Action on double-click:"
+###
+
+#ADDED in Dexpot 1.6.3
+lblTrayiconMode.Caption = "Mode:"
+lblTrayiconSet.Caption = "Visual style:"
+###
+
+#ADDED in Dexpot 1.6
+frmFullscreenDetection.Caption = "Full-screen applications"
+chkFullscreenDetection.Caption = "Hide Dexpot components when a full-screen application is active"
+###
+
+#Komponenten 
+tabKomponenten.Tabs(1).Caption = "Desktop Manager" 
+tabKomponenten.Tabs(2).Caption = "Desktop Preview" 
+tabKomponenten.Tabs(3).Caption = "DexTab"
+
+#ADDED in Dexpot 1.6
+tabKomponenten.Tabs(4).Caption = "Full-screen"
+###
+
+##Desktop Manager 
+frmOptionenManager.Caption = "Options" 
+chkManagerAutostart.Caption = "Start with Dexpot" 
+chkAktiveFensterVorschau.Caption = "Show icons of active windows" 
+chkMausrad.Caption = "Switch with mouse wheel" 
+chkAmRandAusrichten.Caption = "Stick to edge of screen" 
+chkPositionHalten.Caption = "Lock position" 
+chkMiniDM.Caption = "Small icons"
+frmManagerBoo.Caption = "Additional Button"
+chkManagerBoo.Caption = "Show additional button"
+lblManagerBooIcon.Caption = "Icon:"
+cmdManagerBooIcon.Caption = "..."
+cmdManagerBooIconStandard.Caption = "Default"
+lblManagerBooEinfach.Caption = "Action on single click:"
+lblManagerBooDoppelt.Caption = "Action on double-click:"
+#ADDED in 1.5.1
+lblManagerBooMittel.Caption = "Action on middle-click:"
+###
+frmManagerHintergrund.Caption = "Background" 
+optManagerHintergrundStandard.Caption = "Default" 
+optManagerHintergrundFarbe.Caption = "Monochrome" 
+optManagerHintergrundTransparent.Caption = "Transparent" 
+cmdManagerFarbe.Caption = "..." 
+frmOrientierung.Caption = "Orientation" 
+optHorizontal.Caption = "Horizontal" 
+optVertikal.Caption = "Vertical" 
+cmdHotkeyManager.Caption = "Define hotkey"
+
+##Desktop Vorschau 
+chkVorschauAutostart.Caption = "Start with Dexpot" 
+chkVorschauTitelleiste.Caption = "Hide title bar" 
+frmVorschauVerhalten.Caption = "Behavior" 
+chkVorschauHintergrund.Caption = "Auto-hide" 
+chkVorschauVerhaeltnisHalten.Caption = "Lock aspect ratio" 
+chkVorschauVerhaeltnisErzwingen.Caption = "Force correct aspect ratio" 
+frmVorschauFarben.Caption = "Colors"
+lblVorschauFarbeAktiv.Caption = "Active desktop:" 
+lblVorschauFarbeInaktiv.Caption = "Inactive desktop:" 
+lblVorschauFarbeRahmen.Caption = "Window border:" 
+lblVorschauFarbeTitel.Caption = "Window title:" 
+
+#REMOVED in Dexpot 1.6
+#chkVollbildVorschauZoom.Caption = "Zoom effect"
+###
+
+lblHotkeyDefinieren.Caption = "Define hotkey:"
+frmVorschauDarstellung.Caption = "Appearance"
+optVorschauDarstellungSkizzen.Caption = "Window sketches"
+optVorschauDarstellungSymbole.Caption = "Icons"
+
+##DexTab
+chkDexTabSortieren.Caption = "Sort windows by title" 
+chkDexTabTrayicons.Caption = "Show windows minimized to system tray" 
+chkDexTabNurTaskleiste.Caption = "Only show windows which are listed in the taskbar" 
+
+#MODIFIED in Dexpot 1.5.0
+frmDexTabMarkierung.Caption = "Initial selection task switcher" 
+###
+
+optDexTabMarkierungAktiv.Caption = "Active window" 
+optDexTabMarkierungLetztes.Caption = "Last active window" 
+frmDexTabFarben.Caption = "Colors" 
+lblDexTabFensterVordergrund.Caption = "Text:" 
+lblDexTabFensterHintergrund.Caption = "Background:" 
+lblDexTabMarkierung.Caption = "Selection:" 
+cmdDexTabSystemfarben.Caption= "System colors"
+
+#ADDED in Dexpot 1.5.0
+frmDexTabMarkierungDesktops.Caption = "Initial selection desktop switcher"
+optDexTabMarkierungDesktops(0).Caption = "Active desktop"
+optDexTabMarkierungDesktops(1).Caption = "Last active desktop"
+###
+
+#ADDED in Dexpot 1.6
+chkDexTabLeereDesktops.Caption = "Show empty desktops"
+###
+
+##Fensterkatalog
+#REMOVED in Dexpot 1.6
+#chkDexposeBlenden.Caption = "Crossfade effect"
+###
+
+#ADDED in Dexpot 1.6
+##Vollbild
+frmDexControl.Caption = "DexControl"
+chkDexControl.Caption = "Use interactive Full-screen preview and Window catalog"
+lblDexControlAnimationSpeed.Caption = "Animation speed:"
+chkDexControlShowLabels.Caption = "Show window labels in tile view"
+chkDexControlExcludedMonitors.Caption = "Show on monitors excluded from switching"
+###
+
+#ADDED in Dexpot 1.6.8
+chkDexControlStartTiled.Caption = "Start Full-screen preview in tile view"
+chkDexControlStartZoomed.Caption = "Start Full-screen preview with current desktop zoomed"
+chkDexControlMiddleButton.Caption = "Middle mouse button closes windows in tile view"
+###
+
+#ADDED in Dexpot 1.6.11
+chkDexControlCombineMonitors.Caption = "Combine same-sized monitors"
+###
+
+#ADDED in Dexpot 1.6.12
+chkDexControlRestrictToWorkArea.Caption = "Keep taskbar visible"
+chkDexControlShowDesktopNames.Caption = "Show desktop names"
+###
+
+#Steuerung 
+tabSteuerung.Tabs(1).Caption = "Hotkeys" 
+tabSteuerung.Tabs(2).Caption = "Mouse switch"
+tabSteuerung.Tabs(3).Caption = "Title bars"
+
+##Hotkeys 
+frmHotkeys.Caption = "Key combination" 
+chkHotkeyModifikator(0).Caption = "Alt" 
+chkHotkeyModifikator(1).Caption = "Shift" 
+chkHotkeyModifikator(2).Caption = "Ctrl" 
+chkHotkeyModifikator(3).Caption = "Windows key" 
+cmdHotkeyDefinieren.Caption = "&Define" 
+cmdHotkeyLoeschen.Caption = "&Delete" 
+cmdHotkeyFortsetzung.Caption = "&Continue series" 
+frmHotkeyErklaerug.Caption = "Explanation" 
+HotkeyTexte(1) = "Moves the active window to the respective desktop." 
+HotkeyTexte(2) = "Copies the active window to the respective desktop." 
+HotkeyTexte(3) = "Opens or closes the respective Dexpot component." 
+HotkeyTexte(5) = "Generates a black picture on the screen. To restore the desktop, press the hotkey again." 
+HotkeyTexte(6) = "Switches back to the last visited desktop." 
+HotkeyTexte(7) = "Opens a transparency dialog for the active window." 
+HotkeyTexte(8) = "Makes the currently active window more transparent." 
+HotkeyTexte(9) = "Makes the currently active window less transparent." 
+HotkeyTexte(10) = "Set all windows to opaque." 
+HotkeyTexte(11) = "Loads all Dexpot settings from the default profile." 
+HotkeyTexte(12) = "Stops a running desktop slideshow." 
+HotkeyTexte(13) = "Cycle through the Dexpot tray icon options which are available under 'Appearance'." 
+HotkeyTexte(14) = "Applies rules to all open windows." 
+HotkeyTexte(15) = "Temporarily disables the execution of the desktop rules. Press the hotkey again for reactivation." 
+HotkeyTexte(16) = "Resets the icons on the current desktop to their state when leaving the desktop last time." 
+HotkeyTexte(17) = "Loads the icon distribution for all desktops from the current profile." 
+HotkeyTexte(18) = "Display the DexTab Task switcher as a replacement for the Windows function Alt+Tab." 
+#CHANGED in Dexpot 1.6
+HotkeyTexte(19) = "Display the DexTab Desktop Switcher with thumbnails and windows of all desktops." 
+###
+HotkeyTexte(20) = "Removes the active window from the current desktop, respectively quits the application if it's running only on the current desktop." 
+HotkeyTexte(21) = "Launches the screensaver on the current desktop." 
+HotkeyTexte(22) = "Opens a menu with all Dexpot functions for the current window at the cursor position."
+HotkeyTexte(23) = "Shows all windows on the current desktops as tiles."
+cmdAlleHotkeysLoeschen.Caption = "Clear all"
+
+#ADDED in Dexpot 1.5.14
+HotkeyTexte(24) = "Moves the active window to the respective desktop and switches there."
+###
+
+#ADDED in Dexpot 1.5.0
+imgHotkeyBelegt.ToolTipText = "This key combination is already in use by another program."
+###
+
+#ADDED in Dexpot 1.6
+chkHotkeysWithoutModifiers.Caption = "Allow hotkeys without modifiers"
+###
+
+##Mauswechsel 
+#MODIFIED in Dexpot 1.6
+lblMausWechsel.Caption = "This feature automatically switches between desktops when moving the mouse cursor to the edge or corner of the screen for some time." 
+###
+chkMausWechsel.Caption = "Activate mouse switch" 
+frmMausWechselAbstimmung.Caption = "Adjustment" 
+lblMausWechselDauer.Caption = "Delay:" 
+lblMausWechselAbstand.Caption = "Distance:" 
+lblMausWechselToleranz.Caption = "Sensitivity:" 
+chkMausWechselInvertieren.Caption = "Set mouse cursor to opposing edge of screen" 
+chkMausWechselWegSetzen.Caption = "Move mouse cursor out of border area after switch" 
+frmMausWechselRaender.Caption = "Edges" 
+chkMausWechselOben.Caption = "Top" 
+chkMausWechselLinks.Caption = "Left" 
+chkMausWechselRechts.Caption = "Right" 
+chkMausWechselUnten.Caption = "Bottom"
+frmMausWechselEcken.Caption = "Corners"
+frmMausWechselAusloeser.Caption = "Trigger"
+
+##Titelleisten
+#REMOVED in Dexpot 1.6
+#lblTitelleistenErklaerung.Caption = "Dexpot detects mouse clicks on the title bar of a window, and is able to trigger specified actions by defined key-click-combinations."
+###
+lblTitelleistenBereich.Caption = "&Area:"
+lvTitelleisten.ColumnHeaders(1).Text = "Combination"
+lvTitelleisten.ColumnHeaders(2).Text = "Target"
+lvTitelleisten.ColumnHeaders(3).Text = "Action"
+frmTitelleistenMaus.Caption = "&Mouse button"
+optTitelleistenTaste(0).Caption = "Left mouse button"
+optTitelleistenTaste(1).Caption = "Right mouse button"
+optTitelleistenTaste(2).Caption = "Middle mouse button"
+frmTitelleistenModifikator.Caption = "Mo&dificator"
+lblTitelleistenZiel.Caption = "&Target:"
+cmbTitelleistenZiel.List(0) = "Active window"
+cmbTitelleistenZiel.List(1) = "Active application"
+cmbTitelleistenZiel.List(2) = "All windows"
+lblTitelleistenAktion.Caption = "A&ction:"
+cmdTitelleistenHinzufuegen.Caption = "&Add"
+cmdTitelleistenEntfernen.Caption = "&Remove"
+cmbTitelleistenBereich.List(0) = "Title bar"
+cmbTitelleistenBereich.List(1) = "Minimize button"
+cmbTitelleistenBereich.List(2) = "Maximize button"
+cmbTitelleistenBereich.List(3) = "Close button"
+
+#Desktopwechsel 
+tabWechsel.Tabs(1).Caption = "Desktop elements" 
+tabWechsel.Tabs(2).Caption = "Desktop names"
+
+#ADDED in Dexpot 1.6
+tabWechsel.Tabs(3).Caption = "Monitors"
+###
+
+##Desktopelemente 
+frmWechselElementIcons.Caption = "Desktop icons" 
+chkWechselElementIcons.Caption = "Customize desktop icons" 
+chkIconsAusrichten.Caption = "Align to grid" 
+chkIconsAnordnen.Caption = "Auto Arrange" 
+frmWechselElementHintergrund.Caption = "Background" 
+chkWechselElementHintergrund.Caption = "Customize desktop background"
+
+#ADDED in Dexpot 1.6.11
+chkHintergrundRestore.Caption = "Restore desktop background on exit"
+###
+
+chkAenderungenUebernehmenHintergrund.Caption = "Apply manual changes to Dexpot configuration" 
+frmWechselElementAufloesung.Caption = "Screen resolution" 
+chkWechselElementAufloesung.Caption = "Customize screen resolution" 
+chkAenderungenUebernehmenAufloesung.Caption = "Apply manual changes to Dexpot configuration" 
+
+#REMOVED in Dexpot 1.6.11
+#chkAufloesungFragen.Caption = "Ask before changing screen resolution" 
+#chkAufloesungFenstergroesse.Caption = "Save window size"
+###
+
+frmWechselElementSchoner.Caption = "Screensaver" 
+chkWechselElementSchoner.Caption = "Customize screensaver" 
+chkAenderungenUebernehmenSchoner.Caption = "Apply manual changes to Dexpot configuration"
+
+#ADDED in Dexpot 1.6
+frmTaskbar.Caption = "Taskbar"
+chkPersistentTaskbar.Caption = "Keep all taskbar buttons visible"
+cmdIconanpassung.Caption = "Advanced"
+###
+
+##Desktopnamen 
+#REMOVED in Dexpot 1.6
+#lblEinblendungErklaerung.Caption = "The desktop name prompt allows to display the name of the current desktop either permanently or every time after switching desktops." 
+###
+lblEinblendung.Caption = "Show the desktop name:" 
+optEinblendung(1).Caption = "Never" 
+optEinblendung(2).Caption = "When switching" 
+optEinblendung(3).Caption = "Permanently" 
+lblEinblendungDauer.Caption = "Duration:" 
+lblEinblendungSekunden.Caption = "Seconds" 
+lblEinblendungPosition.Caption = "Position:" 
+
+#REMOVED in Dexpot 1.6
+#chkEinblendungPosition.Caption = "Desktop background" 
+###
+
+lblEinblendungText.Caption = "Text:" 
+cmdEinblendungVariablen.Caption = "Variables" 
+mnuVariable(1).Caption = "%g current desktop (number)" 
+mnuVariable(2).Caption = "%G current desktop (name)" 
+mnuVariable(3).Caption = "%v recent desktop (number)" 
+mnuVariable(4).Caption = "%V recent desktop (name)" 
+lblEinblendungSchrifart.Caption = "Font:" 
+cmdEinblendungSchriftart.Caption = "..." 
+lblEinblendungHintergrund.Caption = "Background:" 
+optEinblendungHintergrund(1).Caption = "Monochrome" 
+optEinblendungHintergrund(2).Caption = "Transparent" 
+
+#REMOVED in Dexpot 1.6
+#cmdEinblendungHintergrund.Caption = "..." 
+###
+
+lblEinblendungTransparenz.Caption = "Transparency:"
+
+#ADDED in Dexpot 1.6
+chkEinblendungLogo.Caption = "Show Dexpot logo"
+lblEinblendungFarben.Caption = "Colors:"
+lblEinblendungFarbeSchrift.Caption = "Font"
+lblEinblendungFarbeRand.Caption = "Outline"
+###
+
+#ADDED in Dexpot 1.6
+##Multi-Monitor
+lblMonitore.Caption = "Select which monitors should be affected by desktop switching. Windows placed on monitors excluded from switching will remain visible on all desktops."
+chkMonitorExclusion.Caption = "Only use this setting when multiple monitors are present"
+###
+
+#Extras
+frmExtrasPasswoerter.Caption = "Passwords"
+cmdMasterPasswort.Caption = "Change master password"
+cmdPasswoerterZuruecksetzen.Caption = "Reset passwords"
+frmDebug.Caption = "Debugging"
+chkDebugLog.Caption = "Enable log file"
+chkDebugVorschau.Caption = "Disable Full-screen preview"
+#MODIFIED in Dexpot 1.5.1
+chkDebugTaskleiste.Caption = "Don't keep taskbar button order"
+###
+chkDebugZuordnung.Caption = "Disable window recovery"
+
+#ADDED in Dexpot 1.6.5
+cmdDebugLog.Caption = "Show log file"
+cmdDebugErweitert.Caption = "Advanced"
+###
+
+#ADDED in Dexpot 1.5.0
+frmPlugins.Caption = "Plugins"
+cmdPluginEinstellungen.Caption = "Configure"
+lblPluginAutorLabel.Caption = "Author:"
+lblCrossDesktop.Caption = "When activating a window on another desktop:"
+frmCrossDesktop.Caption = "Behavior of windows on other desktops"
+cmbCrossDesktop.List(0) = "Switch to the respective desktop"
+cmbCrossDesktop.List(1) = "Move window to current desktop"
+cmbCrossDesktop.List(2) = "Copy window to current desktop"
+cmbCrossDesktop.List(3) = "Do nothing"
+
+strVorherigen = "previous desktop"
+strNaechsten = "next desktop"
+###
+
+#ADDED in Dexpot 1.5.10
+cmdPluginHotkeys.Caption = "Define hotkeys"
+###
+
+#Strings 
+strZuruecksetzen = "Restore default settings" 
+strslideshowabbrechen = "Stop slideshow" 
+strTrayicon = "Toggle Tray icon" 
+strTransparenzFestlegen = "Set transparency value" 
+strTransparenzErhoehen = "Increase transparency" 
+strTransparenzVerringern = "Decrease transparency" 
+strDexpotFenster = "Dexpot components" 
+strSonstiges = "Miscellaneous" 
+strTransparenz = "Transparency" 
+strAufAlle = "to all" 
+strAuf = "to" 
+strKopieren = "Copy window" 
+strVerschieben = "Move window" 
+strVorheriger = "Previous desktop" 
+strNaechster = "Next desktop" 
+strWechseln = "Switch desktop" 
+strMitte = "Center" 
+strMitteOben = "Top center" 
+strMitteUnten = "Bottom center" 
+strLinks = "Left" 
+strLinksOben = "Top left" 
+strLinksUnten = "Bottom left" 
+strRechts = "Right" 
+strRechtsOben = "Top right" 
+strRechtsUnten = "Bottom right" 
+strMsgName = "Language" 
+strMsgAutor = "Author" 
+strMsgKommentar = "Description" 
+strMsgSprachdatei = "Information on the language file" 
+strMsgPasswoerterZuruecksetzen = "Do you really wish to reset all passwords? The master password and all desktops passwords will be removed." 
+strTransparenzZuruecksetzen = "Reset transparency values" 
+strRegelnDeaktivieren = "Disable rules" 
+#CHANGED in Dexpot 1.6
+strAltTab = "DexTab Task switcher" 
+###
+strFensterSchliessen = "Close window" 
+strZurueck = "Back" 
+strStartDesktopGleichLetzterDesktop = "Last active desktop" 
+strMsgAlleHotkeysLoeschen = "Do you really wish to delete all defined hotkeys?" 
+strMsgProfilLoeschen = "Do you really want to delete the selected profile?" 
+strMsgProfilSpeichern1 = "Do you really wish to overwrite the" 
+strMsgProfilSpeichern2 = "profile?" 
+strMsgProfilGeladen = "Profile loaded successfully." 
+strMsgProfilGespeichert = "Profile saved successfully." 
+strMsgProfilStandard = "The Default Profile cannot be overwritten."
+strMsgProfilNichtGespeichert = "The profile could not be saved."
+strFenstermenue = "Window menu"
+strHintergrund = "Move to background"
+
+#ADDED in Dexpot 1.5.0
+#CHANGED in Dexpot 1.6
+strDesktopwechsler = "DexTab Desktop switcher"
+###
+strPluginNichtAktivierbar = "This plugin is not compatible with your version of Windows or Dexpot."
+###
+
+#ADDED in Dexpot 1.5.6
+strAddDesktop = "Add desktop"
+strRemoveDesktop = "Remove desktop"
+###
+
+#ADDED in Dexpot 1.5.14
+strMoveFollow = "Move window and switch"
+###
+
+#ADDED in Dexpot 1.6
+strCustomStatic = "Custom (fixed)"
+strCustomDynamic = "Custom (draggable)"
+strDragMe = "Drag me!"
+strCenter = "Center"
+strAllMonitors = "All monitors"
+strWindowCommands = "Window commands"
+###
+
+#ADDED in Dexpot 1.6.10
+strChangeDesktopName = "Change desktop name"
+strFindWindow = "Find window"
+###
+
+#ADDED in Dexpot 1.6.11
+strRestoreTrayMinimized = "Restore last window minimized to tray"
+###
+
+
+[frmFenster] 
+#ADDED in 1.5.0
+frmFenster.Caption = "Desktop Windows - Dexpot"
+###
+cmdSchliessen.Caption = "&Close" 
+cmdAktualisieren.Caption = "&Refresh" 
+#MODIFIED in 1.5.0
+strFenstertitel = "Title" 
+strFensterstatus = "Status" 
+strFensterhandle = "Handle" 
+strMsgIcons = "This view is only available if you activate 'Customize desktop icons' to distribute the icons among the different desktops. You will find this feature and all related options on the 'Switching Desktops'-tab in the settings.\n\nDo you wish to activate 'Customize desktop icons' now?" 
+#
+strNormal = "Standard" 
+strMaximiert = "Maximized" 
+strMinimiert = "Minimized" 
+strWiederherstellen = "Restore" 
+mnuWechseln.Caption = "Switch" 
+strFensterAnzahl = "Windows:" 
+strIconAnzahl = "Icons:"
+mnuSammeln.Caption = "Gather windows" 
+mnuDesktopKonfigurieren.Caption = "Configure" 
+
+#ADDED in Dexpot 1.6.10
+mnuChangeName.Caption = "Change name"
+###
+
+tabFenster.Tabs(1).Caption = "Windows" 
+tabFenster.Tabs(2).Caption = "Overview" 
+tabFenster.Tabs(3).Caption = "Preview" 
+tabFenster.Tabs(4).Caption = "Hidden" 
+tabFenster.Tabs(5).Caption = "Icons" 
+strSystemTray = "System tray"
+mnuSucheAlles.Caption = "All"
+mnuSucheTitel.Caption = "Title"
+mnuSucheKlasse.Caption = "Class"
+mnuSucheExe.Caption = "Executable"
+
+
+[frmTransparenz] 
+frmTransparenz.Caption = "Transparency - Dexpot" 
+cmdUebernehmen.Caption = "Apply" 
+cmdSchliessen.Caption = "Close" 
+cmdOK.Caption = "&OK" 
+#REMOVED in 1.6.0
+#frmTransparent.Caption = "Transparency" 
+###
+lblSichtbar.Caption = "Visible" 
+lblUnsichtbar.Caption = "Invisible" 
+strBitteWaehlen = "Please set the transparency, which you would like to set for" 
+strUnd = "and" 
+strWeitere = "additional window(s)" 
+strFestlegen = ":"
+chkFarbe.Caption = "Make areas with this color transparent:"
+
+
+[frmPasswort] 
+frmPasswort.Caption = "Password - Dexpot" 
+frmEingabe.Caption = "Password" 
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Cancel" 
+lblInfo.Caption = "The desktop you like to switch to is password protected. You will now be prompted to enter the respective password:"
+
+
+[frmNeuesProfil] 
+frmNeuesProfil.Caption = "Save current settings as new profile" 
+lblProfil.Caption = "Save &profile as:" 
+cmdAbbrechen.Caption = "&Cancel" 
+cmdOK.Caption = "&OK" 
+strMsgNameNeuesProfil = "Please enter a name for the new profile!" 
+strMsgZeichenNeuesProfil = "The profile name may not contain any of these characters:"
+
+
+[frmProfilAuswahl] 
+frmProfilAuswahl.Caption = "Choose Profile - Dexpot" 
+#REMOVED in Dexpot 1.6
+#lblWillkommen.Caption = "Welcome at Dexpot! Please choose whether you'd like to load a certain profile or use the previous settings." 
+#frmProfile.Caption = "Profiles" 
+#lblProfile.Caption = "Choose profile:"
+### 
+cmdProfil.Caption = "Load &profile" 
+cmdLetzte.Caption = "&Use previous configuration"
+
+
+[frmRegeln] 
+frmRegeln.Caption = "Desktop Rules - Dexpot" 
+tabRegeln.Tabs(1).Caption = "Overview"
+tabRegeln.Tabs(2).Caption = "Conditions"
+tabRegeln.Tabs(3).Caption = "Actions"
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Cancel" 
+cmdUebernehmen.Caption = "&Apply" 
+cmdAnwenden.Caption = "App&ly rules" 
+cmdAssi.Caption = "&Assistant"
+cmdNeu.Caption = "&New" 
+cmdEntfernen.Caption = "&Delete" 
+lblName.Caption = "Name" 
+chkDeaktivieren.Caption = "Deactivate &rule" 
+frmBedingungen.Caption = "Conditions" 
+frmAktionen.Caption = "Actions" 
+cmdNeueBedingung.Caption = "+" 
+cmdBedingungEntfernen.Caption = "-" 
+cmdNeueAktion.Caption = "+" 
+cmdAktionEntfernen.Caption = "-" 
+chkFolgen.Caption = "&Follow after Move" 
+lblTyp.Caption = "Type:" 
+lblSucher.Caption = "Selection tool:"
+cmdNeueBedingung.ToolTipText = "Add new condition"
+cmdNeueAktion.ToolTipText = "Add new action"
+cmdBedingungEntfernen.ToolTipText = "Delete the selected condition"
+cmdAktionEntfernen.ToolTipText = "Delete the selected action"
+cmdImport.Caption = "Import rules"
+lblSichtbar.Caption = "Visible"
+lblUnsichtbar.Caption = "Invisible"
+cmdDurchsuchen.Caption = "Browse..."
+frmVerknuepfung.Caption = "Conjunction"
+optVerknuepfung(0).Caption = "Match all conditions"
+optVerknuepfung(1).Caption = "Match one condition"
+lblWert.Caption = "&Value:"
+frmAusnahmen.Caption = "Do not apply rule to"
+chkSichtbar.Caption = "&Invisible windows"
+chkRand.Caption = "Windows without frame"
+chkTitel.Caption = "Windows without title"
+chkTopLevel.Caption = "Subordinate windows"
+chkAutomatisch.Caption = "Apply rule automatically"
+strFenstertitel = "Window title" 
+strFensterklasse = "Window class" 
+strAlleFenster = "All windows" 
+strist = "is" 
+strenthaelt = "contains" 
+strenthaeltnicht = "does not contain" 
+strbeginntmit = "starts with" 
+strendetmit = "ends with" 
+strAlleBedingungen = "Fulfill all conditions" 
+strEineBedingung = "Fulfill one condition" 
+strVerschieben = "Move" 
+strKopieren = "Copy" 
+strTransparenz = "Set transparency value" 
+strSchliessen = "Close" 
+strund = "and" 
+stroder = "or" 
+strVerschiebenAuf = "Move to desktop" 
+strKopierenAuf = "Copy to" 
+strTransparenzFestlegen = "Set transparency value:" 
+strFensterSchliessen = "Close window" 
+strBedingung = "Condition" 
+strAktion = "Action" 
+strNeueRegel = "New rule" 
+strEXEName = "Executable" 
+strVordergrund = "Always on top" 
+strAusfuehren = "Run" 
+strTrayMinimieren = "Minimize to System Tray" 
+
+#ADDED in Dexpot 1.6
+strRegExp = "matches regexp"
+strRegExpi = "matches regexp (case-insensitive)"
+###
+
+
+[frmProfilladen] 
+#REMOVED in Dexpot 1.6
+#lblProfilLaden.Caption = "Please choose the sections of the profile that should be loaded:" 
+###
+optAlle.Caption = "Complete &profile" 
+optTeile.Caption = "Only &sections:" 
+frmTeile.Caption = "Profile sections" 
+chkEinstellungen.Caption = "&Settings" 
+chkHotkeys.Caption = "&Hotkeys" 
+chkEigenschaften.Caption = "&Properties" 
+chkIcons.Caption = "&Icon positions" 
+chkHintergrund.Caption = "Back&ground pictures" 
+chkTools.Caption = "Too&ls" 
+chkRegeln.Caption = "&Rules" 
+chkAutostart.Caption = "Start&up"
+frmOptionen.Caption = "Options"
+chkSammeln.Caption = "&Gather windows on active desktop"
+chkAnwenden.Caption = "&Apply desktop rules"
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Cancel" 
+strProfilLaden = "Loading Profile"
+
+
+[frmRegelImport] 
+frmRegelImport.Caption = "Im-/Export Desktop Rules - Dexpot" 
+cmdSchliessen.Caption = "&Close" 
+cmdImportieren.Caption = "<< &Import" 
+cmdExportieren.Caption = "&Export >>" 
+cmdLaden.Caption = "&Load rule file" 
+cmdErstellen.Caption = "C&reate rule file" 
+frmDatei.Caption = "Rules in the file" 
+frmLokal.Caption = "Local rules" 
+cmdAlleImportieren.Caption = "<< I&mport all" 
+cmdAlleExportieren.Caption = "E&xport all >>" 
+cmdLoeschen.Caption = "Delete from &file" 
+strLaden = "Load rule file" 
+strErstellen = "Create new rule file" 
+strExt = "Dexpot rule files" 
+strExt2 = "Dexpot Profiles"
+strAktionen = "Action(s)" 
+strBedingungen = "Condition(s)" 
+strMsgLoeschen = "Do you really wish to delete the selected rules from the file?" 
+lblDatei.Caption = "Current rule file:" 
+strMsgLokalUeber = "Should the local rule" 
+strMsgLokalUeber2 = "be replaced by a rule with the same name from the rule file?" 
+strMsgDateiUeber = "A rule" 
+strMsgDateiUeber2 = "already exists in the rule file. Do you wish to replace it with the local rule?"
+
+
+[frmVorschau] 
+frmVorschau.Caption = "Desktop Preview - Dexpot" 
+mnuSchliessen.Caption = "Close" 
+mnuImHintergrund.Caption = "Auto-hide the Preview panel" 
+mnuAutoStart.Caption = "Start with Dexpot" 
+mnuSeitenverhaeltnisErzwingen.Caption = "Force correct aspect ratio" 
+mnuSeitenverhaeltnisFest.Caption = "Preserve aspect ratio" 
+mnuTitel.Caption = "Hide title bar" 
+mnuVerstecken.Caption = "Hide desktop contents" 
+strVersteckt = "[Contents hidden]"
+mnuSymbolisch.Caption = "Iconic Preview"
+
+
+[frmIconZieher] 
+frmIconZieher.Caption = "Extract Icon - Dexpot" 
+lblDatei.Caption = "Search for icons in this file"
+cmdDurchsuchen.Caption = "&Browse..." 
+lblIcons.Caption = "Choose an icon from the following list:" 
+cmdOK.Caption = "&OK" 
+cmdSchliessen.Caption = "&Cancel" 
+strMsgKeineDatei = "File not found." 
+strMsgKeineIcons = "File contains no Icons." 
+
+
+[frmKonfig] 
+frmKonfig.Caption = "Configure Desktops - Dexpot" 
+lblPasswort.Caption = "Password:" 
+cmdManagerIcon.Caption = "..." 
+lblManagerIcon.Caption = "Manager icon:" 
+lblAufloesung.Caption = "Resolution:" 
+lblName.Caption = "Name:" 
+cmdWechselSoundAn.Caption = "..." 
+lblWechselsoundAn.Caption = "Entry sound:" 
+cmdWechselSoundAb.Caption = "..." 
+lblWechselsoundAb.Caption = "Exit sound:" 
+cmdStandardIcon.Caption = "Default" 
+cmdLoeschenAn.Caption = "X" 
+cmdLoeschenAn.ToolTipText = "Delete" 
+cmdLoeschenAb.Caption = "X" 
+cmdLoeschenAb.ToolTipText = "Delete" 
+cmdBetretenAbspielen.ToolTipText = "Play" 
+cmdVerlassenAbspielen.ToolTipText = "Play" 
+cmdManagerIcon.ToolTipText = "Browse" 
+cmdStandardIcon.ToolTipText = "Set default Dexpot symbol as Manager icon" 
+lblBildschirmschoner.Caption = "Screen saver:" 
+lblWartezeit.Caption = "Delay:" 
+cmdBildschirmschoner.Caption = "..." 
+cmdSchonerVorschau.Caption = "Preview" 
+cmdSchonerEinstellungen.Caption = "Settings" 
+cmdSchliessen.Caption = "&Cancel" 
+cmdOK.Caption = "&OK" 
+cmdUebernehmen.Caption = "&Apply" 
+cmdDurchsuchen.Caption = "&Browse..." 
+cmdEntfernen.Caption = "Remove picture" 
+cmbStyle.List(0) = "Center" 
+cmbStyle.List(1) = "Tile" 
+cmbStyle.List(2) = "Stretch"
+#ADDED in Dexpot 1.5
+cmbStyle.List(3) = "Fit"
+cmbStyle.List(4) = "Fill"
+###
+
+#ADDED in Dexpot 1.6.10
+cmbStyle.List(5) = "Span"
+###
+
+frmKomponentenVerstecken.Caption = "Hide desktop components" 
+chkTaskleiste.Caption = "Taskbar" 
+chkDesktopIcons.Caption = "Desktop icons" 
+chkStartbutton.Caption = "Start button" 
+chkTaskbarIcons.Caption = "System tray" 
+frmDesktopicons.Caption = "Desktop icons" 
+chkUnterschriften.Caption = "Transparent icon names" 
+chkKleineSymbole.Caption = "Small icons" 
+lblAutostartBefehl.Caption = "Command:" 
+lblAutostartEreignis.Caption = "Event:" 
+cmdAutostartDurchsuchen.Caption = "B&rowse..." 
+cmdAutostartHinzufuegen.Caption = "Add" 
+cmdAutostartAendern.Caption = "E&dit"
+cmdAutostartEntfernen.Caption = "Remove" 
+lblAutostartSchliessen.Caption = "&Close:"
+AutoStartEvents.ErstesBetreten = "First entry" 
+AutoStartEvents.ErstesVerlassen = "First exit" 
+AutoStartEvents.JedesBetreten = "Every entry" 
+AutoStartEvents.JedesVerlassen = "Every exit" 
+AutoStartEvents.DexpotStart = "Dexpot start" 
+AutoStartEvents.DexpotEnde = "Dexpot End"
+AutoStartEvents.Nie = "Never"
+AutoStartEvents.NaechstesBetreten = "Next entry"
+AutoStartEvents.NaechstesVerlassen = "Next exit"
+mnuAutostartAusfuehren.Caption = "Execute now" 
+mnuAutostartAktivieren.Caption = "Activate" 
+mnuAutostartDeaktivieren.Caption = "De-activate" 
+tabKonfig.Tabs(1).Caption = "Properties" 
+tabKonfig.Tabs(2).Caption = "Background" 
+tabKonfig.Tabs(3).Caption = "Tools" 
+tabKonfig.Tabs(4).Caption = "Start-Up" 
+lvAutostart.ColumnHeaders(1).Text = "Command" 
+lvAutostart.ColumnHeaders(2).Text = "Event" 
+lvAutostart.ColumnHeaders(3).Text = "Close"
+chkIconText.Caption = "Hide icon titles" 
+lblIconGroesse.Caption = "&Icon size:"
+chkSchonerKennwort.Caption = "&Password protection"
+#MODIFIED in 1.5.0
+lblHintergrund.Caption = "Path:"
+###
+lblAusrichtung.Caption = "A&lignment:"
+lblDesktopFarbe.Caption = "Desktop color:"
+strMsgKeinMasterPasswort = "You have defined a password for one or several desktops. To activate the Dexpot password protection, a master password is required in addition.\n\nDo you wish to define the master password now?" 
+strMsgWechselElementAufloesung = "Before an individual screen resolution can be assigned to this desktop, the 'Customize screen resolution' option in the Dexpot settings has to be activated.\n\nDo you wish to enable this setting now?" 
+strMsgWechselElementHintergrund = "Before an individual background image can be assigned to this desktop, background customization in the Dexpot settings has to be activated.\n\nDo you wish to enable this setting now?" 
+strMsgWechselElementSchoner = "Before an individual screensaver for this desktop can be defined, the setting 'Customize screensaver' in the Dexpot settings has to activated.\n\nDo you wish to enable this setting now?"
+lblIconTextFarbe.Caption = "Text color:"
+mnuKopierenAlles.Caption = "All"
+mnuKopieren.Caption = "Copy here"
+
+#ADDED in Dexpot 1.6
+lblMultimonitor.Caption = "Multi-monitor background mode:"
+cmbMultimonitor.List(0) = "Windows default"
+cmbMultimonitor.List(1) = "Span single image across all monitors"
+cmbMultimonitor.List(2) = "Use different image on each monitor"
+frmBildschirmschoner.Caption = "Options"
+###
+
+
+[frmUebersicht] 
+strPasswortGeschuetzt = "[Password protected]"
+strInDenTrayMinimiert = "Minimized to system tray"
+
+
+[frmRegelAssistent] 
+frmRegelAssistent.Caption = "Rule Assistant - Dexpot" 
+lblSchritt1.Caption = "Create new rule - Step 1" 
+lblBeschreibung1.Caption = "This Assistant will guide you step by step to the creation of a new rule, and will help you to define the desired conditions and actions." 
+lblRegelName.Caption = "Name of the new rule:" 
+frmRegelOption.Caption = " Create from " 
+optNeueRegel.Caption = "blank rule" 
+optVorhandeneRegel.Caption = "existing rule:" 
+optRegelDatenbank.Caption = "rule database:" 
+chkDeaktivieren.Caption = "Deactivate rule by default" 
+cmdSchritt2.Caption = "&Next" 
+cmdCancel.Caption = "&Cancel" 
+strSchrittTitel1 = "Create new rule " 
+strSchrittTitel2 = " - Step " 
+strSchrittTitel3 = " - Summary" 
+lblBeschreibung2.Caption = "In this step, you define the windows to which the new rule should apply. You can enter the conditions manually, or drag the crosshair with your mouse to the window for which you intend to create the rule." 
+chkAusblenden.Caption = "Hide Assistant during window selection" 
+frmUndOderOder.Caption = " Logic operation " 
+optEineRegel.Caption = "Fulfill one condition" 
+optAlleRegeln.Caption = "Fulfill all conditions" 
+frmBedingung.Caption = " Condition" 
+cmdBdgLoeschen.Caption = "&Delete..." 
+cmdBdgHinzufuegen.Caption = "&Add" 
+cmdZurueckZu1.Caption = "&Back" 
+cmdSchritt3.Caption = "&Next" 
+strMindEineBedingung = "You have to define at least one valid condition." 
+strMaxBedingungen = "Addition of further conditions is not possible within the Assistant. However, you may add more conditions after the rule has been created." 
+lblBeschreibung3.Caption = "Now you can define the actions that are applied to all windows which match the conditions specified before." 
+frmBedingungListe.Caption = " Conditions " 
+frmAktion.Caption = " Action" 
+cmdAknLoeschen.Caption = "&Delete..." 
+cmdAknHinzufuegen.Caption = "&Add" 
+chkFolgen.Caption = "Follow after move" 
+lblSichtbar.Caption = "Visible" 
+lblUnsichtbar.Caption = "Invisible" 
+cmdDurchsuchen.Caption = "Browse..." 
+cmdZurueckZu2.Caption = "&Back" 
+cmdFertig.Caption = "&Next" 
+strMindEineAktion = "No valid actions have been defined yet. It is possible to create an empty rule now, and add actions to it later." 
+strMaxAktionen = "Addition of further actions is not possible within the Assistant. However, you may add more actions after rule has been created." 
+lblBeschreibung4.Caption = "Finally, here is a list of all conditions and actions defined for the new rule. Click 'Done' to create the rule." 
+cmdZurueckZu3.Caption = "&Back" 
+cmdOK.Caption = "&Done"
+strRegelErsetzen = "A rule with the given name already exists. Click 'yes' to replace it, 'No' to create a new rule with the same name, or 'Cancel' to change the name of the rule now."
+strWiderspruch1 = "The conditions"
+strWiderspruch2 = "and"
+strWiderspruch3 = "are contradictory. Please recheck these conditions."
+
+
+[frmWechselLeiste]
+strFenster = "Windows:"
+strAktiv = "Active:"
+strKlick = "Single click:"
+strDoppelKlick = "Double-click:"
+
+
+[frmSplash]
+lblFuer.Caption = "registered for:"
+strMsgUngueltig = "Invalid license key."
+
+#ADDED in Dexpot 1.5.2
+strMsgWindowsZuAlt = "Your operating system is no longer supported by this version of Dexpot. Please download a previous version from http://download.dexpot.de.\n\nDexpot will now quit. We apologize for the inconvenience."
+###
+
+#ADDED in Dexpot 1.5.11
+strCommonControlsQuestion = "The Windows Common Controls are not properly installed on this system. Would you like Dexpot to attempt to fix this problem?"
+strCommonControlsCritical = "The Windows Common Controls (mscomctl.ocx) are not properly installed on this system. Dexpot will now terminate.\n\nFor more information, visit"
+###
+
+
+#ADDED in Dexpot 1.6
+[frmIconanpassung]
+frmIconanpassung.Caption = "Customize desktop icons - Dexpot"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "&Cancel"
+frmOptionen.Caption = "Options"
+optAnpassung(0).Caption = "Create a separate folder for each desktop"
+optAnpassung(1).Caption = "Use a shared common folder for all desktops"
+chkKeepDesktop.Caption = "Use original Windows desktop folder as Desktop 1"
+chkAusrichten.Caption = "Align icons to grid"
+chkAnordnen.Caption = "Auto arrange icons"
+strMigration = "Would you like Dexpot to copy the files on your desktop to the new separate folders according to your existing icon distribution now?"
+###
+
+
+#ADDED Dexpot 1.4.2
+[frmUpdater]
+frmUpdater.Caption = "Dexpot Updater"
+cmdAbbrechen.Caption = "Cancel"
+cmdWeiter.Caption = "Check for Updates"
+lblInstallierteVersion.Caption = "Dexpot version installed:"
+lblVersionVerfuegbar.Caption = "Newest version available:"
+lblUpdater.Caption = "Welcome to the Dexpot Updater"
+lblUpdater2.Caption = "New version available"
+lblUpdater3.Caption = "Update in progress"
+lblUpdater4.Caption = "Update completed"
+lblText.Caption = "This Updater allows you to update your Dexpot installation to the newest version.\n\nIf a new version is available, Dexpot needs to be closed to apply the update. We recommend also closing all other applications.\n\nBefore going on, please make sure you have a working internet connection. Then click on Check for Updates."
+lblKeinUpdate.Caption = "You already use the latest version of Dexpot."
+lblAbgeschlossen.Caption = "Installation of the update was completed successfully."
+lblNeustart.Caption = "Some files are still in use and can be replaced only after Windows has been restarted.\n\nThe installation will be completed automatically the next time Dexpot is launched."
+lblText2.Caption = "Click on Install to automatically update to the latest version."
+lblFortschritt.Caption = "Installation progress:"
+chkBeta.Caption = "Show beta versions"
+chkDexpotStarten.Caption = "Run Dexpot"
+cmdMehrInformationen.Caption = "More information"
+lvUpdates.ColumnHeaders(1).Text = "Version"
+lvUpdates.ColumnHeaders(2).Text = "Description"
+strBeenden = "In order to install this update, Dexpot needs to be closed.\n\nDo you want to exit Dexpot now?"
+strUnbekannt = "unknown"
+strKeinDexpot = "Unable to find Dexpot installation!"
+strInstallieren = "Install"
+strFortsetzung = "Installation is being continued"
+strUnvollstaendig = "Installation incomplete"
+strNichtErfolgreich = "Unable to complete installation successfully."
+strFertigstellen = "Finish"
+strInstalliere = "Installing"
+strUpdate = "Updating"
+strLoesche = "Removing"
+strZusaetzlich = "Installing additionally required updates"
+strAbhaengig = "Dependencies satisfied for update"
+strHerunterladen = "Downloading"
+strEntpacken = "Decompressing"
+strAbgeschlossen = "Finished updating to version"
+strBenutzer = "User"
+strPasswort = "Password"
+strDownloadFehler = "Download error"
+strEntpackenFehler = "Unpack error"
+strProUpdate = "Your license for Dexpot Pro is not compatible with the new version. After the installation you will have to unlock Dexpot by entering a new license key. Please check http://pro.dexpot.de/ for information on how to update your license.\n\nDo you want to proceed with the installation?"
+###
+
+#ADDED in Dexpot 1.5
+[frmDexcube]
+frmDexcube.Caption = "Settings - Dexpot"
+cmdOK.Caption = "&OK"
+cmdAbbrechen.Caption = "&Cancel"
+cmdUebernehmen.Caption = "&Apply"
+frmSwitchAnimation.Caption = "Desktop switch animation"
+lblSwitchAnimation.Caption = "Effect:"
+lblZoomAutomatic.Caption = "Zoom:"
+frmEffects.Caption = "Effects"
+chkUseLighting.Caption = "Shadow"
+chkUseAlphaBlending.Caption = "Transparency"
+frmDuration.Caption = "Animation speed"
+lblCubeDurationBase.Caption = "Cube (min. duration):"
+lblCubeDurationPerDesktop.Caption = "Cube (per desktop):"
+lblBrettDuration.Caption = "Breakfast Plate:"
+lblWallDuration.Caption = "Wall and Filmstrip:"
+lblZoomDuration.Caption = "Zoom:"
+strKein = "None"
+strWuerfel = "Cube"
+strBrett = "Breakfast Plate"
+strWand = "Wall"
+strStreifen = "Filmstrip"
+strMaximal = "Maximal"
+strMinimal = "Minimal"
+strVariabel = "Variable"
+chkMultithreading.Caption = "Multithreading"
+frmLeistung.Caption = "Performance"
+
+#ADDED in Dexpot 1.6.5
+lblFadeDuration.Caption = "Crossfade:"
+strFade = "Crossfade"
+###
+
+
+[frmWallpaperClock]
+frmWallpaperClock.Caption = "Wallpaper Clock - Dexpot"
+lblAuthorLabel.Caption = "Author:"
+lblStyle.Caption = "Position:"
+chk24Hour.Caption = "Use 24 hour format"
+cmdSelectFolder.Caption = "Select folder..."
+lblGetMoreClocks.Caption = "Get more wallpaper clocks at:"
+cmdOK.Caption = "&OK"
+cmdApply.Caption = "&Apply"
+cmdCancel.Caption = "&Cancel"
+strKeineClock = "(regular wallpaper)"
+frmVorschau.Caption = "Preview"
+lblSizeLabel.Caption = "Size:"
+strBrowseForFolder = "Please select a folder containing wallpaper clock (*.wcz) files:"
+
+
+[Dexcube]
+Description = "Dexcube provides a number of 3D effects to animate the transition between desktops."
+HotkeyManualControl = "Manual control"
+HotkeyManualControlNext = "Manual control next"
+HotkeyManualControlPrevious = "Manual control previous"
+
+[SevenDex]
+Description = "SevenDex integrates a button to switch desktops into the Windows 7 taskbar."
+
+[Slideshow]
+Description = "The Desktop Slideshow automatically switches between desktops after a pre-set time interval."
+HotkeyDesktopSlideshow = "Desktop Slideshow"
+HotkeySlideshowstarten = "Start slideshow"
+HotkeySlideshowanhalten = "Stop slideshow"
+
+[Wallpaper Clock]
+Description = "This plugin allows to assign a different Wallpaper Clock to each desktop."
+###
+
+#ADDED in Dexpot 1.5.5
+[Taskbar Pager]
+Description = "This plugin integrates a pager similar to the "Desktop Preview" directly into the Windows taskbar."
+HotkeyHidePager= "Hide pager"
+###
+
+
+#ADDED in Dexpot 1.5.7
+[frmTaskbarPager]
+frmTaskbarPager.Caption = "Settings - Dexpot Taskbar Pager"
+frmLayout.Caption = "Layout"
+frmWindows.Caption = "Windows"
+lblCellSize.Caption = "Cell size:"
+lblCellSpacing.Caption = "Cell spacing:"
+lblBorderSize.Caption = "Border width:"
+lblRowCount.Caption = "Number of rows:"
+lblColumnCount.Caption = "Number of columns:"
+chkFlashing.Caption = "Highlight flashing windows"
+chkToolWindows.Caption = "Show tool windows"
+
+#ADDED in Dexpot 1.6.8
+chkExcludedMonitors.Caption = "Show windows on excluded monitors"
+###
+
+cmdCancel.Caption = "&Cancel"
+cmdOK.Caption = "&OK"
+cmdApply.Caption = "&Apply"
+###
+
+
+#ADDED in Dexpot 1.5.10
+[Dexgrid]
+Description = "Arranges your desktops in a grid layout, adds hotkeys to switch up an down in the grid, and displays an animation during desktop switching."
+HotkeySwitchleft = "Switch left"
+HotkeySwitchright = "Switch right"
+HotkeySwitchup = "Switch up"
+HotkeySwitchdown = "Switch down"
+HotkeyMovewindowleft = "Move window left"
+HotkeyMovewindowright = "Move window right"
+HotkeyMovewindowup = "Move window up"
+HotkeyMovewindowdown = "Move window down"
+HotkeyCopywindowleft = "Copy window left"
+HotkeyCopywindowright = "Copy window right"
+HotkeyCopywindowup = "Copy window up"
+HotkeyCopywindowdown = "Copy window down"
+
+#ADDED in Dexpot 1.6.4
+HotkeyMoveandswitchleft = "Move window and switch left"
+HotkeyMoveandswitchright = "Move window and switch right"
+HotkeyMoveandswitchup = "Move window and switch up"
+HotkeyMoveandswitchdown = "Move window and switch down"
+###
+
+[frmDexgrid]
+frmDexgrid.Caption = "Settings - Dexgrid"
+lblRowCount.Caption = "Number of rows:"
+chkAnimation.Caption = "Show desktop switching animation"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "&Cancel"
+###
+
+#ADDED Dexpot 1.6
+[frmAppAssignment]
+frmAppAssignment.Caption = "Assign applications - Dexpot"
+cmdAdd.Caption = "&Add..."
+cmdRemove.Caption = "&Remove"
+cmdRefresh.Caption = "R&efresh"
+lblAssign.Caption = "Assign application to:"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "&Cancel"
+strApplication = "Application"
+strWhereStarted = "Where started"
+lblFollow.CAption = "Switch to desktop:"
+cmbFollow.List(1) = "Never"
+cmbFollow.List(2) = "When started"
+cmbFollow.List(3) = "When activated"
+
+[MouseEvents]
+Description = "Adds support for Hot Corners, Mouse Wheel switching, Keyboard double tap actions and the Leap Motion Controller."
+
+[frmMouseEvents]
+frmAppAssignment.Caption = "Mouse Events - Dexpot"
+tabMouseEvents.Tabs(1).Caption = "Hot Corners"
+tabMouseEvents.Tabs(2).Caption = "Mouse Wheel"
+
+#ADDED in Dexpot 1.6.7
+tabMouseEvents.Tabs(3).Caption = "Keyboard"
+###
+
+lblCorner(1).Caption = "Top left:"
+lblCorner(2).Caption = "Top right:"
+lblCorner(3).Caption = "Bottom left:"
+lblCorner(4).Caption = "Bottom right:"
+frmCornerTrigger.Caption = "Trigger"
+optCornerTrigger(0).Caption = "Immediately"
+optCornerTrigger(1).Caption = "Delayed"
+optCornerTrigger(2).Caption = "Middle mouse button click"
+frmCornerOptions.Caption = "Options"
+chkCornerFullscreen.Caption = "Deactivate hot corners when a full-screen application is active"
+chkWheel.Caption = "Use mouse wheel to switch desktops"
+lblWheelType.Caption = "Mouse wheel type:"
+frmWheelTrigger.Caption = "Trigger keys"
+
+#ADDED in Dexpot 1.6.7
+frmDoubleTap.Caption = "Double tap"
+lblDoubleTapLeftCtrl.Caption = "Left Ctrl key:"
+lblDoubleTapRightCtrl.Caption = "Right Ctrl key:"
+lblDoubleTapLeftShift.Caption = "Left Shift key:"
+lblDoubleTapRightShift.Caption = "Right Shift key:"
+###
+
+strBoth = "Both"
+strNone = "(None)"
+strShowDesktop = "Show desktop"
+strAeroFlip = "Aero Flip 3D"
+
+#ADDED in Dexpot 1.6.3
+strMinimizeAll = "Minimize all"
+###
+
+#ADDED in Dexpot 1.6.10
+chkLeapSupport.Caption = "Enable Leap Motion support"
+lblLeapSwipeLeft.Caption = "Swipe left:"
+lblLeapSwipeRight.Caption = "Swipe right:"
+lblLeapSwipeUp.Caption = "Swipe up:"
+lblLeapSwipeDown.Caption = "Swipe down:"
+strLeapMotionController = "Leap Motion Controller:"
+strLeapConnected = "Ready"
+strLeapDisconnected = "No controller present or no connection possible"
+###
+
+cmdOK.Caption = "&OK" 
+cmdCancel.Caption = "&Cancel" 
+cmdApply.Caption = "&Apply"
+
+[DexControl]
+Description = "Interactive Full-screen preview with integrated Window catalog."
+###
+
+#ADDED in Dexpot 1.6.5
+[frmDebugging]
+frmDebugging.Caption = "Debugging"
+cmdOK.Caption = "&OK"
+cmdCancel.Caption = "&Cancel"
+frmDebugOptions.Caption = "Options"
+chkDebugForegroundLock.Caption = "Keep Foreground Lock Timeout"
+
+#ADDED in Dexpot 1.6.6
+chkDebugTokenizedEnabled.Caption = "Leave tokenized windows enabled"
+###
+
+lblRestart.Caption = "Restart Dexpot for changes to take effect."
+###

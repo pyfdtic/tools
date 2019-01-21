@@ -1,0 +1,1106 @@
+[Info] 
+Name = "Greek" 
+Autor = "Dimitris Psirrakis" 
+AutorMail = "westor7@gmail.com" 
+Kommentar = "Μεταφρασμένη Ελληνική έκδοση του Dexpot (v1.0) απο τον westor, για οποιαδήποτε απορία η βοήθεια όσο αναφορά το Dexpot επικοινωνήστε μέσο e-mail, ΠΡΟΣΟΧΗ: Αυτή η μετάφραση βρίσκετε στην πρώτη της έκδοση (1.0) οπότε οποιαδήποτε ορθογραφηκή διόρθωση θα είναι αποδεχτή, ευχαριστώ!."
+Locale=1032
+Charset=161
+Backup=english.dxs
+
+#Dexpot 1.5.15 [$Id: greek.dxs 1811 2012-02-09 15:47:43Z Patrick $]
+
+[Global] 
+strDexpot = "Dexpot - Το βοηθητικό πρόγραμμα για τις εικονικές επιφάνειες εργασίας"
+strVorheriger = "Dexpot - προηγούμενη επιφάνεια εργασίας" 
+strNaechster = "Dexpot - επόμενη επιφάνεια εργασίας" 
+strDesktop = "Επιφάνεια εργασίας" 
+strAlleDesktops = "όλες τις επιφάνειες εργασίας" 
+strKein = "(Κανένα)" 
+strMsgFortfahren = "Θέλετε να συνεχίσετε;" 
+strMsgDesktopanzahl = "Ο επιλεγμένος αριθμός των επιφάνειων εργασιών είναι μικρότερος από την προηγούμενη τιμή, δηλαδή, όλες τις πληροφορίες σχετικά με τις επιφάνειες εργασίας που θα είναι υψηλότερη από τη νέα τιμή θα χαθούν. Όλα τα παράθυρα σε αυτές τις επιφάνειες εργασίας θα μεταφερθούν στην τρέχουσα επιφάνεια εργασίας. Σε περίπτωση που η τρέχουσα επιφάνεια εργασίας δεν θα είναι πλέον έγκυρη, τότε το Dexpot θα στραφή στην πρώτη επιφάνεια εργασίας." 
+strMsgVersuchenZuErsetzen = "Το Dexpot θα προσπαθήσει να τα αντικαταστήσει." 
+strMsgProblem = "Σε περίπτωση που αυτό το πρόβλημα προκύψει περαιτέρω:" 
+strMsgHinweisDesktopanzahl = "Σημείωση σχετικά με την αλλαγή του αριθμού των επιφανειών εργασίας - Dexpot" 
+strMsgAufloesungTitel = "Τροποποίηση Ανάλυση Οθόνης - Dexpot" 
+strMsgAufloesung = "Η ανάλυση της οθόνης μπορεί τώρα να αλλάξει. Θέλετε να δεχθεί τη νέα" 
+strMsgAufloesungAnnehmen = "ανάλυση?" 
+strMsgNichtAendern = "Δεν είναι δυνατόν να αλλάξετε την ανάλυση." 
+strMasterPasswortAnfordern = "Ο Dexpot Κωδικός Προστασίας έχει ενεργοποιηθεί. Για να πραγματοποιήσει την επιθυμητή εργασία, θα πρέπει να εισάγετε τον κύριο κωδικό πρόσβασης:" 
+strPasswortAnfordern = "Ο Dexpot Κωδικός Προστασίας έχει ενεργοποιηθεί. Για να πραγματοποιήσει την επιθυμητή εργασία, θα πρέπει να εισάγετε τον κωδικό πρόσβασης για την αντίστοιχη επιφάνεια εργασίας:" 
+strMasterPasswortAendern = "Μπορείτε να αλλάξετε τον κύριο κωδικό πρόσβασης του Dexpot εδώ:" 
+strAltesPasswort = "Παλιός κωδικός:" 
+strNeuesPasswort = "Καινούριος κωδικός:" 
+strBestaetigung = "Επιβεβαίωση:" 
+strMsgPasswortFehler = "Σφάλμα κατά την εισαγωγή κωδικού πρόσβασης - Dexpot" 
+strMsgUebereinstimmung = "Νέος κωδικός πρόσβασης και η επιβεβαίωση δεν ταιριάζουν. Παρακαλούμε διορθώστε τα δεδομένα εισόδου σας." 
+strMsgAltesFalsch = "Παλιός κωδικός μη έγκυρος!" 
+strKeineAnderen = "Κανένα άλλο παράθυρο παρόν" 
+strKeineFenster = "Κανένα παράθυρο σε αυτήν την επιφάνεια εργασίας" 
+strMsgIconsEntfernen = "Θέλετε πράγματι να αφαιρέσετε τις επιλεγμένες εικόνες από αυτή την επιφάνεια εργασίας\n\nΘα βρείτε διαγραμένες εικόνες που δεν θα είναι ορατές σε οποιαδήποτε επιφάνεια εργασίας στην 'Επιφάνειες Εργασίας των Windows - Εικόνες - Κρυφό'." 
+strMsgIconsEntfernenTitel = "Αφαιρέστε τα εικονίδια - Dexpot" 
+strMaximieren = "Μεγιστοποίηση" 
+strMinimieren = "Ελαχιστοποίηση" 
+strStandard = "Προεπιλογή" 
+strMsgRegelnAktiviert = "Οι κανόνες της επιφάνειας εργασίας ενεργοποιήθηκαν" 
+strMsgRegelnDeaktiviert = "Οι κανόνες της επιφάνειας εργασίας απενεργοποιήθηκαν" 
+strFensterMinimiert = "παράθυρο(α) ελαχιστοποιήθηκαν" 
+strMsgStandardGeladen = "Το Προεπιλεγμένο προφίλ έχει εισαχθεί με επιτυχία." 
+strMsgStandardNichtGefunden = "Το Προεπιλεγμένο προφίλ δεν θα μπορούσε να βρεθεί."
+strFilterBilder = "Όλα τα αρχεία εικόνας"
+strFilterProgramme = "Προγράμματα"
+strFilterAlle = "Όλα τα αρχεία"
+strFilterAlleSymbole = "Όλα τα αρχεία εικονιδίων"
+strFilterBibliotheken = "Βιβλιοθήκες"
+strFilterSymbole = "Εικόνες"
+strFilterSound = "Αρχεία Wave"
+strBeimNaechstenWechsel = "Την επόμενη αλλαγή"
+
+#ADDED in Dexpot 1.5
+strHorizontalMaximieren = "Μεγιστοποίηση οριζόντια"
+strVertikalMaximieren = "Μεγιστοποίηση κάθετα"
+strMsgProfilStandardGefahr = "Η φόρτωση του τυπικού προφίλ θα έχει ως αποτέλεσμα να χάσει τις ρυθμίσεις σας.\nΒεβαιωθείτε ότι οι ρυθμίσεις σας έχουν αποθηκευτεί σε ένα ξεχωριστό προφίλ.\n\nΘέλετε να συνεχίσετε;"
+###
+
+
+[frmTaskleiste] 
+mnuEinstellungen.Caption = " Ρυθμήσεις" 
+mnuWechselLeiste.Caption = " Διαχειριστής επιφάνεια εργασίας" 
+mnuSlideshow.Caption = " Προβολή διαφανειών της επιφάνεια εργασίας" 
+mnuDesktopFenster.Caption = " Παράθυρα της επιφάνεια εργασίας" 
+mnuInfo.Caption = " Περί" 
+mnuBeenden.Caption = " Έξοδος" 
+mnuAusrichten.Caption = "Κολλήστε την άκρη της οθόνης" 
+mnuLaden.Caption = "Ξεκινήστε με το Dexpot" 
+mnuAktivesFenster.Caption = "Δείτε τις εικόνες των ενεργών παραθύρων" 
+mnuMausrad.Caption = "Εναλλαγή με τον τροχό του ποντικιού" 
+mnuPositionHalten.Caption = "Κλείδωστε την θέση" 
+mnuImVordergrund.Caption = "Πάντα στην κορυφή" 
+mnuOrientierung.Caption = "Κατακόρυφος προσανατολισμός" 
+mnuTransparent.Caption = "Διαφανές φόντο" 
+mnuSchliessen.Caption = "Κλείσιμο" 
+mnuVerschiebenListe.Caption = "Μετακινήστε τα άλλα παράθυρα σε αυτή την επιφάνεια εργασίας" 
+mnuKopierenListe.Caption = "Αντιγράψτε τα άλλα παράθυρα σε αυτή την επιφάνεια εργασίας" 
+mnuRegeln.Caption = " Κανόνες επιφάνειας εργασίας" 
+mnuFarbe.Caption = "Εφαρμόστε το χρώμα του φόντου" 
+mnuGroesse.Caption = "Αλλαγή μεγέθους του εικονιδίου" 
+mnuVorschau.Caption = " Προεπισκόπηση επιφάνειας εργασίας" 
+mnuBoo.Caption = "Δείτε τα επιπλέον πλήκτρα" 
+mnuKonfig.Caption = " Διαμόρφωση επιφάνειων εργασίας" 
+mnuVerschollen.Caption = "Δείτε το στην τρέχουσα επιφάνεια εργασίας" 
+mnuTransparenz.Caption = "Διαφάνεια" 
+mnuTransparenzFestlegen.Caption = "Καθορίστε τη διαφάνεια" 
+mnuTransparenzErhoehen.Caption = "Αυξήση της διαφάνειας" 
+mnuTransparenzVerringern.Caption = "Μείωση της διαφάνειας" 
+mnuVerschieben.Caption = "Μετακίνηση" 
+mnuKopieren.Caption = "Αντιγραφή" 
+mnuSchliessen.Caption = "Κλείσιμο" 
+mnuSchliessenAufDiesem.Caption = "Σε αυτή την επιφάνεια εργασίας" 
+mnuSchliessenAufAnderen.Caption = "Σε όλες τις άλλες επιφάνειες εργασίας" 
+mnuSchliessenAufAllen.Caption = "Παντού (Κλείστε την εφαρμογή)" 
+mnuTrayMinimieren.Caption = "Ελαχιστοποίηση στο δίσκο του συστήματος" 
+mnuVordergrund.Caption = "Πάντα στην κορυφή" 
+mnuDMSchliessen.Caption = "Κλείσιμο" 
+mnuEntfernen.Caption = "Αφαίρεση" 
+mnuRegelErstellen.Caption = "Δημιουργία κανόνα..."
+mnuSchoner.Caption = "Εκκίνηση Screensaver"
+mnuRegelnAnwenden.Caption = "Εφαρμογή των κανόνων"
+mnuIconsWiederherstellen.Caption = "Επαναφορά εικονιδίων"
+mnuIconsLaden.Caption = "Ανανέωση των εικόνων από το προφίλ"
+mnuVollbildVorschau.Caption = " Προεπισκόπηση πλήρους οθόνης"
+mnuSchwaerzen.Caption = "Black-out επιφάνεια εργασίας"
+mnuDexpose.Caption = " Κατάλογος παραθύρων"
+mnuAufrollen.Caption = "Κυλήστε επάνω"
+mnuRegelnAnwendenAufFenster.Caption = "Εφαρμόστε τους κανόνες σε αυτό το παράθυρο"
+
+
+[frmBeenden] 
+frmBeenden.Caption = "Έξοδος? - Dexpot" 
+cmdAbbrechen.Caption = "Ακύρωση" 
+cmdBeenden.Caption = "Έ&ξοδος" 
+frmOptionen.Caption = "Ρυθμήσεις" 
+lblBeendenText.Caption = "Παρακαλώ επιλέξτε πια εικονική επιφάνεια εργασίας θα πρέπει να διατηρηθεί ως κύρια επιφάνεια εργασίας μετά απο την έξοδο του Dexpot. Τα παράθυρα από την άλλη επιφάνεια εργασίας μπορούν είτε να μετακινηθούν σε αυτή την επιφάνεια εργασίας ή να κλείσουν"  
+#MODIFIED IN 1.5.0
+optBeenden(0).Caption = "Μετακινήστε όλα τα παράθυρα σε αυτη την επιφάνεια εργασίας"
+optBeenden(1).Caption = "Κλείστε όλα τα παράθυρα που δεν είναι σε αυτή την επιφάνεια εργασίας"
+###
+
+
+[frmInfo] 
+frmInfo.Caption = "Περί Dexpot"
+tabInfo.TabCaption(0) = "Γενικά" 
+tabInfo.TabCaption(1) = "Συντελεστές" 
+cmdOK.Caption = "&Εντάξει" 
+frmRegistrierung.Caption = "Εγγραφή" 
+cmdRegistrieren.Caption = "&Εγγραφή" 
+lblMail.Caption = "Email:" 
+lblLizenzschluessel.Caption = "Κλειδί αδείας:" 
+lblInternet.Caption = "Internet:" 
+lblVersion.Caption = "Έκδοση"
+lblWenn.Caption = "Το Dexpot είναι ελεύθερο για ιδιωτική χρήση. Ωστόσο, αν σας αρέσει αυτό το πρόγραμμα, είστε ευπρόσδεκτοι να υποστηρίξετε την περαιτέρω ανάπτυξή της με μια μικρή δωρεά."
+lblDanke.Caption = "Σας ευχαριστούμε πολυ!" 
+strSpenden = "Δωρεά" 
+strLizenz = "’δειες" 
+strMsgDanke = "Σας ευχαριστούμε για την εγγραφή!" 
+strMsgUngueltig = "Το κλειδί άδειας δεν είναι έγκυρο! Παρακαλώ δοκιμάστε ξανά." 
+strMsgProblem = "Αν έχετε οποιοδήποτε πρόβλημα, παρακαλούμε επικοινωνήστε:" 
+lblName.Caption = "Εταιρία:" 
+lblEmail.Caption = "Όνομα:"
+lblWechsel.Caption = "Διακόπτες επιφάνεια εργασίας:"
+lblLaufzeit.Caption = "Uptime:"
+lblTausend.Caption = "Αυτός ήταν ο χιλιοστός διακόπτης επιφάνεια εργασίας σας με το Dexpot!"
+lblTausendText.Caption = "Μην ανησυχείτε, δεν πρόκειται για δοκιμαστική έκδοση η οποία λήγει μετά από χίλιους αλλαγές της επιφάνεια εργασίας. Επίσης, δεν θα σας ενοχλεί πια, αλλά επειδή μοιάζει οτι χρησιμοποιείτε το πρόγραμμα αυτό σε μόνιμη βάση, θα θέλαμε να σας ανακοινώσουμε την ακόλουθη την προσοχή σας:"
+lblNutzungsbedingungen.Caption = "’δεια χρήσης:" 
+
+#ADDED in Dexpot 1.4.2
+cmdUpdate.Caption = "Έλεγχος για &ενημερώσεις"
+strNeueLizenz = "Κλειδί άδειας χρήσης σας δεν ισχύει για αυτή την έκδοση του το Dexpot. Θα πρέπει να αγοράσετε μια νέα άδεια, αν θέλετε να συνεχίσετε να χρησιμοποιείτε το Dexpot εμπορικά. Ελέγξτε την ιστοσελίδα μας για περισσότερες πληροφορίες:"
+###
+
+#ADDED in Dexpot 1.5.1
+strEmailBetreff = "Μήνυμα σχετικά με το Dexpot"
+strEmailNachricht = "Γεια σας ομάδα του Dexpot,\n\nΘα ήθελα να θέσω ένα ερώτημα. Ως εκ τούτου έχω ολοκληρώσει την παρακάτω φόρμα.\n\nΜήνυμα:\n\nΤο σφάλμα εμφανίζεται σε αυτή την ενότητα:\n\nΒήματα για την αντιμετώπιση του σφάλματος:\n\nΕφαρμογές που εκτελούνται:\n\nΠληροφορίες έκδοσης:"
+###
+
+
+[frmSlideshow] 
+frmSlideshow.Caption = "Διαφάνειες της επιφάνεια εργασίας - Dexpot" 
+optRueckwaerts.Caption = "Προς τα πίσω" 
+optVorwaerts.Caption = "Προς τα εμπρός"
+
+#MODIFIED in Dexpot 1.5.0 
+cmdSchliessen.Caption = "&Εντάξει" 
+cmdUebernehmen.Caption = "&Εκκίνηση" 
+cmdAbbrechen.Caption = "Στ&αμάτημα" 
+frmEinstellungen.Caption = "Επιφάνειες εργασίας" 
+lblSek.Caption = "δευτ" 
+lblWas.Caption = "Παρακαλώ επιλέξτε το χρονοδιάγραμμα του Dexpot για την αυτόματη εναλλαγή μεταξύ των επιφάνειων εργασίας. Επιπλέον μπορείτε να επιλέξετε αν θέλετε να αλλάζει προς τα εμπρός ή προς τα πίσω:" 
+###
+
+#ADDED in Dexpot 1.5.0
+cmdDesktops.Caption = "Επιλέξτε"
+lblIntervall.Caption = "Διάστημα:"
+chkEndlos.Caption = "Loop"
+strAnhalten = "&Παύση"
+strFortsetzen = "&Συνέχιση"
+###
+
+#ADDED in Dexpot 1.5.9
+frmRichtung.Caption = "Κατεύθυνση"
+###
+
+
+[frmEinstellungen] 
+frmEinstellungen.Caption = "Ρυθμήσεις - Dexpot" 
+cmdOK.Caption = "&OK" 
+cmdAbbrechen.Caption = "&Ακύρωση" 
+cmdUebernehmen.Caption = "&Εφαρμογή" 
+fuchsFeuer(1).Caption = "Γενικά" 
+fuchsFeuer(2).Caption = "Εμφάνιση" 
+fuchsFeuer(3).Caption = "Εξαρτήματα" 
+fuchsFeuer(4).Caption = "Controls" 
+fuchsFeuer(5).Caption = "Εναλλαγή επιφάνειων εργασίας" 
+
+#MODIFIED Dexpot 1.5.0
+fuchsFeuer(6).Caption = "Πρόσθετες λειτουργίες και Έξτρα"
+###
+
+#Allgemein 
+frmZahl.Caption = "Μεταβλητές επιφάνειων εργασίας" 
+lblDesktopzahl.Caption = "Αριθμός επιφάνειων εργασίας:" 
+lblStartDesktop.Caption = "Αρχική επιφάνεια εργασίας:" 
+frmInternational.Caption = "Διεθνής" 
+lblSprache.Caption = "Επιλέξτε τη γλώσσα:" 
+cmdSprachinfo.Caption = "Περί" 
+frmStart.Caption = "Εκκίνηση" 
+chkAutostart.Caption = "Εκκίνηση με τα Windows" 
+chkStartBildschirm.Caption = "Απόκρυψη οθόνη εκκίνησης" 
+chkProfilAuswahl.Caption = "Εμφάνιση λίστα των προφίλ κατά την εκκίνηση" 
+chkLetzteKonfigurationLaden.Caption = "Αυτόματη φόρτωση τελευταίας ρύθμισης μετά" 
+lblPrioritaet.Caption = "Προτεραιότητα διαδικασίας:" 
+cmbPrio.List(0) = "σε πραγματικό χρόνο" 
+cmbPrio.List(1) = "Υψηλή" 
+cmbPrio.List(2) = "Κανονική" 
+cmbPrio.List(3) = "Χαμηλή" 
+frmBeenden.Caption = "Έξοδος" 
+chkSchnellesBeenden.Caption = "Έξοδος χωρίς παράθυρο επιβεβαίωσης" 
+chkProfilSpeichern.Caption = "Αποθήκευση προφίλ κατά την έξοδο" 
+frmProfile.Caption = "Προφιλς" 
+lblProfile.Caption = "Επιλέξτε το προφίλ:" 
+cmdProfilLaden.Caption = "Φόρτιση" 
+cmdProfilUeberschreiben.Caption = "Αποθήκευση" 
+cmdProfilSpeichern.Caption = "Αποθήκευση ως..." 
+cmdProfilLoeschen.Caption = "Διαγραφή"
+
+#ADDED in Dexpot 1.4.2
+chkAutoUpdate.Caption = "Έλεγχος για ενημερώσεις"
+###
+
+#ADDED in Dexpot 1.5.0
+chkAdmin.Caption = "Εκτέλεση ως διαχειριστής"
+lblTrayIconAktionEinfach.Caption = "Ctrl + απλό κλίκ στο εικονίδιο του δίσκου συστήματος του Dexpot ανοίγει:"
+###
+
+#Ansicht 
+frmTrayIcon.Caption = "Εικονίδιο του δίσκου" 
+optTrayicon(0).Caption = "Κανένα εικονίδιο" 
+optTrayicon(1).Caption = "Προεπιλογή" 
+optTrayicon(2).Caption = "Τρέχουσα επιφάνεια εργασίας" 
+optTrayicon(3).Caption = "Προηγούμενη / επόμενη επιφάνεια εργασίας" 
+optTrayicon(4).Caption = "Ένα εικονίδιο ανά επιφάνεια εργασίας" 
+frmSystemmenues.Caption = "Μενού συστήματος" 
+chkSystemmenues.Caption = "Προσθήκη καταχωρήσεις του Dexpot στο μενού του συστήματος όλων των παραθύρων" 
+#MODIFIED in 1.5.0
+frmTransparenzManager.Caption = "Διαφάνεια" 
+###
+lblUnsichtbar.Caption = "Αόρατο" 
+lblSichtbar.Caption = "Ορατό" 
+frmTrayMinimieren.Caption = "Τα παράθυρα έχουν ελαχιστοποιηθεί στον χώρο ειδοποιήσεων του συστήματος"
+chkTraycontainer.Caption = "Χρήση container για τα παράθυρα που έχουν ελαχιστοποιηθεί στον χώρο ειδοποιήσεων του συστήματος" 
+chkTMFDoppelklick.Caption = "Επαναφορά με διπλό κλικ"
+lblTrayIconAktion.Caption = "Διπλό κλίκ στον χώρο ειδοποιήσεων του συστήματος επάπω στο εικονίδιο του Dexpot ανοίγει:"
+
+#Komponenten 
+tabKomponenten.Tabs(1).Caption = "Διαχειριστής της επιφάνειας εργασίας" 
+tabKomponenten.Tabs(2).Caption = "Προεπισκόπηση της επιφάνειας εργασίας" 
+tabKomponenten.Tabs(3).Caption = "DexTab"
+
+##Desktop Manager 
+frmOptionenManager.Caption = "Επιλογές" 
+chkManagerAutostart.Caption = "Εκκίνηση με το Dexpot" 
+chkAktiveFensterVorschau.Caption = "Εμφάνιση εικόνων των ενεργών παραθύρων" 
+chkMausrad.Caption = "Αλλαγή με τον τροχό του ποντικιού" 
+chkAmRandAusrichten.Caption = "Κολλήστε την άκρη της οθόνης" 
+chkPositionHalten.Caption = "Κλείδωμα θέσης" 
+chkMiniDM.Caption = "Μικρά εικονίδια"
+frmManagerBoo.Caption = "Επιπλέον πλήκτρο"
+chkManagerBoo.Caption = "Εμφάνιση του επιπλέον πλήκτρου"
+lblManagerBooIcon.Caption = "Εικονίδιο:"
+cmdManagerBooIcon.Caption = "..."
+cmdManagerBooIconStandard.Caption = "Προεπιλογή"
+lblManagerBooEinfach.Caption = "Ενέργεια όταν κάνετε απλό κλίκ:"
+lblManagerBooDoppelt.Caption = "Ενέργεια όταν κάνετε διπλό κλίκ:"
+#ADDED in 1.5.1
+lblManagerBooMittel.Caption = "Ενέργεια όταν κάνετε μεσάιο κλίκ:"
+###
+frmManagerHintergrund.Caption = "Φόντο" 
+optManagerHintergrundStandard.Caption = "Προεπιλογή" 
+optManagerHintergrundFarbe.Caption = "Μονόχρωμο" 
+optManagerHintergrundTransparent.Caption = "Διαφανή" 
+cmdManagerFarbe.Caption = "..." 
+frmOrientierung.Caption = "Προσανατολισμός" 
+optHorizontal.Caption = "Οριζόντιος" 
+optVertikal.Caption = "Κατακόρυφος" 
+cmdHotkeyManager.Caption = "Ορίστε hotkey"
+
+##Desktop Vorschau 
+chkVorschauAutostart.Caption = "Εκκίνηση με το Dexpot" 
+chkVorschauTitelleiste.Caption = "Απόκρυψη γραμμής τίτλου" 
+frmVorschauVerhalten.Caption = "Συμπεριφορά" 
+chkVorschauHintergrund.Caption = "Αυτόματη απόκρυψη" 
+chkVorschauVerhaeltnisHalten.Caption = "Κλείδωμα αναλογία διαστάσεων" 
+chkVorschauVerhaeltnisErzwingen.Caption = "Διαμόρφοσε τη σωστή αναλογία εικόνας" 
+frmVorschauFarben.Caption = "Χρώματα"
+lblVorschauFarbeAktiv.Caption = "Ενεργή επιφάνεια εργασίας:" 
+lblVorschauFarbeInaktiv.Caption = "Ανενεργή επιφάνεια εργασίας:" 
+lblVorschauFarbeRahmen.Caption = "Όριο παραθύρου:" 
+lblVorschauFarbeTitel.Caption = "Τίτλος παραθύρου:" 
+chkVollbildVorschauZoom.Caption = "Zoom εφέ" 
+lblHotkeyDefinieren.Caption = "Ορίστε hotkey:"
+frmVorschauDarstellung.Caption = "Eμφάνιση"
+optVorschauDarstellungSkizzen.Caption = "Σκίτσα παραθύρου"
+optVorschauDarstellungSymbole.Caption = "Εικονίδια"
+
+##DexTab
+chkDexTabSortieren.Caption = "Ταξινόμηση παραθύρων ανά τίτλο" 
+chkDexTabTrayicons.Caption = "Εμφάνιση παραθύρων ελαχιστοποιειμένα στο χώρο ειδοποιήσεων του συστήματος" 
+chkDexTabNurTaskleiste.Caption = "Να εμφανίζονται μόνο τα παράθυρα που αναφέρονται στη γραμμή εργασιών" 
+
+#MODIFIED in Dexpot 1.5.0
+frmDexTabMarkierung.Caption = "Αρχική επιλογή εργασίας εναλλαγής" 
+###
+
+optDexTabMarkierungAktiv.Caption = "Ενεργό παράθυρο" 
+optDexTabMarkierungLetztes.Caption = "Τελευταίο ενεργό παράθυρο" 
+frmDexTabFarben.Caption = "Χρώματα" 
+lblDexTabFensterVordergrund.Caption = "Κείμενο:" 
+lblDexTabFensterHintergrund.Caption = "Φόντο:" 
+lblDexTabMarkierung.Caption = "Επιλεγμένο:" 
+cmdDexTabSystemfarben.Caption= "Σύστημα χρωμάτων"
+
+#ADDED in Dexpot 1.5.0
+frmDexTabMarkierungDesktops.Caption = "Αρχική επιλογή εναλλαγής επιφάνειας εργασίας"
+optDexTabMarkierungDesktops(0).Caption = "Ενεργό παράθυρο"
+optDexTabMarkierungDesktops(1).Caption = "Τελευταίο ενεργό παράθυρο"
+###
+
+
+#Steuerung 
+tabSteuerung.Tabs(1).Caption = "Hotkeys" 
+tabSteuerung.Tabs(2).Caption = "Διακόπτης ποντικιού"
+tabSteuerung.Tabs(3).Caption = "Τίτλος μπάρας"
+
+##Fensterkatalog
+chkDexposeBlenden.Caption = "Επίδραση Crossfade"
+
+##Hotkeys 
+frmHotkeys.Caption = "Συνδυασμός πλήκτρων" 
+chkHotkeyModifikator(0).Caption = "Alt" 
+chkHotkeyModifikator(1).Caption = "Shift" 
+chkHotkeyModifikator(2).Caption = "Ctrl" 
+chkHotkeyModifikator(3).Caption = "Windows key" 
+cmdHotkeyDefinieren.Caption = "&Καθορισμός" 
+cmdHotkeyLoeschen.Caption = "&Διαγραφή" 
+cmdHotkeyFortsetzung.Caption = "&Συνέχιση σειράς" 
+frmHotkeyErklaerug.Caption = "Εξήγηση" 
+HotkeyTexte(1) = "Μετακινεί το ενεργό παράθυρο στην αντίστοιχη επιφάνειας εργασίας." 
+HotkeyTexte(2) = "Αντιγράφει το ενεργό παράθυρο στην αντίστοιχη επιφάνεια εργασίας." 
+HotkeyTexte(3) = "Ανοίγει ή κλείνει την αντίστοιχη ενότητα του Dexpot." 
+HotkeyTexte(5) = "Δημιουργεί μια μαύρη εικόνα στην οθόνη. Για να επαναφέρετε την επιφάνεια εργασίας, πατήστε το πλήκτρο πρόσβασης ξανά." 
+HotkeyTexte(6) = "Επιστρέφει πίσω στη τελευταία επίσκεψη στην επιφάνεια εργασίας." 
+HotkeyTexte(7) = "Ανοίγει ένα παράθυρο διαφάνειας για το ενεργό παράθυρο." 
+HotkeyTexte(8) = "Κάνει το τρέχον ενεργό παράθυρο πιο διαφανής." 
+HotkeyTexte(9) = "Κάνει το τρέχον ενεργό παράθυρο λιγότερο διαφανείς." 
+HotkeyTexte(10) = "Ρυθμίστε όλα τα παράθυρα σε αδιαφανείς." 
+HotkeyTexte(11) = "Φορτώστε τις ρυθμίσεις και τις διαμόρφωσεις της επιφάνεια εργασίας του Dexpot απο το προεπιλεγμένο προφίλ." 
+HotkeyTexte(12) = "Διακόπτει μια τρέχον παρουσίαση διαφάνειας της επιφάνεια εργασίας." 
+HotkeyTexte(13) = "Κυκλώστε τις επιλογές του Dexpot μέσω των εικονιδίων που είναι διαθέσιμα στο πλαίσιο «Εμφάνιση»." 
+HotkeyTexte(14) = "Εφαρμόζει τους κανόνες σε όλα τα ανοιχτά παράθυρα." 
+HotkeyTexte(15) = "Προσωρινά απενεργοποιεί τους κανόνες απο την εκτέλεση της επιφάνειας εργασίας. Πατήστε το πλήκτρο πρόσβασης ξανά για επανενεργοποίηση." 
+HotkeyTexte(16) = "Επαναφέρει τα εικονίδια στην τρέχουσα επιφάνεια εργασίας με την κατάστασή τους κατά την έξοδο από την επιφάνεια εργασίας απο την τελευταία φορά." 
+HotkeyTexte(17) = "Φορτώστε τη διανομή εικονιδίων για όλες τις επιφάνειες εργασίας από το τρέχον προφίλ." 
+HotkeyTexte(18) = "Εμφανίζει τον εναλλαγέα DexTab ως αντικαταστάτη για την λειτουργία των Windows Alt+Tab." 
+HotkeyTexte(19) = "Ανοίγει η προεπισκόπηση πλήρους οθόνης της επιφάνεια εργασίας." 
+HotkeyTexte(20) = "Αφαιρεί το ενεργό παράθυρο από την τρέχουσα επιφάνεια εργασίας, αντίστοιχα κλείνει η εφαρμογή αν εκτελείται μόνο για την τρέχουσα επιφάνεια εργασίας." 
+HotkeyTexte(21) = "Ανοίγει η προφύλαξη οθόνης στην τρέχουσα επιφάνεια εργασίας." 
+HotkeyTexte(22) = "Ανοίγει ένα μενού με όλες τις λειτουργίες του Dexpot για το τρέχον παράθυρο στη θέση του δρομέα."
+HotkeyTexte(23) = "Εμφανίζει όλα τα παράθυρα σχετικά με τις τρέχουσες επιφάνειες εργασίας όπως και μινιατούρες."
+cmdAlleHotkeysLoeschen.Caption = "Clear all"
+
+#ADDED in Dexpot 1.5.14
+HotkeyTexte(24) = "Μετακινεί το ενεργό παράθυρο στην αντίστοιχη επιφάνεια εργασίας και τις αλλαγές εκεί."
+###
+
+#ADDED in Dexpot 1.5.0
+imgHotkeyBelegt.ToolTipText = "Αυτός ο συνδυασμός πλήκτρων είναι ήδη σε χρήση από άλλο πρόγραμμα."
+###
+
+##Mauswechsel 
+lblMausWechsel.Caption = "Αυτή η λειτουργία αλλάζει αυτόματα μεταξύ επιφάνειων εργασίας όταν μετακινείτε ο δείκτης του ποντικιού στην άκρη της οθόνης για κάποιο χρονικό διάστημα." 
+chkMausWechsel.Caption = "Ενεργοποίηση εναλλαγέα ποντικού" 
+frmMausWechselAbstimmung.Caption = "Προσαρμογή" 
+lblMausWechselDauer.Caption = "Καθυστέρηση:" 
+lblMausWechselAbstand.Caption = "Απόσταση:" 
+lblMausWechselToleranz.Caption = "Ευαισθησία:" 
+chkMausWechselInvertieren.Caption = "Ρυθμίστε τον δείκτη του ποντικιού στην αντίθετη άκρη της οθόνης" 
+chkMausWechselWegSetzen.Caption = "Μετακινήστε τον δρομέα του ποντίκι έξω της παραμεθόριας περιοχής μετά από αλλαγή γραμμής" 
+frmMausWechselRaender.Caption = "’κρες" 
+chkMausWechselOben.Caption = "Πάνω" 
+chkMausWechselLinks.Caption = "Αριστερά" 
+chkMausWechselRechts.Caption = "Δεξιά" 
+chkMausWechselUnten.Caption = "Κάτω"
+frmMausWechselEcken.Caption = "Γωνίες"
+frmMausWechselAusloeser.Caption = "Trigger"
+
+##Titelleisten
+lblTitelleistenErklaerung.Caption = "Το Dexpot ανιχνεύει τα κλικ του ποντικιού στη γραμμή τίτλου ενός παραθύρου, και είναι σε θέση να προκαλέσει ενέργειες που ορίζονται από καθορισμένους βασικούς-κλικ-συνδυασμούς."
+lblTitelleistenBereich.Caption = "&Περιοχή:"
+lvTitelleisten.ColumnHeaders(1).Text = "Συνδυασμός"
+lvTitelleisten.ColumnHeaders(2).Text = "Στόχος"
+lvTitelleisten.ColumnHeaders(3).Text = "Δράση"
+frmTitelleistenMaus.Caption = "&Πλήκτρο ποντικιού"
+optTitelleistenTaste(0).Caption = "Αριστερό κουμπί του ποντικιού"
+optTitelleistenTaste(1).Caption = "Δεξιό κουμπί του ποντικιού"
+optTitelleistenTaste(2).Caption = "Μεσαίο κουμπί του ποντικιού"
+frmTitelleistenModifikator.Caption = "Τρ&οποποιητής"
+lblTitelleistenZiel.Caption = "&Στόχος:"
+cmbTitelleistenZiel.List(0) = "Eνεργό παράθυρο"
+cmbTitelleistenZiel.List(1) = "Ενεργή εφαρμογή"
+cmbTitelleistenZiel.List(2) = "Όλα τα παράθυρα"
+lblTitelleistenAktion.Caption = "Δράσ&η:"
+cmdTitelleistenHinzufuegen.Caption = "Πρ&οσθήκη"
+cmdTitelleistenEntfernen.Caption = "&Αφαίρεση"
+cmbTitelleistenBereich.List(0) = "Τίτλος μπάρας"
+cmbTitelleistenBereich.List(1) = "Πλήκτρο ελαχιστοποίησης"
+cmbTitelleistenBereich.List(2) = "Πλήκτρο μεγιστοποίησης"
+cmbTitelleistenBereich.List(3) = "Πλήκτρο κλεισήματος"
+
+#Desktopwechsel 
+tabWechsel.Tabs(1).Caption = "Στοιχεία επιφάνειας εργασίας" 
+tabWechsel.Tabs(2).Caption = "Ονόματα επιφάνειας εργασίας"
+
+##Desktopelemente 
+frmWechselElementIcons.Caption = "Εικονίδια επιφάνειας εργασίας" 
+chkWechselElementIcons.Caption = "Προσαρμόστε τα εικονίδια της επιφάνεια εργασίας" 
+chkIconsAusrichten.Caption = "Στοίχιση στο πλέγμα" 
+chkIconsAnordnen.Caption = "Αυτόματη Τακτοποίηση" 
+frmWechselElementHintergrund.Caption = "Φόντο" 
+chkWechselElementHintergrund.Caption = "Προσαρμογή φόντου" 
+chkAenderungenUebernehmenHintergrund.Caption = "Εφαρμόστε τις αλλαγές στο εγχειρίδιο διαμόρφωσης του Dexpot" 
+frmWechselElementAufloesung.Caption = "Ανάλυση οθόνης" 
+chkWechselElementAufloesung.Caption = "Προσαρμογή ανάλυση οθόνης" 
+chkAenderungenUebernehmenAufloesung.Caption = "Εφαρμόστε τις αλλαγές στο εγχειρίδιο διαμόρφωσης του Dexpot" 
+chkAufloesungFragen.Caption = "Να γίνεται ερώτηση πριν από την αλλαγή ανάλυση της οθόνης" 
+chkAufloesungFenstergroesse.Caption = "Αποθηκεύστε το μέγεθος του παραθύρου"
+frmWechselElementSchoner.Caption = "Προφύλαξη οθόνης" 
+chkWechselElementSchoner.Caption = "Προσαρμογή προφύλαξη οθόνης" 
+chkAenderungenUebernehmenSchoner.Caption = "Εφαρμόστε τις αλλαγές στο εγχειρίδιο διαμόρφωσης του Dexpot"
+
+##Desktopnamen 
+lblEinblendungErklaerung.Caption = "Το όνομα της επιφάνειας εργασίας επιτρέπει να εμφανίσετε το όνομα της τρέχουσας επιφάνειας εργασίας είτε μόνιμα είτε κάθε φορά μετά την αλλαγή επιφάνειων εργασίας." 
+lblEinblendung.Caption = "Εμφάνιση ονομασίας της επιφάνειας εργασίας:" 
+optEinblendung(1).Caption = "Ποτέ" 
+optEinblendung(2).Caption = "Όταν γίνεται αλλαγή" 
+optEinblendung(3).Caption = "Παντοτινά" 
+lblEinblendungDauer.Caption = "Διάρκεια:" 
+lblEinblendungSekunden.Caption = "Δευτερόλεπτα" 
+lblEinblendungPosition.Caption = "Θέση:" 
+chkEinblendungPosition.Caption = "Φόντο επιφάνειας εργασίας" 
+lblEinblendungText.Caption = "Κείμενο:" 
+cmdEinblendungVariablen.Caption = "Μεταβλητές" 
+mnuVariable(1).Caption = "%g τρέχουσες επιφάνειες εργασίας (αριθμός)" 
+mnuVariable(2).Caption = "%G τρέχουσες επιφάνειες εργασίας (όνομα)" 
+mnuVariable(3).Caption = "%v προσορινές επιφάνειες εργασίας (αριθμός)" 
+mnuVariable(4).Caption = "%V προσορινές desktop (όνομα)" 
+lblEinblendungSchrifart.Caption = "Γραμματοσειρά:" 
+cmdEinblendungSchriftart.Caption = "..." 
+lblEinblendungHintergrund.Caption = "Φόντο:" 
+optEinblendungHintergrund(1).Caption = "Μονόχρωμα" 
+optEinblendungHintergrund(2).Caption = "Διαφανή" 
+cmdEinblendungHintergrund.Caption = "..." 
+lblEinblendungTransparenz.Caption = "Διαφανή:"
+
+#Extras
+frmExtrasPasswoerter.Caption = "Κωδικοί"
+cmdMasterPasswort.Caption = "Αλλαγή κύριου κωδικού"
+cmdPasswoerterZuruecksetzen.Caption = "Επαναφορά κωδικών"
+frmDebug.Caption = "Εκσφαλμάτωση"
+chkDebugLog.Caption = "Ενεργοποίηση αρχείο καταγραφής"
+chkDebugVorschau.Caption = "Απενεργοποίηση προεπισκόπηση πλήρους οθόνης"
+#MODIFIED in Dexpot 1.5.1
+chkDebugTaskleiste.Caption = "Μην κρατάτε το πλήκτρο στη γραμμή εργασιών"
+###
+chkDebugZuordnung.Caption = "Απενεργοποίηση ανάκτηση παραθύρου"
+
+#ADDED in Dexpot 1.5.0
+frmPlugins.Caption = "Πρόσθετες λειτουργίες"
+cmdPluginEinstellungen.Caption = "Διαμόρφωση"
+lblPluginAutorLabel.Caption = "Δημιουργός:"
+lblCrossDesktop.Caption = "Όταν ενεργοποιείτε ένα παράθυρο σε μια άλλη επιφάνεια εργασίας:"
+frmCrossDesktop.Caption = "Συμπεριφορά των παραθύρων σε άλλες επιφάνειες εργασίας"
+cmbCrossDesktop.List(0) = "Μετάβαση στην αντίστοιχη επιφάνεια εργασίας"
+cmbCrossDesktop.List(1) = "Μετακίνηση παραθύρου στην τρέχουσα επιφάνεια εργασίας"
+cmbCrossDesktop.List(2) = "Αντιγραφή παραθύρου στην τρέχουσα επιφάνεια εργασίας"
+cmbCrossDesktop.List(3) = "Καμία ενέργεια"
+
+strVorherigen = "προηγούμενη επιφάνεια εργασίας"
+strNaechsten = "επόμενη επιφάνεια εργασίας"
+###
+
+#ADDED in Dexpot 1.5.10
+cmdPluginHotkeys.Caption = "Καθορισμός πλήκτρων πρόσβασης"
+###
+
+#Strings 
+strZuruecksetzen = "Επαναφορά προεπιλεγμένων ρυθμίσεων" 
+strslideshowabbrechen = "Διακοπή προβολής διαφανειών" 
+strTrayicon = "Εναλλαγή εικονιδίου γραμμής εργασιών" 
+strTransparenzFestlegen = "Ορισμός τιμής της διαφάνειας" 
+strTransparenzErhoehen = "Αύξηση της διαφάνειας" 
+strTransparenzVerringern = "Μείωση της διαφάνειας" 
+strDexpotFenster = "Dexpot στοιχεία" 
+strSonstiges = "Διάφορα" 
+strTransparenz = "Διαφάνεια" 
+strAufAlle = "σε όλα" 
+strAuf = "σε" 
+strKopieren = "Αντιγραφή παραθύρου" 
+strVerschieben = "Μετακίνηση παραθύρου" 
+strVorheriger = "Προηγούμενη επιφάνεια εργασίας" 
+strNaechster = "Επόμενη επιφάνεια εργασίας" 
+strWechseln = "Αλλαγή επιφάνεια εργασίας" 
+strMitte = "Κέντρο" 
+strMitteOben = "Πάνω κέντρο" 
+strMitteUnten = "Κάτω κέντρο" 
+strLinks = "Αριστερά" 
+strLinksOben = "Πάνω αριστερά" 
+strLinksUnten = "Κάτω αριστερά" 
+strRechts = "Δεξιά" 
+strRechtsOben = "Πάνω δεξιά" 
+strRechtsUnten = "Κάτω δεξιά" 
+strMsgName = "Γλώσσα" 
+strMsgAutor = "Δημιουργός" 
+strMsgKommentar = "Περιγραφή" 
+strMsgSprachdatei = "Πληροφορίες πάνω στο αρχείο της γλώσσας" 
+strMsgPasswoerterZuruecksetzen = "Θέλετε πράγματι να επαναφέρετε όλους τους κωδικούς πρόσβασης; Ο κύριος κωδικός πρόσβασης και όλοι οι κωδικοί πρόσβασης των επιφάνειων εργασιών θα αφαιρεθούν." 
+strTransparenzZuruecksetzen = "Επαναφορά τιμών της διαφάνειας" 
+strRegelnDeaktivieren = "Απενεργοποίηση των κανόνων" 
+strAltTab = "Εργασία εναλλαγής" 
+strFensterSchliessen = "Κλείσιμο παραθύρου" 
+strZurueck = "Πίσω" 
+strStartDesktopGleichLetzterDesktop = "Τελευταία ενεργή επιφάνεια εργασίας" 
+strMsgAlleHotkeysLoeschen = "Θέλετε πράγματι να διαγράψετε όλα τα καθορισμένα πλήκτρα πρόσβασης;" 
+strMsgProfilLoeschen = "Θέλετε πραγματικά να διαγράψετε το επιλεγμένο προφίλ;" 
+strMsgProfilSpeichern1 = "Θέλετε πράγματι να αντικαταστήσετε το" 
+strMsgProfilSpeichern2 = "προφίλ?"
+strMsgProfilGeladen = "Το προφίλ εχει φορτωθεί με επιτυχία." 
+strMsgProfilGespeichert = "Το προφίλ αποθηκεύτηκε με επιτυχία." 
+strMsgProfilStandard = "Το προεπιλεγμένο προφίλ δεν είναι δυνατόν να αντικατασταθεί."
+strMsgProfilNichtGespeichert = "Το προφίλ δεν μπορεί να αποθηκευτεί."
+strFenstermenue = "Μενού παραθύρου"
+strHintergrund = "Μετακίνηση στο παρασκήνιο"
+
+#ADDED in Dexpot 1.5.0
+strDesktopwechsler = "Εναλλαγέας επιφάνεια εργασίας"
+strPluginNichtAktivierbar = "Αυτό το plugin δεν είναι συμβατό με την έκδοση των Windows ή του Dexpot."
+###
+
+#ADDED in Dexpot 1.5.6
+strAddDesktop = "Προσθήκη επιφάνεια εργασίας"
+strRemoveDesktop = "Αφαίρεση επιφάνεια εργασίας"
+###
+
+#ADDED in Dexpot 1.5.14
+strMoveFollow = "Μετακίνηση παραθύρου και αλλαγή"
+###
+
+[frmFenster] 
+#ADDED in 1.5.0
+frmFenster.Caption = "Επιφάνεια εργασίας των Windows - Dexpot"
+###
+cmdSchliessen.Caption = "&Κλείσιμο" 
+cmdAktualisieren.Caption = "&Ανανέωση" 
+#MODIFIED in 1.5.0
+strFenstertitel = "Τίτλος" 
+strFensterstatus = "Κατάσταση" 
+strFensterhandle = "Λαβή" 
+strMsgIcons = "Η προεπισκόποιση αυτή είναι διαθέσιμη μόνο εάν έχετε ενεργοποιήσει 'Προσαρμογή εικονιδίων της επιφάνειας εργασίας' για να διανείμει τα εικονίδια μεταξύ των διαφορετικών επιφάνειων εργασιών. Θα βρείτε αυτή τη δυνατότητα και όλες οι σχετικές επιλογές στην 'Εναλλαγή Επιφάνειων εργασιών'-καρτέλα στις ρυθμίσεις.\n\nΘέλετε να ενεργοποιήσετε 'Προσαρμογή εικονιδίων της επιφάνειας εργασίας' τώρα;" 
+#
+strNormal = "Κανονικό" 
+strMaximiert = "Μεγιστοποιήθηκε" 
+strMinimiert = "Ελαχιστοποιήθηκε" 
+strWiederherstellen = "Επαναφορά" 
+mnuWechseln.Caption = "Αλλαγή" 
+strFensterAnzahl = "Παράθυρα:" 
+strIconAnzahl = "Εικονίδια:"
+mnuSammeln.Caption = "Συγκέντρωση παραθύρων" 
+mnuDesktopKonfigurieren.Caption = "Διαμόρφωση" 
+tabFenster.Tabs(1).Caption = "Παράθυρα" 
+tabFenster.Tabs(2).Caption = "Επισκόπηση" 
+tabFenster.Tabs(3).Caption = "Προεπισκόπηση 
+tabFenster.Tabs(4).Caption = "Κρυφό" 
+tabFenster.Tabs(5).Caption = "Εικονίδια" 
+strSystemTray = "Γραμμή εργασιών"
+mnuSucheAlles.Caption = "Όλα"
+mnuSucheTitel.Caption = "Τίτλος"
+mnuSucheKlasse.Caption = "Κατηγορία"
+mnuSucheExe.Caption = "Εκτελέσιμα"
+
+
+[frmTransparenz] 
+frmTransparenz.Caption = "Διαφάνεια - Dexpot" 
+cmdUebernehmen.Caption = "Εφαρμογή" 
+cmdSchliessen.Caption = "Κλείσιμο" 
+cmdOK.Caption = "&Εντάξει" 
+frmTransparent.Caption = "Διαφάνεια" 
+lblSichtbar.Caption = "Ορατό" 
+lblUnsichtbar.Caption = "Αόρατο" 
+strBitteWaehlen = "Παρακαλούμε να ορίσετε τη διαφάνεια, την οποία θέλετε να ορίσετε για" 
+strUnd = "και" 
+strWeitere = "επιπλέον παράθυρο(α)" 
+strFestlegen = ":"
+chkFarbe.Caption = "Κάντε περιοχές με αυτό το χρώμα διαφάνειας:"
+
+
+[frmPasswort] 
+frmPasswort.Caption = "Κωδικός - Dexpot" 
+frmEingabe.Caption = "Κωδικός" 
+cmdOK.Caption = "&Εντάξει" 
+cmdAbbrechen.Caption = "&Ακύρωση" 
+lblAuswertung.Caption = "Μη έγκυρος κωδικός πρόσβασης" 
+lblInfo.Caption = "Η επιφάνεια εργασίας που επιθυμείτε να μεταβείτε προστατεύεται με κωδικό πρόσβασης. Θα σας ζητηθεί να εισάγετε τον αντίστοιχο κωδικό:"
+
+
+[frmNeuesProfil] 
+frmNeuesProfil.Caption = "Αποθήκευση των τρέχον ρυθμίσεων ως νέο προφίλ" 
+lblProfil.Caption = "Αποθήκευση &προφίλ ως:" 
+cmdAbbrechen.Caption = "&Ακύρωση" 
+cmdOK.Caption = "&Εντάξει" 
+strMsgNameNeuesProfil = "Παρακαλώ εισάγετε ένα όνομα για το νέο προφίλ:"
+strMsgZeichenNeuesProfil = "Το όνομα προφίλ δεν πρέπει να περιέχει κανένα από αυτούς τους χαρακτήρες:"
+
+
+[frmProfilAuswahl] 
+frmProfilAuswahl.Caption = "Επιλογή Προφίλ - Dexpot" 
+lblWillkommen.Caption = "Καλώς ήρθατε στο Dexpot! Παρακαλούμε να επιλέξετε αν θέλετε να φορτώσετε ένα συγκεκριμένο προφίλ ή να χρησιμοποιήσετε τις προηγούμενες σας ρυθμίσεις." 
+frmProfile.Caption = "Προφίλς" 
+lblProfile.Caption = "Επιλογή προφίλ:" 
+cmdProfil.Caption = "Φόρτωση πρ&οφίλ" 
+cmdLetzte.Caption = "&Χρησιμοποιήστε την προηγούμενη διαμόρφωση"
+
+
+[frmRegeln] 
+frmRegeln.Caption = "Κανόνες Επιφάνειας Εργασίας - Dexpot" 
+tabRegeln.Tabs(1).Caption = "Επισκόπηση"
+tabRegeln.Tabs(2).Caption = "Προϋποθέσεις"
+tabRegeln.Tabs(3).Caption = "Ενέργειες"
+cmdOK.Caption = "&Εντάξει" 
+cmdAbbrechen.Caption = "&Ακύρωση" 
+cmdUebernehmen.Caption = "&Εφαρμογή" 
+cmdAnwenden.Caption = "Εφαρμογ&ή κανόνων" 
+cmdAssi.Caption = "&Βοήθεια"
+cmdNeu.Caption = "&Καινούριο" 
+cmdEntfernen.Caption = "&Αφαίρεση" 
+lblName.Caption = "Όνομα" 
+chkDeaktivieren.Caption = "Απενεργοποίηση &κανόνα" 
+frmBedingungen.Caption = "Προϋποθέσεις" 
+frmAktionen.Caption = "Ενέργειες" 
+cmdNeueBedingung.Caption = "+" 
+cmdBedingungEntfernen.Caption = "-" 
+cmdNeueAktion.Caption = "+" 
+cmdAktionEntfernen.Caption = "-" 
+chkFolgen.Caption = "&Ακολουθήστε μετά την Μετακίνηση" 
+lblTyp.Caption = "Τύπος:" 
+lblSucher.Caption = "Εργαλείο επιλογής:"
+cmdNeueBedingung.ToolTipText = "Προσθήκη νέας προϋπόθεσης"
+cmdNeueAktion.ToolTipText = "Προσθήκη νέας ενέργειας"
+cmdBedingungEntfernen.ToolTipText = "Διαγράψτε την επιλεγμένη προϋπόθεση"
+cmdAktionEntfernen.ToolTipText = "Διαγράψτε την επιλεγμένη ενέργεια"
+cmdImport.Caption = "Κανόνες εισαγωγής"
+lblSichtbar.Caption = "Ορατό"
+lblUnsichtbar.Caption = "Αόρατο"
+cmdDurchsuchen.Caption = "Αναζήτηση..."
+frmVerknuepfung.Caption = "Συνδρομή"
+optVerknuepfung(0).Caption = "Ταίριασμα όλων των προϋποθέσεων"
+optVerknuepfung(1).Caption = "Ταίριασμα μίας προϋπόθεσης"
+lblWert.Caption = "&Τιμή:"
+frmAusnahmen.Caption = "Μην εφαρμόζετε κανόνα σε"
+chkSichtbar.Caption = "&Αόρατα παράθυρα"
+chkRand.Caption = "Παράθυρα χωρίς πλαίσιο"
+chkTitel.Caption = "Παράθυρα χωρίς τίτλους"
+chkTopLevel.Caption = "Δευτερεύουσα παράθυρα"
+chkAutomatisch.Caption = "Εφαρμογή κανόνα αυτόματα"
+strFenstertitel = "Τίτλος παραθύρου" 
+strFensterklasse = "Παράθυρο κατηγορίας" 
+strAlleFenster = "Όλα τα παράθυρα" 
+strist = "είναι" 
+strenthaelt = "περιέχει" 
+strenthaeltnicht = "δεν περιέχει" 
+strbeginntmit = "αρχίζει με" 
+strendetmit = "τελειώνει με" 
+strAlleBedingungen = "Πληρούν όλες τις προϋποθέσεις" 
+strEineBedingung = "Πληρεί μία προϋπόθεση" 
+strVerschieben = "Μετακίνηση" 
+strKopieren = "Αντιγραφή" 
+strTransparenz = "Ορίστε μια τιμή διαφάνειας" 
+strSchliessen = "Κλείσιμο" 
+strund = "και" 
+stroder = "ή" 
+strVerschiebenAuf = "Μετακίνηση στην επιφάνεια εργασίας" 
+strKopierenAuf = "Αντιγραφή στο" 
+strTransparenzFestlegen = "Ορίστε μια τιμή διαφάνειας:" 
+strFensterSchliessen = "Κλεισιμο παραθύρου" 
+strBedingung = "Προϋπόθεση"
+strAktion = "Ενέργεια" 
+strNeueRegel = "Νέος κανόνας" 
+strEXEName = "Εκτελέσιμο" 
+strVordergrund = "Πάντα στην κορυφή" 
+strAusfuehren = "Εκτέλεση" 
+strTrayMinimieren = "Ελαχιστοποίηση στη γραμμή εργασιών" 
+
+#ADDED in Dexpot 1.5.15
+strRegExp = "ταιριάζει με regexp"
+strRegExpi = "ταιριάζει με regexp (διάκριση πεζών-κεφαλαίων)"
+###
+
+
+[frmProfilladen] 
+lblProfilLaden.Caption = "Παρακαλώ επιλέξτε τα τμήματα του προφίλ που θα πρέπει να φορτώσεται:" 
+optAlle.Caption = "Ολοκληρωμένο πρ&οφίλ" 
+optTeile.Caption = "Μόνο τμήμ&ατα:" 
+frmTeile.Caption = "Τμήματα προφίλ" 
+chkEinstellungen.Caption = "&Ρυθμήσεις" 
+chkHotkeys.Caption = "&Πλήκτρα πρόσβασης" 
+chkEigenschaften.Caption = "&Επιλογές" 
+chkIcons.Caption = "&Θέσεις εικονιδίων" 
+chkHintergrund.Caption = "Εικόνες φόντου" 
+chkTools.Caption = "Εργ&αλεία" 
+chkRegeln.Caption = "&Κανόνες" 
+chkAutostart.Caption = "Εκκ&ίνηση"
+frmOptionen.Caption = "Επιλογές"
+chkSammeln.Caption = "&Συγκεντρώστε τα παράθυρα στην ενεργή επιφάνεια εργασίας"
+chkAnwenden.Caption = "&Εφαρμογή των κανόνων επιφάνεια εργασίας"
+cmdOK.Caption = "&Εντάξει" 
+cmdAbbrechen.Caption = "&Ακύρωση" 
+strProfilLaden = "Φόρτωση Προφίλ"
+
+
+[frmRegelImport] 
+frmRegelImport.Caption = "Εισ-/Εξαγωγή Επιφάνειας Εργασίας Rules - Dexpot" 
+cmdSchliessen.Caption = "&Κλείσιμο" 
+cmdImportieren.Caption = "<< &Εισαγωγή" 
+cmdExportieren.Caption = "&Εξαγωγή >>" 
+cmdLaden.Caption = "&Φόρτωση αρχείου κανόνα" 
+cmdErstellen.Caption = "Δημ&ιουργία αρχείου κανόνα" 
+frmDatei.Caption = "Κανόνες μέσα στο αρχείο" 
+frmLokal.Caption = "Τοπικοί κανόνες" 
+cmdAlleImportieren.Caption = "<< Ε&ισαγωγή όλων" 
+cmdAlleExportieren.Caption = "Εξαγ&ωγή όλων >>" 
+cmdLoeschen.Caption = "Διαγραφή απο το &αρχείο" 
+strLaden = "Φόρτωση αρχείου κανόνα" 
+strErstellen = "Δημιουργία νέου αρχείου κανόνα" 
+strExt = "Αρχεία κανόνων του Dexpot" 
+strExt2 = "Dexpot Προφίλς"
+strAktionen = "Ενέργεια(ες)" 
+strBedingungen = "Προϋπόθεση(εις)" 
+strMsgLoeschen = "Θέλετε πράγματι να διαγράψετε τους επιλεγμένους κανόνες από το αρχείο;" 
+lblDatei.Caption = "Τρέχον αρχείο κανόνα:" 
+strMsgLokalUeber = "Σε περίπτωση που ο τοπικός κανόνας" 
+strMsgLokalUeber2 = "να αντικατασταθεί από έναν κανόνα με το ίδιο όνομα από το αρχείο του κανόνα;" 
+strMsgDateiUeber = "Ο κανόνας" 
+strMsgDateiUeber2 = "υπάρχει ήδη στο αρχείο του κανόνα. Θέλετε να το αντικαταστήσετε με τον τοπικό κανόνα;"
+
+
+[frmVorschau] 
+frmVorschau.Caption = "Προεπισκόπηση επιφάνεια εργασίας - Dexpot" 
+mnuSchliessen.Caption = "Κλείσιμο" 
+mnuImHintergrund.Caption = "Αυτόματη απόκρυψη του πίνακα προεπισκόπησης" 
+mnuAutoStart.Caption = "Ξεκινήστε με το Dexpot" 
+mnuSeitenverhaeltnisErzwingen.Caption = "Σωστή αναλογία εικόνας" 
+mnuSeitenverhaeltnisFest.Caption = "Διατήρηση αναλογία διαστάσεων" 
+mnuTitel.Caption = "Απόκρυψη γραμμής τίτλου" 
+mnuVerstecken.Caption = "Απόκρυψη περιεχομένων επιφάνεια εργασίας" 
+strVersteckt = "[Περιεχόμενα κρυμμένα]"
+mnuSymbolisch.Caption = "Εικονική Προεπισκόπηση"
+
+
+[frmIconZieher] 
+frmIconZieher.Caption = "Αποσυμπίεση Εικονιδίου - Dexpot" 
+lblDatei.Caption = "Αναζήτηση για εικόνες σε αυτό το αρχείο"
+cmdDurchsuchen.Caption = "&Αναζήτηση..." 
+lblIcons.Caption = "Επιλέξτε ένα εικονίδιο από την παρακάτω λίστα:" 
+cmdOK.Caption = "&Εντάξει" 
+cmdSchliessen.Caption = "&Ακύρωση" 
+strMsgKeineDatei = "Δέν βρέθηκε το αρχείο." 
+strMsgKeineIcons = "Το αρχείο δεν περιέχει εικονίδια." 
+
+
+[frmKonfig] 
+frmKonfig.Caption = "Διαμόρφωση επιφάνειων εργασιών - Dexpot" 
+lblPasswort.Caption = "Κωδικός:" 
+cmdManagerIcon.Caption = "..." 
+lblManagerIcon.Caption = "Διευθυντής εικονιδίου:" 
+lblAufloesung.Caption = "Ανάλυση:" 
+lblName.Caption = "Όνομα:" 
+cmdWechselSoundAn.Caption = "..." 
+lblWechselsoundAn.Caption = "Είσοδος ήχου:" 
+cmdWechselSoundAb.Caption = "..." 
+lblWechselsoundAb.Caption = "Έξοδος ήχου:" 
+cmdStandardIcon.Caption = "Προεπιλογή" 
+cmdLoeschenAn.Caption = "X" 
+cmdLoeschenAn.ToolTipText = "Αφαίρεση" 
+cmdLoeschenAb.Caption = "X" 
+cmdLoeschenAb.ToolTipText = "Αφαίρεση" 
+cmdBetretenAbspielen.ToolTipText = "Αναπαραγωγή" 
+cmdVerlassenAbspielen.ToolTipText = "Αναπαραγωγή" 
+cmdManagerIcon.ToolTipText = "Αναζήτηση" 
+cmdStandardIcon.ToolTipText = "Ορίστε το προεπιλεγμένο σύμβολο Dexpot ως Διευθυντή εικονιδίου" 
+lblBildschirmschoner.Caption = "Προφύλαξη οθόνης:" 
+lblWartezeit.Caption = "Καθυστέρηση:" 
+cmdBildschirmschoner.Caption = "..." 
+cmdSchonerVorschau.Caption = "Προεπισκόπηση" 
+cmdSchonerEinstellungen.Caption = "Ρυθμίσεις" 
+cmdSchliessen.Caption = "&Ακύρωση" 
+cmdOK.Caption = "&Εντάξει" 
+cmdUebernehmen.Caption = "&Εφαρμογή" 
+cmdDurchsuchen.Caption = "&Αναζήτηση..." 
+cmdEntfernen.Caption = "Αφαίρεση εικόνας" 
+cmbStyle.List(0) = "Κέντρο" 
+cmbStyle.List(1) = "Τίτλος" 
+cmbStyle.List(2) = "Τέντωμα"
+#ADDED in Dexpot 1.5
+cmbStyle.List(3) = "Προσαρμογή"
+cmbStyle.List(4) = "Συμπλήρωση"
+###
+frmKomponentenVerstecken.Caption = "Απόκρυψη στοιχείων επιφάνειας εργασίας" 
+chkTaskleiste.Caption = "Γραμμή εργασιών" 
+chkDesktopIcons.Caption = "Eικονίδια επιφάνειας εργασίας" 
+chkStartbutton.Caption = "κουμπί Έναρξης" 
+chkTaskbarIcons.Caption = "Δίσκος του συστήματος" 
+frmDesktopicons.Caption = "Εικονίδια επιφάνεια εργασίας" 
+chkUnterschriften.Caption = "Διαφανής ονόματα εικονιδίων" 
+chkKleineSymbole.Caption = "Μικρά εικονίδια" 
+lblAutostartBefehl.Caption = "Εντολή:" 
+lblAutostartEreignis.Caption = "Γεγονός:" 
+cmdAutostartDurchsuchen.Caption = "Α&ναζήτηση..." 
+cmdAutostartHinzufuegen.Caption = "Προσθήκη" 
+cmdAutostartAendern.Caption = "Ε&πεξεργασία"
+cmdAutostartEntfernen.Caption = "Αφαίρεση" 
+lblAutostartSchliessen.Caption = "&Κλείσιμο:"
+AutoStartEvents.ErstesBetreten = "Πρώτη καταχώρηση" 
+AutoStartEvents.ErstesVerlassen = "Πρώτη έξοδος" 
+AutoStartEvents.JedesBetreten = "Κάθε καταχώρηση" 
+AutoStartEvents.JedesVerlassen = "Κάθε έξοδος" 
+AutoStartEvents.DexpotStart = "Εκκίνηση του Dexpot" 
+AutoStartEvents.DexpotEnde = "Τέλος του Dexpot"
+AutoStartEvents.Nie = "Ποτέ"
+AutoStartEvents.NaechstesBetreten = "Επόμενη καταχώρηση"
+AutoStartEvents.NaechstesVerlassen = "Επόμενη έξοδος"
+mnuAutostartAusfuehren.Caption = "Εκτέλεση τώρα" 
+mnuAutostartAktivieren.Caption = "Ενεργοποίηση" 
+mnuAutostartDeaktivieren.Caption = "Απενεργοποίηση" 
+tabKonfig.Tabs(1).Caption = "Ιδιότητες" 
+tabKonfig.Tabs(2).Caption = "Φόντο" 
+tabKonfig.Tabs(3).Caption = "Εργαλεία" 
+tabKonfig.Tabs(4).Caption = "Εκκίνηση" 
+lvAutostart.ColumnHeaders(1).Text = "Εντολή" 
+lvAutostart.ColumnHeaders(2).Text = "Γεγονός" 
+lvAutostart.ColumnHeaders(3).Text = "Κλείσιμο"
+chkIconText.Caption = "Απόκρυψη τίτλους εικονιδίων" 
+lblIconGroesse.Caption = "&Μέγεθος εικονιδίου:"
+chkSchonerKennwort.Caption = "&Προστασία κωδικού πρόσβασης"
+#MODIFIED in 1.5.0
+lblHintergrund.Caption = "Διαδρομή:"
+###
+lblAusrichtung.Caption = "Ε&υθυγράμμιση:"
+lblDesktopFarbe.Caption = "Χρώμα επιφάνεια εργασίας:"
+strMsgKeinMasterPasswort = "Έχετε ορίσει έναν κωδικό πρόσβασης για μία ή περισσότερες επιφάνειες εργασίας Για να ενεργοποιήσετε τη προστασία με κωδικό πρόσβασης του Dexpot, ένας κύριος κωδικός πρόσβασης είναι απαραίτητος.\n\nΘέλετε να ορίσετε τον κύριο κωδικό πρόσβασης τώρα;" 
+strMsgWechselElementAufloesung = "Πριν από την ατομική ανάλυση της οθόνης που μπορεί να ανατεθεί σε αυτή την επιφάνεια εργασίας, η επιλογή 'Προσαρμογή της ανάλυσης οθόνης' στις ρυθμίσεις του Dexpot πρέπει να ενεργοποιηθεί.\n\nΘέλετε να ενεργοποιήσετε αυτήν τη ρύθμιση τώρα;" 
+strMsgWechselElementHintergrund = "Πριν από την ατομική εικόνα φόντου που μπορεί να ανατεθεί σε αυτή την επιφάνεια εργασίας, η προσαρμογή φόντου στις ρυθμίσεις του Dexpot πρέπει να ενεργοποιηθεί.\n\nΘέλετε να ενεργοποιήσετε αυτήν τη ρύθμιση τώρα;" 
+strMsgWechselElementSchoner = "Πριν από την ατομική για αυτήν την προφύλαξη οθόνης της επιφάνεια εργασίας που μπορεί να οριστεί, η 'Προσαρμογή της προφύλαξης οθόνης' στις ρυθμίσεις του Dexpot πρέπει να ενεργοποιηθεί.\n\nΘέλετε να ενεργοποιήσετε αυτήν τη ρύθμιση τώρα;"
+lblIconTextFarbe.Caption = "Χρώμα κειμένου:"
+mnuKopierenAlles.Caption = "Όλα"
+mnuKopieren.Caption = "Αντιγραφή εδώ"
+
+
+[frmUebersicht] 
+strPasswortGeschuetzt = "[Προστασία κωδικού πρόσβασης]"
+strInDenTrayMinimiert = "Ελαχιστοποιήθηκε στο δίσκο του συστήματος"
+
+
+[frmRegelAssistent] 
+frmRegelAssistent.Caption = "Βοηθός Κανόνων - Dexpot" 
+lblSchritt1.Caption = "Δημιουργία νέου κανόνα - Βήμα 1" 
+lblBeschreibung1.Caption = "Αυτός ο βοηθός θα σας καθοδηγήσει βήμα προς βήμα στη δημιουργία ενός νέου κανόνα, και θα σας βοηθήσει να ορίσετε τις επιθυμητές συνθήκες και ενέργειες." 
+lblRegelName.Caption = "Το όνομα του νέου κανόνα:" 
+frmRegelOption.Caption = " Δημιουργία από " 
+optNeueRegel.Caption = "κενό κανόνα" 
+optVorhandeneRegel.Caption = "ισχύοντα κανόνα:" 
+optRegelDatenbank.Caption = "βάση δεδομένων κανόνα:" 
+chkDeaktivieren.Caption = "Απενεργοποίηση κανόνα από προεπιλογή" 
+cmdSchritt2.Caption = "&Επόμενο" 
+cmdCancel.Caption = "&Ακύρωση" 
+strSchrittTitel1 = "Δημιουργία νέου κανόνα " 
+strSchrittTitel2 = " - Βήμα " 
+strSchrittTitel3 = " - Σύνοψη" 
+lblBeschreibung2.Caption = "Σε αυτό το βήμα, θα καθορίσετε τις ομάδες στις οποίες ο νέος κανόνας πρέπει να εφαρμόζεται. Μπορείτε να πληκτρολογήσετε τους όρους χειροκίνητα, ή σύρετε το στόχο με το ποντίκι σας στο παράθυρο για το οποίο σκοπεύετε να δημιουργήσετε τον κανόνα." 
+chkAusblenden.Caption = "Απόκρυψη Βοηθού κατά τη διάρκεια της επιλογής παραθύρου" 
+frmUndOderOder.Caption = " Λογική πράξη " 
+optEineRegel.Caption = "Πληροί έναν όρο" 
+optAlleRegeln.Caption = "Πληρούν όλες τις προϋποθέσεις" 
+frmBedingung.Caption = " Προϋπόθεση" 
+cmdBdgLoeschen.Caption = "&Διαγραφή..." 
+cmdBdgHinzufuegen.Caption = "&Προσθήκη" 
+cmdZurueckZu1.Caption = "&Πίσω" 
+cmdSchritt3.Caption = "&Επόμενο" 
+strMindEineBedingung = "Πρέπει να ορίσετε τουλάχιστον ένα έγκυρο όρο." 
+strMaxBedingungen = "Η προσθήκη περαιτέρω προϋποθέσεων δεν είναι δυνατή εντός του Βοηθού. Ωστόσο, μπορείτε να προσθέσετε περισσότερες προϋποθέσεις, μετά απο τον κανόνα που έχει δημιουργηθεί." 
+lblBeschreibung3.Caption = "Τώρα μπορείτε να καθορίσετε τις ενέργειες που εφαρμόζονται σε όλα τα παράθυρα που ταιριάζουν με τις προϋποθέσεις που καθορίστηκαν πριν." 
+frmBedingungListe.Caption = " Προϋποθέσεις " 
+frmAktion.Caption = " Ενέργεια" 
+cmdAknLoeschen.Caption = "&Διαγραφή..." 
+cmdAknHinzufuegen.Caption = "&Προσθήκη" 
+chkFolgen.Caption = "Ακολουθήστε μετά την κίνηση" 
+lblSichtbar.Caption = "Ορατό" 
+lblUnsichtbar.Caption = "Αόρατο" 
+cmdDurchsuchen.Caption = "Αναζήτηση..." 
+cmdZurueckZu2.Caption = "&Πίσω" 
+cmdFertig.Caption = "&Επόμενο" 
+strMindEineAktion = "Δεν έχουν καθοριστεί ακόμα έγκυρες ενέργειες. Είναι δυνατόν να δημιουργηθεί ένας κενός κανόνας τώρα, και να προσθέσετε ενέργειες αργότερα." 
+strMaxAktionen = "Η προσθήκη των περαιτέρω ενεργειών δεν είναι δυνατή εντός του Βοηθού. Ωστόσο, μπορείτε να προσθέσετε περισσότερες ενέργειες μετά απο την διμιουργία του κανόνα." 
+lblBeschreibung4.Caption = "Τέλος, εδώ είναι μια λίστα με όλες τις προϋποθέσεις και ενέργειες που καθορίζονται για το νέο κανόνα. Κάντε κλικ στο κουμπί 'Τέλος' για να δημιουργήσετε τον κανόνα." 
+cmdZurueckZu3.Caption = "&Πίσω" 
+cmdOK.Caption = "&Τέλος"
+strRegelErsetzen = "Ένας κανόνας με το συγκεκριμένο όνομα υπάρχει ήδη. Κάντε κλικ στο κουμπί 'ναι' για να το αντικαταστήσει, 'Όχι' για να δημιουργήσετε ένα νέο κανόνα με το ίδιο όνομα, ή '’κυρο' για να αλλάξετε το όνομα του κανόνα τώρα."
+strWiderspruch1 = "Οι προϋποθέσεις"
+strWiderspruch2 = "και"
+strWiderspruch3 = "είναι αντιφατικές. Παρακαλούμε ελέγξτε ξανά αυτές τις προϋποθέσεις."
+
+
+[frmWechselLeiste]
+strFenster = "Παράθυρα:"
+strAktiv = "Ενεργά:"
+strKlick = "Απλό κλίκ:"
+strDoppelKlick = "Διπλό κλίκ:"
+
+
+[frmSplash]
+lblFuer.Caption = "καταχωριστεί για:"
+strMsgUngueltig = "’κυρο κλειδί άδειας χρήσης."
+
+#ADDED in Dexpot 1.5.2
+strMsgWindowsZuAlt = "Το λειτουργικό σας σύστημα δεν υποστηρίζεται πλέον από αυτή την έκδοση του Dexpot. Παρακαλούμε κατεβάστε την Dexpot 1.4 από http://download.dexpot.de.\n\nΤο Dexpot θα τερματιστεί. Ζητούμε συγγνώμη για την ταλαιπωρία."
+###
+
+#ADDED in Dexpot 1.5.11
+strCommonControlsQuestion = "Το Windows Common Controls δεν είναι σωστά εγκατεστημένο σε αυτό το σύστημα. Θα θέλατε το Dexpot να προσπαθήσει να διορθώσει αυτό το πρόβλημα;"
+strCommonControlsCritical = "Το Windows Common Controls (mscomctl.ocx) δεν έχει εγκατασταθεί σωστά σε αυτό το σύστημα. Το Dexpot τώρα θα τερματιστεί.\n\nΓια περισσότερες πληροφορίες, επισκεφθείτε"
+###
+
+
+#ADDED Dexpot 1.4.2
+[frmUpdater]
+frmUpdater.Caption = "Ενημερωτής Dexpot"
+cmdAbbrechen.Caption = "’κυρο"
+cmdWeiter.Caption = "Έλεγχος για ενημερώσεις"
+lblInstallierteVersion.Caption = "Εγκατεστημένη έκδοση του Dexpot:"
+lblVersionVerfuegbar.Caption = "Νεότερη έκδοση που είναι διαθέσιμη:"
+lblUpdater.Caption = "Καλώς ήλθατε στον ενημερωτή του Dexpot"
+lblUpdater2.Caption = "Μία νέα έκδοση είναι διαθέσιμη"
+lblUpdater3.Caption = "Η ενημέρωση είναι σε εξέλιξη"
+lblUpdater4.Caption = "Η ενημέρωση ολοκληρώθηκε"
+lblText.Caption = "Αυτός ο ενημερωτής σας επιτρέπει να ενημερώσετε την εγκατάσταση του Dexpot στην τελευταία έκδοση.\n\nΑν μια νέα έκδοση είναι διαθέσιμη, πρέπει να κλείσετε το Dexpot για να εφαρμόσετε την ενημερωμένη έκδοση. Σας προτείνουμε επίσης το κλείσιμο όλων των άλλων εφαρμογών.\n\nΠριν προχωρήσετε, βεβαιωθείτε ότι έχετε μια λειτουργική σύνδεση στο internet. Στη συνέχεια, κάντε κλικ στο πλήκτρο 'Έλεγχος για ενημερώσεις'."
+lblKeinUpdate.Caption = "Χρησιμοποιείτε ήδη την τελευταία έκδοση του Dexpot."
+lblAbgeschlossen.Caption = "Η εγκατάσταση της ενημέρωσης ολοκληρώθηκε με επιτυχία."
+lblNeustart.Caption = "Ορισμένα αρχεία είναι ακόμα σε χρήση και μπορούν να αντικατασταθούν μόνο μετά την επανεκκίνηση των Windows.\n\nΗ εγκατάσταση θα ολοκληρωθεί αυτόματα την επόμενη φορά που θα ξεκινήσει το Dexpot."
+lblText2.Caption = "Κάντε κλικ στο πλήκτρο 'Εγκατάσταση' για να ενημερώσεται αυτόματα στην τελευταία έκδοση."
+lblFortschritt.Caption = "Κατάσταση της εγκατάστασης:"
+chkBeta.Caption = "Εμφάνιση δοκιμαστικών εκδόσεων (beta)"
+chkDexpotStarten.Caption = "Εκκίνηση του Dexpot"
+cmdMehrInformationen.Caption = "Περισσότερες πληροφορίες"
+lvUpdates.ColumnHeaders(1).Text = "Έκδοση"
+lvUpdates.ColumnHeaders(2).Text = "Περιγραφή"
+strBeenden = "Για να εγκαταστήσετε αυτήν την ενημερωμένη έκδοση, το Dexpot πρέπει να κλείσει.\n\nΘέλετε να τερματίσετε το Dexpot τώρα;"
+strUnbekannt = "άγνωστο"
+strKeinDexpot = "Δεν είναι δυνατή η εύρεση της εγκατάστασης του Dexpot!"
+strInstallieren = "εγκατάσταση"
+strFortsetzung = "Η εγκατάσταση συνεχίζεται"
+strUnvollstaendig = "Η εγκατάσταση είναι ελλιπείς"
+strNichtErfolgreich = "Δεν είναι δυνατή η ολοκλήρωση της εγκατάστασης με επιτυχία."
+strFertigstellen = "Τέλος"
+strInstalliere = "Εγκατάσταση"
+strUpdate = "Ενημέρωση"
+strLoesche = "Αφαίρεση"
+strZusaetzlich = "Εγκατάσταση επιπλέον απαιτούμενων ενημερωμένων εκδόσεων"
+strAbhaengig = "Εξαρτήσεις πληρούνται για την ενημέρωση"
+strHerunterladen = "Λήψη"
+strEntpacken = "Αποσυμπίεση"
+strAbgeschlossen = "Ολοκληρώθηκε η ενημέρωση στην έκδοση"
+strBenutzer = "Χρήστης"
+strPasswort = "Κωδικός"
+strDownloadFehler = "Σφάλμα λήψης"
+strEntpackenFehler = "Σφάλμα αποσυμπίεσης"
+strProUpdate = "’δειά σας για το Dexpot Pro δεν είναι συμβατή με τη νέα έκδοση. Μετά την εγκατάσταση θα πρέπει να ξεκλειδώσετε το Dexpot εισάγοντας ένα νέο κλειδί άδειας. Παρακαλούμε ελέγξτε http://pro.dexpot.de/ για πληροφορίες σχετικά με τον τρόπο ενημέρωσης της άδειάς σας.\n\nΘέλετε να προχωρήσετε με την εγκατάσταση;"
+###
+
+#ADDED in Dexpot 1.5
+[frmDexcube]
+frmDexcube.Caption = "Ρυθμήσεις - Dexpot"
+cmdOK.Caption = "&Εντάξει"
+cmdAbbrechen.Caption = "&Ακύρωση"
+cmdUebernehmen.Caption = "&Εφαρμογή"
+frmSwitchAnimation.Caption = "Αλλαγή κίνησης της επιφάνειας εργασίας"
+lblSwitchAnimation.Caption = "Εφέ:"
+lblZoomAutomatic.Caption = "Μεγέθυνση:"
+frmEffects.Caption = "Εφέ"
+chkUseLighting.Caption = "Σκιά"
+chkUseAlphaBlending.Caption = "Διαφάνεια"
+frmDuration.Caption = "Ταχύτητα κίνησης"
+lblCubeDurationBase.Caption = "Κύβος (λεπτά. διάρκεια):"
+lblCubeDurationPerDesktop.Caption = "Κύβος (ανά επιφάνεια εργασίας):"
+lblBrettDuration.Caption = "Πιάτο πρωινού:"
+lblWallDuration.Caption = "Τείχος και Προβολή σειράς διαφανειών:"
+lblZoomDuration.Caption = "Μεγέθυνση:"
+strKein = "Κανένα"
+strWuerfel = "Κύβος"
+strBrett = "Πιάτο πρωινού"
+strWand = "Τείχος"
+strStreifen = "Προβολή σειράς διαφανειών"
+strMaximal = "Ανώτατο όριο"
+strMinimal = "Κατώτατο όριο"
+strVariabel = "Μεταβλητή"
+chkMultithreading.Caption = "Πολυνηματικό"
+frmLeistung.Caption = "Aπόδοση"
+
+
+[frmWallpaperClock]
+frmWallpaperClock.Caption = "Wallpaper Clock - Dexpot"
+lblAuthorLabel.Caption = "Διμιουργός:"
+lblStyle.Caption = "Θέση:"
+chk24Hour.Caption = "Χρησιμοποιήστε μορφή 24 ωρών"
+cmdSelectFolder.Caption = "Επιλέξτε εναν φάκελο..."
+lblGetMoreClocks.Caption = "Αποκτήστε περισσότερες ταπετσαρίες με ρολόγια στη:"
+cmdOK.Caption = "&Εντάξει
+cmdApply.Caption = "&Εφαρμογή"
+cmdCancel.Caption = "&Ακύρωση"
+strKeineClock = "(τακτική ταπετσαρία)"
+frmVorschau.Caption = "Προεπισκόπηση"
+lblSizeLabel.Caption = "Μέγεθος:"
+strBrowseForFolder = "Παρακαλούμε επιλέξτε ένα φάκελο που περιέχει ταπετσαρία με ρολόι (*. wcz) αρχεία:"
+
+
+[Dexcube]
+Description = "Το Dexcube παρέχει μια σειρά από 3D εφέ για να εμψυχώσει την κίνηση μεταξύ των επιφάνειων εργασιών. Απαιτείται DirectX 9."
+HotkeyManualControl = "Χειροκίνητος έλεγχος"
+HotkeyManualControlNext = "Χειροκίνητος επόμενος έλεγχος"
+HotkeyManualControlPrevious = "Χειροκίνητος προηγούμενος έλεγχος"
+
+[SevenDex]
+Description = "Το SevenDex ενσωματώνει ένα πλήκτρο για εναλλαγή των επιφάνειων εργασιών στη γραμμή εργασιών των Windows 7."
+
+[Slideshow]
+Description = "Οι Προβολή διαφάνειας της επιφάνειας εργασίας αλλάζει αυτόματα μεταξύ των επιφάνειων εργασιών μετά από ένα προκαθορισμένο χρονικό διάστημα."
+HotkeyDesktopSlideshow = "Προβολή διαφάνειας επιφάνειας εργασίας"
+HotkeySlideshowstarten = "Εκκίνηση της προβολής διαφάνειας"
+HotkeySlideshowanhalten = "Σταμάτημα της προβολής διαφάνειας"
+
+[Wallpaper Clock]
+Description = "Αυτό το plugin σας επιτρέπει να ορίσετε μια διαφορετική ρολόι ταπετσαρία σε κάθε επιφάνειας εργασίας."
+###
+
+#ADDED in Dexpot 1.5.5
+[Taskbar Pager]
+Description = "Αυτή η πρόσθετη λειτουργία ενσωματώνει μια συσκευή τηλεειδοποίησης παρόμοια με την 'Προεπισκόπηση Επιφάνειας Εργασίας' κατευθείαν στην γραμμή εργασιών των Windows."
+HotkeyHidePager= "Απόκρυψη τηλεειδοποίησης"
+###
+
+
+#ADDED in Dexpot 1.5.7
+[frmTaskbarPager]
+frmTaskbarPager.Caption = "Ρυθμίσεις - Γραμμή Εργασιών Τηλεειδοποίησης Dexpot"
+frmLayout.Caption = "Διάταξη"
+frmWindows.Caption = "Παράθυρα"
+lblCellSize.Caption = "Μέγεθος κελιού:"
+lblCellSpacing.Caption = "Απόσταση κελιού:"
+lblBorderSize.Caption = "Πλάτος συνόρων:"
+lblRowCount.Caption = "Αριθμός σειρών:"
+lblColumnCount.Caption = "Αριθμός στηλών:"
+chkFlashing.Caption = "Επισημάνετε τα παράθυρα που αναβοσβήνουν"
+chkToolWindows.Caption = "Εμφάνιση εργαλείων για τα παράθυρα"
+cmdCancel.Caption = "Ακύρωση"
+cmdOK.Caption = "Εντάξει"
+cmdApply.Caption = "Εφαρμογή"
+###
+
+
+#ADDED in Dexpot 1.5.10
+[Dexgrid]
+Description = "Τακτοποιεί τις επιφάνειες εργασίας σας σε μια διάταξη πλέγματος, προσθέτει πλήκτρα πρόσβασης για να αλλάζετε πάνω ή κάτω του πλέγματος, και εμφανίζει ένα κινούμενο σχέδιο κατά τη διάρκεια της της εναλλαγής της επιφάνειας εργασίας."
+HotkeySwitchleft = "Εναλλαγή πρός τα αριστερά"
+HotkeySwitchright = "Εναλλαγή πρός τα δεξιά"
+HotkeySwitchup = "Εναλλαγή πρός τα επάνω"
+HotkeySwitchdown = "Εναλλαγή πρός τα κάτω"
+HotkeyMovewindowleft = "Μετακίνηση παραθύρου προς τα αριστερά"
+HotkeyMovewindowright = "Μετακίνηση παραθύρου προς τα δεξιά"
+HotkeyMovewindowup = "Μετακίνηση παραθύρου προς τα επάνω"
+HotkeyMovewindowdown = "Μετακίνηση παραθύρου προς τα κάτω"
+HotkeyCopywindowleft = "Αντιγραφή του αριστερού παραθύρου"
+HotkeyCopywindowright = "Αντιγραφή του δεξιού παραθύρου"
+HotkeyCopywindowup = "Αντιγραφή του επάνω παραθύρου"
+HotkeyCopywindowdown = "Αντιγραφή του κάτω παραθύρου"
+
+[frmDexgrid]
+frmDexgrid.Caption = "Ρυθμήσεις - Dexgrid"
+lblRowCount.Caption = "Αριθμός σειρών:"
+chkAnimation.Caption = "Εμφάνιση εναλλαγής της κίνησης της επιφάνειας εργασίας"
+cmdOK.Caption = "Εντάξει"
+cmdCancel.Caption = "Ακύρωση"
+###
